@@ -1,10 +1,10 @@
-# LBird 采集源与探测策略配置
+# LBird 采集源与全网发现策略配置
 user_agent: "LBird-Research-Bot/1.0 (+https://github.com/Will9529/LBird-Airport-Review)"
 
 http:
-  timeout_sec: 12.0
-  max_concurrency: 6
-  per_domain_delay_sec: 0.8
+  timeout_sec: 8.0
+  max_concurrency: 12
+  per_domain_delay_sec: 0.3
   respect_robots_txt: true
 
 probe:
@@ -23,14 +23,27 @@ news_feeds:
   - url: "https://github.com/2dust/v2rayN/releases.atom"
     category: "客户端更新"
 
-# 外部目录订阅源（支持 JSON 数组 / YAML 列表 / Markdown 表格，默认留空）
-# 示例:
-#   - url: "https://example.com/public-directory.json"
-#     format: "json"
-directory_feeds: []
+# 公开开源机场目录订阅源（每日自动拉取并去重合并）
+directory_feeds:
+  - url: "https://raw.githubusercontent.com/everett7623/airport-recommendations-2026/main/data/airports.json"
+    format: "everett_jsonc"
+  - url: "https://raw.githubusercontent.com/gedinked/airport-recommendation/main/README.md"
+    format: "markdown"
+  - url: "https://raw.githubusercontent.com/jichangyyds-net/jichang-tuijian-shice/main/README.md"
+    format: "markdown"
+  - url: "https://raw.githubusercontent.com/clashhubs/jichang-tuijian-clash/main/README.md"
+    format: "markdown"
 
-# 外部风险与失联预警源（支持 JSON / Markdown 列表，默认留空）
-# 示例:
-#   - url: "https://example.com/risk-feed.json"
-#     format: "json"
-risk_feeds: []
+# 公开风险与跑路预警源
+risk_feeds:
+  - url: "https://raw.githubusercontent.com/jichangx/airport-status/main/README.md"
+    format: "jichangx_markdown"
+
+# GitHub 自动发现新收录目录
+github_discovery:
+  enabled: true
+  queries:
+    - "机场推荐 2026 in:name,description"
+    - "airport-recommendation in:name"
+  max_repos_per_query: 3
+  max_total_targets: 200

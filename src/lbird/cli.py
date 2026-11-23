@@ -3,12 +3,14 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from lbird.collectors.catalog_collector import load_catalog, load_yaml_file
+from lbird.collectors.catalog_collector import load_catalog, load_yaml_file, make_slug
+from lbird.collectors.github_discovery_collector import discover_github_directories
 from lbird.collectors.news_collector import collect_news
 from lbird.collectors.risk_feed_collector import collect_risk_feeds
 from lbird.collectors.sub_probe_collector import load_secret_subscriptions, probe_subscription
@@ -24,6 +26,8 @@ async def run_pipeline(config_dir: Path, data_dir: Path, readme_path: Path | Non
     sources_cfg = load_yaml_file(config_dir / "sources.yaml")
     http_cfg = sources_cfg.get("http") or {}
     probe_cfg = sources_cfg.get("probe") or {}
+    discovery_cfg = sources_cfg.get("github_discovery") or {}
+    max_targets = int(discovery_cfg.get("max_total_targets") or 200)
     ua = str(sources_cfg.get("user_agent") or "LBird-Research-Bot/1.0")
 
     state = load_json_or(data_dir / "state.json", {"targets": {}})
@@ -35,36 +39,64 @@ async def run_pipeline(config_dir: Path, data_dir: Path, readme_path: Path | Non
 
     async with PoliteHttpClient(
         user_agent=ua,
-        timeout_sec=float(http_cfg.get("timeout_sec", 12.0)),
-        per_domain_delay_sec=float(http_cfg.get("per_domain_delay_sec", 0.8)),
+        timeout_sec=float(http_cfg.get("timeout_sec", 8.0)),
+        per_domain_delay_sec=float(http_cfg.get("per_domain_delay_sec", 0.3)),
         respect_robots_txt=bool(http_cfg.get("respect_robots_txt", True)),
     ) as client:
-        catalog = await load_catalog(config_dir, sources_cfg, None if offline else client)
+        (catalog, catalog_deals), news_list, (risk_map, risk_entries), discovered = await asyncio.gather(
+            load_catalog(config_dir, sources_cfg, None if offline else client),
+            asyncio.sleep(0, result=[]) if offline else collect_news(sources_cfg.get("news_feeds") or [], client),
+            asyncio.sleep(0, result=({}, [])) if offline else collect_risk_feeds(sources_cfg.get("risk_feeds") or [], client),
+            asyncio.sleep(0, result=[]) if offline else discover_github_directories(
+                discovery_cfg,
+                client,
+                known_repos={
+                    "everett7623/airport-recommendations-2026",
+                    "gedinked/airport-recommendation",
+                    "jichangyyds-net/jichang-tuijian-shice",
+                    "clashhubs/jichang-tuijian-clash",
+                    "jichangx/airport-status",
+                },
+            ),
+        )
 
-        if offline:
-            news_list = []
-            risk_map: dict[str, str] = {}
-        else:
-            news_list, risk_map = await asyncio.gather(
-                collect_news(sources_cfg.get("news_feeds") or [], client),
-                collect_risk_feeds(sources_cfg.get("risk_feeds") or [], client),
-            )
+        # Merge discovered and risk_entries cleanly with deduplication
+        seen_slugs = {e["slug"] for e in catalog}
+        seen_names = {re.sub(r"[\s_\-]+", "", str(e.get("name") or "").lower()) for e in catalog}
+        for extra in discovered + risk_entries:
+            if len(catalog) >= max_targets:
+                break
+            slug = make_slug(str(extra.get("name") or ""), str(extra.get("slug") or ""))
+            norm_name = re.sub(r"[\s_\-]+", "", str(extra.get("name") or "").lower())
+            if not slug or slug in seen_slugs or (norm_name and norm_name in seen_names):
+                continue
+            seen_slugs.add(slug)
+            if norm_name:
+                seen_names.add(norm_name)
+            extra_copy = dict(extra)
+            extra_copy["slug"] = slug
+            catalog.append(extra_copy)
 
-        sem = asyncio.Semaphore(int(http_cfg.get("max_concurrency", 6)))
+        sem = asyncio.Semaphore(int(http_cfg.get("max_concurrency", 12)))
 
         async def _process_one(entry: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any], list[dict[str, Any]]]:
             slug = entry["slug"]
-            website = str(entry.get("website") or "")
+            website = str(entry.get("website") or "#").strip()
             tg_channel = str((entry.get("telegram") or {}).get("channel") or "").strip()
             sub_url = secret_subs.get(slug) or str(entry.get("public_subscription_url") or "").strip()
+            skip_web = bool(entry.get("is_risk_entry")) or website == "#"
 
             if offline:
-                web_res = WebHealthResult(url=website, ok=True, dns_ok=True, tls_ok=True, http_status=200, ttfb_ms=85.0)
+                web_res = WebHealthResult(url=website, ok=not skip_web, dns_ok=True, tls_ok=True, http_status=200, ttfb_ms=85.0)
                 tg_res = TelegramResult(channel=tg_channel)
                 sub_res = SubProbeResult()
             else:
                 async with sem:
-                    web_task = probe_website(website, client)
+                    web_task = (
+                        asyncio.sleep(0, result=WebHealthResult(url=website))
+                        if skip_web
+                        else probe_website(website, client)
+                    )
                     tg_task = (
                         fetch_telegram_channel(tg_channel, slug, client)
                         if tg_channel
@@ -84,7 +116,8 @@ async def run_pipeline(config_dir: Path, data_dir: Path, readme_path: Path | Non
                     )
                     web_res, tg_res, sub_res = await asyncio.gather(web_task, tg_task, sub_task)
 
-            risk_reason = risk_map.get(slug, "")
+            norm_name = re.sub(r"[\s_\-]+", "", str(entry.get("name") or "").lower())
+            risk_reason = str(entry.get("risk_reason") or risk_map.get(slug) or risk_map.get(norm_name) or "")
             prev_target_state = state["targets"].get(slug, {})
             airport_rec, next_target_state = evaluate_target(entry, web_res, tg_res, sub_res, risk_reason, prev_target_state, now)
             return airport_rec, next_target_state, tg_res.deals
@@ -93,10 +126,21 @@ async def run_pipeline(config_dir: Path, data_dir: Path, readme_path: Path | Non
 
     airports: list[dict[str, Any]] = []
     deals: list[dict[str, Any]] = []
+    seen_deals: set[tuple[str, str]] = set()
+    for d in catalog_deals:
+        key = (d["airportSlug"], d["code"])
+        if key not in seen_deals:
+            seen_deals.add(key)
+            deals.append(d)
+
     for airport_rec, next_target_state, target_deals in results:
         airports.append(airport_rec)
         state["targets"][airport_rec["slug"]] = next_target_state
-        deals.extend(target_deals)
+        for d in target_deals:
+            key = (d["airportSlug"], d["code"])
+            if key not in seen_deals:
+                seen_deals.add(key)
+                deals.append(d)
 
     airports.sort(key=lambda x: x["score"], reverse=True)
     monthly_report = build_monthly_report(airports, now)

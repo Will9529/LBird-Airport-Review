@@ -33,6 +33,7 @@ jobs:
       - name: Run collector pipeline
         env:
           PYTHONPATH: src
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LBIRD_SUBSCRIPTIONS_JSON: ${{ secrets.LBIRD_SUBSCRIPTIONS_JSON }}
         run: |
           python -m lbird.cli run --config-dir config --data-dir data --readme README.md

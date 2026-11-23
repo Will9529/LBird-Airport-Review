@@ -1,6 +1,8 @@
 from datetime import datetime, timezone
 
+from lbird.collectors.catalog_collector import make_slug, parse_everett_jsonc, sanitize_website_url
 from lbird.collectors.news_collector import parse_feed_xml
+from lbird.collectors.risk_feed_collector import parse_jichangx_markdown
 from lbird.collectors.telegram_collector import parse_telegram_preview_html
 from lbird.http_client import is_safe_public_url
 
@@ -51,3 +53,36 @@ def test_atom_news_parser():
     assert items[0].date == "2026/11/22"
     assert items[0].category == "内核动态"
     assert "Fix DNS leak" in items[0].summary
+
+
+def test_slug_and_url_sanitization():
+    assert make_slug("Forest") == "forest"
+    assert make_slug("青风云网").startswith("ap-")
+    assert sanitize_website_url("https://go.uukk.de/forest") == "#"
+    assert sanitize_website_url("https://example.org/panel?aff=123&lang=zh") == "https://example.org/panel?lang=zh"
+
+
+def test_parse_everett_jsonc_and_jichangx_risk():
+    jsonc = """// comment line
+    {
+      "no_aff": [
+        {"name": "AmyTelecom", "url": "https://go.uukk.de/amytele", "coupon": "SAVE10", "lineType": "IEPL专线", "pricing": "¥240/年起", "tags": ["稳定"]}
+      ],
+      "defunct": [
+        {"name": "DeadNet", "defunctDate": "2026-11-18", "lineType": "中转", "pricingWas": "¥9.9/月"}
+      ]
+    }"""
+    entries, deals = parse_everett_jsonc(jsonc)
+    assert len(entries) == 2
+    assert entries[0]["priceMonthly"] == 20.0
+    assert entries[0]["website"] == "#"
+    assert entries[1]["is_risk_entry"] is True
+    assert len(deals) == 1 and deals[0]["code"] == "SAVE10"
+
+    risk_md = """| 名字 | 类型 | 警告级别 | 年份 | 最后更新 | 来源 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| ~~快帆云~~ | 机场 | 跑路 | 2025 | 02.26.2024 | [反馈](https://github.com/x) |"""
+    r_map, r_entries = parse_jichangx_markdown(risk_md)
+    assert len(r_entries) == 1
+    assert r_entries[0]["name"] == "快帆云"
+    assert "跑路" in r_map[r_entries[0]["slug"]]

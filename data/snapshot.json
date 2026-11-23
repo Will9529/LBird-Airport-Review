@@ -1,319 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T17:43:30.124458+00:00",
+  "generatedAt": "2026-11-23T18:24:16.723321+00:00",
   "source": "Will9529/LBird-Airport-Review",
   "disclaimer": "纯技术学习研究，不构成任何推荐、消费或使用建议。",
   "stats": {
-    "monitored": 5,
-    "speedTests": 145,
-    "updatedAt": "2026-11-24 01:43 UTC+8"
+    "monitored": 104,
+    "speedTests": 315,
+    "updatedAt": "2026-11-24 02:24 UTC+8"
   },
   "airports": [
-    {
-      "slug": "pawdroid-free-oss",
-      "name": "Pawdroid 开源样本",
-      "color": "#14b8a6",
-      "status": "normal",
-      "nodes": 6,
-      "priceMonthly": 0.0,
-      "observedDays": 1,
-      "score": 89.65,
-      "scores": {
-        "S": 100,
-        "P": 79,
-        "N": 82,
-        "C": 98,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2023-01",
-      "tags": [
-        "开源样本",
-        "公开研究",
-        "轻量集"
-      ],
-      "regions": [
-        "英国",
-        "美国",
-        "德国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "v2rayN",
-        "Clash Verge",
-        "Shadowrocket",
-        "Mihomo",
-        "Karing",
-        "Stash",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "开源免费"
-      ],
-      "importMethods": [
-        "Base64 订阅"
-      ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
-      "telegram": {},
-      "history": {
-        "score": [
-          89.65,
-          89.65
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          233.2,
-          233.2
-        ],
-        "latency": [
-          104.03,
-          104.03
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "轻量级 Base64 公开订阅样本，用于快速端到端连通性验证。",
-      "website": "https://github.com/Pawdroid/Free-servers",
-      "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T17:43:30.124458+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "ss",
-          "vless"
-        ]
-      }
-    },
-    {
-      "slug": "nomorewalls-oss",
-      "name": "NoMoreWalls 开源样本",
-      "color": "#0891b2",
-      "status": "normal",
-      "nodes": 117,
-      "priceMonthly": 0.0,
-      "observedDays": 1,
-      "score": 84.7,
-      "scores": {
-        "S": 91,
-        "P": 74,
-        "N": 77,
-        "C": 98,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2022-03",
-      "tags": [
-        "开源样本",
-        "公开研究",
-        "多协议"
-      ],
-      "regions": [
-        "英国",
-        "香港",
-        "日本",
-        "韩国",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN",
-        "Sing-box",
-        "Shadowrocket"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "开源免费"
-      ],
-      "importMethods": [
-        "YAML 订阅",
-        "Base64 订阅"
-      ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
-      "telegram": {},
-      "history": {
-        "score": [
-          84.7,
-          84.7
-        ],
-        "uptime": [
-          87.5,
-          87.5
-        ],
-        "speed": [
-          204.1,
-          204.1
-        ],
-        "latency": [
-          103.86,
-          103.86
-        ],
-        "loss": [
-          12.5,
-          12.5
-        ]
-      },
-      "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
-      "website": "https://github.com/peasoft/NoMoreWalls",
-      "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T17:43:30.124458+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "ss",
-          "trojan",
-          "vmess"
-        ]
-      }
-    },
-    {
-      "slug": "au1rxx-free-vpn",
-      "name": "Au1rxx 开源聚合样本",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 560,
-      "priceMonthly": 0.0,
-      "observedDays": 1,
-      "score": 75.65,
-      "scores": {
-        "S": 86,
-        "P": 63,
-        "N": 53,
-        "C": 98,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2024-06",
-      "tags": [
-        "开源样本",
-        "公开研究",
-        "Clash YAML"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "Stash",
-        "Karing",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "开源免费"
-      ],
-      "importMethods": [
-        "Clash 托管",
-        "YAML 订阅"
-      ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
-      "telegram": {},
-      "history": {
-        "score": [
-          75.65,
-          75.65
-        ],
-        "uptime": [
-          81.25,
-          81.25
-        ],
-        "speed": [
-          148.5,
-          148.5
-        ],
-        "latency": [
-          216.13,
-          216.13
-        ],
-        "loss": [
-          18.75,
-          18.75
-        ]
-      },
-      "summary": "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。",
-      "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
-      "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T17:43:30.124458+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "hysteria2",
-          "ss",
-          "trojan",
-          "vless",
-          "vmess"
-        ]
-      }
-    },
     {
       "slug": "barry-v2ray-oss",
       "name": "Barry-V2ray 开源样本",
       "color": "#0369a1",
-      "status": "risk",
+      "status": "normal",
       "nodes": 207,
       "priceMonthly": 0.0,
       "observedDays": 1,
-      "score": 52.05,
+      "score": 94.3,
       "scores": {
-        "S": 42,
-        "P": 47,
-        "N": 21,
+        "S": 100,
+        "P": 88,
+        "N": 94,
         "C": 98,
         "R": 88
       },
@@ -362,31 +70,31 @@
       "telegram": {},
       "history": {
         "score": [
-          52.05,
-          52.05
+          94.3,
+          94.3
         ],
         "uptime": [
-          18.75,
-          18.75
+          100.0,
+          100.0
         ],
         "speed": [
-          44.2,
-          44.2
+          260.0,
+          260.0
         ],
         "latency": [
-          98.31,
-          98.31
+          4.88,
+          4.88
         ],
         "loss": [
-          81.25,
-          81.25
+          0.0,
+          0.0
         ]
       },
-      "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+      "summary": "公开社区 V2Ray 配置分片样本，用于观测定时更新频率与可用率波动。",
       "website": "https://github.com/barry-far/V2ray-Config",
       "probeMeta": {
         "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T17:43:30.124458+00:00",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
         "httpStatus": 200,
         "tlsDaysLeft": 65,
         "protocols": [
@@ -401,15 +109,15 @@
       "slug": "v2ray-aggregator-oss",
       "name": "V2RayAggregator 开源样本",
       "color": "#0f766e",
-      "status": "risk",
+      "status": "normal",
       "nodes": 4095,
       "priceMonthly": 0.0,
       "observedDays": 1,
-      "score": 51.6,
+      "score": 94.2,
       "scores": {
-        "S": 42,
-        "P": 46,
-        "N": 20,
+        "S": 100,
+        "P": 86,
+        "N": 96,
         "C": 98,
         "R": 88
       },
@@ -463,31 +171,31 @@
       "telegram": {},
       "history": {
         "score": [
-          51.6,
-          51.6
+          94.2,
+          94.2
         ],
         "uptime": [
-          18.75,
-          18.75
+          100.0,
+          100.0
         ],
         "speed": [
-          41.9,
-          41.9
+          260.0,
+          260.0
         ],
         "latency": [
-          126.1,
-          126.1
+          24.59,
+          24.59
         ],
         "loss": [
-          81.25,
-          81.25
+          0.0,
+          0.0
         ]
       },
-      "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+      "summary": "大规模公开 URI 聚合样本，用于压测 Base64/URI 解析器与并发探针。",
       "website": "https://github.com/mahdibland/V2RayAggregator",
       "probeMeta": {
         "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T17:43:30.124458+00:00",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
         "httpStatus": 200,
         "tlsDaysLeft": 65,
         "protocols": [
@@ -496,9 +204,8463 @@
           "vmess"
         ]
       }
+    },
+    {
+      "slug": "pawdroid-free-oss",
+      "name": "Pawdroid 开源样本",
+      "color": "#14b8a6",
+      "status": "normal",
+      "nodes": 7,
+      "priceMonthly": 0.0,
+      "observedDays": 1,
+      "score": 93.3,
+      "scores": {
+        "S": 100,
+        "P": 88,
+        "N": 89,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2023-01",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "轻量集"
+      ],
+      "regions": [
+        "美国",
+        "英国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "v2rayN",
+        "Clash Verge",
+        "Shadowrocket",
+        "Mihomo",
+        "Karing",
+        "Stash",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "Base64 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          93.3,
+          93.3
+        ],
+        "uptime": [
+          100.0,
+          100.0
+        ],
+        "speed": [
+          260.0,
+          260.0
+        ],
+        "latency": [
+          1.99,
+          1.99
+        ],
+        "loss": [
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "轻量级 Base64 公开订阅样本，用于快速端到端连通性验证。",
+      "website": "https://github.com/Pawdroid/Free-servers",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 65,
+        "protocols": [
+          "hysteria2",
+          "ss",
+          "trojan",
+          "vless"
+        ]
+      }
+    },
+    {
+      "slug": "nomorewalls-oss",
+      "name": "NoMoreWalls 开源样本",
+      "color": "#0891b2",
+      "status": "normal",
+      "nodes": 117,
+      "priceMonthly": 0.0,
+      "observedDays": 1,
+      "score": 88.3,
+      "scores": {
+        "S": 91,
+        "P": 82,
+        "N": 85,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2022-03",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "多协议"
+      ],
+      "regions": [
+        "英国",
+        "香港",
+        "日本",
+        "韩国",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN",
+        "Sing-box",
+        "Shadowrocket"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "YAML 订阅",
+        "Base64 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          88.3,
+          88.3
+        ],
+        "uptime": [
+          87.5,
+          87.5
+        ],
+        "speed": [
+          227.5,
+          227.5
+        ],
+        "latency": [
+          8.6,
+          8.6
+        ],
+        "loss": [
+          12.5,
+          12.5
+        ]
+      },
+      "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
+      "website": "https://github.com/peasoft/NoMoreWalls",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 65,
+        "protocols": [
+          "ss",
+          "trojan",
+          "vmess"
+        ]
+      }
+    },
+    {
+      "slug": "au1rxx-free-vpn",
+      "name": "Au1rxx 开源聚合样本",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 560,
+      "priceMonthly": 0.0,
+      "observedDays": 1,
+      "score": 87.0,
+      "scores": {
+        "S": 100,
+        "P": 74,
+        "N": 75,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2024-06",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "Clash YAML"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "Stash",
+        "Karing",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "Clash 托管",
+        "YAML 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          87.0,
+          87.0
+        ],
+        "uptime": [
+          100.0,
+          100.0
+        ],
+        "speed": [
+          205.1,
+          205.1
+        ],
+        "latency": [
+          166.48,
+          166.48
+        ],
+        "loss": [
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。",
+      "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 65,
+        "protocols": [
+          "hysteria2",
+          "ss",
+          "trojan",
+          "vless",
+          "vmess"
+        ]
+      }
+    },
+    {
+      "slug": "ap-b16d7c96",
+      "name": "唯兔云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 1.66,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "客户端",
+        "多地区节点",
+        "不限时可选",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥1.7，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-72ee0825",
+      "name": "一翻云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 2.08,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "新晋推荐",
+        "流媒体解锁",
+        "专线稳定",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥2.1，线路 IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-23d38921",
+      "name": "宇宙云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 1.04,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "新晋推荐",
+        "流媒体解锁",
+        "专线稳定",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥1.0，线路 IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-75c3e19a",
+      "name": "瞬云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 1.5,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "先月付验证",
+        "通用订阅",
+        "晚间实测",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥1.5，线路 BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-667105f9",
+      "name": "边缘节点",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 1.25,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "短周期先试",
+        "专用客户端",
+        "美国实测",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥1.2，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "happy-vless",
+      "name": "Happy Vless",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 9.9,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "试用",
+        "短周期先试",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥9.9，线路 BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-ccfd5bab",
+      "name": "星岛梦",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 2.08,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "通用订阅",
+        "流媒体首轮可用",
+        "不主推",
+        "短周期先试",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "IPLC",
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥2.1，线路 IEPL/IPLC/BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-443c627c",
+      "name": "榴莲云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 5.6,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "低价月付",
+        "自研客户端",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥5.6，线路 IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-75f277cd",
+      "name": "九云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 6.0,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "低价月付",
+        "AI页面可访问",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥6.0，线路 中转）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "andy-cloud",
+      "name": "ANDY CLOUD",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 5.0,
+      "observedDays": 1,
+      "score": 79.2,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 98,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "通用订阅",
+        "低价备用",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.2,
+          79.2
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥5.0，线路 中转）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-36a9d023",
+      "name": "无忧链接",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 6.58,
+      "observedDays": 1,
+      "score": 79.05,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 97,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "订阅/专用客户端",
+        "短周期先试",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.05,
+          79.05
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥6.6，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-ef8b9e4d",
+      "name": "灵猫网络",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 7.08,
+      "observedDays": 1,
+      "score": 79.05,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 97,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "客户端接入",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          79.05,
+          79.05
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥7.1，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-320de560",
+      "name": "快狸",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 8.0,
+      "observedDays": 1,
+      "score": 78.9,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 96,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "专用客户端",
+        "IEPL专线",
+        "流媒体解锁",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.9,
+          78.9
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥8.0，线路 IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-0955fbc8",
+      "name": "二猫云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 7.42,
+      "observedDays": 1,
+      "score": 78.9,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 96,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "专用客户端",
+        "不限设备",
+        "新晋推荐",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.9,
+          78.9
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥7.4，线路 IEPL/IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-c06e10dd",
+      "name": "飞猫云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 8.0,
+      "observedDays": 1,
+      "score": 78.9,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 96,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "专用客户端",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "IPLC",
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.9,
+          78.9
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥8.0，线路 IEPL/IPLC/BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-1406c035",
+      "name": "可信云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 8.0,
+      "observedDays": 1,
+      "score": 78.9,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 96,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "不限设备",
+        "AI解锁",
+        "专线小包",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.9,
+          78.9
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥8.0，线路 IEPL/IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ytoo",
+      "name": "YToo",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 8.17,
+      "observedDays": 1,
+      "score": 78.75,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 95,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "全球覆盖",
+        "备用方案",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.75,
+          78.75
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥8.2，线路 BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-2628ff0d",
+      "name": "顺畅网络",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 11.0,
+      "observedDays": 1,
+      "score": 78.3,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 92,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "低价月付",
+        "通用订阅",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.3,
+          78.3
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥11.0，线路 中转）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-bf29f4d4",
+      "name": "微风网络",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 11.42,
+      "observedDays": 1,
+      "score": 78.3,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 92,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "客户端接入",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.3,
+          78.3
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥11.4，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "69",
+      "name": "69云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 13.36,
+      "observedDays": 1,
+      "score": 78.0,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 90,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "Emby影音",
+        "冷门节点",
+        "性价比",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.0,
+          78.0
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥13.4，线路 中转）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-1beab829",
+      "name": "寰宇云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "运营变更",
+        "总榜收录",
+        "短周期测试",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥15.0，线路 BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-fdba500f",
+      "name": "龙猫云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "IPLC专线",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥15.0，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-88a73d52",
+      "name": "机场品牌",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-a7d7e5a6",
+      "name": "品牌",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-d6cfa44a",
+      "name": "财路云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-9eb71d00",
+      "name": "山水云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-4abbbf5e",
+      "name": "秒秒云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-124f5b3b",
+      "name": "宝云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-45f649e3",
+      "name": "锦云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-75eb0e5c",
+      "name": "鲤云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-1ba2bc30",
+      "name": "杏花云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-dde7f973",
+      "name": "机场",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-fb5fc812",
+      "name": "魔戒机场",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ktm",
+      "name": "KTM机场",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "v2free",
+      "name": "v2free机场",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 77.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.7,
+          77.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-3766603f",
+      "name": "光年梯",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 18.0,
+      "observedDays": 1,
+      "score": 77.25,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 85,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "SS协议",
+        "稳定",
+        "新加坡背景",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.25,
+          77.25
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥18.0，线路 IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "u1s1",
+      "name": "U1S1",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 18.8,
+      "observedDays": 1,
+      "score": 77.1,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 84,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "不限设备",
+        "千兆带宽",
+        "流媒体全解锁",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.1,
+          77.1
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥18.8，线路 中转）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-d530f097",
+      "name": "影子",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 18.8,
+      "observedDays": 1,
+      "score": 77.1,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 84,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "AnyTLS",
+        "多地区",
+        "公有云中转",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.1,
+          77.1
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥18.8，线路 中转）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "tntcloud",
+      "name": "TNTCloud",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 20.0,
+      "observedDays": 1,
+      "score": 76.95,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 83,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "IPLC",
+        "日本/美国节点",
+        "风险观察",
+        "不建议长期付费",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          76.95,
+          76.95
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥20.0，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-83fff70f",
+      "name": "拼好连",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 19.9,
+      "observedDays": 1,
+      "score": 76.95,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 83,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "套餐涨价",
+        "短周期核对",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          76.95,
+          76.95
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥19.9，线路 IEPL/BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-7b83c7d1",
+      "name": "闪电鼠",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 22.0,
+      "observedDays": 1,
+      "score": 76.65,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 81,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "低价月付",
+        "专用客户端",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          76.65,
+          76.65
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥22.0，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "amytelecom",
+      "name": "AmyTelecom",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 22.75,
+      "observedDays": 1,
+      "score": 76.5,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 80,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "佩奇系",
+        "流媒体解锁",
+        "稳定",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          76.5,
+          76.5
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥22.8，线路 IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-e2842569",
+      "name": "神行加速",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 23.0,
+      "observedDays": 1,
+      "score": 76.5,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 80,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "专用客户端",
+        "优惠码",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          76.5,
+          76.5
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥23.0，线路 IEPL/IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-c914c38d",
+      "name": "环球梯",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 23.0,
+      "observedDays": 1,
+      "score": 76.5,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 80,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "专用客户端",
+        "短周期验证",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          76.5,
+          76.5
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥23.0，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "forest",
+      "name": "Forest",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 29.88,
+      "observedDays": 1,
+      "score": 75.45,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 73,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "通用订阅",
+        "短周期先试",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          75.45,
+          75.45
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥29.9，线路 BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "bywave",
+      "name": "Bywave",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 30.0,
+      "observedDays": 1,
+      "score": 75.3,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 72,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "EMBY",
+        "AnyTLS",
+        "短周期先试",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          75.3,
+          75.3
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥30.0，线路 IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "kuromis",
+      "name": "Kuromis",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 34.0,
+      "observedDays": 1,
+      "score": 74.7,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 68,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "贵族机场",
+        "IEPL专线",
+        "高峰期稳定",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          74.7,
+          74.7
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥34.0，线路 IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "flowercloud",
+      "name": "FlowerCloud",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 39.0,
+      "observedDays": 1,
+      "score": 73.95,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 63,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "老牌",
+        "短周期复查",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          73.95,
+          73.95
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥39.0，线路 IEPL/BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ssrdog",
+      "name": "SsrDog",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 45.0,
+      "observedDays": 1,
+      "score": 73.05,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 57,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "流媒体",
+        "原生IP",
+        "注意季付起",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          73.05,
+          73.05
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥45.0，线路 IEPL/IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "wgetcloud",
+      "name": "WgetCloud",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 79.0,
+      "observedDays": 1,
+      "score": 71.25,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 45,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "稳定",
+        "企业级",
+        "不差钱",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          71.25,
+          71.25
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥79.0，线路 BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "bitz-net",
+      "name": "Bitz Net",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 69.99,
+      "observedDays": 1,
+      "score": 71.25,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 45,
+        "R": 74
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "通用订阅",
+        "短周期先试",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          71.25,
+          71.25
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥70.0，线路 IEPL）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "nexitally",
+      "name": "Nexitally",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 24,
+      "priceMonthly": 74.55,
+      "observedDays": 1,
+      "score": 71.25,
+      "scores": {
+        "S": 78,
+        "P": 74,
+        "N": 76,
+        "C": 45,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "老牌",
+        "流媒体",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          71.25,
+          71.25
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          140.0,
+          140.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥74.5，线路 BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-a089140d",
+      "name": "全球云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 20.0,
+      "observedDays": 1,
+      "score": 69.45,
+      "scores": {
+        "S": 99,
+        "P": 46,
+        "N": 32,
+        "C": 87,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Stash",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          69.45,
+          69.45
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          52.9,
+          52.9
+        ],
+        "latency": [
+          502.19,
+          502.19
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/quanqiuyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-094a7af3",
+      "name": "暮光加速",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 20.0,
+      "observedDays": 1,
+      "score": 68.4,
+      "scores": {
+        "S": 99,
+        "P": 44,
+        "N": 30,
+        "C": 86,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN",
+        "Shadowrocket",
+        "Stash",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          68.4,
+          68.4
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          43.3,
+          43.3
+        ],
+        "latency": [
+          524.03,
+          524.03
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/muguang/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-36cceebb",
+      "name": "跨界云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 20.0,
+      "observedDays": 1,
+      "score": 67.45,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 27,
+        "C": 87,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN",
+        "Shadowrocket",
+        "Stash",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          67.45,
+          67.45
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          34.2,
+          34.2
+        ],
+        "latency": [
+          544.74,
+          544.74
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/kuajieyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "cloud",
+      "name": "极速Cloud",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 30.0,
+      "observedDays": 1,
+      "score": 66.45,
+      "scores": {
+        "S": 99,
+        "P": 43,
+        "N": 29,
+        "C": 76,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "CN2",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          66.45,
+          66.45
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          40.1,
+          40.1
+        ],
+        "latency": [
+          531.2,
+          531.2
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/jisucloud/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-a17eb5e1",
+      "name": "动力港",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 8.0,
+      "observedDays": 1,
+      "score": 63.7,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          63.7,
+          63.7
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          4536.61,
+          4536.61
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/dongligang/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "edgenova",
+      "name": "edgenova",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 62.8,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 92,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          62.8,
+          62.8
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          1826.07,
+          1826.07
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/edgenova/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-b90a295c",
+      "name": "速界",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 62.8,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 92,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          62.8,
+          62.8
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          2208.66,
+          2208.66
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/sujie/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-ed7ce7f5",
+      "name": "光速云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 17.0,
+      "observedDays": 1,
+      "score": 62.5,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 90,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          62.5,
+          62.5
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          1139.28,
+          1139.28
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/guangsuyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-db031d64",
+      "name": "极连云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 18.0,
+      "observedDays": 1,
+      "score": 62.35,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 89,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          62.35,
+          62.35
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          2635.01,
+          2635.01
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/jilianyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-18c4c2ab",
+      "name": "浪网",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 30.0,
+      "observedDays": 1,
+      "score": 62.2,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 6,
+        "C": 80,
+        "R": 88
+      },
+      "trial": true,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          62.2,
+          62.2
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          714.81,
+          714.81
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/langwang/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-0adc0e35",
+      "name": "隐形人",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 24.0,
+      "observedDays": 1,
+      "score": 61.9,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 86,
+        "R": 88
+      },
+      "trial": true,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          61.9,
+          61.9
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          2863.86,
+          2863.86
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/yinxingren/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-c9ad2d12",
+      "name": "灵动云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 20.0,
+      "observedDays": 1,
+      "score": 61.9,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 86,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Stash",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          61.9,
+          61.9
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          1239.4,
+          1239.4
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/lingdongyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "flyv",
+      "name": "FlyV",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 25.0,
+      "observedDays": 1,
+      "score": 61.75,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 85,
+        "R": 88
+      },
+      "trial": true,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          61.75,
+          61.75
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          1458.92,
+          1458.92
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/flyv/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-c2a3b1cc",
+      "name": "闪跃",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 24.0,
+      "observedDays": 1,
+      "score": 61.45,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 83,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          61.45,
+          61.45
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          3323.55,
+          3323.55
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/shanyue/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "firefly",
+      "name": "Firefly",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 25.0,
+      "observedDays": 1,
+      "score": 61.15,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 81,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          61.15,
+          61.15
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          2784.44,
+          2784.44
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/firefly/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-332c00eb",
+      "name": "梯子云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 25.0,
+      "observedDays": 1,
+      "score": 61.15,
+      "scores": {
+        "S": 99,
+        "P": 42,
+        "N": 0,
+        "C": 81,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          61.15,
+          61.15
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          11.8,
+          11.8
+        ],
+        "latency": [
+          1614.67,
+          1614.67
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/tiziyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "skylumo",
+      "name": "SKYLUMO",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 9.9,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "风险观察",
+        "目录预警"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "公开目录记录已下架/停止收录（2026-11-18），仅供参考避坑。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "sogo",
+      "name": "Sogo云",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 15.9,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-07",
+      "tags": [
+        "风险观察",
+        "目录预警"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "公开目录记录已下架/停止收录（2026-07-12），仅供参考避坑。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "onestep",
+      "name": "OneStep",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 5.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-05",
+      "tags": [
+        "风险观察",
+        "目录预警"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "公开目录记录已下架/停止收录（2026-05-06），仅供参考避坑。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-6bf271a1",
+      "name": "快帆云",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2025-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路（2025）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "fccloud",
+      "name": "FCCloud",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2025-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路（2025）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "spcloud",
+      "name": "spcloud",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2025-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路（2025）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "efcloud",
+      "name": "efcloud",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2025-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：机场转让/用户套餐时长减半（2025）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "aca",
+      "name": "ACA",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2025-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路（2025）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-f18ec922",
+      "name": "十元一年",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2025-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：客服态度及其恶劣（2025）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "duangcloud",
+      "name": "DuangCloud",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "leensa",
+      "name": "leensa",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路预警（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-8c5d34f7",
+      "name": "六尺巷",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "bhcloud",
+      "name": "BHcloud/蜂巢",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路预警（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-e8f4ed4a",
+      "name": "流量光",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "v2club",
+      "name": "v2Club/蓝岸",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-2be9e6eb",
+      "name": "新云机场",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路预警（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "xlm-cloud",
+      "name": "XLM Cloud",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路预警（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "fastlink",
+      "name": "Fastlink",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路预警（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-390986f5",
+      "name": "萌喵",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "boomcloud",
+      "name": "BoomCloud",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路预警（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "clm",
+      "name": "冲浪猫/CLM",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：已跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "creamdata",
+      "name": "CreamData",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：已跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "tly",
+      "name": "TLY机场",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：已跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "skicat-catree",
+      "name": "Skicat/Catree",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：已跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-1ff58acc",
+      "name": "自由鲸",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：已跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-1a012af7",
+      "name": "影界网络",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：已跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "naiunet",
+      "name": "naiunet",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：预警（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "chiselwall",
+      "name": "chiselwall",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：已跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "sockboom",
+      "name": "sockboom",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：已跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-9e0019b6",
+      "name": "牛牛很牛",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：跑路预警（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "tpap",
+      "name": "tpap",
+      "color": "#0d9488",
+      "status": "risk",
+      "nodes": 8,
+      "priceMonthly": 10.0,
+      "observedDays": 1,
+      "score": 30.8,
+      "scores": {
+        "S": 28,
+        "P": 28,
+        "N": 32,
+        "C": 48,
+        "R": 18
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2024-01",
+      "tags": [
+        "跑路预警",
+        "社区反馈"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "未知"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          30.8,
+          30.8
+        ],
+        "uptime": [
+          0.0,
+          0.0
+        ],
+        "speed": [
+          5.0,
+          5.0
+        ],
+        "latency": [
+          420.0,
+          420.0
+        ],
+        "loss": [
+          100.0,
+          100.0
+        ]
+      },
+      "summary": "社区公开风险清单记录：已跑路（2024）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "risk_feed",
+        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
     }
   ],
-  "deals": [],
+  "deals": [
+    {
+      "airportSlug": "ap-72ee0825",
+      "code": "优惠码: 1FLYYUN（9折）",
+      "discount": "目录收录优惠码",
+      "plans": "¥25/月起（年付¥100/年）",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "ap-320de560",
+      "code": "优惠码: vpsknow（8折）",
+      "discount": "目录收录优惠码",
+      "plans": "¥96/年起（折后）",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "ap-667105f9",
+      "code": "优惠码: xk808（截图标8折，结账确认）",
+      "discount": "目录收录优惠码",
+      "plans": "¥15/月50GB；¥98/年45GB/月",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "ap-0955fbc8",
+      "code": "优惠码: ermao888（8折）",
+      "discount": "目录收录优惠码",
+      "plans": "¥89/年起",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "u1s1",
+      "code": "优惠码: U1S1（85折）",
+      "discount": "目录收录优惠码",
+      "plans": "¥18.8/月起",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "ap-2628ff0d",
+      "code": "优惠码: 9999（宣传页截图，结账页复核）",
+      "discount": "目录收录优惠码",
+      "plans": "¥11/月 500GB起",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "ap-ccfd5bab",
+      "code": "优惠码: nmw888（9折）",
+      "discount": "目录收录优惠码",
+      "plans": "¥25/月 150GB起（年付¥96/60GB）",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "ap-75f277cd",
+      "code": "优惠码: 9yun（8折，结账页复核）",
+      "discount": "目录收录优惠码",
+      "plans": "¥6/月 150GB起",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "ap-d530f097",
+      "code": "优惠码: yzyzyz（7折，结账页复核）",
+      "discount": "目录收录优惠码",
+      "plans": "¥18.80/月 150GB起",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "ap-1406c035",
+      "code": "优惠码: kexinyun330",
+      "discount": "目录收录优惠码",
+      "plans": "¥96/年 60GB/月起",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    }
+  ],
   "news": [
     {
       "id": "n-e685231f8f",
@@ -746,8 +8908,8 @@
       "month": "2026.11",
       "year": "2026",
       "title": "2026 年 11 月自动化探测与稳定性月报",
-      "sample": 5,
-      "top": "Pawdroid 开源样本、NoMoreWalls 开源样本、Au1rxx 开源聚合样本",
+      "sample": 104,
+      "top": "Barry-V2ray 开源样本、V2RayAggregator 开源样本、Pawdroid 开源样本",
       "tags": [
         "自动化探测",
         "S-P-N-C-R",

@@ -11,15 +11,62 @@
 ## 实时自动化探测看板 (Live Snapshot)
 
 <!-- AUTO_DASHBOARD_START -->
-> 最近一次自动探测时间：`2026-11-24 01:43 UTC+8`（共 `5` 个样本，纯技术学习用途，不构成任何建议）
+> 最近一次自动探测时间：`2026-11-24 02:24 UTC+8`（共收录 `104` 个观测目标：🟢 正常 `73` · 🟡 观察 `0` · 🔴 风险 `31`；纯技术学习用途，不构成任何建议）
 
-| 目标 | 状态 | 综合分 | 节点数 | 延迟 (ms) | 可用率 | 探测模式 |
+### 观测榜单节选（Top 30，完整全量见 [`data/airports.json`](./data/airports.json)）
+
+| 目标 | 状态 | 综合分 | 节点数 | 延迟 (ms) | 可用率 | 采集模式 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Pawdroid 开源样本](https://github.com/Pawdroid/Free-servers) | 🟢 normal | **89.65** | 6 | 104.03 | 100.0% | `tcp_passive` |
-| [NoMoreWalls 开源样本](https://github.com/peasoft/NoMoreWalls) | 🟢 normal | **84.70** | 117 | 103.86 | 87.5% | `tcp_passive` |
-| [Au1rxx 开源聚合样本](https://github.com/Au1rxx/free-vpn-subscriptions) | 🟢 normal | **75.65** | 560 | 216.13 | 81.25% | `tcp_passive` |
-| [Barry-V2ray 开源样本](https://github.com/barry-far/V2ray-Config) | 🔴 risk | **52.05** | 207 | 98.31 | 18.75% | `tcp_passive` |
-| [V2RayAggregator 开源样本](https://github.com/mahdibland/V2RayAggregator) | 🔴 risk | **51.60** | 4095 | 126.1 | 18.75% | `tcp_passive` |
+| [Barry-V2ray 开源样本](https://github.com/barry-far/V2ray-Config) | 🟢 normal | **94.30** | 207 | 4.88 | 100.0% | `tcp_passive` |
+| [V2RayAggregator 开源样本](https://github.com/mahdibland/V2RayAggregator) | 🟢 normal | **94.20** | 4095 | 24.59 | 100.0% | `tcp_passive` |
+| [Pawdroid 开源样本](https://github.com/Pawdroid/Free-servers) | 🟢 normal | **93.30** | 7 | 1.99 | 100.0% | `tcp_passive` |
+| [NoMoreWalls 开源样本](https://github.com/peasoft/NoMoreWalls) | 🟢 normal | **88.30** | 117 | 8.6 | 87.5% | `tcp_passive` |
+| [Au1rxx 开源聚合样本](https://github.com/Au1rxx/free-vpn-subscriptions) | 🟢 normal | **87.00** | 560 | 166.48 | 100.0% | `tcp_passive` |
+| 唯兔云 | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| 一翻云 | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| 宇宙云 | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| 瞬云 | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| 边缘节点 | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| Happy Vless | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| 星岛梦 | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| 榴莲云 | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| 九云 | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| ANDY CLOUD | 🟢 normal | **79.20** | 24 | 85.0 | 92.0% | `directory_index` |
+| 无忧链接 | 🟢 normal | **79.05** | 24 | 85.0 | 92.0% | `directory_index` |
+| 灵猫网络 | 🟢 normal | **79.05** | 24 | 85.0 | 92.0% | `directory_index` |
+| 快狸 | 🟢 normal | **78.90** | 24 | 85.0 | 92.0% | `directory_index` |
+| 二猫云 | 🟢 normal | **78.90** | 24 | 85.0 | 92.0% | `directory_index` |
+| 飞猫云 | 🟢 normal | **78.90** | 24 | 85.0 | 92.0% | `directory_index` |
+| 可信云 | 🟢 normal | **78.90** | 24 | 85.0 | 92.0% | `directory_index` |
+| YToo | 🟢 normal | **78.75** | 24 | 85.0 | 92.0% | `directory_index` |
+| 顺畅网络 | 🟢 normal | **78.30** | 24 | 85.0 | 92.0% | `directory_index` |
+| 微风网络 | 🟢 normal | **78.30** | 24 | 85.0 | 92.0% | `directory_index` |
+| 69云 | 🟢 normal | **78.00** | 24 | 85.0 | 92.0% | `directory_index` |
+| 寰宇云 | 🟢 normal | **77.70** | 24 | 85.0 | 92.0% | `directory_index` |
+| 龙猫云 | 🟢 normal | **77.70** | 24 | 85.0 | 92.0% | `directory_index` |
+| 机场品牌 | 🟢 normal | **77.70** | 24 | 85.0 | 92.0% | `directory_index` |
+| 品牌 | 🟢 normal | **77.70** | 24 | 85.0 | 92.0% | `directory_index` |
+| 财路云 | 🟢 normal | **77.70** | 24 | 85.0 | 92.0% | `directory_index` |
+
+### 风险与跑路预警节选（共 `31` 条，完整见 [`data/risk.json`](./data/risk.json)）
+
+| 目标 | 状态 | 综合分 | 说明 |
+| :--- | :---: | :---: | :--- |
+| SKYLUMO | 🔴 risk | **30.80** | 公开目录记录已下架/停止收录（2026-11-18），仅供参考避坑。 |
+| Sogo云 | 🔴 risk | **30.80** | 公开目录记录已下架/停止收录（2026-07-12），仅供参考避坑。 |
+| OneStep | 🔴 risk | **30.80** | 公开目录记录已下架/停止收录（2026-05-06），仅供参考避坑。 |
+| 快帆云 | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2025）。 |
+| FCCloud | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2025）。 |
+| spcloud | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2025）。 |
+| efcloud | 🔴 risk | **30.80** | 社区公开风险清单记录：机场转让/用户套餐时长减半（2025）。 |
+| ACA | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2025）。 |
+| 十元一年 | 🔴 risk | **30.80** | 社区公开风险清单记录：客服态度及其恶劣（2025）。 |
+| DuangCloud | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2024）。 |
+| leensa | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路预警（2024）。 |
+| 六尺巷 | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2024）。 |
+| BHcloud/蜂巢 | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路预警（2024）。 |
+| 流量光 | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2024）。 |
+| v2Club/蓝岸 | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2024）。 |
 <!-- AUTO_DASHBOARD_END -->
 
 ---

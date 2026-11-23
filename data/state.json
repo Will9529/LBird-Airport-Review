@@ -4,14 +4,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 32,
+      "total_probes": 48,
       "daily": {
         "2026-11-23": {
-          "score": 75.65,
-          "uptime": 81.25,
-          "speed": 148.5,
-          "latency": 216.13,
-          "loss": 18.75
+          "score": 87.0,
+          "uptime": 100.0,
+          "speed": 205.1,
+          "latency": 166.48,
+          "loss": 0.0
         }
       }
     },
@@ -19,13 +19,13 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 32,
+      "total_probes": 48,
       "daily": {
         "2026-11-23": {
-          "score": 84.7,
+          "score": 88.3,
           "uptime": 87.5,
-          "speed": 204.1,
-          "latency": 103.86,
+          "speed": 227.5,
+          "latency": 8.6,
           "loss": 12.5
         }
       }
@@ -34,14 +34,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 32,
+      "total_probes": 48,
       "daily": {
         "2026-11-23": {
-          "score": 51.6,
-          "uptime": 18.75,
-          "speed": 41.9,
-          "latency": 126.1,
-          "loss": 81.25
+          "score": 94.2,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 24.59,
+          "loss": 0.0
         }
       }
     },
@@ -49,14 +49,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 32,
+      "total_probes": 48,
       "daily": {
         "2026-11-23": {
-          "score": 52.05,
-          "uptime": 18.75,
-          "speed": 44.2,
-          "latency": 98.31,
-          "loss": 81.25
+          "score": 94.3,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 4.88,
+          "loss": 0.0
         }
       }
     },
@@ -64,14 +64,1499 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 17,
+      "total_probes": 24,
       "daily": {
         "2026-11-23": {
-          "score": 89.65,
+          "score": 93.3,
           "uptime": 100.0,
-          "speed": 233.2,
-          "latency": 104.03,
+          "speed": 260.0,
+          "latency": 1.99,
           "loss": 0.0
+        }
+      }
+    },
+    "amytelecom": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 76.5,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "kuromis": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 74.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "wgetcloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 71.25,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "forest": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 75.45,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "bitz-net": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 71.25,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-36a9d023": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.05,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-b16d7c96": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-72ee0825": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-3766603f": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.25,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-320de560": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 78.9,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-23d38921": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-75c3e19a": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-667105f9": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-0955fbc8": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 78.9,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "u1s1": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.1,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "happy-vless": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-2628ff0d": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 78.3,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "nexitally": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 71.25,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-1beab829": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ytoo": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 78.75,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-ccfd5bab": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-ef8b9e4d": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.05,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-bf29f4d4": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 78.3,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-443c627c": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-75f277cd": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-7b83c7d1": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 76.65,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-e2842569": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 76.5,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "andy-cloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 79.2,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-c914c38d": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 76.5,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-c06e10dd": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 78.9,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "flowercloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 73.95,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-d530f097": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.1,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-1406c035": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 78.9,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "69": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 78.0,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ssrdog": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 73.05,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "bywave": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 75.3,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "tntcloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 76.95,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-fdba500f": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-83fff70f": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 76.95,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "skylumo": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "sogo": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "onestep": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "ap-a17eb5e1": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 63.7,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 4536.61,
+          "loss": 0.5
+        }
+      }
+    },
+    "edgenova": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 62.8,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 1826.07,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-b90a295c": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 62.8,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 2208.66,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-ed7ce7f5": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 62.5,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 1139.28,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-db031d64": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 62.35,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 2635.01,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-88a73d52": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-c2a3b1cc": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 61.45,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 3323.55,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-0adc0e35": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 61.9,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 2863.86,
+          "loss": 0.5
+        }
+      }
+    },
+    "firefly": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 61.15,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 2784.44,
+          "loss": 0.5
+        }
+      }
+    },
+    "flyv": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 61.75,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 1458.92,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-332c00eb": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 61.15,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 1614.67,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-18c4c2ab": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 62.2,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 714.81,
+          "loss": 0.5
+        }
+      }
+    },
+    "cloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 66.45,
+          "uptime": 98.0,
+          "speed": 40.1,
+          "latency": 531.2,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-36cceebb": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 67.45,
+          "uptime": 98.0,
+          "speed": 34.2,
+          "latency": 544.74,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-094a7af3": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 68.4,
+          "uptime": 98.0,
+          "speed": 43.3,
+          "latency": 524.03,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-a089140d": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 69.45,
+          "uptime": 98.0,
+          "speed": 52.9,
+          "latency": 502.19,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-c9ad2d12": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 61.9,
+          "uptime": 98.0,
+          "speed": 11.8,
+          "latency": 1239.4,
+          "loss": 0.5
+        }
+      }
+    },
+    "ap-a7d7e5a6": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-d6cfa44a": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-9eb71d00": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-4abbbf5e": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-124f5b3b": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-45f649e3": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-75eb0e5c": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-1ba2bc30": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-dde7f973": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-fb5fc812": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ktm": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "v2free": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 77.7,
+          "uptime": 92.0,
+          "speed": 140.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-6bf271a1": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "fccloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "spcloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "efcloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "aca": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "ap-f18ec922": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "duangcloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "leensa": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "ap-8c5d34f7": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "bhcloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "ap-e8f4ed4a": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "v2club": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "ap-2be9e6eb": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "xlm-cloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "fastlink": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "ap-390986f5": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "boomcloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "clm": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "creamdata": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "tly": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "skicat-catree": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "ap-1ff58acc": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "ap-1a012af7": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "naiunet": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "chiselwall": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "sockboom": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "ap-9e0019b6": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
+        }
+      }
+    },
+    "tpap": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 3,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 30.8,
+          "uptime": 0.0,
+          "speed": 5.0,
+          "latency": 420.0,
+          "loss": 100.0
         }
       }
     }

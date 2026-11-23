@@ -91,22 +91,43 @@ def export_all(
 
 
 def render_dashboard_markdown(airports: list[dict[str, Any]], updated_at: str) -> str:
+    normal_cnt = sum(1 for a in airports if a.get("status") == "normal")
+    watch_cnt = sum(1 for a in airports if a.get("status") == "watch")
+    risk_cnt = sum(1 for a in airports if a.get("status") == "risk")
+
     lines = [
-        f"> 最近一次自动探测时间：`{updated_at}`（共 `{len(airports)}` 个样本，纯技术学习用途，不构成任何建议）",
+        f"> 最近一次自动探测时间：`{updated_at}`（共收录 `{len(airports)}` 个观测目标：🟢 正常 `{normal_cnt}` · 🟡 观察 `{watch_cnt}` · 🔴 风险 `{risk_cnt}`；纯技术学习用途，不构成任何建议）",
         "",
-        "| 目标 | 状态 | 综合分 | 节点数 | 延迟 (ms) | 可用率 | 探测模式 |",
+        "### 观测榜单节选（Top 30，完整全量见 [`data/airports.json`](./data/airports.json)）",
+        "",
+        "| 目标 | 状态 | 综合分 | 节点数 | 延迟 (ms) | 可用率 | 采集模式 |",
         "| :--- | :---: | :---: | :---: | :---: | :---: | :---: |",
     ]
-    for a in sorted(airports, key=lambda x: x.get("score", 0), reverse=True):
+    active = [a for a in airports if a.get("status") != "risk"]
+    for a in sorted(active, key=lambda x: x.get("score", 0), reverse=True)[:30]:
         st = a.get("status", "normal")
-        badge = "🟢 normal" if st == "normal" else ("🟡 watch" if st == "watch" else "🔴 risk")
+        badge = "🟢 normal" if st == "normal" else "🟡 watch"
         hist = a.get("history") or {}
         lat = (hist.get("latency") or [0])[-1]
         up = (hist.get("uptime") or [0])[-1]
         mode = (a.get("probeMeta") or {}).get("mode", "web_health")
+        site = a.get("website", "#")
+        title_col = f"[{a['name']}]({site})" if site != "#" else a["name"]
         lines.append(
-            f"| [{a['name']}]({a.get('website', '#')}) | {badge} | **{a['score']:.2f}** | {a.get('nodes', 0)} | {lat} | {up}% | `{mode}` |"
+            f"| {title_col} | {badge} | **{a['score']:.2f}** | {a.get('nodes', 0)} | {lat} | {up}% | `{mode}` |"
         )
+
+    risk_list = [a for a in airports if a.get("status") == "risk"]
+    if risk_list:
+        lines.extend([
+            "",
+            f"### 风险与跑路预警节选（共 `{len(risk_list)}` 条，完整见 [`data/risk.json`](./data/risk.json)）",
+            "",
+            "| 目标 | 状态 | 综合分 | 说明 |",
+            "| :--- | :---: | :---: | :--- |",
+        ])
+        for a in risk_list[:15]:
+            lines.append(f"| {a['name']} | 🔴 risk | **{a['score']:.2f}** | {a.get('summary', '')} |")
     return "\n".join(lines)
 
 
