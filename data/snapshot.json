@@ -1,208 +1,514 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T18:24:16.723321+00:00",
+  "generatedAt": "2026-11-23T18:26:28.389446+00:00",
   "source": "Will9529/LBird-Airport-Review",
   "disclaimer": "纯技术学习研究，不构成任何推荐、消费或使用建议。",
   "stats": {
     "monitored": 104,
-    "speedTests": 315,
-    "updatedAt": "2026-11-24 02:24 UTC+8"
+    "speedTests": 485,
+    "updatedAt": "2026-11-24 02:26 UTC+8"
   },
   "airports": [
     {
-      "slug": "barry-v2ray-oss",
-      "name": "Barry-V2ray 开源样本",
-      "color": "#0369a1",
+      "slug": "edgenova",
+      "name": "edgenova",
+      "color": "#0d9488",
       "status": "normal",
-      "nodes": 207,
-      "priceMonthly": 0.0,
+      "nodes": 0,
+      "priceMonthly": 15.0,
       "observedDays": 1,
-      "score": 94.3,
+      "score": 90.2,
       "scores": {
-        "S": 100,
-        "P": 88,
-        "N": 94,
-        "C": 98,
+        "S": 99,
+        "P": 82,
+        "N": 87,
+        "C": 92,
         "R": 88
       },
       "trial": true,
       "refund": false,
-      "founded": "2023-05",
+      "founded": "2026-11",
       "tags": [
-        "开源样本",
-        "公开研究",
-        "定时更新"
+        "目录收录",
+        "公开索引"
       ],
       "regions": [
+        "香港",
         "日本",
-        "美国",
-        "德国",
-        "英国",
         "新加坡"
       ],
       "routes": [
-        "BGP"
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
       ],
       "clients": [
+        "Clash Verge",
         "v2rayN",
         "Shadowrocket",
-        "Mihomo"
+        "Sing-box"
       ],
       "streaming": [
         "未测(数据中心IP)"
       ],
       "payments": [
-        "开源免费"
+        "公开研究"
       ],
       "importMethods": [
-        "URI 列表",
-        "Base64 订阅"
+        "一键订阅"
       ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
+      "plans": [],
       "telegram": {},
       "history": {
         "score": [
-          94.3,
-          94.3
+          90.2,
+          90.2
         ],
         "uptime": [
-          100.0,
-          100.0
+          98.0,
+          98.0
         ],
         "speed": [
-          260.0,
-          260.0
+          244.6,
+          244.6
         ],
         "latency": [
-          4.88,
-          4.88
+          67.61,
+          67.61
         ],
         "loss": [
-          0.0,
-          0.0
+          0.5,
+          0.5
         ]
       },
-      "summary": "公开社区 V2Ray 配置分片样本，用于观测定时更新频率与可用率波动。",
-      "website": "https://github.com/barry-far/V2ray-Config",
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/edgenova/",
       "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "hysteria2",
-          "ss",
-          "vless",
-          "vmess"
-        ]
+        "tlsDaysLeft": 83,
+        "protocols": []
       }
     },
     {
-      "slug": "v2ray-aggregator-oss",
-      "name": "V2RayAggregator 开源样本",
-      "color": "#0f766e",
+      "slug": "ap-094a7af3",
+      "name": "暮光加速",
+      "color": "#0d9488",
       "status": "normal",
-      "nodes": 4095,
-      "priceMonthly": 0.0,
+      "nodes": 0,
+      "priceMonthly": 20.0,
       "observedDays": 1,
-      "score": 94.2,
+      "score": 89.5,
       "scores": {
-        "S": 100,
-        "P": 86,
-        "N": 96,
-        "C": 98,
+        "S": 99,
+        "P": 82,
+        "N": 88,
+        "C": 86,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN",
+        "Shadowrocket",
+        "Stash",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          89.5,
+          89.5
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          249.2,
+          249.2
+        ],
+        "latency": [
+          57.07,
+          57.07
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/muguang/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-0adc0e35",
+      "name": "隐形人",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 24.0,
+      "observedDays": 1,
+      "score": 88.85,
+      "scores": {
+        "S": 99,
+        "P": 81,
+        "N": 86,
+        "C": 86,
+        "R": 88
+      },
+      "trial": true,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          88.85,
+          88.85
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          243.5,
+          243.5
+        ],
+        "latency": [
+          70.01,
+          70.01
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/yinxingren/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-36cceebb",
+      "name": "跨界云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 20.0,
+      "observedDays": 1,
+      "score": 88.8,
+      "scores": {
+        "S": 99,
+        "P": 81,
+        "N": 85,
+        "C": 87,
         "R": 88
       },
       "trial": true,
       "refund": false,
-      "founded": "2022-08",
+      "founded": "2026-11",
       "tags": [
-        "开源样本",
-        "公开研究",
-        "URI 聚合"
+        "目录收录",
+        "公开索引"
       ],
       "regions": [
-        "美国",
-        "英国",
-        "德国",
-        "新加坡",
-        "日本",
-        "韩国",
         "香港",
-        "台湾"
+        "日本",
+        "新加坡"
       ],
       "routes": [
-        "中转",
-        "BGP"
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
       ],
       "clients": [
+        "Clash Verge",
+        "Mihomo",
         "v2rayN",
         "Shadowrocket",
-        "Sing-box",
-        "Karing"
+        "Stash",
+        "Sing-box"
       ],
       "streaming": [
         "未测(数据中心IP)"
       ],
       "payments": [
-        "开源免费"
+        "公开研究"
       ],
       "importMethods": [
-        "URI 列表",
-        "Base64 订阅"
+        "一键订阅"
       ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
+      "plans": [],
       "telegram": {},
       "history": {
         "score": [
-          94.2,
-          94.2
+          88.8,
+          88.8
         ],
         "uptime": [
-          100.0,
-          100.0
+          98.0,
+          98.0
         ],
         "speed": [
-          260.0,
-          260.0
+          239.4,
+          239.4
         ],
         "latency": [
-          24.59,
-          24.59
+          79.45,
+          79.45
         ],
         "loss": [
-          0.0,
-          0.0
+          0.5,
+          0.5
         ]
       },
-      "summary": "大规模公开 URI 聚合样本，用于压测 Base64/URI 解析器与并发探针。",
-      "website": "https://github.com/mahdibland/V2RayAggregator",
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/kuajieyun/",
       "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "ss",
-          "trojan",
-          "vmess"
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-a17eb5e1",
+      "name": "动力港",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 8.0,
+      "observedDays": 1,
+      "score": 86.25,
+      "scores": {
+        "S": 99,
+        "P": 73,
+        "N": 74,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          86.25,
+          86.25
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          199.1,
+          199.1
+        ],
+        "latency": [
+          170.83,
+          170.83
+        ],
+        "loss": [
+          0.5,
+          0.5
         ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/dongligang/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-18c4c2ab",
+      "name": "浪网",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 30.0,
+      "observedDays": 1,
+      "score": 86.2,
+      "scores": {
+        "S": 99,
+        "P": 78,
+        "N": 81,
+        "C": 80,
+        "R": 88
+      },
+      "trial": true,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          86.2,
+          86.2
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          223.5,
+          223.5
+        ],
+        "latency": [
+          115.5,
+          115.5
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/langwang/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
       }
     },
     {
@@ -213,11 +519,11 @@
       "nodes": 7,
       "priceMonthly": 0.0,
       "observedDays": 1,
-      "score": 93.3,
+      "score": 86.15,
       "scores": {
         "S": 100,
-        "P": 88,
-        "N": 89,
+        "P": 73,
+        "N": 72,
         "C": 98,
         "R": 88
       },
@@ -266,20 +572,20 @@
       "telegram": {},
       "history": {
         "score": [
-          93.3,
-          93.3
+          86.15,
+          86.15
         ],
         "uptime": [
           100.0,
           100.0
         ],
         "speed": [
-          260.0,
-          260.0
+          200.0,
+          200.0
         ],
         "latency": [
-          1.99,
-          1.99
+          177.74,
+          177.74
         ],
         "loss": [
           0.0,
@@ -290,7 +596,7 @@
       "website": "https://github.com/Pawdroid/Free-servers",
       "probeMeta": {
         "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": 200,
         "tlsDaysLeft": 65,
         "protocols": [
@@ -302,126 +608,27 @@
       }
     },
     {
-      "slug": "nomorewalls-oss",
-      "name": "NoMoreWalls 开源样本",
-      "color": "#0891b2",
-      "status": "normal",
-      "nodes": 117,
-      "priceMonthly": 0.0,
-      "observedDays": 1,
-      "score": 88.3,
-      "scores": {
-        "S": 91,
-        "P": 82,
-        "N": 85,
-        "C": 98,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2022-03",
-      "tags": [
-        "开源样本",
-        "公开研究",
-        "多协议"
-      ],
-      "regions": [
-        "英国",
-        "香港",
-        "日本",
-        "韩国",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN",
-        "Sing-box",
-        "Shadowrocket"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "开源免费"
-      ],
-      "importMethods": [
-        "YAML 订阅",
-        "Base64 订阅"
-      ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
-      "telegram": {},
-      "history": {
-        "score": [
-          88.3,
-          88.3
-        ],
-        "uptime": [
-          87.5,
-          87.5
-        ],
-        "speed": [
-          227.5,
-          227.5
-        ],
-        "latency": [
-          8.6,
-          8.6
-        ],
-        "loss": [
-          12.5,
-          12.5
-        ]
-      },
-      "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
-      "website": "https://github.com/peasoft/NoMoreWalls",
-      "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "ss",
-          "trojan",
-          "vmess"
-        ]
-      }
-    },
-    {
-      "slug": "au1rxx-free-vpn",
-      "name": "Au1rxx 开源聚合样本",
+      "slug": "ap-a089140d",
+      "name": "全球云",
       "color": "#0d9488",
       "status": "normal",
-      "nodes": 560,
-      "priceMonthly": 0.0,
+      "nodes": 0,
+      "priceMonthly": 20.0,
       "observedDays": 1,
-      "score": 87.0,
+      "score": 86.15,
       "scores": {
-        "S": 100,
-        "P": 74,
-        "N": 75,
-        "C": 98,
+        "S": 99,
+        "P": 76,
+        "N": 78,
+        "C": 87,
         "R": 88
       },
       "trial": true,
       "refund": false,
-      "founded": "2024-06",
+      "founded": "2026-11",
       "tags": [
-        "开源样本",
-        "公开研究",
-        "Clash YAML"
+        "目录收录",
+        "公开索引"
       ],
       "regions": [
         "香港",
@@ -429,13 +636,97 @@
         "新加坡"
       ],
       "routes": [
-        "BGP"
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
       ],
       "clients": [
         "Clash Verge",
-        "Mihomo",
+        "v2rayN",
+        "Shadowrocket",
         "Stash",
-        "Karing",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          86.15,
+          86.15
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          213.3,
+          213.3
+        ],
+        "latency": [
+          138.46,
+          138.46
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/quanqiuyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-332c00eb",
+      "name": "梯子云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 25.0,
+      "observedDays": 1,
+      "score": 85.7,
+      "scores": {
+        "S": 99,
+        "P": 77,
+        "N": 79,
+        "C": 81,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
         "v2rayN",
         "Shadowrocket",
         "Sing-box"
@@ -444,58 +735,626 @@
         "未测(数据中心IP)"
       ],
       "payments": [
-        "开源免费"
+        "公开研究"
       ],
       "importMethods": [
-        "Clash 托管",
-        "YAML 订阅"
+        "一键订阅"
       ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
+      "plans": [],
       "telegram": {},
       "history": {
         "score": [
-          87.0,
-          87.0
+          85.7,
+          85.7
         ],
         "uptime": [
-          100.0,
-          100.0
+          98.0,
+          98.0
         ],
         "speed": [
-          205.1,
-          205.1
+          217.8,
+          217.8
         ],
         "latency": [
-          166.48,
-          166.48
+          128.29,
+          128.29
         ],
         "loss": [
-          0.0,
-          0.0
+          0.5,
+          0.5
         ]
       },
-      "summary": "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。",
-      "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/tiziyun/",
       "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "hysteria2",
-          "ss",
-          "trojan",
-          "vless",
-          "vmess"
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-c9ad2d12",
+      "name": "灵动云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 20.0,
+      "observedDays": 1,
+      "score": 85.55,
+      "scores": {
+        "S": 99,
+        "P": 75,
+        "N": 77,
+        "C": 86,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Stash",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          85.55,
+          85.55
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          209.5,
+          209.5
+        ],
+        "latency": [
+          147.27,
+          147.27
+        ],
+        "loss": [
+          0.5,
+          0.5
         ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/lingdongyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "firefly",
+      "name": "Firefly",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 25.0,
+      "observedDays": 1,
+      "score": 85.25,
+      "scores": {
+        "S": 99,
+        "P": 76,
+        "N": 78,
+        "C": 81,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          85.25,
+          85.25
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          213.9,
+          213.9
+        ],
+        "latency": [
+          137.09,
+          137.09
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/firefly/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "flyv",
+      "name": "FlyV",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 25.0,
+      "observedDays": 1,
+      "score": 85.2,
+      "scores": {
+        "S": 99,
+        "P": 75,
+        "N": 76,
+        "C": 85,
+        "R": 88
+      },
+      "trial": true,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          85.2,
+          85.2
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          207.0,
+          207.0
+        ],
+        "latency": [
+          152.93,
+          152.93
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/flyv/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-ed7ce7f5",
+      "name": "光速云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 17.0,
+      "observedDays": 1,
+      "score": 85.05,
+      "scores": {
+        "S": 99,
+        "P": 73,
+        "N": 74,
+        "C": 90,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          85.05,
+          85.05
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          200.8,
+          200.8
+        ],
+        "latency": [
+          166.86,
+          166.86
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/guangsuyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-b90a295c",
+      "name": "速界",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 84.7,
+      "scores": {
+        "S": 99,
+        "P": 72,
+        "N": 72,
+        "C": 92,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          84.7,
+          84.7
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          193.1,
+          193.1
+        ],
+        "latency": [
+          184.4,
+          184.4
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/sujie/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "cloud",
+      "name": "极速Cloud",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 30.0,
+      "observedDays": 1,
+      "score": 82.95,
+      "scores": {
+        "S": 99,
+        "P": 73,
+        "N": 74,
+        "C": 76,
+        "R": 88
+      },
+      "trial": false,
+      "refund": true,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "CN2",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          82.95,
+          82.95
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          200.9,
+          200.9
+        ],
+        "latency": [
+          166.56,
+          166.56
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/jisucloud/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-c2a3b1cc",
+      "name": "闪跃",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 24.0,
+      "observedDays": 1,
+      "score": 81.6,
+      "scores": {
+        "S": 99,
+        "P": 69,
+        "N": 67,
+        "C": 83,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          81.6,
+          81.6
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          176.2,
+          176.2
+        ],
+        "latency": [
+          222.64,
+          222.64
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/shanyue/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
+        "protocols": []
       }
     },
     {
@@ -575,7 +1434,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -658,7 +1517,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -741,7 +1600,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -824,7 +1683,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -907,7 +1766,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -990,7 +1849,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1076,7 +1935,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1160,7 +2019,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1244,7 +2103,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1327,7 +2186,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1410,7 +2269,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1493,7 +2352,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1576,7 +2435,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1660,7 +2519,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1745,7 +2604,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1829,7 +2688,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1912,7 +2771,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1996,7 +2855,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2079,7 +2938,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2162,10 +3021,108 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
+      }
+    },
+    {
+      "slug": "nomorewalls-oss",
+      "name": "NoMoreWalls 开源样本",
+      "color": "#0891b2",
+      "status": "normal",
+      "nodes": 117,
+      "priceMonthly": 0.0,
+      "observedDays": 1,
+      "score": 77.75,
+      "scores": {
+        "S": 86,
+        "P": 65,
+        "N": 61,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2022-03",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "多协议"
+      ],
+      "regions": [
+        "英国",
+        "香港",
+        "日本",
+        "韩国",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN",
+        "Sing-box",
+        "Shadowrocket"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "YAML 订阅",
+        "Base64 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.75,
+          77.75
+        ],
+        "uptime": [
+          81.25,
+          81.25
+        ],
+        "speed": [
+          157.5,
+          157.5
+        ],
+        "latency": [
+          191.33,
+          191.33
+        ],
+        "loss": [
+          18.75,
+          18.75
+        ]
+      },
+      "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
+      "website": "https://github.com/peasoft/NoMoreWalls",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 65,
+        "protocols": [
+          "ss",
+          "trojan",
+          "vmess"
+        ]
       }
     },
     {
@@ -2245,7 +3202,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2328,7 +3285,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2409,7 +3366,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2490,7 +3447,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2571,7 +3528,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2652,7 +3609,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2733,7 +3690,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2814,7 +3771,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2895,7 +3852,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2976,7 +3933,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3057,7 +4014,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3138,7 +4095,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3219,7 +4176,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3300,7 +4257,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3381,7 +4338,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3464,7 +4421,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3547,7 +4504,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3630,7 +4587,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3714,7 +4671,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3798,7 +4755,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3882,9 +4839,92 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-db031d64",
+      "name": "极连云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 18.0,
+      "observedDays": 1,
+      "score": 76.55,
+      "scores": {
+        "S": 99,
+        "P": 58,
+        "N": 51,
+        "C": 89,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP",
+        "IEPL",
+        "IPLC",
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          76.55,
+          76.55
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          119.4,
+          119.4
+        ],
+        "latency": [
+          351.51,
+          351.51
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "https://www.jichangyyds.com/brands/jilianyun/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 83,
         "protocols": []
       }
     },
@@ -3965,7 +5005,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4050,7 +5090,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4133,10 +5173,109 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
+      }
+    },
+    {
+      "slug": "au1rxx-free-vpn",
+      "name": "Au1rxx 开源聚合样本",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 560,
+      "priceMonthly": 0.0,
+      "observedDays": 1,
+      "score": 75.65,
+      "scores": {
+        "S": 86,
+        "P": 63,
+        "N": 53,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2024-06",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "Clash YAML"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "Stash",
+        "Karing",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "Clash 托管",
+        "YAML 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          75.65,
+          75.65
+        ],
+        "uptime": [
+          81.25,
+          81.25
+        ],
+        "speed": [
+          146.3,
+          146.3
+        ],
+        "latency": [
+          222.18,
+          222.18
+        ],
+        "loss": [
+          18.75,
+          18.75
+        ]
+      },
+      "summary": "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。",
+      "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 65,
+        "protocols": [
+          "hysteria2",
+          "ss",
+          "trojan",
+          "vless",
+          "vmess"
+        ]
       }
     },
     {
@@ -4216,7 +5355,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4299,7 +5438,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4382,7 +5521,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4466,7 +5605,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4550,7 +5689,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4633,7 +5772,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4716,7 +5855,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4799,1345 +5938,206 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
       }
     },
     {
-      "slug": "ap-a089140d",
-      "name": "全球云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 20.0,
+      "slug": "v2ray-aggregator-oss",
+      "name": "V2RayAggregator 开源样本",
+      "color": "#0f766e",
+      "status": "risk",
+      "nodes": 4095,
+      "priceMonthly": 0.0,
       "observedDays": 1,
-      "score": 69.45,
+      "score": 53.75,
       "scores": {
-        "S": 99,
-        "P": 46,
-        "N": 32,
-        "C": 87,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Stash",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          69.45,
-          69.45
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          52.9,
-          52.9
-        ],
-        "latency": [
-          502.19,
-          502.19
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/quanqiuyun/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-094a7af3",
-      "name": "暮光加速",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 20.0,
-      "observedDays": 1,
-      "score": 68.4,
-      "scores": {
-        "S": 99,
-        "P": 44,
-        "N": 30,
-        "C": 86,
-        "R": 88
-      },
-      "trial": false,
-      "refund": true,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN",
-        "Shadowrocket",
-        "Stash",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          68.4,
-          68.4
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          43.3,
-          43.3
-        ],
-        "latency": [
-          524.03,
-          524.03
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/muguang/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-36cceebb",
-      "name": "跨界云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 20.0,
-      "observedDays": 1,
-      "score": 67.45,
-      "scores": {
-        "S": 99,
-        "P": 42,
+        "S": 42,
+        "P": 49,
         "N": 27,
-        "C": 87,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN",
-        "Shadowrocket",
-        "Stash",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          67.45,
-          67.45
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          34.2,
-          34.2
-        ],
-        "latency": [
-          544.74,
-          544.74
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/kuajieyun/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "cloud",
-      "name": "极速Cloud",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 30.0,
-      "observedDays": 1,
-      "score": 66.45,
-      "scores": {
-        "S": 99,
-        "P": 43,
-        "N": 29,
-        "C": 76,
-        "R": 88
-      },
-      "trial": false,
-      "refund": true,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "CN2",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          66.45,
-          66.45
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          40.1,
-          40.1
-        ],
-        "latency": [
-          531.2,
-          531.2
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/jisucloud/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-a17eb5e1",
-      "name": "动力港",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 8.0,
-      "observedDays": 1,
-      "score": 63.7,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
         "C": 98,
         "R": 88
       },
       "trial": true,
-      "refund": true,
-      "founded": "2026-11",
+      "refund": false,
+      "founded": "2022-08",
       "tags": [
-        "目录收录",
-        "公开索引"
+        "开源样本",
+        "公开研究",
+        "URI 聚合"
       ],
       "regions": [
-        "香港",
+        "美国",
+        "英国",
+        "德国",
+        "新加坡",
         "日本",
-        "新加坡"
+        "韩国",
+        "香港",
+        "台湾"
       ],
       "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
+        "中转",
+        "BGP"
       ],
       "clients": [
-        "Clash Verge",
         "v2rayN",
         "Shadowrocket",
-        "Sing-box"
+        "Sing-box",
+        "Karing"
       ],
       "streaming": [
         "未测(数据中心IP)"
       ],
       "payments": [
-        "公开研究"
+        "开源免费"
       ],
       "importMethods": [
-        "一键订阅"
+        "URI 列表",
+        "Base64 订阅"
       ],
-      "plans": [],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
       "telegram": {},
       "history": {
         "score": [
-          63.7,
-          63.7
+          53.75,
+          53.75
         ],
         "uptime": [
-          98.0,
-          98.0
+          18.75,
+          18.75
         ],
         "speed": [
-          11.8,
-          11.8
+          46.1,
+          46.1
         ],
         "latency": [
-          4536.61,
-          4536.61
+          75.27,
+          75.27
         ],
         "loss": [
-          0.5,
-          0.5
+          81.25,
+          81.25
         ]
       },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/dongligang/",
+      "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+      "website": "https://github.com/mahdibland/V2RayAggregator",
       "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
+        "tlsDaysLeft": 65,
+        "protocols": [
+          "ss",
+          "trojan",
+          "vmess"
+        ]
       }
     },
     {
-      "slug": "edgenova",
-      "name": "edgenova",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 15.0,
+      "slug": "barry-v2ray-oss",
+      "name": "Barry-V2ray 开源样本",
+      "color": "#0369a1",
+      "status": "risk",
+      "nodes": 207,
+      "priceMonthly": 0.0,
       "observedDays": 1,
-      "score": 62.8,
+      "score": 49.9,
       "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 92,
+        "S": 42,
+        "P": 44,
+        "N": 14,
+        "C": 98,
         "R": 88
       },
       "trial": true,
       "refund": false,
-      "founded": "2026-11",
+      "founded": "2023-05",
       "tags": [
-        "目录收录",
-        "公开索引"
+        "开源样本",
+        "公开研究",
+        "定时更新"
       ],
       "regions": [
-        "香港",
         "日本",
+        "美国",
+        "德国",
+        "英国",
         "新加坡"
       ],
       "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
+        "BGP"
       ],
       "clients": [
-        "Clash Verge",
         "v2rayN",
         "Shadowrocket",
-        "Sing-box"
+        "Mihomo"
       ],
       "streaming": [
         "未测(数据中心IP)"
       ],
       "payments": [
-        "公开研究"
+        "开源免费"
       ],
       "importMethods": [
-        "一键订阅"
+        "URI 列表",
+        "Base64 订阅"
       ],
-      "plans": [],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
       "telegram": {},
       "history": {
         "score": [
-          62.8,
-          62.8
+          49.9,
+          49.9
         ],
         "uptime": [
-          98.0,
-          98.0
+          18.75,
+          18.75
         ],
         "speed": [
-          11.8,
-          11.8
+          39.3,
+          39.3
         ],
         "latency": [
-          1826.07,
-          1826.07
+          156.82,
+          156.82
         ],
         "loss": [
-          0.5,
-          0.5
+          81.25,
+          81.25
         ]
       },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/edgenova/",
+      "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+      "website": "https://github.com/barry-far/V2ray-Config",
       "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-b90a295c",
-      "name": "速界",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 15.0,
-      "observedDays": 1,
-      "score": 62.8,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 92,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          62.8,
-          62.8
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          2208.66,
-          2208.66
-        ],
-        "loss": [
-          0.5,
-          0.5
+        "tlsDaysLeft": 65,
+        "protocols": [
+          "hysteria2",
+          "ss",
+          "vless",
+          "vmess"
         ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/sujie/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-ed7ce7f5",
-      "name": "光速云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 17.0,
-      "observedDays": 1,
-      "score": 62.5,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 90,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          62.5,
-          62.5
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          1139.28,
-          1139.28
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/guangsuyun/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-db031d64",
-      "name": "极连云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 18.0,
-      "observedDays": 1,
-      "score": 62.35,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 89,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          62.35,
-          62.35
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          2635.01,
-          2635.01
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/jilianyun/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-18c4c2ab",
-      "name": "浪网",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 30.0,
-      "observedDays": 1,
-      "score": 62.2,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 6,
-        "C": 80,
-        "R": 88
-      },
-      "trial": true,
-      "refund": true,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          62.2,
-          62.2
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          714.81,
-          714.81
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/langwang/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-0adc0e35",
-      "name": "隐形人",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 24.0,
-      "observedDays": 1,
-      "score": 61.9,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 86,
-        "R": 88
-      },
-      "trial": true,
-      "refund": true,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          61.9,
-          61.9
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          2863.86,
-          2863.86
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/yinxingren/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-c9ad2d12",
-      "name": "灵动云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 20.0,
-      "observedDays": 1,
-      "score": 61.9,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 86,
-        "R": 88
-      },
-      "trial": false,
-      "refund": true,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Stash",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          61.9,
-          61.9
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          1239.4,
-          1239.4
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/lingdongyun/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "flyv",
-      "name": "FlyV",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 25.0,
-      "observedDays": 1,
-      "score": 61.75,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 85,
-        "R": 88
-      },
-      "trial": true,
-      "refund": true,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          61.75,
-          61.75
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          1458.92,
-          1458.92
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/flyv/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-c2a3b1cc",
-      "name": "闪跃",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 24.0,
-      "observedDays": 1,
-      "score": 61.45,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 83,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          61.45,
-          61.45
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          3323.55,
-          3323.55
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/shanyue/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "firefly",
-      "name": "Firefly",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 25.0,
-      "observedDays": 1,
-      "score": 61.15,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 81,
-        "R": 88
-      },
-      "trial": false,
-      "refund": true,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          61.15,
-          61.15
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          2784.44,
-          2784.44
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/firefly/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-332c00eb",
-      "name": "梯子云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 25.0,
-      "observedDays": 1,
-      "score": 61.15,
-      "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 0,
-        "C": 81,
-        "R": 88
-      },
-      "trial": false,
-      "refund": true,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP",
-        "IEPL",
-        "IPLC",
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          61.15,
-          61.15
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          11.8,
-          11.8
-        ],
-        "latency": [
-          1614.67,
-          1614.67
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：BGP）。",
-      "website": "https://www.jichangyyds.com/brands/tiziyun/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 83,
-        "protocols": []
       }
     },
     {
@@ -6212,7 +6212,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6290,7 +6290,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6368,7 +6368,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6446,7 +6446,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6524,7 +6524,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6602,7 +6602,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6680,7 +6680,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6758,7 +6758,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6836,7 +6836,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6914,7 +6914,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6992,7 +6992,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7070,7 +7070,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7148,7 +7148,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7226,7 +7226,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7304,7 +7304,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7382,7 +7382,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7460,7 +7460,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7538,7 +7538,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7616,7 +7616,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7694,7 +7694,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7772,7 +7772,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7850,7 +7850,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7928,7 +7928,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8006,7 +8006,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8084,7 +8084,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8162,7 +8162,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8240,7 +8240,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8318,7 +8318,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8396,7 +8396,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8474,7 +8474,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8552,7 +8552,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+        "checkedAt": "2026-11-23T18:26:28.389446+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8909,7 +8909,7 @@
       "year": "2026",
       "title": "2026 年 11 月自动化探测与稳定性月报",
       "sample": 104,
-      "top": "Barry-V2ray 开源样本、V2RayAggregator 开源样本、Pawdroid 开源样本",
+      "top": "edgenova、暮光加速、隐形人",
       "tags": [
         "自动化探测",
         "S-P-N-C-R",

@@ -1,5 +1,201 @@
 [
   {
+    "slug": "v2ray-aggregator-oss",
+    "name": "V2RayAggregator 开源样本",
+    "color": "#0f766e",
+    "status": "risk",
+    "nodes": 4095,
+    "priceMonthly": 0.0,
+    "observedDays": 1,
+    "score": 53.75,
+    "scores": {
+      "S": 42,
+      "P": 49,
+      "N": 27,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2022-08",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "URI 聚合"
+    ],
+    "regions": [
+      "美国",
+      "英国",
+      "德国",
+      "新加坡",
+      "日本",
+      "韩国",
+      "香港",
+      "台湾"
+    ],
+    "routes": [
+      "中转",
+      "BGP"
+    ],
+    "clients": [
+      "v2rayN",
+      "Shadowrocket",
+      "Sing-box",
+      "Karing"
+    ],
+    "streaming": [
+      "未测(数据中心IP)"
+    ],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "URI 列表",
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        53.75,
+        53.75
+      ],
+      "uptime": [
+        18.75,
+        18.75
+      ],
+      "speed": [
+        46.1,
+        46.1
+      ],
+      "latency": [
+        75.27,
+        75.27
+      ],
+      "loss": [
+        81.25,
+        81.25
+      ]
+    },
+    "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+    "website": "https://github.com/mahdibland/V2RayAggregator",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+      "httpStatus": 200,
+      "tlsDaysLeft": 65,
+      "protocols": [
+        "ss",
+        "trojan",
+        "vmess"
+      ]
+    }
+  },
+  {
+    "slug": "barry-v2ray-oss",
+    "name": "Barry-V2ray 开源样本",
+    "color": "#0369a1",
+    "status": "risk",
+    "nodes": 207,
+    "priceMonthly": 0.0,
+    "observedDays": 1,
+    "score": 49.9,
+    "scores": {
+      "S": 42,
+      "P": 44,
+      "N": 14,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2023-05",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "定时更新"
+    ],
+    "regions": [
+      "日本",
+      "美国",
+      "德国",
+      "英国",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "v2rayN",
+      "Shadowrocket",
+      "Mihomo"
+    ],
+    "streaming": [
+      "未测(数据中心IP)"
+    ],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "URI 列表",
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        49.9,
+        49.9
+      ],
+      "uptime": [
+        18.75,
+        18.75
+      ],
+      "speed": [
+        39.3,
+        39.3
+      ],
+      "latency": [
+        156.82,
+        156.82
+      ],
+      "loss": [
+        81.25,
+        81.25
+      ]
+    },
+    "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+    "website": "https://github.com/barry-far/V2ray-Config",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
+      "httpStatus": 200,
+      "tlsDaysLeft": 65,
+      "protocols": [
+        "hysteria2",
+        "ss",
+        "vless",
+        "vmess"
+      ]
+    }
+  },
+  {
     "slug": "skylumo",
     "name": "SKYLUMO",
     "color": "#0d9488",
@@ -71,7 +267,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -149,7 +345,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -227,7 +423,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -305,7 +501,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -383,7 +579,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -461,7 +657,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -539,7 +735,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -617,7 +813,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -695,7 +891,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -773,7 +969,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -851,7 +1047,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -929,7 +1125,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1007,7 +1203,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1085,7 +1281,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1163,7 +1359,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1241,7 +1437,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1319,7 +1515,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1397,7 +1593,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1475,7 +1671,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1553,7 +1749,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1631,7 +1827,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1709,7 +1905,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1787,7 +1983,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1865,7 +2061,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1943,7 +2139,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2021,7 +2217,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2099,7 +2295,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2177,7 +2373,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2255,7 +2451,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2333,7 +2529,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2411,7 +2607,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T18:24:16.723321+00:00",
+      "checkedAt": "2026-11-23T18:26:28.389446+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
