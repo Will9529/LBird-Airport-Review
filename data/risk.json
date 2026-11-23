@@ -1,1 +1,198 @@
-[]
+[
+  {
+    "slug": "barry-v2ray-oss",
+    "name": "Barry-V2ray 开源样本",
+    "color": "#0369a1",
+    "status": "risk",
+    "nodes": 207,
+    "priceMonthly": 0.0,
+    "observedDays": 1,
+    "score": 52.05,
+    "scores": {
+      "S": 42,
+      "P": 47,
+      "N": 21,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2023-05",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "定时更新"
+    ],
+    "regions": [
+      "日本",
+      "美国",
+      "德国",
+      "英国",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "v2rayN",
+      "Shadowrocket",
+      "Mihomo"
+    ],
+    "streaming": [
+      "未测(数据中心IP)"
+    ],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "URI 列表",
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        52.05,
+        52.05
+      ],
+      "uptime": [
+        18.75,
+        18.75
+      ],
+      "speed": [
+        44.2,
+        44.2
+      ],
+      "latency": [
+        98.31,
+        98.31
+      ],
+      "loss": [
+        81.25,
+        81.25
+      ]
+    },
+    "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+    "website": "https://github.com/barry-far/V2ray-Config",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "checkedAt": "2026-11-23T17:43:30.124458+00:00",
+      "httpStatus": 200,
+      "tlsDaysLeft": 65,
+      "protocols": [
+        "hysteria2",
+        "ss",
+        "vless",
+        "vmess"
+      ]
+    }
+  },
+  {
+    "slug": "v2ray-aggregator-oss",
+    "name": "V2RayAggregator 开源样本",
+    "color": "#0f766e",
+    "status": "risk",
+    "nodes": 4095,
+    "priceMonthly": 0.0,
+    "observedDays": 1,
+    "score": 51.6,
+    "scores": {
+      "S": 42,
+      "P": 46,
+      "N": 20,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2022-08",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "URI 聚合"
+    ],
+    "regions": [
+      "美国",
+      "英国",
+      "德国",
+      "新加坡",
+      "日本",
+      "韩国",
+      "香港",
+      "台湾"
+    ],
+    "routes": [
+      "中转",
+      "BGP"
+    ],
+    "clients": [
+      "v2rayN",
+      "Shadowrocket",
+      "Sing-box",
+      "Karing"
+    ],
+    "streaming": [
+      "未测(数据中心IP)"
+    ],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "URI 列表",
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        51.6,
+        51.6
+      ],
+      "uptime": [
+        18.75,
+        18.75
+      ],
+      "speed": [
+        41.9,
+        41.9
+      ],
+      "latency": [
+        126.1,
+        126.1
+      ],
+      "loss": [
+        81.25,
+        81.25
+      ]
+    },
+    "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+    "website": "https://github.com/mahdibland/V2RayAggregator",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "checkedAt": "2026-11-23T17:43:30.124458+00:00",
+      "httpStatus": 200,
+      "tlsDaysLeft": 65,
+      "protocols": [
+        "ss",
+        "trojan",
+        "vmess"
+      ]
+    }
+  }
+]

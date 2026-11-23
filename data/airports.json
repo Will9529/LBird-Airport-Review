@@ -1,17 +1,405 @@
 [
   {
+    "slug": "pawdroid-free-oss",
+    "name": "Pawdroid 开源样本",
+    "color": "#14b8a6",
+    "status": "normal",
+    "nodes": 6,
+    "priceMonthly": 0.0,
+    "observedDays": 1,
+    "score": 89.65,
+    "scores": {
+      "S": 100,
+      "P": 79,
+      "N": 82,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2023-01",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "轻量集"
+    ],
+    "regions": [
+      "英国",
+      "美国",
+      "德国"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "v2rayN",
+      "Clash Verge",
+      "Shadowrocket",
+      "Mihomo",
+      "Karing",
+      "Stash",
+      "Sing-box"
+    ],
+    "streaming": [
+      "未测(数据中心IP)"
+    ],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        89.65,
+        89.65
+      ],
+      "uptime": [
+        100.0,
+        100.0
+      ],
+      "speed": [
+        233.2,
+        233.2
+      ],
+      "latency": [
+        104.03,
+        104.03
+      ],
+      "loss": [
+        0.0,
+        0.0
+      ]
+    },
+    "summary": "轻量级 Base64 公开订阅样本，用于快速端到端连通性验证。",
+    "website": "https://github.com/Pawdroid/Free-servers",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "checkedAt": "2026-11-23T17:43:30.124458+00:00",
+      "httpStatus": 200,
+      "tlsDaysLeft": 65,
+      "protocols": [
+        "ss",
+        "vless"
+      ]
+    }
+  },
+  {
+    "slug": "nomorewalls-oss",
+    "name": "NoMoreWalls 开源样本",
+    "color": "#0891b2",
+    "status": "normal",
+    "nodes": 117,
+    "priceMonthly": 0.0,
+    "observedDays": 1,
+    "score": 84.7,
+    "scores": {
+      "S": 91,
+      "P": 74,
+      "N": 77,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2022-03",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "多协议"
+    ],
+    "regions": [
+      "英国",
+      "香港",
+      "日本",
+      "韩国",
+      "新加坡",
+      "美国"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "Mihomo",
+      "v2rayN",
+      "Sing-box",
+      "Shadowrocket"
+    ],
+    "streaming": [
+      "未测(数据中心IP)"
+    ],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "YAML 订阅",
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        84.7,
+        84.7
+      ],
+      "uptime": [
+        87.5,
+        87.5
+      ],
+      "speed": [
+        204.1,
+        204.1
+      ],
+      "latency": [
+        103.86,
+        103.86
+      ],
+      "loss": [
+        12.5,
+        12.5
+      ]
+    },
+    "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
+    "website": "https://github.com/peasoft/NoMoreWalls",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "checkedAt": "2026-11-23T17:43:30.124458+00:00",
+      "httpStatus": 200,
+      "tlsDaysLeft": 65,
+      "protocols": [
+        "ss",
+        "trojan",
+        "vmess"
+      ]
+    }
+  },
+  {
+    "slug": "au1rxx-free-vpn",
+    "name": "Au1rxx 开源聚合样本",
+    "color": "#0d9488",
+    "status": "normal",
+    "nodes": 560,
+    "priceMonthly": 0.0,
+    "observedDays": 1,
+    "score": 75.65,
+    "scores": {
+      "S": 86,
+      "P": 63,
+      "N": 53,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2024-06",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "Clash YAML"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "Mihomo",
+      "Stash",
+      "Karing",
+      "v2rayN",
+      "Shadowrocket",
+      "Sing-box"
+    ],
+    "streaming": [
+      "未测(数据中心IP)"
+    ],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "Clash 托管",
+      "YAML 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        75.65,
+        75.65
+      ],
+      "uptime": [
+        81.25,
+        81.25
+      ],
+      "speed": [
+        148.5,
+        148.5
+      ],
+      "latency": [
+        216.13,
+        216.13
+      ],
+      "loss": [
+        18.75,
+        18.75
+      ]
+    },
+    "summary": "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。",
+    "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "checkedAt": "2026-11-23T17:43:30.124458+00:00",
+      "httpStatus": 200,
+      "tlsDaysLeft": 65,
+      "protocols": [
+        "hysteria2",
+        "ss",
+        "trojan",
+        "vless",
+        "vmess"
+      ]
+    }
+  },
+  {
+    "slug": "barry-v2ray-oss",
+    "name": "Barry-V2ray 开源样本",
+    "color": "#0369a1",
+    "status": "risk",
+    "nodes": 207,
+    "priceMonthly": 0.0,
+    "observedDays": 1,
+    "score": 52.05,
+    "scores": {
+      "S": 42,
+      "P": 47,
+      "N": 21,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2023-05",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "定时更新"
+    ],
+    "regions": [
+      "日本",
+      "美国",
+      "德国",
+      "英国",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "v2rayN",
+      "Shadowrocket",
+      "Mihomo"
+    ],
+    "streaming": [
+      "未测(数据中心IP)"
+    ],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "URI 列表",
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        52.05,
+        52.05
+      ],
+      "uptime": [
+        18.75,
+        18.75
+      ],
+      "speed": [
+        44.2,
+        44.2
+      ],
+      "latency": [
+        98.31,
+        98.31
+      ],
+      "loss": [
+        81.25,
+        81.25
+      ]
+    },
+    "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+    "website": "https://github.com/barry-far/V2ray-Config",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "checkedAt": "2026-11-23T17:43:30.124458+00:00",
+      "httpStatus": 200,
+      "tlsDaysLeft": 65,
+      "protocols": [
+        "hysteria2",
+        "ss",
+        "vless",
+        "vmess"
+      ]
+    }
+  },
+  {
     "slug": "v2ray-aggregator-oss",
     "name": "V2RayAggregator 开源样本",
     "color": "#0f766e",
-    "status": "normal",
+    "status": "risk",
     "nodes": 4095,
     "priceMonthly": 0.0,
     "observedDays": 1,
-    "score": 94.7,
+    "score": 51.6,
     "scores": {
-      "S": 100,
-      "P": 88,
-      "N": 96,
+      "S": 42,
+      "P": 46,
+      "N": 20,
       "C": 98,
       "R": 88
     },
@@ -65,420 +453,31 @@
     "telegram": {},
     "history": {
       "score": [
-        94.7,
-        94.7
+        51.6,
+        51.6
       ],
       "uptime": [
-        100.0,
-        100.0
+        18.75,
+        18.75
       ],
       "speed": [
-        260.0,
-        260.0
+        41.9,
+        41.9
       ],
       "latency": [
-        3.39,
-        3.39
+        126.1,
+        126.1
       ],
       "loss": [
-        0.0,
-        0.0
+        81.25,
+        81.25
       ]
     },
-    "summary": "大规模公开 URI 聚合样本，用于压测 Base64/URI 解析器与并发探针。",
+    "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
     "website": "https://github.com/mahdibland/V2RayAggregator",
     "probeMeta": {
       "mode": "tcp_passive",
-      "checkedAt": "2026-11-23T17:03:07.472690+00:00",
-      "httpStatus": 200,
-      "tlsDaysLeft": 65,
-      "protocols": [
-        "ss",
-        "trojan",
-        "vmess"
-      ]
-    }
-  },
-  {
-    "slug": "barry-v2ray-oss",
-    "name": "Barry-V2ray 开源样本",
-    "color": "#0369a1",
-    "status": "normal",
-    "nodes": 207,
-    "priceMonthly": 0.0,
-    "observedDays": 1,
-    "score": 94.3,
-    "scores": {
-      "S": 100,
-      "P": 88,
-      "N": 94,
-      "C": 98,
-      "R": 88
-    },
-    "trial": true,
-    "refund": false,
-    "founded": "2023-05",
-    "tags": [
-      "开源样本",
-      "公开研究",
-      "定时更新"
-    ],
-    "regions": [
-      "日本",
-      "美国",
-      "德国",
-      "英国",
-      "新加坡"
-    ],
-    "routes": [
-      "BGP"
-    ],
-    "clients": [
-      "v2rayN",
-      "Shadowrocket",
-      "Mihomo"
-    ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
-    "payments": [
-      "开源免费"
-    ],
-    "importMethods": [
-      "URI 列表",
-      "Base64 订阅"
-    ],
-    "plans": [
-      {
-        "name": "公开开源测试集",
-        "traffic": "不限（社区共享）",
-        "price": 0,
-        "cycle": "公开研究",
-        "devices": "测试用途"
-      }
-    ],
-    "telegram": {},
-    "history": {
-      "score": [
-        94.3,
-        94.3
-      ],
-      "uptime": [
-        100.0,
-        100.0
-      ],
-      "speed": [
-        260.0,
-        260.0
-      ],
-      "latency": [
-        3.14,
-        3.14
-      ],
-      "loss": [
-        0.0,
-        0.0
-      ]
-    },
-    "summary": "公开社区 V2Ray 配置分片样本，用于观测定时更新频率与可用率波动。",
-    "website": "https://github.com/barry-far/V2ray-Config",
-    "probeMeta": {
-      "mode": "tcp_passive",
-      "checkedAt": "2026-11-23T17:03:07.472690+00:00",
-      "httpStatus": 200,
-      "tlsDaysLeft": 65,
-      "protocols": [
-        "hysteria2",
-        "ss",
-        "vless",
-        "vmess"
-      ]
-    }
-  },
-  {
-    "slug": "pawdroid-free-oss",
-    "name": "Pawdroid 开源样本",
-    "color": "#14b8a6",
-    "status": "normal",
-    "nodes": 11,
-    "priceMonthly": 0.0,
-    "observedDays": 1,
-    "score": 93.3,
-    "scores": {
-      "S": 100,
-      "P": 88,
-      "N": 89,
-      "C": 98,
-      "R": 88
-    },
-    "trial": true,
-    "refund": false,
-    "founded": "2023-01",
-    "tags": [
-      "开源样本",
-      "公开研究",
-      "轻量集"
-    ],
-    "regions": [
-      "英国",
-      "美国"
-    ],
-    "routes": [
-      "BGP"
-    ],
-    "clients": [
-      "v2rayN",
-      "Clash Verge",
-      "Shadowrocket",
-      "Mihomo",
-      "Karing",
-      "Stash",
-      "Sing-box"
-    ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
-    "payments": [
-      "开源免费"
-    ],
-    "importMethods": [
-      "Base64 订阅"
-    ],
-    "plans": [
-      {
-        "name": "公开开源测试集",
-        "traffic": "不限（社区共享）",
-        "price": 0,
-        "cycle": "公开研究",
-        "devices": "测试用途"
-      }
-    ],
-    "telegram": {},
-    "history": {
-      "score": [
-        93.3,
-        93.3
-      ],
-      "uptime": [
-        100.0,
-        100.0
-      ],
-      "speed": [
-        260.0,
-        260.0
-      ],
-      "latency": [
-        1.67,
-        1.67
-      ],
-      "loss": [
-        0.0,
-        0.0
-      ]
-    },
-    "summary": "轻量级 Base64 公开订阅样本，用于快速端到端连通性验证。",
-    "website": "https://github.com/Pawdroid/Free-servers",
-    "probeMeta": {
-      "mode": "tcp_passive",
-      "checkedAt": "2026-11-23T17:03:07.472690+00:00",
-      "httpStatus": 200,
-      "tlsDaysLeft": 65,
-      "protocols": [
-        "ss",
-        "trojan",
-        "vless",
-        "vmess"
-      ]
-    }
-  },
-  {
-    "slug": "au1rxx-free-vpn",
-    "name": "Au1rxx 开源聚合样本",
-    "color": "#0d9488",
-    "status": "normal",
-    "nodes": 560,
-    "priceMonthly": 0.0,
-    "observedDays": 1,
-    "score": 92.75,
-    "scores": {
-      "S": 100,
-      "P": 85,
-      "N": 90,
-      "C": 98,
-      "R": 88
-    },
-    "trial": true,
-    "refund": false,
-    "founded": "2024-06",
-    "tags": [
-      "开源样本",
-      "公开研究",
-      "Clash YAML"
-    ],
-    "regions": [
-      "香港",
-      "日本",
-      "新加坡"
-    ],
-    "routes": [
-      "BGP"
-    ],
-    "clients": [
-      "Clash Verge",
-      "Mihomo",
-      "Stash",
-      "Karing",
-      "v2rayN",
-      "Shadowrocket",
-      "Sing-box"
-    ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
-    "payments": [
-      "开源免费"
-    ],
-    "importMethods": [
-      "Clash 托管",
-      "YAML 订阅"
-    ],
-    "plans": [
-      {
-        "name": "公开开源测试集",
-        "traffic": "不限（社区共享）",
-        "price": 0,
-        "cycle": "公开研究",
-        "devices": "测试用途"
-      }
-    ],
-    "telegram": {},
-    "history": {
-      "score": [
-        92.75,
-        92.75
-      ],
-      "uptime": [
-        100.0,
-        100.0
-      ],
-      "speed": [
-        260.0,
-        260.0
-      ],
-      "latency": [
-        30.55,
-        30.55
-      ],
-      "loss": [
-        0.0,
-        0.0
-      ]
-    },
-    "summary": "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。",
-    "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
-    "probeMeta": {
-      "mode": "tcp_passive",
-      "checkedAt": "2026-11-23T17:03:07.472690+00:00",
-      "httpStatus": 200,
-      "tlsDaysLeft": 65,
-      "protocols": [
-        "hysteria2",
-        "ss",
-        "trojan",
-        "vless",
-        "vmess"
-      ]
-    }
-  },
-  {
-    "slug": "nomorewalls-oss",
-    "name": "NoMoreWalls 开源样本",
-    "color": "#0891b2",
-    "status": "normal",
-    "nodes": 117,
-    "priceMonthly": 0.0,
-    "observedDays": 1,
-    "score": 88.05,
-    "scores": {
-      "S": 91,
-      "P": 81,
-      "N": 85,
-      "C": 98,
-      "R": 88
-    },
-    "trial": true,
-    "refund": false,
-    "founded": "2022-03",
-    "tags": [
-      "开源样本",
-      "公开研究",
-      "多协议"
-    ],
-    "regions": [
-      "英国",
-      "香港",
-      "日本",
-      "韩国",
-      "新加坡",
-      "美国"
-    ],
-    "routes": [
-      "BGP"
-    ],
-    "clients": [
-      "Clash Verge",
-      "Mihomo",
-      "v2rayN",
-      "Sing-box",
-      "Shadowrocket"
-    ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
-    "payments": [
-      "开源免费"
-    ],
-    "importMethods": [
-      "YAML 订阅",
-      "Base64 订阅"
-    ],
-    "plans": [
-      {
-        "name": "公开开源测试集",
-        "traffic": "不限（社区共享）",
-        "price": 0,
-        "cycle": "公开研究",
-        "devices": "测试用途"
-      }
-    ],
-    "telegram": {},
-    "history": {
-      "score": [
-        88.05,
-        88.05
-      ],
-      "uptime": [
-        87.5,
-        87.5
-      ],
-      "speed": [
-        227.5,
-        227.5
-      ],
-      "latency": [
-        15.46,
-        15.46
-      ],
-      "loss": [
-        12.5,
-        12.5
-      ]
-    },
-    "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
-    "website": "https://github.com/peasoft/NoMoreWalls",
-    "probeMeta": {
-      "mode": "tcp_passive",
-      "checkedAt": "2026-11-23T17:03:07.472690+00:00",
+      "checkedAt": "2026-11-23T17:43:30.124458+00:00",
       "httpStatus": 200,
       "tlsDaysLeft": 65,
       "protocols": [

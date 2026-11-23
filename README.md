@@ -11,15 +11,15 @@
 ## 实时自动化探测看板 (Live Snapshot)
 
 <!-- AUTO_DASHBOARD_START -->
-> 最近一次自动探测时间：`2026-11-24 01:03 UTC+8`（共 `5` 个样本，纯技术学习用途，不构成任何建议）
+> 最近一次自动探测时间：`2026-11-24 01:43 UTC+8`（共 `5` 个样本，纯技术学习用途，不构成任何建议）
 
 | 目标 | 状态 | 综合分 | 节点数 | 延迟 (ms) | 可用率 | 探测模式 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [V2RayAggregator 开源样本](https://github.com/mahdibland/V2RayAggregator) | 🟢 normal | **94.70** | 4095 | 3.39 | 100.0% | `tcp_passive` |
-| [Barry-V2ray 开源样本](https://github.com/barry-far/V2ray-Config) | 🟢 normal | **94.30** | 207 | 3.14 | 100.0% | `tcp_passive` |
-| [Pawdroid 开源样本](https://github.com/Pawdroid/Free-servers) | 🟢 normal | **93.30** | 11 | 1.67 | 100.0% | `tcp_passive` |
-| [Au1rxx 开源聚合样本](https://github.com/Au1rxx/free-vpn-subscriptions) | 🟢 normal | **92.75** | 560 | 30.55 | 100.0% | `tcp_passive` |
-| [NoMoreWalls 开源样本](https://github.com/peasoft/NoMoreWalls) | 🟢 normal | **88.05** | 117 | 15.46 | 87.5% | `tcp_passive` |
+| [Pawdroid 开源样本](https://github.com/Pawdroid/Free-servers) | 🟢 normal | **89.65** | 6 | 104.03 | 100.0% | `tcp_passive` |
+| [NoMoreWalls 开源样本](https://github.com/peasoft/NoMoreWalls) | 🟢 normal | **84.70** | 117 | 103.86 | 87.5% | `tcp_passive` |
+| [Au1rxx 开源聚合样本](https://github.com/Au1rxx/free-vpn-subscriptions) | 🟢 normal | **75.65** | 560 | 216.13 | 81.25% | `tcp_passive` |
+| [Barry-V2ray 开源样本](https://github.com/barry-far/V2ray-Config) | 🔴 risk | **52.05** | 207 | 98.31 | 18.75% | `tcp_passive` |
+| [V2RayAggregator 开源样本](https://github.com/mahdibland/V2RayAggregator) | 🔴 risk | **51.60** | 4095 | 126.1 | 18.75% | `tcp_passive` |
 <!-- AUTO_DASHBOARD_END -->
 
 ---

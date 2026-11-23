@@ -4,14 +4,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 16,
+      "total_probes": 32,
       "daily": {
         "2026-11-23": {
-          "score": 92.75,
-          "uptime": 100.0,
-          "speed": 260.0,
-          "latency": 30.55,
-          "loss": 0.0
+          "score": 75.65,
+          "uptime": 81.25,
+          "speed": 148.5,
+          "latency": 216.13,
+          "loss": 18.75
         }
       }
     },
@@ -19,13 +19,13 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 16,
+      "total_probes": 32,
       "daily": {
         "2026-11-23": {
-          "score": 88.05,
+          "score": 84.7,
           "uptime": 87.5,
-          "speed": 227.5,
-          "latency": 15.46,
+          "speed": 204.1,
+          "latency": 103.86,
           "loss": 12.5
         }
       }
@@ -34,14 +34,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 16,
+      "total_probes": 32,
       "daily": {
         "2026-11-23": {
-          "score": 94.7,
-          "uptime": 100.0,
-          "speed": 260.0,
-          "latency": 3.39,
-          "loss": 0.0
+          "score": 51.6,
+          "uptime": 18.75,
+          "speed": 41.9,
+          "latency": 126.1,
+          "loss": 81.25
         }
       }
     },
@@ -49,14 +49,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 16,
+      "total_probes": 32,
       "daily": {
         "2026-11-23": {
-          "score": 94.3,
-          "uptime": 100.0,
-          "speed": 260.0,
-          "latency": 3.14,
-          "loss": 0.0
+          "score": 52.05,
+          "uptime": 18.75,
+          "speed": 44.2,
+          "latency": 98.31,
+          "loss": 81.25
         }
       }
     },
@@ -64,13 +64,13 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 11,
+      "total_probes": 17,
       "daily": {
         "2026-11-23": {
-          "score": 93.3,
+          "score": 89.65,
           "uptime": 100.0,
-          "speed": 260.0,
-          "latency": 1.67,
+          "speed": 233.2,
+          "latency": 104.03,
           "loss": 0.0
         }
       }
