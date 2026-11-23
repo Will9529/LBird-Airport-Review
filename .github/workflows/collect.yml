@@ -2,7 +2,7 @@ name: Collect & Benchmark Snapshot
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 0 * * *" # 每天北京时间 08:00 (UTC 00:00) 执行一次
   push:
     branches:
       - main
