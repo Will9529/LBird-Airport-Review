@@ -1,0 +1,242 @@
+[
+  {
+    "id": "n-e685231f8f",
+    "category": "客户端更新",
+    "title": "8.0.1",
+    "summary": "本次更新 新增 WebUI 功能，添加无头 WebAPI 支持 - #10300 v2rayN WebAPI / WebUI 配置指南 https://github.com/2dust/v2rayN/discussions/10438 支持原生 Aot，release中下载带有…",
+    "date": "2026/11/22",
+    "url": "https://github.com/2dust/v2rayN/releases/tag/8.0.1"
+  },
+  {
+    "id": "n-d598a1280c",
+    "category": "客户端更新",
+    "title": "8.0.0",
+    "summary": "本次更新 新增 WebUI 功能，添加无头 WebAPI 支持 - #10300 v2rayN WebAPI / WebUI 配置指南 https://github.com/2dust/v2rayN/discussions/10438 支持原生 Aot，release中下载带有…",
+    "date": "2026/11/21",
+    "url": "https://github.com/2dust/v2rayN/releases/tag/8.0.0"
+  },
+  {
+    "id": "n-df79b95ba5",
+    "category": "内核动态",
+    "title": "Prerelease-Alpha",
+    "summary": "Release created at Fri Nov 20 08:50:04 CST 2026 Synchronize Alpha branch code updates, keeping only the latest version 我应该下载哪个文件? / Which f…",
+    "date": "2026/11/20",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha"
+  },
+  {
+    "id": "n-1e18aa4158",
+    "category": "内核动态",
+    "title": "v1.19.34",
+    "summary": "What's Changed 2d1a22e feat: support multiple users for shadowsocks listener ( #3383 ) by @romanov Caesar f1f640b feat: add Snell version 6…",
+    "date": "2026/11/11",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.34"
+  },
+  {
+    "id": "n-2ae3e54f13",
+    "category": "客户端更新",
+    "title": "Clash Verge Rev v2.5.10",
+    "summary": "v2.5.10 🐞 修复问题 修复全局模式缺少 GLOBAL 策略组，无法单独选择全局出口 修复服务模式下，SSH 节点的 private-key 使用私钥文件时内核无法启动 修复服务模式下，内核更新的 GEO 数据库不会同步回应用目录，导致使用新分类的规则无法通过校验 修复订…",
+    "date": "2026/11/03",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.10"
+  },
+  {
+    "id": "n-774696bb15",
+    "category": "客户端更新",
+    "title": "Clash Verge Rev v2.5.9",
+    "summary": "v2.5.9 Mihomo(Meta) 内核升级至 v1.19.33 🐞 修复问题 修复规则扩展包含空列表项时，「编辑规则」界面报错的问题 修复 重启应用后定时自动备份不执行的问题 修复托盘测速与代理页行为不一致的问题，移除托盘「测试延迟」入口 修复通过 URL 导入订阅时，即…",
+    "date": "2026/11/02",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.9"
+  },
+  {
+    "id": "n-e6694dc486",
+    "category": "内核动态",
+    "title": "1.15.0-alpha.13",
+    "summary": "📝 Release Notes Fixes and improvements",
+    "date": "2026/10/24",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.13"
+  },
+  {
+    "id": "n-5d5fbb4510",
+    "category": "内核动态",
+    "title": "1.14.4",
+    "summary": "📝 Release Notes Fixes and improvements",
+    "date": "2026/10/24",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.4"
+  },
+  {
+    "id": "n-e2d53b3e75",
+    "category": "内核动态",
+    "title": "v1.19.33",
+    "summary": "What's Changed 2df147b feat: support dns-mode for tun ( #3288 ) by @chenx Dust BUG & Fix 349af19 fix: the embedded shadowsocks listener can…",
+    "date": "2026/10/21",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.33"
+  },
+  {
+    "id": "n-1fc8c68734",
+    "category": "客户端更新",
+    "title": "7.25.6",
+    "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
+    "date": "2026/10/14",
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.6"
+  },
+  {
+    "id": "n-4cdfb08572",
+    "category": "内核动态",
+    "title": "1.15.0-alpha.12",
+    "summary": "📝 Release Notes Fixes and improvements",
+    "date": "2026/10/11",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.12"
+  },
+  {
+    "id": "n-c638b3a8d5",
+    "category": "内核动态",
+    "title": "1.15.0-alpha.11",
+    "summary": "📝 Release Notes Fixes and improvements",
+    "date": "2026/10/09",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.11"
+  },
+  {
+    "id": "n-1ad1286f59",
+    "category": "内核动态",
+    "title": "1.14.3",
+    "summary": "📝 Release Notes Fixes and improvements",
+    "date": "2026/10/09",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.3"
+  },
+  {
+    "id": "n-07dc169225",
+    "category": "客户端更新",
+    "title": "Clash Verge Rev v2.5.8",
+    "summary": "v2.5.8 🐞 修复问题 修复系统托盘代理组行不显示延迟、超时项与未测过项无法区分的问题 修复不同订阅源的同名节点测速和延迟显示指向错误节点的问题 修复端口设置混淆保存值与运行值、输入无效时缺少提示的问题 修复已有内核进程阻止启动时缺少多语言说明和处理建议的问题 修复从开始菜…",
+    "date": "2026/10/09",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.8"
+  },
+  {
+    "id": "n-470e7cd570",
+    "category": "客户端更新",
+    "title": "7.25.5",
+    "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
+    "date": "2026/10/05",
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.5"
+  },
+  {
+    "id": "n-cf414899b7",
+    "category": "内核动态",
+    "title": "1.15.0-alpha.10",
+    "summary": "📝 Release Notes Fixes and improvements",
+    "date": "2026/10/03",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.10"
+  },
+  {
+    "id": "n-1be10ddcfc",
+    "category": "客户端更新",
+    "title": "Clash Verge Rev v2.5.7",
+    "summary": "v2.5.7 🐞 修复问题 修复读屏软件将普通模式下的侧边栏导航项播报为不可用的可拖拽控件的问题 修复订阅包含自定义 DNS 时，确认开启的 DNS 覆写在重启应用后被自动关闭的问题 🖥️ Windows 修复 Windows 系统盘根目录的删除权限被误判，导致服务模式和 TU…",
+    "date": "2026/10/02",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.7"
+  },
+  {
+    "id": "n-666ff988f0",
+    "category": "客户端更新",
+    "title": "7.25.4",
+    "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
+    "date": "2026/10/02",
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.4"
+  },
+  {
+    "id": "n-58a07da5e6",
+    "category": "客户端更新",
+    "title": "Clash Verge Rev v2.5.6",
+    "summary": "v2.5.6 🐞 修复问题 修复「代理集合」「规则集合」订阅响应较慢时更新误报失败、且不显示真实失败原因的问题 🖥️ Windows 修复 Windows 部分未安装服务的用户以普通权限运行时，内核无法启动的问题 修复 Windows 系统隔离权限被误判，导致服务模式和 TUN…",
+    "date": "2026/10/01",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.6"
+  },
+  {
+    "id": "n-60c7003823",
+    "category": "客户端更新",
+    "title": "Clash Verge Rev v2.5.5",
+    "summary": "v2.5.5 🐞 修复问题 修复不同来源的订阅或规则集共用缓存路径时，服务模式无法启动内核的问题 优化文件错误日志，显示具体文件路径和失败原因 修复 DNS 覆写：空内容报错、初始值覆盖已有设置、已填写字段残留原配置、空字段在高级编辑器中缺失 修复 DNS 覆写中已填写的字段被…",
+    "date": "2026/10/01",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.5"
+  },
+  {
+    "id": "n-a923ee2696",
+    "category": "客户端更新",
+    "title": "Clash Verge Rev v2.5.4-rc.2",
+    "summary": "v2.5.4 🐞 修复问题 修复首页代理组和节点下拉菜单：再次点击无法收起或误选、小窗口显示不全、切换模式后意外展开 修复系统代理切换失败后，开关状态显示错误的问题 修复代理守卫失败后反复重试且没有提示的问题 修复未开启系统代理时，启动仍提示代理错误的问题 修复恢复备份后未按备…",
+    "date": "2026/10/01",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.4-rc.2"
+  },
+  {
+    "id": "n-ae1f4d145c",
+    "category": "内核动态",
+    "title": "v1.19.32",
+    "summary": "What's Changed 3025efa feat: add load-balance hash-key to pin a session on the inbound user ( #3133 ) by @简直蠢丶 BUG & Fix 409ee57 fix: popul…",
+    "date": "2026/09/30",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32"
+  },
+  {
+    "id": "n-ad6e3ef1a3",
+    "category": "客户端更新",
+    "title": "7.25.3",
+    "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
+    "date": "2026/09/30",
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.3"
+  },
+  {
+    "id": "n-e9b033dd2f",
+    "category": "内核动态",
+    "title": "1.15.0-alpha.9",
+    "summary": "📝 Release Notes Update NaiveProxy to 154.0.8037.49-2 Fixes and improvements",
+    "date": "2026/09/26",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.9"
+  },
+  {
+    "id": "n-c444a3d748",
+    "category": "内核动态",
+    "title": "1.15.0-alpha.8",
+    "summary": "📝 Release Notes Add dns_server_address and dns_search_domain rule items 1 Fixes and improvements 1 : Match the server addresses and search…",
+    "date": "2026/09/24",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.8"
+  },
+  {
+    "id": "n-1e8a15fd77",
+    "category": "客户端更新",
+    "title": "v2.5.4",
+    "summary": "Release 2.5.4",
+    "date": "2026/09/20",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.4"
+  },
+  {
+    "id": "n-81469e5c71",
+    "category": "客户端更新",
+    "title": "7.25.2",
+    "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
+    "date": "2026/09/20",
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.2"
+  },
+  {
+    "id": "n-a1a9d062d5",
+    "category": "内核动态",
+    "title": "v1.19.31",
+    "summary": "What's Changed dca26db feat: add EasyTier outbound ( #3194 ) by @MiaM1ku ab405ba feat: support stack: mips in tun configuration by @wwqgtxx…",
+    "date": "2026/09/14",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.31"
+  },
+  {
+    "id": "n-ab11e99d2d",
+    "category": "客户端更新",
+    "title": "7.25.1",
+    "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
+    "date": "2026/09/11",
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.1"
+  },
+  {
+    "id": "n-f54031264c",
+    "category": "内核动态",
+    "title": "v1.19.30",
+    "summary": "What's Changed e889b68 feat: support H2C and QUICv2 sniffing ( #3036 ) by @kosta 05b5334 feat: add handshake-timeout for hysteria2 by @wwqg…",
+    "date": "2026/08/16",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.30"
+  }
+]

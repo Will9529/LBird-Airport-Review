@@ -1,0 +1,140 @@
+# 监测目标配置清单
+# 说明：
+# 1. 默认收录 5 个公开开源社区测活/节点研究样本仓库，用于验证协议解析、TCP/TLS 探针与 S-P-N-C-R 评分流水线。
+# 2. 所有公开样本均明确标注“开源样本”“公开研究”，不代表任何商业背书或使用建议。
+# 3. 如需接入私有测试订阅链接，请勿写入本文件！请通过 GitHub Actions Secrets (`LBIRD_SUBSCRIPTIONS_JSON`) 注入：
+#    格式示例：{"my-target-slug": "https://example.com/sub?token=..."}
+
+airports:
+  - slug: au1rxx-free-vpn
+    name: "Au1rxx 开源聚合样本"
+    color: "#0d9488"
+    website: "https://github.com/Au1rxx/free-vpn-subscriptions"
+    public_subscription_url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml"
+    priceMonthly: 0
+    trial: true
+    refund: false
+    founded: "2024-06"
+    tags: ["开源样本", "公开研究", "Clash YAML"]
+    clients: ["Clash Verge", "Mihomo", "Stash", "Karing"]
+    payments: ["开源免费"]
+    importMethods: ["Clash 托管", "YAML 订阅"]
+    plans:
+      - name: "公开开源测试集"
+        traffic: "不限（社区共享）"
+        price: 0
+        cycle: "公开研究"
+        devices: "测试用途"
+    summary: "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。"
+
+  - slug: nomorewalls-oss
+    name: "NoMoreWalls 开源样本"
+    color: "#0891b2"
+    website: "https://github.com/peasoft/NoMoreWalls"
+    public_subscription_url: "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"
+    priceMonthly: 0
+    trial: true
+    refund: false
+    founded: "2022-03"
+    tags: ["开源样本", "公开研究", "多协议"]
+    clients: ["Clash Verge", "Mihomo", "v2rayN", "Sing-box"]
+    payments: ["开源免费"]
+    importMethods: ["YAML 订阅", "Base64 订阅"]
+    plans:
+      - name: "公开开源测试集"
+        traffic: "不限（社区共享）"
+        price: 0
+        cycle: "公开研究"
+        devices: "测试用途"
+    summary: "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。"
+
+  - slug: v2ray-aggregator-oss
+    name: "V2RayAggregator 开源样本"
+    color: "#0f766e"
+    website: "https://github.com/mahdibland/V2RayAggregator"
+    public_subscription_url: "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"
+    priceMonthly: 0
+    trial: true
+    refund: false
+    founded: "2022-08"
+    tags: ["开源样本", "公开研究", "URI 聚合"]
+    clients: ["v2rayN", "Shadowrocket", "Sing-box", "Karing"]
+    payments: ["开源免费"]
+    importMethods: ["URI 列表", "Base64 订阅"]
+    plans:
+      - name: "公开开源测试集"
+        traffic: "不限（社区共享）"
+        price: 0
+        cycle: "公开研究"
+        devices: "测试用途"
+    summary: "大规模公开 URI 聚合样本，用于压测 Base64/URI 解析器与并发探针。"
+
+  - slug: barry-v2ray-oss
+    name: "Barry-V2ray 开源样本"
+    color: "#0369a1"
+    website: "https://github.com/barry-far/V2ray-Config"
+    public_subscription_url: "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt"
+    priceMonthly: 0
+    trial: true
+    refund: false
+    founded: "2023-05"
+    tags: ["开源样本", "公开研究", "定时更新"]
+    clients: ["v2rayN", "Shadowrocket", "Mihomo"]
+    payments: ["开源免费"]
+    importMethods: ["URI 列表", "Base64 订阅"]
+    plans:
+      - name: "公开开源测试集"
+        traffic: "不限（社区共享）"
+        price: 0
+        cycle: "公开研究"
+        devices: "测试用途"
+    summary: "公开社区 V2Ray 配置分片样本，用于观测定时更新频率与可用率波动。"
+
+  - slug: pawdroid-free-oss
+    name: "Pawdroid 开源样本"
+    color: "#14b8a6"
+    website: "https://github.com/Pawdroid/Free-servers"
+    public_subscription_url: "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    priceMonthly: 0
+    trial: true
+    refund: false
+    founded: "2023-01"
+    tags: ["开源样本", "公开研究", "轻量集"]
+    clients: ["v2rayN", "Clash Verge", "Shadowrocket"]
+    payments: ["开源免费"]
+    importMethods: ["Base64 订阅"]
+    plans:
+      - name: "公开开源测试集"
+        traffic: "不限（社区共享）"
+        price: 0
+        cycle: "公开研究"
+        devices: "测试用途"
+    summary: "轻量级 Base64 公开订阅样本，用于快速端到端连通性验证。"
+
+# ---------------------------------------------------------------------------
+# 自定义目标模板（可直接复制并取消注释后修改，或在 GitHub 网页端编辑提交）
+# ---------------------------------------------------------------------------
+# - slug: custom-provider-slug
+#   name: "示例名称"
+#   color: "#0d9488"
+#   website: "https://example.com"
+#   priceMonthly: 15
+#   trial: false
+#   refund: false
+#   founded: "2024-01"
+#   tags: ["IEPL专线", "月付"]
+#   routes: ["IEPL", "BGP"]
+#   clients: ["Clash Verge", "Mihomo", "v2rayN"]
+#   streaming: ["Netflix", "ChatGPT"]
+#   payments: ["支付宝", "USDT"]
+#   importMethods: ["一键订阅", "Clash 托管"]
+#   telegram:
+#     channel: "example_channel"   # 仅填频道用户名（不含 @ 或 https://t.me/）
+#     group: "example_group"
+#   plans:
+#     - name: "标准月付"
+#       traffic: "150 GB"
+#       price: 15
+#       cycle: "月付"
+#       devices: "3 台"
+#   summary: "简短客观描述。"

@@ -1,0 +1,79 @@
+{
+  "targets": {
+    "au1rxx-free-vpn": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 16,
+      "daily": {
+        "2026-11-23": {
+          "score": 92.75,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 30.55,
+          "loss": 0.0
+        }
+      }
+    },
+    "nomorewalls-oss": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 16,
+      "daily": {
+        "2026-11-23": {
+          "score": 88.05,
+          "uptime": 87.5,
+          "speed": 227.5,
+          "latency": 15.46,
+          "loss": 12.5
+        }
+      }
+    },
+    "v2ray-aggregator-oss": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 16,
+      "daily": {
+        "2026-11-23": {
+          "score": 94.7,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 3.39,
+          "loss": 0.0
+        }
+      }
+    },
+    "barry-v2ray-oss": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 16,
+      "daily": {
+        "2026-11-23": {
+          "score": 94.3,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 3.14,
+          "loss": 0.0
+        }
+      }
+    },
+    "pawdroid-free-oss": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 11,
+      "daily": {
+        "2026-11-23": {
+          "score": 93.3,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 1.67,
+          "loss": 0.0
+        }
+      }
+    }
+  }
+}

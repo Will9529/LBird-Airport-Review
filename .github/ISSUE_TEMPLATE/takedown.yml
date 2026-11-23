@@ -1,0 +1,30 @@
+name: "下架 / 移除申请 (Notice & Takedown)"
+description: "请求从 LBird-Airport-Review 采集配置与公开数据中移除指定条目"
+title: "[Takedown] 移除申请: "
+labels: ["takedown"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        本项目仅作纯技术学习研究，不构成任何建议。如您希望从本仓库永久移除某个条目或域名，请填写以下信息，我们将在核实后 48 小时内加入 `config/denylist.yaml` 并清理对应数据。
+  - type: input
+    id: target_slug
+    attributes:
+      label: "目标名称或 Slug"
+      placeholder: "例如: example-sample"
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: "涉及域名或链接"
+      placeholder: "https://example.com"
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: "申请说明"
+      placeholder: "请简述移除原因或权属证明方式"
+    validations:
+      required: true

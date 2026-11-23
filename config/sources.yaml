@@ -1,0 +1,36 @@
+# LBird 采集源与探测策略配置
+user_agent: "LBird-Research-Bot/1.0 (+https://github.com/Will9529/LBird-Airport-Review)"
+
+http:
+  timeout_sec: 12.0
+  max_concurrency: 6
+  per_domain_delay_sec: 0.8
+  respect_robots_txt: true
+
+probe:
+  tcp_sample_size: 16
+  tcp_timeout_sec: 4.0
+  enable_cli_speedtest: false
+
+# 新闻资讯 RSS / Atom 源（用于自动更新 News 列表）
+news_feeds:
+  - url: "https://github.com/MetaCubeX/mihomo/releases.atom"
+    category: "内核动态"
+  - url: "https://github.com/SagerNet/sing-box/releases.atom"
+    category: "内核动态"
+  - url: "https://github.com/clash-verge-rev/clash-verge-rev/releases.atom"
+    category: "客户端更新"
+  - url: "https://github.com/2dust/v2rayN/releases.atom"
+    category: "客户端更新"
+
+# 外部目录订阅源（支持 JSON 数组 / YAML 列表 / Markdown 表格，默认留空）
+# 示例:
+#   - url: "https://example.com/public-directory.json"
+#     format: "json"
+directory_feeds: []
+
+# 外部风险与失联预警源（支持 JSON / Markdown 列表，默认留空）
+# 示例:
+#   - url: "https://example.com/risk-feed.json"
+#     format: "json"
+risk_feeds: []
