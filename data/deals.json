@@ -98,5 +98,225 @@
     "stackable": false,
     "refundable": false,
     "active": true
+  },
+  {
+    "airportSlug": "edgenova",
+    "code": "EN888",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-1406c035",
+    "code": "KEXIN85",
+    "discount": "券后参考 ¥12.75",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-b90a295c",
+    "code": "sj888",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-36a9d023",
+    "code": "wuyou666",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-b16d7c96",
+    "code": "rabbit",
+    "discount": "券后参考 ¥17.91",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-36cceebb",
+    "code": "kuajie",
+    "discount": "券后参考 ¥16",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-094a7af3",
+    "code": "mm88",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-72ee0825",
+    "code": "1FLYYUN",
+    "discount": "券后参考 ¥18",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-0955fbc8",
+    "code": "ermao888",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "u1s1",
+    "code": "U1S1",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-c9ad2d12",
+    "code": "ld88",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-c2a3b1cc",
+    "code": "shanyue",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-0adc0e35",
+    "code": "yxr888",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "firefly",
+    "code": "firefly",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-ccfd5bab",
+    "code": "nmw888",
+    "discount": "券后参考 ¥22.5",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "sogo",
+    "code": "SOGO88",
+    "discount": "券后参考 ¥22",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-23d38921",
+    "code": "YUZHOU553",
+    "discount": "券后参考 ¥20",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "flyv",
+    "code": "fly20",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-332c00eb",
+    "code": "tiziyun",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-18c4c2ab",
+    "code": "lw88",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "cloud",
+    "code": "ikds88",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-443c627c",
+    "code": "ll88",
+    "discount": "目录收录优惠码",
+    "plans": "月付套餐",
+    "dateRange": "以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
   }
 ]

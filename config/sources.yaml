@@ -26,10 +26,11 @@ news_feeds:
 # 公开开源机场目录订阅源（每日自动拉取并去重合并）
 directory_feeds:
   - url: "https://raw.githubusercontent.com/everett7623/airport-recommendations-2026/main/data/airports.json"
+    ratings_url: "https://raw.githubusercontent.com/everett7623/airport-recommendations-2026/main/data/ratings.json"
     format: "everett_jsonc"
-  - url: "https://raw.githubusercontent.com/gedinked/airport-recommendation/main/README.md"
-    format: "markdown"
   - url: "https://raw.githubusercontent.com/jichangyyds-net/jichang-tuijian-shice/main/README.md"
+    format: "jichangyyds_markdown"
+  - url: "https://raw.githubusercontent.com/gedinked/airport-recommendation/main/README.md"
     format: "markdown"
   - url: "https://raw.githubusercontent.com/clashhubs/jichang-tuijian-clash/main/README.md"
     format: "markdown"

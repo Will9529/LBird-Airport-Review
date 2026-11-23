@@ -70,28 +70,64 @@ def evaluate_target(
         probe_mode = "risk_feed"
     elif is_directory_only:
         price = float(entry.get("priceMonthly") if entry.get("priceMonthly") is not None else 15.0)
+        nodes_count = int(entry.get("nodes") or 0)
+        ext_rating = entry.get("externalRating")
+        has_bench = any(k in entry for k in ("benchSpeedMbps", "benchLatencyMs", "benchUptime"))
+
+        uptime_pct = float(entry.get("benchUptime") or (96.0 if has_bench else 92.0))
+        latency_ms = float(entry.get("benchLatencyMs") or 85.0)
+        speed_mbps = float(entry.get("benchSpeedMbps") or 120.0)
+        loss_pct = round(max(0.0, 100.0 - uptime_pct), 2) if has_bench else 1.2
+
+        # Differentiate S/P/N/C/R using real parsed benchmark metrics + external ratings when available
+        if ext_rating is not None:
+            base_s = 58.0 + float(ext_rating) * 7.5
+        else:
+            base_s = 74.0
+        if has_bench:
+            base_s = max(base_s, uptime_pct * 0.94)
+        score_s = int(round(clamp(base_s, 45.0, 96.0)))
+
+        if "benchSpeedMbps" in entry:
+            p_raw = 52.0 + min(45.0, speed_mbps / 15.0)
+        elif ext_rating is not None:
+            p_raw = 55.0 + float(ext_rating) * 6.5
+        else:
+            p_raw = 72.0
+        score_p = int(round(clamp(p_raw, 45.0, 96.0)))
+
+        if "benchLatencyMs" in entry:
+            n_raw = 94.0 - max(0.0, (latency_ms - 35.0) / 4.5)
+        elif nodes_count > 0:
+            n_raw = 70.0 + min(18.0, nodes_count / 5.0)
+        else:
+            n_raw = 74.0
+        score_n = int(round(clamp(n_raw, 45.0, 96.0)))
+
         c_raw = 95.0 if price <= 0 else (104.0 - price * 1.05)
         if entry.get("trial"):
             c_raw += 4.0
         if entry.get("refund"):
             c_raw += 3.0
         score_c = int(round(clamp(c_raw, 45.0, 98.0)))
-        score_r = 35 if risk_reason else 74
-        scores = {"S": 78, "P": 74, "N": 76, "C": score_c, "R": score_r}
+
+        r_raw = 35.0 if risk_reason else (72.0 + (float(ext_rating) * 3.0 if ext_rating is not None else 2.0))
+        score_r = int(round(clamp(r_raw)))
+
+        scores = {"S": score_s, "P": score_p, "N": score_n, "C": score_c, "R": score_r}
         total_score = compute_weighted_score(scores)
-        uptime_pct = 92.0 if not risk_reason else 30.0
-        latency_ms = 85.0
-        loss_pct = 1.2 if not risk_reason else 35.0
-        speed_mbps = 140.0 if not risk_reason else 20.0
+        if risk_reason:
+            uptime_pct = 30.0
+            loss_pct = 35.0
+            speed_mbps = 20.0
         consecutive_failures = 0 if not risk_reason else 3
         status = "risk" if risk_reason else "normal"
         regions = list(entry.get("regions") or ["香港", "日本", "新加坡", "美国"])
         routes = list(entry.get("routes") or ["BGP"])
         clients = list(entry.get("clients") or ["Clash Verge", "Mihomo", "v2rayN"])
         payments = list(entry.get("payments") or ["支付宝", "USDT"])
-        nodes_count = int(entry.get("nodes") or 24)
         summary = risk_reason or str(entry.get("summary") or "公开目录收录观测中。")
-        probe_mode = "directory_index"
+        probe_mode = "directory_bench" if has_bench else "directory_index"
     else:
         # Determine probe reachability for consecutive failure streak
         probe_ok = web.ok or (sub.probed and (sub.uptime_pct or 0) >= 30.0)

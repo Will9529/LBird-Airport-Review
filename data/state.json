@@ -4,14 +4,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 64,
+      "total_probes": 96,
       "daily": {
         "2026-11-23": {
-          "score": 75.65,
-          "uptime": 81.25,
-          "speed": 146.3,
-          "latency": 222.18,
-          "loss": 18.75
+          "score": 87.9,
+          "uptime": 100.0,
+          "speed": 214.3,
+          "latency": 145.97,
+          "loss": 0.0
         }
       }
     },
@@ -19,14 +19,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 64,
+      "total_probes": 96,
       "daily": {
         "2026-11-23": {
-          "score": 77.75,
-          "uptime": 81.25,
-          "speed": 157.5,
-          "latency": 191.33,
-          "loss": 18.75
+          "score": 88.3,
+          "uptime": 87.5,
+          "speed": 227.5,
+          "latency": 4.94,
+          "loss": 12.5
         }
       }
     },
@@ -34,14 +34,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 64,
+      "total_probes": 96,
       "daily": {
         "2026-11-23": {
-          "score": 53.75,
-          "uptime": 18.75,
-          "speed": 46.1,
-          "latency": 75.27,
-          "loss": 81.25
+          "score": 94.7,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 1.58,
+          "loss": 0.0
         }
       }
     },
@@ -49,14 +49,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 64,
+      "total_probes": 96,
       "daily": {
         "2026-11-23": {
-          "score": 49.9,
-          "uptime": 18.75,
-          "speed": 39.3,
-          "latency": 156.82,
-          "loss": 81.25
+          "score": 94.3,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 2.09,
+          "loss": 0.0
         }
       }
     },
@@ -64,13 +64,13 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 31,
+      "total_probes": 49,
       "daily": {
         "2026-11-23": {
-          "score": 86.15,
+          "score": 93.3,
           "uptime": 100.0,
-          "speed": 200.0,
-          "latency": 177.74,
+          "speed": 260.0,
+          "latency": 1.32,
           "loss": 0.0
         }
       }
@@ -79,12 +79,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 76.5,
+          "score": 73.5,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -94,12 +94,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 74.7,
+          "score": 72.6,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -109,12 +109,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 71.25,
+          "score": 76.6,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -124,12 +124,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 75.45,
+          "score": 73.35,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -139,12 +139,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 71.25,
+          "score": 69.15,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -154,12 +154,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.05,
+          "score": 76.95,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -169,14 +169,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 91.35,
+          "uptime": 96.67,
+          "speed": 586.0,
+          "latency": 50.0,
+          "loss": 3.33
         }
       }
     },
@@ -184,14 +184,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 93.0,
+          "uptime": 98.82,
+          "speed": 1165.1,
+          "latency": 41.0,
+          "loss": 1.18
         }
       }
     },
@@ -199,14 +199,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.25,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 92.05,
+          "uptime": 100.0,
+          "speed": 656.5,
+          "latency": 41.5,
+          "loss": 0.0
         }
       }
     },
@@ -214,14 +214,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 78.9,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 93.7,
+          "uptime": 100.0,
+          "speed": 728.2,
+          "latency": 37.5,
+          "loss": 0.0
         }
       }
     },
@@ -229,14 +229,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 92.8,
+          "uptime": 100.0,
+          "speed": 754.0,
+          "latency": 42.5,
+          "loss": 0.0
         }
       }
     },
@@ -244,12 +244,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
+          "score": 77.1,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -259,12 +259,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
+          "score": 77.1,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -274,14 +274,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 78.9,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 93.2,
+          "uptime": 100.0,
+          "speed": 746.6,
+          "latency": 36.0,
+          "loss": 0.0
         }
       }
     },
@@ -289,14 +289,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.1,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 91.4,
+          "uptime": 100.0,
+          "speed": 631.5,
+          "latency": 11.0,
+          "loss": 0.0
         }
       }
     },
@@ -304,12 +304,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
+          "score": 77.1,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -319,12 +319,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 78.3,
+          "score": 76.2,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -334,12 +334,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 71.25,
+          "score": 69.15,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -349,12 +349,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 74.7,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -364,12 +364,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 78.75,
+          "score": 76.65,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -379,14 +379,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 88.65,
+          "uptime": 98.86,
+          "speed": 438.1,
+          "latency": 51.0,
+          "loss": 1.14
         }
       }
     },
@@ -394,12 +394,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.05,
+          "score": 79.95,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -409,12 +409,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 78.3,
+          "score": 75.3,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -424,12 +424,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
+          "score": 76.2,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -439,12 +439,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
+          "score": 76.2,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -454,12 +454,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 76.65,
+          "score": 77.55,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -469,12 +469,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 76.5,
+          "score": 73.5,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -484,12 +484,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 79.2,
+          "score": 84.55,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -499,12 +499,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 76.5,
+          "score": 79.0,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -514,14 +514,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 78.9,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 89.9,
+          "uptime": 97.73,
+          "speed": 483.8,
+          "latency": 37.0,
+          "loss": 2.27
         }
       }
     },
@@ -529,12 +529,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 73.95,
+          "score": 71.85,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -544,12 +544,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.1,
+          "score": 74.1,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -559,14 +559,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 78.9,
-          "uptime": 92.0,
-          "speed": 140.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 92.7,
+          "uptime": 100.0,
+          "speed": 972.4,
+          "latency": 38.0,
+          "loss": 0.0
         }
       }
     },
@@ -574,12 +574,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 78.0,
+          "score": 75.9,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -589,12 +589,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 73.05,
+          "score": 70.05,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -604,12 +604,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 75.3,
+          "score": 72.3,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -619,12 +619,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 76.95,
+          "score": 70.05,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -634,12 +634,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 74.7,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -649,12 +649,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 76.95,
+          "score": 77.85,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -663,8 +663,8 @@
     "skylumo": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -678,8 +678,8 @@
     "sogo": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -693,8 +693,8 @@
     "onestep": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -709,14 +709,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 86.25,
-          "uptime": 98.0,
-          "speed": 199.1,
-          "latency": 170.83,
-          "loss": 0.5
+          "score": 81.8,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -724,14 +724,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 90.2,
-          "uptime": 98.0,
-          "speed": 244.6,
-          "latency": 67.61,
-          "loss": 0.5
+          "score": 92.5,
+          "uptime": 100.0,
+          "speed": 913.3,
+          "latency": 39.0,
+          "loss": 0.0
         }
       }
     },
@@ -739,14 +739,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 84.7,
-          "uptime": 98.0,
-          "speed": 193.1,
-          "latency": 184.4,
-          "loss": 0.5
+          "score": 92.7,
+          "uptime": 100.0,
+          "speed": 764.8,
+          "latency": 37.0,
+          "loss": 0.0
         }
       }
     },
@@ -754,14 +754,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 85.05,
-          "uptime": 98.0,
-          "speed": 200.8,
-          "latency": 166.86,
-          "loss": 0.5
+          "score": 92.4,
+          "uptime": 100.0,
+          "speed": 984.8,
+          "latency": 36.5,
+          "loss": 0.0
         }
       }
     },
@@ -769,14 +769,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 76.55,
-          "uptime": 98.0,
-          "speed": 119.4,
-          "latency": 351.51,
-          "loss": 0.5
+          "score": 92.05,
+          "uptime": 100.0,
+          "speed": 1002.8,
+          "latency": 40.5,
+          "loss": 0.0
         }
       }
     },
@@ -799,14 +799,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 81.6,
-          "uptime": 98.0,
-          "speed": 176.2,
-          "latency": 222.64,
-          "loss": 0.5
+          "score": 78.45,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -814,14 +814,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 88.85,
-          "uptime": 98.0,
-          "speed": 243.5,
-          "latency": 70.01,
-          "loss": 0.5
+          "score": 74.25,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -829,14 +829,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 85.25,
-          "uptime": 98.0,
-          "speed": 213.9,
-          "latency": 137.09,
-          "loss": 0.5
+          "score": 74.1,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -844,14 +844,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 85.2,
-          "uptime": 98.0,
-          "speed": 207.0,
-          "latency": 152.93,
-          "loss": 0.5
+          "score": 74.1,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -859,14 +859,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 85.7,
-          "uptime": 98.0,
-          "speed": 217.8,
-          "latency": 128.29,
-          "loss": 0.5
+          "score": 74.1,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -874,14 +874,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 86.2,
-          "uptime": 98.0,
-          "speed": 223.5,
-          "latency": 115.5,
-          "loss": 0.5
+          "score": 73.2,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -889,14 +889,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 82.95,
-          "uptime": 98.0,
-          "speed": 200.9,
-          "latency": 166.56,
-          "loss": 0.5
+          "score": 73.2,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -904,14 +904,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 88.8,
-          "uptime": 98.0,
-          "speed": 239.4,
-          "latency": 79.45,
-          "loss": 0.5
+          "score": 80.55,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -919,14 +919,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 89.5,
-          "uptime": 98.0,
-          "speed": 249.2,
-          "latency": 57.07,
-          "loss": 0.5
+          "score": 74.85,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -934,14 +934,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 86.15,
-          "uptime": 98.0,
-          "speed": 213.3,
-          "latency": 138.46,
-          "loss": 0.5
+          "score": 90.55,
+          "uptime": 96.97,
+          "speed": 693.8,
+          "latency": 41.0,
+          "loss": 3.03
         }
       }
     },
@@ -949,14 +949,14 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 85.55,
-          "uptime": 98.0,
-          "speed": 209.5,
-          "latency": 147.27,
-          "loss": 0.5
+          "score": 74.85,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     },
@@ -979,12 +979,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 77.1,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -994,12 +994,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 76.05,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1009,12 +1009,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 76.65,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1024,12 +1024,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 77.1,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1039,12 +1039,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 77.1,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1054,12 +1054,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 77.1,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1069,12 +1069,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 77.1,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1084,12 +1084,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 3,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 75.6,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1099,12 +1099,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 75.6,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1114,12 +1114,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 75.6,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1129,12 +1129,12 @@
       "first_seen": "2026-11-23",
       "observed_days": 1,
       "consecutive_failures": 0,
-      "total_probes": 2,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
-          "score": 77.7,
+          "score": 78.4,
           "uptime": 92.0,
-          "speed": 140.0,
+          "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
         }
@@ -1143,8 +1143,8 @@
     "ap-6bf271a1": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1158,8 +1158,8 @@
     "fccloud": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1173,8 +1173,8 @@
     "spcloud": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1188,8 +1188,8 @@
     "efcloud": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1203,8 +1203,8 @@
     "aca": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1218,8 +1218,8 @@
     "ap-f18ec922": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1233,8 +1233,8 @@
     "duangcloud": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1248,8 +1248,8 @@
     "leensa": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1263,8 +1263,8 @@
     "ap-8c5d34f7": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1278,8 +1278,8 @@
     "bhcloud": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1293,8 +1293,8 @@
     "ap-e8f4ed4a": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1308,8 +1308,8 @@
     "v2club": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1323,8 +1323,8 @@
     "ap-2be9e6eb": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1338,8 +1338,8 @@
     "xlm-cloud": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1353,8 +1353,8 @@
     "fastlink": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1368,8 +1368,8 @@
     "ap-390986f5": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1383,8 +1383,8 @@
     "boomcloud": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1398,8 +1398,8 @@
     "clm": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1413,8 +1413,8 @@
     "creamdata": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1428,8 +1428,8 @@
     "tly": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1443,8 +1443,8 @@
     "skicat-catree": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1458,8 +1458,8 @@
     "ap-1ff58acc": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1473,8 +1473,8 @@
     "ap-1a012af7": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1488,8 +1488,8 @@
     "naiunet": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1503,8 +1503,8 @@
     "chiselwall": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1518,8 +1518,8 @@
     "sockboom": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1533,8 +1533,8 @@
     "ap-9e0019b6": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1548,8 +1548,8 @@
     "tpap": {
       "first_seen": "2026-11-23",
       "observed_days": 1,
-      "consecutive_failures": 4,
-      "total_probes": 2,
+      "consecutive_failures": 6,
+      "total_probes": 4,
       "daily": {
         "2026-11-23": {
           "score": 30.8,
@@ -1557,6 +1557,141 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      }
+    },
+    "ap-fb6a73a4": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 2,
+      "daily": {
+        "2026-11-23": {
+          "score": 74.4,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-3b819696": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 2,
+      "daily": {
+        "2026-11-23": {
+          "score": 74.1,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-04303cc5": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 75.6,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "xiyou": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 2,
+      "daily": {
+        "2026-11-23": {
+          "score": 76.65,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "flybit-flybit": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 2,
+      "daily": {
+        "2026-11-23": {
+          "score": 75.6,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "feiniaoyun": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 2,
+      "daily": {
+        "2026-11-23": {
+          "score": 76.5,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "jike-cloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 2,
+      "daily": {
+        "2026-11-23": {
+          "score": 71.7,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "jisu-cloud": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 2,
+      "daily": {
+        "2026-11-23": {
+          "score": 75.45,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
+        }
+      }
+    },
+    "ap-b70c2d28": {
+      "first_seen": "2026-11-23",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-23": {
+          "score": 75.6,
+          "uptime": 92.0,
+          "speed": 120.0,
+          "latency": 85.0,
+          "loss": 1.2
         }
       }
     }

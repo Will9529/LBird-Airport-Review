@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from lbird.collectors.catalog_collector import make_slug, parse_everett_jsonc, sanitize_website_url
+from lbird.collectors.catalog_collector import make_slug, parse_everett_jsonc, parse_jichangyyds_markdown, sanitize_website_url
 from lbird.collectors.news_collector import parse_feed_xml
 from lbird.collectors.risk_feed_collector import parse_jichangx_markdown
 from lbird.collectors.telegram_collector import parse_telegram_preview_html
@@ -59,7 +59,34 @@ def test_slug_and_url_sanitization():
     assert make_slug("Forest") == "forest"
     assert make_slug("青风云网").startswith("ap-")
     assert sanitize_website_url("https://go.uukk.de/forest") == "#"
+    assert sanitize_website_url("https://www.jichangyyds.com/brands/edgenova/") == "#"
     assert sanitize_website_url("https://example.org/panel?aff=123&lang=zh") == "https://example.org/panel?lang=zh"
+
+
+def test_parse_jichangyyds_markdown_and_ratings():
+    md = """
+| 机场品牌 | 最低月付 | 优惠码 | 券后 | 编辑评分 | 节点数 |
+| --- | ---: | --- | ---: | ---: | ---: |
+| [测试云](https://www.jichangyyds.com/brands/ceshi/) | ¥18 | `TEST88` | ¥15.84 | 4.2 | 45 |
+
+| 机场品牌 | 可用/总节点 | 香港中位速度 | 香港中位延迟 | 测试入口 | 数据来源 |
+| --- | ---: | ---: | ---: | --- | --- |
+| [测试云](https://www.jichangyyds.com/brands/ceshi/) | 44/45 | 80.0 MB/s | 42 ms | A | 本站实测 |
+
+| # | 机场品牌 | 套餐 | 流量 | 价格 | 每 GB |
+| ---: | --- | --- | --- | ---: | ---: |
+| 1 | [测试云](https://www.jichangyyds.com/brands/ceshi/) | 标准版 | 200GB | ¥18/月 | ¥0.09 |
+"""
+    entries, deals = parse_jichangyyds_markdown(md)
+    assert len(entries) == 1
+    e = entries[0]
+    assert e["nodes"] == 45
+    assert e["externalRating"] == 4.2
+    assert e["benchSpeedMbps"] == 640.0
+    assert e["benchLatencyMs"] == 42.0
+    assert e["benchUptime"] == 97.78
+    assert len(e["plans"]) == 1
+    assert len(deals) == 1 and deals[0]["code"] == "TEST88"
 
 
 def test_parse_everett_jsonc_and_jichangx_risk():
