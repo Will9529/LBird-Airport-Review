@@ -1,212 +1,17 @@
 [
   {
-    "slug": "au1rxx-free-vpn",
-    "name": "Au1rxx 开源聚合样本",
-    "color": "#0d9488",
-    "status": "watch",
-    "nodes": 560,
-    "priceMonthly": 0.0,
-    "observedDays": 1,
-    "score": 74.25,
-    "scores": {
-      "S": 82,
-      "P": 63,
-      "N": 52,
-      "C": 98,
-      "R": 88
-    },
-    "trial": true,
-    "refund": false,
-    "founded": "2024-06",
-    "tags": [
-      "开源样本",
-      "公开研究",
-      "Clash YAML"
-    ],
-    "regions": [
-      "香港",
-      "日本",
-      "新加坡"
-    ],
-    "routes": [
-      "BGP"
-    ],
-    "clients": [
-      "Clash Verge",
-      "Mihomo",
-      "Stash",
-      "Karing",
-      "v2rayN",
-      "Shadowrocket",
-      "Sing-box"
-    ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
-    "payments": [
-      "开源免费"
-    ],
-    "importMethods": [
-      "Clash 托管",
-      "YAML 订阅"
-    ],
-    "plans": [
-      {
-        "name": "公开开源测试集",
-        "traffic": "不限（社区共享）",
-        "price": 0,
-        "cycle": "公开研究",
-        "devices": "测试用途"
-      }
-    ],
-    "telegram": {},
-    "history": {
-      "score": [
-        74.25,
-        74.25
-      ],
-      "uptime": [
-        75.0,
-        75.0
-      ],
-      "speed": [
-        145.9,
-        145.9
-      ],
-      "latency": [
-        190.01,
-        190.01
-      ],
-      "loss": [
-        25.0,
-        25.0
-      ]
-    },
-    "summary": "近期连通性存在波动（探测可用率 75.0%、中位延迟 190ms），持续观测中。",
-    "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
-    "probeMeta": {
-      "mode": "tcp_passive",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
-      "httpStatus": 200,
-      "tlsDaysLeft": 65,
-      "protocols": [
-        "hysteria2",
-        "ss",
-        "trojan",
-        "vless",
-        "vmess"
-      ]
-    }
-  },
-  {
-    "slug": "barry-v2ray-oss",
-    "name": "Barry-V2ray 开源样本",
-    "color": "#0369a1",
-    "status": "risk",
-    "nodes": 207,
-    "priceMonthly": 0.0,
-    "observedDays": 1,
-    "score": 51.65,
-    "scores": {
-      "S": 42,
-      "P": 47,
-      "N": 19,
-      "C": 98,
-      "R": 88
-    },
-    "trial": true,
-    "refund": false,
-    "founded": "2023-05",
-    "tags": [
-      "开源样本",
-      "公开研究",
-      "定时更新"
-    ],
-    "regions": [
-      "日本",
-      "美国",
-      "德国",
-      "英国",
-      "新加坡"
-    ],
-    "routes": [
-      "BGP"
-    ],
-    "clients": [
-      "v2rayN",
-      "Shadowrocket",
-      "Mihomo"
-    ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
-    "payments": [
-      "开源免费"
-    ],
-    "importMethods": [
-      "URI 列表",
-      "Base64 订阅"
-    ],
-    "plans": [
-      {
-        "name": "公开开源测试集",
-        "traffic": "不限（社区共享）",
-        "price": 0,
-        "cycle": "公开研究",
-        "devices": "测试用途"
-      }
-    ],
-    "telegram": {},
-    "history": {
-      "score": [
-        51.65,
-        51.65
-      ],
-      "uptime": [
-        18.75,
-        18.75
-      ],
-      "speed": [
-        43.0,
-        43.0
-      ],
-      "latency": [
-        112.37,
-        112.37
-      ],
-      "loss": [
-        81.25,
-        81.25
-      ]
-    },
-    "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
-    "website": "https://github.com/barry-far/V2ray-Config",
-    "probeMeta": {
-      "mode": "tcp_passive",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
-      "httpStatus": 200,
-      "tlsDaysLeft": 65,
-      "protocols": [
-        "hysteria2",
-        "ss",
-        "vless",
-        "vmess"
-      ]
-    }
-  },
-  {
     "slug": "v2ray-aggregator-oss",
     "name": "V2RayAggregator 开源样本",
     "color": "#0f766e",
     "status": "risk",
-    "nodes": 4095,
+    "nodes": 4113,
     "priceMonthly": 0.0,
-    "observedDays": 1,
-    "score": 49.25,
+    "observedDays": 2,
+    "score": 59.6,
     "scores": {
-      "S": 42,
-      "P": 43,
-      "N": 12,
+      "S": 50,
+      "P": 54,
+      "N": 38,
       "C": 98,
       "R": 88
     },
@@ -221,11 +26,11 @@
     "regions": [
       "美国",
       "英国",
+      "日本",
       "德国",
       "新加坡",
-      "日本",
-      "韩国",
       "香港",
+      "韩国",
       "台湾"
     ],
     "routes": [
@@ -261,35 +66,131 @@
     "history": {
       "score": [
         49.25,
-        49.25
+        59.6
       ],
       "uptime": [
         18.75,
-        18.75
+        31.25
       ],
       "speed": [
         36.5,
-        36.5
+        78.6
       ],
       "latency": [
         189.88,
-        189.88
+        63.25
       ],
       "loss": [
         81.25,
-        81.25
+        68.75
       ]
     },
-    "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+    "summary": "自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。",
     "website": "https://github.com/mahdibland/V2RayAggregator",
     "probeMeta": {
       "mode": "tcp_passive",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": 200,
-      "tlsDaysLeft": 65,
+      "tlsDaysLeft": 64,
       "protocols": [
         "ss",
         "trojan",
+        "vmess"
+      ]
+    }
+  },
+  {
+    "slug": "barry-v2ray-oss",
+    "name": "Barry-V2ray 开源样本",
+    "color": "#0369a1",
+    "status": "risk",
+    "nodes": 192,
+    "priceMonthly": 0.0,
+    "observedDays": 2,
+    "score": 58.55,
+    "scores": {
+      "S": 55,
+      "P": 51,
+      "N": 29,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2023-05",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "定时更新"
+    ],
+    "regions": [
+      "德国",
+      "美国",
+      "日本",
+      "新加坡",
+      "英国"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "v2rayN",
+      "Shadowrocket",
+      "Mihomo"
+    ],
+    "streaming": [
+      "未测(数据中心IP)"
+    ],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "URI 列表",
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        51.65,
+        58.55
+      ],
+      "uptime": [
+        18.75,
+        37.5
+      ],
+      "speed": [
+        43.0,
+        78.4
+      ],
+      "latency": [
+        112.37,
+        157.72
+      ],
+      "loss": [
+        81.25,
+        62.5
+      ]
+    },
+    "summary": "自动化探测连续 0 次异常（可用率 37.5%），已触发风险观察。",
+    "website": "https://github.com/barry-far/V2ray-Config",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+      "httpStatus": 200,
+      "tlsDaysLeft": 64,
+      "protocols": [
+        "hysteria2",
+        "ss",
+        "vless",
         "vmess"
       ]
     }
@@ -301,7 +202,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 9.9,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -366,7 +267,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -379,7 +280,7 @@
     "status": "risk",
     "nodes": 45,
     "priceMonthly": 15.9,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -444,7 +345,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -457,7 +358,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 5.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -522,7 +423,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -535,7 +436,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -600,7 +501,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -613,7 +514,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -678,7 +579,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -691,7 +592,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -756,7 +657,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -769,7 +670,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -834,7 +735,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -847,7 +748,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -912,7 +813,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -925,7 +826,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -990,7 +891,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1003,7 +904,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1068,7 +969,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1081,7 +982,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1146,7 +1047,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1159,7 +1060,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1224,7 +1125,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1237,7 +1138,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1302,7 +1203,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1315,7 +1216,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1380,7 +1281,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1393,7 +1294,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1458,7 +1359,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1471,7 +1372,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1536,7 +1437,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1549,7 +1450,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1614,7 +1515,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1627,7 +1528,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1692,7 +1593,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1705,7 +1606,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1770,7 +1671,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1783,7 +1684,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1848,7 +1749,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1861,7 +1762,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1926,7 +1827,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -1939,7 +1840,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2004,7 +1905,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2017,7 +1918,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2082,7 +1983,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2095,7 +1996,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2160,7 +2061,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2173,7 +2074,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2238,7 +2139,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2251,7 +2152,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2316,7 +2217,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2329,7 +2230,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2394,7 +2295,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2407,7 +2308,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2472,7 +2373,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2485,7 +2386,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2550,7 +2451,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2563,7 +2464,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2628,7 +2529,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []
@@ -2641,7 +2542,7 @@
     "status": "risk",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 1,
+    "observedDays": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2706,7 +2607,7 @@
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+      "checkedAt": "2026-11-24T07:16:28.309562+00:00",
       "httpStatus": null,
       "tlsDaysLeft": null,
       "protocols": []

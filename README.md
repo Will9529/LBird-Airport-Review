@@ -11,7 +11,7 @@
 ## 实时自动化探测看板 (Live Snapshot)
 
 <!-- AUTO_DASHBOARD_START -->
-> 最近一次自动探测时间：`2026-11-24 03:38 UTC+8`（共收录 `108` 个观测目标：🟢 正常 `74` · 🟡 观察 `1` · 🔴 风险 `33`；纯技术学习用途，不构成任何建议）
+> 最近一次自动探测时间：`2026-11-24 15:16 UTC+8`（共收录 `110` 个观测目标：🟢 正常 `77` · 🟡 观察 `0` · 🔴 风险 `33`；纯技术学习用途，不构成任何建议）
 
 ### 观测榜单节选（Top 30，完整全量见 [`data/airports.json`](./data/airports.json)）
 
@@ -32,28 +32,28 @@
 | 全球云 | 🟢 normal | **90.55** | 33 | 41.0 | 96.97% | `directory_bench` |
 | 飞猫云 | 🟢 normal | **89.90** | 88 | 37.0 | 97.73% | `directory_bench` |
 | 星岛梦 | 🟢 normal | **88.65** | 88 | 51.0 | 98.86% | `directory_bench` |
-| [Pawdroid 开源样本](https://github.com/Pawdroid/Free-servers) | 🟢 normal | **85.50** | 9 | 194.3 | 100.0% | `tcp_passive` |
+| [Pawdroid 开源样本](https://github.com/Pawdroid/Free-servers) | 🟢 normal | **85.95** | 6 | 183.34 | 100.0% | `tcp_passive` |
 | ANDY CLOUD | 🟢 normal | **84.55** | 0 | 85.0 | 92.0% | `directory_index` |
 | 动力港 | 🟢 normal | **81.80** | 70 | 85.0 | 92.0% | `directory_index` |
 | 跨界云 | 🟢 normal | **80.55** | 0 | 85.0 | 92.0% | `directory_index` |
 | 灵猫网络 | 🟢 normal | **79.95** | 0 | 85.0 | 92.0% | `directory_index` |
+| [NoMoreWalls 开源样本](https://github.com/peasoft/NoMoreWalls) | 🟢 normal | **79.50** | 106 | 154.86 | 81.25% | `tcp_passive` |
 | 环球梯 | 🟢 normal | **79.00** | 60 | 85.0 | 92.0% | `directory_index` |
-| [NoMoreWalls 开源样本](https://github.com/peasoft/NoMoreWalls) | 🟢 normal | **78.85** | 117 | 166.03 | 81.25% | `tcp_passive` |
 | 闪跃 | 🟢 normal | **78.45** | 0 | 85.0 | 92.0% | `directory_index` |
 | v2free机场 | 🟢 normal | **78.40** | 100 | 85.0 | 92.0% | `directory_index` |
+| [微风](https://yifenjichang.net/go/breeze/) | 🟢 normal | **78.30** | 0 | 324.73 | 98.0% | `web_health` |
 | 拼好连 | 🟢 normal | **77.85** | 0 | 85.0 | 92.0% | `directory_index` |
 | 闪电鼠 | 🟢 normal | **77.55** | 0 | 85.0 | 92.0% | `directory_index` |
 | 瞬云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
 | 边缘节点 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
 | Happy Vless | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
-| 财路云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
 
 ### 风险与跑路预警节选（共 `33` 条，完整见 [`data/risk.json`](./data/risk.json)）
 
 | 目标 | 状态 | 综合分 | 说明 |
 | :--- | :---: | :---: | :--- |
-| Barry-V2ray 开源样本 | 🔴 risk | **51.65** | 自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。 |
-| V2RayAggregator 开源样本 | 🔴 risk | **49.25** | 自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。 |
+| V2RayAggregator 开源样本 | 🔴 risk | **59.60** | 自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。 |
+| Barry-V2ray 开源样本 | 🔴 risk | **58.55** | 自动化探测连续 0 次异常（可用率 37.5%），已触发风险观察。 |
 | SKYLUMO | 🔴 risk | **30.80** | 公开目录记录已下架/停止收录（2026-11-18），仅供参考避坑。 |
 | Sogo云 | 🔴 risk | **30.80** | 公开目录与实测数据汇总：参考月付 ¥25.0，节点 45 个，实测速率 822.6 Mbps，延迟 37 ms，公开参考评分 4.1/5。 |
 | OneStep | 🔴 risk | **30.80** | 公开目录记录已下架/停止收录（2026-05-06），仅供参考避坑。 |

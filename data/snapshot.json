@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T19:38:49.885365+00:00",
+  "generatedAt": "2026-11-24T07:16:28.309562+00:00",
   "source": "Will9529/LBird-Airport-Review",
   "disclaimer": "纯技术学习研究，不构成任何推荐、消费或使用建议。",
   "stats": {
-    "monitored": 108,
-    "speedTests": 1016,
-    "updatedAt": "2026-11-24 03:38 UTC+8"
+    "monitored": 110,
+    "speedTests": 1191,
+    "updatedAt": "2026-11-24 15:16 UTC+8"
   },
   "airports": [
     {
@@ -16,7 +16,7 @@
       "status": "normal",
       "nodes": 38,
       "priceMonthly": 8.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 93.7,
       "scores": {
         "S": 94,
@@ -94,7 +94,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -107,7 +107,7 @@
       "status": "normal",
       "nodes": 40,
       "priceMonthly": 7.42,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 93.2,
       "scores": {
         "S": 94,
@@ -179,7 +179,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -192,7 +192,7 @@
       "status": "normal",
       "nodes": 85,
       "priceMonthly": 2.08,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 93.0,
       "scores": {
         "S": 93,
@@ -284,7 +284,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -297,7 +297,7 @@
       "status": "normal",
       "nodes": 60,
       "priceMonthly": 1.04,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 92.8,
       "scores": {
         "S": 94,
@@ -367,7 +367,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -380,7 +380,7 @@
       "status": "normal",
       "nodes": 50,
       "priceMonthly": 8.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 92.7,
       "scores": {
         "S": 94,
@@ -452,7 +452,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -465,7 +465,7 @@
       "status": "normal",
       "nodes": 52,
       "priceMonthly": 15.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 92.7,
       "scores": {
         "S": 94,
@@ -533,7 +533,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -546,7 +546,7 @@
       "status": "normal",
       "nodes": 42,
       "priceMonthly": 15.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 92.5,
       "scores": {
         "S": 94,
@@ -614,7 +614,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -627,7 +627,7 @@
       "status": "normal",
       "nodes": 48,
       "priceMonthly": 17.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 92.4,
       "scores": {
         "S": 94,
@@ -696,7 +696,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -709,7 +709,7 @@
       "status": "normal",
       "nodes": 62,
       "priceMonthly": 18.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 92.05,
       "scores": {
         "S": 94,
@@ -779,7 +779,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -792,7 +792,7 @@
       "status": "normal",
       "nodes": 55,
       "priceMonthly": 18.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 92.05,
       "scores": {
         "S": 94,
@@ -860,7 +860,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -873,7 +873,7 @@
       "status": "normal",
       "nodes": 58,
       "priceMonthly": 18.8,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 91.4,
       "scores": {
         "S": 94,
@@ -946,7 +946,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -959,7 +959,7 @@
       "status": "normal",
       "nodes": 30,
       "priceMonthly": 1.66,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 91.35,
       "scores": {
         "S": 91,
@@ -1029,7 +1029,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1042,7 +1042,7 @@
       "status": "normal",
       "nodes": 33,
       "priceMonthly": 20.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 90.55,
       "scores": {
         "S": 91,
@@ -1111,7 +1111,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1124,7 +1124,7 @@
       "status": "normal",
       "nodes": 88,
       "priceMonthly": 8.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 89.9,
       "scores": {
         "S": 92,
@@ -1197,7 +1197,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1210,7 +1210,7 @@
       "status": "normal",
       "nodes": 88,
       "priceMonthly": 2.08,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 88.65,
       "scores": {
         "S": 93,
@@ -1285,7 +1285,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1296,14 +1296,14 @@
       "name": "Pawdroid 开源样本",
       "color": "#14b8a6",
       "status": "normal",
-      "nodes": 9,
+      "nodes": 6,
       "priceMonthly": 0.0,
-      "observedDays": 1,
-      "score": 85.5,
+      "observedDays": 2,
+      "score": 85.95,
       "scores": {
         "S": 100,
-        "P": 72,
-        "N": 70,
+        "P": 73,
+        "N": 71,
         "C": 98,
         "R": 88
       },
@@ -1317,7 +1317,7 @@
       ],
       "regions": [
         "英国",
-        "美国"
+        "香港"
       ],
       "routes": [
         "BGP"
@@ -1353,7 +1353,7 @@
       "history": {
         "score": [
           85.5,
-          85.5
+          85.95
         ],
         "uptime": [
           100.0,
@@ -1361,11 +1361,11 @@
         ],
         "speed": [
           192.6,
-          192.6
+          197.5
         ],
         "latency": [
           194.3,
-          194.3
+          183.34
         ],
         "loss": [
           0.0,
@@ -1376,10 +1376,11 @@
       "website": "https://github.com/Pawdroid/Free-servers",
       "probeMeta": {
         "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 65,
+        "tlsDaysLeft": 64,
         "protocols": [
+          "hysteria2",
           "ss",
           "trojan",
           "vless"
@@ -1393,7 +1394,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 5.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 84.55,
       "scores": {
         "S": 88,
@@ -1464,7 +1465,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1477,7 +1478,7 @@
       "status": "normal",
       "nodes": 70,
       "priceMonthly": 8.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 81.8,
       "scores": {
         "S": 80,
@@ -1567,7 +1568,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1580,7 +1581,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 20.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 80.55,
       "scores": {
         "S": 85,
@@ -1670,7 +1671,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1683,7 +1684,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 7.08,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 79.95,
       "scores": {
         "S": 80,
@@ -1753,10 +1754,108 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
+      }
+    },
+    {
+      "slug": "nomorewalls-oss",
+      "name": "NoMoreWalls 开源样本",
+      "color": "#0891b2",
+      "status": "normal",
+      "nodes": 106,
+      "priceMonthly": 0.0,
+      "observedDays": 2,
+      "score": 79.5,
+      "scores": {
+        "S": 86,
+        "P": 68,
+        "N": 66,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2022-03",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "多协议"
+      ],
+      "regions": [
+        "德国",
+        "英国",
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN",
+        "Sing-box",
+        "Shadowrocket"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "YAML 订阅",
+        "Base64 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.85,
+          79.5
+        ],
+        "uptime": [
+          81.25,
+          81.25
+        ],
+        "speed": [
+          166.8,
+          170.9
+        ],
+        "latency": [
+          166.03,
+          154.86
+        ],
+        "loss": [
+          18.75,
+          18.75
+        ]
+      },
+      "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
+      "website": "https://github.com/peasoft/NoMoreWalls",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 64,
+        "protocols": [
+          "ss",
+          "trojan",
+          "vmess"
+        ]
       }
     },
     {
@@ -1766,7 +1865,7 @@
       "status": "normal",
       "nodes": 60,
       "priceMonthly": 23.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 79.0,
       "scores": {
         "S": 80,
@@ -1836,108 +1935,10 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
-      }
-    },
-    {
-      "slug": "nomorewalls-oss",
-      "name": "NoMoreWalls 开源样本",
-      "color": "#0891b2",
-      "status": "normal",
-      "nodes": 117,
-      "priceMonthly": 0.0,
-      "observedDays": 1,
-      "score": 78.85,
-      "scores": {
-        "S": 86,
-        "P": 67,
-        "N": 64,
-        "C": 98,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2022-03",
-      "tags": [
-        "开源样本",
-        "公开研究",
-        "多协议"
-      ],
-      "regions": [
-        "英国",
-        "香港",
-        "日本",
-        "韩国",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN",
-        "Sing-box",
-        "Shadowrocket"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "开源免费"
-      ],
-      "importMethods": [
-        "YAML 订阅",
-        "Base64 订阅"
-      ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
-      "telegram": {},
-      "history": {
-        "score": [
-          78.85,
-          78.85
-        ],
-        "uptime": [
-          81.25,
-          81.25
-        ],
-        "speed": [
-          166.8,
-          166.8
-        ],
-        "latency": [
-          166.03,
-          166.03
-        ],
-        "loss": [
-          18.75,
-          18.75
-        ]
-      },
-      "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
-      "website": "https://github.com/peasoft/NoMoreWalls",
-      "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "ss",
-          "trojan",
-          "vmess"
-        ]
       }
     },
     {
@@ -1947,7 +1948,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 24.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 78.45,
       "scores": {
         "S": 82,
@@ -2038,7 +2039,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2051,7 +2052,7 @@
       "status": "normal",
       "nodes": 100,
       "priceMonthly": 15.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 78.4,
       "scores": {
         "S": 74,
@@ -2119,9 +2120,87 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-a9f17921",
+      "name": "微风",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 11.0,
+      "observedDays": 1,
+      "score": 78.3,
+      "scores": {
+        "S": 99,
+        "P": 60,
+        "N": 55,
+        "C": 92,
+        "R": 88
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "公开研究"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.3,
+          78.3
+        ],
+        "uptime": [
+          98.0,
+          98.0
+        ],
+        "speed": [
+          131.2,
+          131.2
+        ],
+        "latency": [
+          324.73,
+          324.73
+        ],
+        "loss": [
+          0.5,
+          0.5
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：IEPL）。",
+      "website": "https://yifenjichang.net/go/breeze/",
+      "probeMeta": {
+        "mode": "web_health",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 52,
         "protocols": []
       }
     },
@@ -2132,7 +2211,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 19.9,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.85,
       "scores": {
         "S": 80,
@@ -2225,7 +2304,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2238,7 +2317,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 22.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.55,
       "scores": {
         "S": 80,
@@ -2310,7 +2389,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2323,7 +2402,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 1.5,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2395,7 +2474,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2408,7 +2487,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 1.25,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2479,7 +2558,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2492,7 +2571,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 9.9,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2562,7 +2641,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2575,7 +2654,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 6.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2643,7 +2722,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2656,7 +2735,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 4.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2724,7 +2803,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2737,7 +2816,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 6.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2805,7 +2884,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2818,7 +2897,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 5.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2886,7 +2965,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2899,7 +2978,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 3.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2967,7 +3046,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2980,7 +3059,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 6.58,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.95,
       "scores": {
         "S": 74,
@@ -3059,7 +3138,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3072,7 +3151,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 8.17,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.65,
       "scores": {
         "S": 74,
@@ -3142,7 +3221,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3155,7 +3234,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 9.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.65,
       "scores": {
         "S": 74,
@@ -3223,7 +3302,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3236,7 +3315,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 9.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.65,
       "scores": {
         "S": 74,
@@ -3304,7 +3383,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3317,7 +3396,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 79.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.6,
       "scores": {
         "S": 88,
@@ -3387,7 +3466,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3400,7 +3479,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.5,
       "scores": {
         "S": 74,
@@ -3468,7 +3547,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3481,7 +3560,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 11.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.2,
       "scores": {
         "S": 74,
@@ -3552,7 +3631,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3565,7 +3644,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 5.6,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.2,
       "scores": {
         "S": 73,
@@ -3636,7 +3715,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3649,7 +3728,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 6.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.2,
       "scores": {
         "S": 73,
@@ -3721,7 +3800,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3734,7 +3813,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 12.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 76.05,
       "scores": {
         "S": 74,
@@ -3802,7 +3881,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3815,7 +3894,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 13.36,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 75.9,
       "scores": {
         "S": 74,
@@ -3885,7 +3964,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3898,7 +3977,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 75.6,
       "scores": {
         "S": 74,
@@ -3966,7 +4045,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3979,7 +4058,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 75.6,
       "scores": {
         "S": 74,
@@ -4047,7 +4126,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4060,7 +4139,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 75.6,
       "scores": {
         "S": 74,
@@ -4128,7 +4207,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4141,7 +4220,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.99,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 75.45,
       "scores": {
         "S": 74,
@@ -4209,7 +4288,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4222,7 +4301,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 11.42,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 75.3,
       "scores": {
         "S": 73,
@@ -4315,10 +4394,109 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
+      }
+    },
+    {
+      "slug": "au1rxx-free-vpn",
+      "name": "Au1rxx 开源聚合样本",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 560,
+      "priceMonthly": 0.0,
+      "observedDays": 2,
+      "score": 75.0,
+      "scores": {
+        "S": 86,
+        "P": 62,
+        "N": 51,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2024-06",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "Clash YAML"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "Stash",
+        "Karing",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "Clash 托管",
+        "YAML 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          74.25,
+          75.0
+        ],
+        "uptime": [
+          75.0,
+          81.25
+        ],
+        "speed": [
+          145.9,
+          142.1
+        ],
+        "latency": [
+          190.01,
+          233.64
+        ],
+        "loss": [
+          25.0,
+          18.75
+        ]
+      },
+      "summary": "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。",
+      "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 64,
+        "protocols": [
+          "hysteria2",
+          "ss",
+          "trojan",
+          "vless",
+          "vmess"
+        ]
       }
     },
     {
@@ -4328,7 +4506,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 20.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.85,
       "scores": {
         "S": 74,
@@ -4411,7 +4589,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4424,7 +4602,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 20.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.85,
       "scores": {
         "S": 74,
@@ -4507,7 +4685,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4520,7 +4698,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.7,
       "scores": {
         "S": 73,
@@ -4590,7 +4768,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4603,7 +4781,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.7,
       "scores": {
         "S": 73,
@@ -4673,7 +4851,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4686,7 +4864,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 23.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.4,
       "scores": {
         "S": 74,
@@ -4754,109 +4932,10 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
-      }
-    },
-    {
-      "slug": "au1rxx-free-vpn",
-      "name": "Au1rxx 开源聚合样本",
-      "color": "#0d9488",
-      "status": "watch",
-      "nodes": 560,
-      "priceMonthly": 0.0,
-      "observedDays": 1,
-      "score": 74.25,
-      "scores": {
-        "S": 82,
-        "P": 63,
-        "N": 52,
-        "C": 98,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2024-06",
-      "tags": [
-        "开源样本",
-        "公开研究",
-        "Clash YAML"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "Stash",
-        "Karing",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "开源免费"
-      ],
-      "importMethods": [
-        "Clash 托管",
-        "YAML 订阅"
-      ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
-      "telegram": {},
-      "history": {
-        "score": [
-          74.25,
-          74.25
-        ],
-        "uptime": [
-          75.0,
-          75.0
-        ],
-        "speed": [
-          145.9,
-          145.9
-        ],
-        "latency": [
-          190.01,
-          190.01
-        ],
-        "loss": [
-          25.0,
-          25.0
-        ]
-      },
-      "summary": "近期连通性存在波动（探测可用率 75.0%、中位延迟 190ms），持续观测中。",
-      "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
-      "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "hysteria2",
-          "ss",
-          "trojan",
-          "vless",
-          "vmess"
-        ]
       }
     },
     {
@@ -4866,7 +4945,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 24.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.25,
       "scores": {
         "S": 74,
@@ -4956,7 +5035,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4969,7 +5048,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 18.8,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.1,
       "scores": {
         "S": 73,
@@ -5039,7 +5118,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5052,7 +5131,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 25.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.1,
       "scores": {
         "S": 74,
@@ -5142,7 +5221,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5155,7 +5234,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 25.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.1,
       "scores": {
         "S": 74,
@@ -5245,7 +5324,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5258,7 +5337,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 25.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.1,
       "scores": {
         "S": 74,
@@ -5341,7 +5420,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5354,7 +5433,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 25.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 74.1,
       "scores": {
         "S": 74,
@@ -5422,7 +5501,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5435,7 +5514,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 22.75,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 73.5,
       "scores": {
         "S": 73,
@@ -5505,7 +5584,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5518,7 +5597,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 23.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 73.5,
       "scores": {
         "S": 73,
@@ -5590,7 +5669,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5603,7 +5682,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 29.88,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 73.35,
       "scores": {
         "S": 74,
@@ -5674,7 +5753,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5687,7 +5766,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 30.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 73.2,
       "scores": {
         "S": 74,
@@ -5763,7 +5842,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5776,7 +5855,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 30.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 73.2,
       "scores": {
         "S": 74,
@@ -5844,7 +5923,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5857,7 +5936,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 34.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 72.6,
       "scores": {
         "S": 74,
@@ -5927,7 +6006,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5940,7 +6019,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 30.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 72.3,
       "scores": {
         "S": 73,
@@ -6011,7 +6090,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6024,7 +6103,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 39.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 71.85,
       "scores": {
         "S": 74,
@@ -6095,7 +6174,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6108,7 +6187,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 39.99,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 71.7,
       "scores": {
         "S": 74,
@@ -6176,7 +6255,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6189,7 +6268,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 45.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 70.05,
       "scores": {
         "S": 73,
@@ -6260,7 +6339,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6273,7 +6352,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 20.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 70.05,
       "scores": {
         "S": 66,
@@ -6344,7 +6423,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6357,7 +6436,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 69.99,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 69.15,
       "scores": {
         "S": 74,
@@ -6429,7 +6508,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6442,7 +6521,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 74.55,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 69.15,
       "scores": {
         "S": 74,
@@ -6512,106 +6591,88 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
       }
     },
     {
-      "slug": "barry-v2ray-oss",
-      "name": "Barry-V2ray 开源样本",
-      "color": "#0369a1",
-      "status": "risk",
-      "nodes": 207,
-      "priceMonthly": 0.0,
+      "slug": "ap-1b0a15cc",
+      "name": "灵猫",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 7.1,
       "observedDays": 1,
-      "score": 51.65,
+      "score": 65.35,
       "scores": {
-        "S": 42,
-        "P": 47,
-        "N": 19,
-        "C": 98,
+        "S": 99,
+        "P": 42,
+        "N": 9,
+        "C": 97,
         "R": 88
       },
-      "trial": true,
+      "trial": false,
       "refund": false,
-      "founded": "2023-05",
+      "founded": "2026-11",
       "tags": [
-        "开源样本",
-        "公开研究",
-        "定时更新"
+        "目录收录",
+        "公开索引"
       ],
       "regions": [
+        "香港",
         "日本",
-        "美国",
-        "德国",
-        "英国",
         "新加坡"
       ],
       "routes": [
-        "BGP"
+        "中转"
       ],
       "clients": [
-        "v2rayN",
-        "Shadowrocket",
-        "Mihomo"
+        "Clash Verge",
+        "v2rayN"
       ],
       "streaming": [
         "未测(数据中心IP)"
       ],
       "payments": [
-        "开源免费"
+        "公开研究"
       ],
       "importMethods": [
-        "URI 列表",
-        "Base64 订阅"
+        "一键订阅"
       ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
+      "plans": [],
       "telegram": {},
       "history": {
         "score": [
-          51.65,
-          51.65
+          65.35,
+          65.35
         ],
         "uptime": [
-          18.75,
-          18.75
+          98.0,
+          98.0
         ],
         "speed": [
-          43.0,
-          43.0
+          11.8,
+          11.8
         ],
         "latency": [
-          112.37,
-          112.37
+          689.99,
+          689.99
         ],
         "loss": [
-          81.25,
-          81.25
+          0.5,
+          0.5
         ]
       },
-      "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
-      "website": "https://github.com/barry-far/V2ray-Config",
+      "summary": "来自公开开源目录索引（参考线路：中转）。",
+      "website": "https://yifenjichang.net/go/civet/",
       "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "mode": "web_health",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 65,
-        "protocols": [
-          "hysteria2",
-          "ss",
-          "vless",
-          "vmess"
-        ]
+        "tlsDaysLeft": 52,
+        "protocols": []
       }
     },
     {
@@ -6619,14 +6680,14 @@
       "name": "V2RayAggregator 开源样本",
       "color": "#0f766e",
       "status": "risk",
-      "nodes": 4095,
+      "nodes": 4113,
       "priceMonthly": 0.0,
-      "observedDays": 1,
-      "score": 49.25,
+      "observedDays": 2,
+      "score": 59.6,
       "scores": {
-        "S": 42,
-        "P": 43,
-        "N": 12,
+        "S": 50,
+        "P": 54,
+        "N": 38,
         "C": 98,
         "R": 88
       },
@@ -6641,11 +6702,11 @@
       "regions": [
         "美国",
         "英国",
+        "日本",
         "德国",
         "新加坡",
-        "日本",
-        "韩国",
         "香港",
+        "韩国",
         "台湾"
       ],
       "routes": [
@@ -6681,35 +6742,131 @@
       "history": {
         "score": [
           49.25,
-          49.25
+          59.6
         ],
         "uptime": [
           18.75,
-          18.75
+          31.25
         ],
         "speed": [
           36.5,
-          36.5
+          78.6
         ],
         "latency": [
           189.88,
-          189.88
+          63.25
         ],
         "loss": [
           81.25,
-          81.25
+          68.75
         ]
       },
-      "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
+      "summary": "自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。",
       "website": "https://github.com/mahdibland/V2RayAggregator",
       "probeMeta": {
         "mode": "tcp_passive",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 65,
+        "tlsDaysLeft": 64,
         "protocols": [
           "ss",
           "trojan",
+          "vmess"
+        ]
+      }
+    },
+    {
+      "slug": "barry-v2ray-oss",
+      "name": "Barry-V2ray 开源样本",
+      "color": "#0369a1",
+      "status": "risk",
+      "nodes": 192,
+      "priceMonthly": 0.0,
+      "observedDays": 2,
+      "score": 58.55,
+      "scores": {
+        "S": 55,
+        "P": 51,
+        "N": 29,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2023-05",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "定时更新"
+      ],
+      "regions": [
+        "德国",
+        "美国",
+        "日本",
+        "新加坡",
+        "英国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "v2rayN",
+        "Shadowrocket",
+        "Mihomo"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "URI 列表",
+        "Base64 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          51.65,
+          58.55
+        ],
+        "uptime": [
+          18.75,
+          37.5
+        ],
+        "speed": [
+          43.0,
+          78.4
+        ],
+        "latency": [
+          112.37,
+          157.72
+        ],
+        "loss": [
+          81.25,
+          62.5
+        ]
+      },
+      "summary": "自动化探测连续 0 次异常（可用率 37.5%），已触发风险观察。",
+      "website": "https://github.com/barry-far/V2ray-Config",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 64,
+        "protocols": [
+          "hysteria2",
+          "ss",
+          "vless",
           "vmess"
         ]
       }
@@ -6721,7 +6878,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 9.9,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -6786,7 +6943,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6799,7 +6956,7 @@
       "status": "risk",
       "nodes": 45,
       "priceMonthly": 15.9,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -6864,7 +7021,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6877,7 +7034,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 5.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -6942,7 +7099,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6955,7 +7112,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7020,7 +7177,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7033,7 +7190,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7098,7 +7255,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7111,7 +7268,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7176,7 +7333,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7189,7 +7346,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7254,7 +7411,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7267,7 +7424,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7332,7 +7489,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7345,7 +7502,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7410,7 +7567,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7423,7 +7580,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7488,7 +7645,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7501,7 +7658,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7566,7 +7723,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7579,7 +7736,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7644,7 +7801,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7657,7 +7814,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7722,7 +7879,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7735,7 +7892,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7800,7 +7957,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7813,7 +7970,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7878,7 +8035,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7891,7 +8048,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7956,7 +8113,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7969,7 +8126,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8034,7 +8191,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8047,7 +8204,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8112,7 +8269,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8125,7 +8282,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8190,7 +8347,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8203,7 +8360,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8268,7 +8425,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8281,7 +8438,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8346,7 +8503,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8359,7 +8516,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8424,7 +8581,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8437,7 +8594,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8502,7 +8659,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8515,7 +8672,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8580,7 +8737,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8593,7 +8750,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8658,7 +8815,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8671,7 +8828,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8736,7 +8893,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8749,7 +8906,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8814,7 +8971,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8827,7 +8984,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8892,7 +9049,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8905,7 +9062,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8970,7 +9127,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8983,7 +9140,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -9048,7 +9205,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -9061,7 +9218,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 1,
+      "observedDays": 2,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -9126,7 +9283,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-23T19:38:49.885365+00:00",
+        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -9457,6 +9614,14 @@
   ],
   "news": [
     {
+      "id": "n-df79b95ba5",
+      "category": "内核动态",
+      "title": "Prerelease-Alpha",
+      "summary": "Release created at Tue Nov 24 11:25:53 CST 2026 Synchronize Alpha branch code updates, keeping only the latest version 我应该下载哪个文件? / Which f…",
+      "date": "2026/11/24",
+      "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha"
+    },
+    {
       "id": "n-e685231f8f",
       "category": "客户端更新",
       "title": "8.0.1",
@@ -9471,14 +9636,6 @@
       "summary": "本次更新 新增 WebUI 功能，添加无头 WebAPI 支持 - #10300 v2rayN WebAPI / WebUI 配置指南 https://github.com/2dust/v2rayN/discussions/10438 支持原生 Aot，release中下载带有…",
       "date": "2026/11/21",
       "url": "https://github.com/2dust/v2rayN/releases/tag/8.0.0"
-    },
-    {
-      "id": "n-df79b95ba5",
-      "category": "内核动态",
-      "title": "Prerelease-Alpha",
-      "summary": "Release created at Fri Nov 20 08:50:04 CST 2026 Synchronize Alpha branch code updates, keeping only the latest version 我应该下载哪个文件? / Which f…",
-      "date": "2026/11/20",
-      "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha"
     },
     {
       "id": "n-1e18aa4158",
@@ -9702,7 +9859,7 @@
       "month": "2026.11",
       "year": "2026",
       "title": "2026 年 11 月自动化探测与稳定性月报",
-      "sample": 108,
+      "sample": 110,
       "top": "快狸、二猫云、一翻云",
       "tags": [
         "自动化探测",

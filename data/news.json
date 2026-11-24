@@ -1,5 +1,13 @@
 [
   {
+    "id": "n-df79b95ba5",
+    "category": "内核动态",
+    "title": "Prerelease-Alpha",
+    "summary": "Release created at Tue Nov 24 11:25:53 CST 2026 Synchronize Alpha branch code updates, keeping only the latest version 我应该下载哪个文件? / Which f…",
+    "date": "2026/11/24",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha"
+  },
+  {
     "id": "n-e685231f8f",
     "category": "客户端更新",
     "title": "8.0.1",
@@ -14,14 +22,6 @@
     "summary": "本次更新 新增 WebUI 功能，添加无头 WebAPI 支持 - #10300 v2rayN WebAPI / WebUI 配置指南 https://github.com/2dust/v2rayN/discussions/10438 支持原生 Aot，release中下载带有…",
     "date": "2026/11/21",
     "url": "https://github.com/2dust/v2rayN/releases/tag/8.0.0"
-  },
-  {
-    "id": "n-df79b95ba5",
-    "category": "内核动态",
-    "title": "Prerelease-Alpha",
-    "summary": "Release created at Fri Nov 20 08:50:04 CST 2026 Synchronize Alpha branch code updates, keeping only the latest version 我应该下载哪个文件? / Which f…",
-    "date": "2026/11/20",
-    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha"
   },
   {
     "id": "n-1e18aa4158",
