@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from lbird.collectors.catalog_collector import make_slug, parse_everett_jsonc, parse_jichangyyds_markdown, sanitize_website_url
+from lbird.collectors.catalog_collector import make_slug, parse_everett_jsonc, parse_jichangyyds_markdown, parse_monthly_price, sanitize_website_url
 from lbird.collectors.news_collector import parse_feed_xml
 from lbird.collectors.risk_feed_collector import parse_jichangx_markdown
 from lbird.collectors.telegram_collector import parse_telegram_preview_html
@@ -87,6 +87,14 @@ def test_parse_jichangyyds_markdown_and_ratings():
     assert e["benchUptime"] == 97.78
     assert len(e["plans"]) == 1
     assert len(deals) == 1 and deals[0]["code"] == "TEST88"
+
+
+def test_parse_monthly_price_does_not_divide_monthly_with_annual_mention():
+    assert parse_monthly_price("¥25/月，支持年付8折") == 25.0
+    assert parse_monthly_price("月付 ¥19.9 起，支持季付/年付") == 19.9
+    assert parse_monthly_price("¥120/年") == 10.0
+    assert parse_monthly_price("年付 ¥180") == 15.0
+    assert parse_monthly_price("¥18 起，支持年付") == 18.0
 
 
 def test_parse_everett_jsonc_and_jichangx_risk():

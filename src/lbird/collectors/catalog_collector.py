@@ -18,6 +18,7 @@ AFF_QUERY_KEYS = {"aff", "code", "ref", "invite", "invite_code", "from", "utm_so
 ROUTE_KEYWORDS = ("IEPL", "IPLC", "CN2", "BGP", "中转")
 STREAMING_KEYWORDS = ("Netflix", "ChatGPT", "Disney+", "YouTube", "TikTok")
 PRICE_MONTHLY_RE = re.compile(r"[¥￥]\s*(\d+(?:\.\d+)?)\s*(?:/\s*(月|年)|起)?", re.I)
+EXPLICIT_MONTHLY_RE = re.compile(r"[¥￥]\s*(\d+(?:\.\d+)?)\s*/\s*月", re.I)
 NODES_TEXT_RE = re.compile(r"(\d{1,4})\s*[+＋]?\s*(?:个|条)?\s*节点")
 AVAIL_TOTAL_RE = re.compile(r"(\d{1,4})\s*/\s*(\d{1,4})")
 SPEED_MBS_RE = re.compile(r"(\d+(?:\.\d+)?)\s*MB/s", re.I)
@@ -63,12 +64,16 @@ def parse_monthly_price(pricing_text: str, default: float = 15.0) -> float:
     text = (pricing_text or "").strip()
     if not text:
         return default
+    explicit_m = EXPLICIT_MONTHLY_RE.search(text)
+    if explicit_m:
+        return max(0.0, min(999.0, float(explicit_m.group(1))))
     m = PRICE_MONTHLY_RE.search(text)
     if not m:
         return default
     val = float(m.group(1))
     unit = (m.group(2) or "").strip()
-    if unit == "年" or "/年" in text or "年付" in text:
+    has_annual_hint = unit == "年" or (("/年" in text or "年付" in text) and "月付" not in text and "/月" not in text)
+    if unit == "年" or (has_annual_hint and val >= 40.0):
         val = round(val / 12.0, 2)
     return max(0.0, min(999.0, val))
 
