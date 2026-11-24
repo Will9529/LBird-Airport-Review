@@ -21,48 +21,52 @@
 ## 实时自动化探测看板 (Live Snapshot)
 
 <!-- AUTO_DASHBOARD_START -->
-> 最近一次自动探测时间：`2026-11-25 01:44 UTC+8`（共收录 `187` 个观测目标：🟢 正常 `153` · 🟡 观察 `2` · 🔴 风险 `32`；纯技术学习用途，不构成任何建议）
+> 最近一次自动探测时间：`2026-11-25 02:02 UTC+8`（共收录 `187` 个观测目标：🟢 正常 `147` · 🟡 观察 `4` · 🔴 风险 `36`；纯技术学习用途，不构成任何建议）
 
 ### 观测榜单节选（Top 30，完整全量见 [`data/airports.json`](./data/airports.json)）
 
 | 目标 | 状态 | 综合分 | 节点数 | 延迟 (ms) | 可用率 | 采集模式 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [V2RayAggregator 开源样本](https://github.com/mahdibland/V2RayAggregator) | 🟢 normal | **94.70** | 4122 | 2.08 | 100.0% | `tcp_passive` |
-| [Au1rxx 开源聚合样本](https://github.com/Au1rxx/free-vpn-subscriptions) | 🟢 normal | **93.25** | 560 | 13.48 | 100.0% | `tcp_passive` |
-| [Pawdroid 开源样本](https://github.com/Pawdroid/Free-servers) | 🟢 normal | **93.10** | 6 | 4.25 | 100.0% | `tcp_passive` |
 | 速界 | 🟢 normal | **92.70** | 52 | 37.0 | 100.0% | `directory_bench` |
 | edgenova | 🟢 normal | **92.50** | 42 | 39.0 | 100.0% | `directory_bench` |
 | 光速云 | 🟢 normal | **92.40** | 50 | 36.5 | 100.0% | `directory_bench` |
 | 极连云 | 🟢 normal | **92.05** | 58 | 40.5 | 100.0% | `directory_bench` |
-| [Barry-V2ray 开源样本](https://github.com/barry-far/V2ray-Config) | 🟢 normal | **91.15** | 181 | 1.94 | 93.75% | `tcp_passive` |
+| [光年梯](https://vv3dbvb.guangnianertt1.homes/) | 🟢 normal | **91.00** | 62 | 5.59 | 99.0% | `web_health` |
 | 全球云 | 🟢 normal | **90.55** | 63 | 41.0 | 96.97% | `directory_bench` |
-| [NoMoreWalls 开源样本](https://github.com/peasoft/NoMoreWalls) | 🟢 normal | **87.55** | 106 | 50.87 | 87.5% | `tcp_passive` |
-| [榴莲云](https://everettvip01.liulianyunaff.com/) | 🟢 normal | **86.70** | 0 | 159.79 | 99.0% | `web_health` |
-| [环球梯](https://everett7623.huanqiutiaff.com/) | 🟢 normal | **85.10** | 60 | 134.73 | 99.0% | `web_health` |
-| [神行加速](https://everett01.shenxingaff.com/) | 🟢 normal | **83.80** | 0 | 168.96 | 99.0% | `web_health` |
-| 动力港 | 🟢 normal | **81.80** | 70 | 85.0 | 92.0% | `directory_index` |
-| 跨界云 | 🟢 normal | **80.55** | 0 | 85.0 | 92.0% | `directory_index` |
-| 闪跃 | 🟢 normal | **78.45** | 0 | 85.0 | 92.0% | `directory_index` |
-| v2free机场 | 🟢 normal | **78.40** | 100 | 85.0 | 92.0% | `directory_index` |
-| [光年梯](https://vv3dbvb.guangnianertt1.homes/) | 🟢 normal | **78.15** | 62 | 304.2 | 99.0% | `web_health` |
-| 闪电鼠 | 🟢 normal | **77.55** | 0 | 85.0 | 92.0% | `directory_index` |
-| 财路云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
-| 宝云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
-| 锦云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
-| 鲤云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
-| 杏花云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
-| 秒秒云 | 🟢 normal | **76.65** | 0 | 85.0 | 92.0% | `directory_index` |
-| [西游云](#xiyou) | 🟢 normal | **76.65** | 0 | 85.0 | 92.0% | `directory_index` |
-| [飞鸟云](#feiniaoyun) | 🟢 normal | **76.50** | 0 | 85.0 | 92.0% | `directory_index` |
-| [良心云](https://xn--9kqz23b19z.com/) | 🟢 normal | **76.20** | 0 | 357.91 | 99.0% | `web_health` |
-| 山水云 | 🟢 normal | **76.05** | 0 | 85.0 | 92.0% | `directory_index` |
-| [Flybit](#flybit) | 🟢 normal | **75.60** | 0 | 85.0 | 92.0% | `directory_index` |
+| [良心云](https://xn--9kqz23b19z.com/) | 🟢 normal | **90.05** | 0 | 56.78 | 99.0% | `web_health` |
+| [Happy Vless](https://www.cheerw.com/) | 🟢 normal | **88.90** | 0 | 113.66 | 99.0% | `web_health` |
+| [快狸](https://everett7623.kuailiaff.com/) | 🟢 normal | **88.60** | 38 | 111.19 | 99.0% | `web_health` |
+| [二猫云](https://vpsknow.ermaoaff.com/) | 🟢 normal | **88.60** | 40 | 112.64 | 99.0% | `web_health` |
+| [次元雲](https://ciyy.one/) | 🟢 normal | **88.30** | 0 | 33.14 | 96.0% | `web_health` |
+| [榴莲云](https://everettvip01.liulianyunaff.com/) | 🟢 normal | **88.25** | 0 | 129.65 | 99.0% | `web_health` |
+| [宇宙云](https://01.yuzoucloud.cc/) | 🟢 normal | **87.85** | 60 | 110.51 | 99.0% | `web_health` |
+| [YToo](https://y-too.com/) | 🟢 normal | **87.55** | 0 | 74.89 | 96.0% | `web_health` |
+| [边缘节点](https://evervip01.edgenovaaff.com/) | 🟢 normal | **87.40** | 0 | 111.99 | 99.0% | `web_health` |
+| [一分机场](https://xn--4gqx1hgtfdmt.com/) | 🟢 normal | **86.95** | 0 | 63.06 | 96.0% | `web_health` |
+| [iNetS](https://inets.io/) | 🟢 normal | **86.95** | 0 | 62.17 | 96.0% | `web_health` |
+| [FlyBit](https://goflybit.com/register) | 🟢 normal | **86.90** | 0 | 139.37 | 99.0% | `web_health` |
+| [M78星云](https://m78star.cloud/) | 🟢 normal | **86.75** | 0 | 132.15 | 99.0% | `web_health` |
+| [U1S1](https://everett7623.vipaff.cc/) | 🟢 normal | **86.60** | 58 | 117.07 | 99.0% | `web_health` |
+| [灵猫网络](https://lm.civetxx.cfd/) | 🟢 normal | **86.55** | 50 | 160.68 | 99.0% | `web_health` |
+| [顺畅网络](https://scwljsq.scl168.club/) | 🟢 normal | **86.45** | 0 | 145.59 | 99.0% | `web_health` |
+| [AmyTelecom](https://www.amytele.co/) | 🟢 normal | **85.75** | 0 | 67.19 | 96.0% | `web_health` |
+| [鹿语云](https://luyuyun.pro) | 🟢 normal | **85.65** | 0 | 150.78 | 99.0% | `web_health` |
+| [贝贝云](https://zutizi.com/beibei) | 🟢 normal | **85.65** | 0 | 150.65 | 99.0% | `web_health` |
+| [飞猫云](https://iopbn.civetnetfttt1.homes/) | 🟢 normal | **85.30** | 88 | 186.32 | 99.0% | `web_health` |
+| [可信云](https://everett7623.kosingaff.com/) | 🟢 normal | **85.30** | 50 | 186.71 | 99.0% | `web_health` |
+| [神行加速](https://everett01.shenxingaff.com/) | 🟢 normal | **85.10** | 0 | 133.77 | 99.0% | `web_health` |
+| [环球梯](https://everett7623.huanqiutiaff.com/) | 🟢 normal | **85.10** | 60 | 134.14 | 99.0% | `web_health` |
+| [九云](https://216.236.63.122/) | 🟢 normal | **85.05** | 0 | 177.15 | 99.0% | `web_health` |
 
-### 风险与跑路预警节选（共 `32` 条，完整见 [`data/risk.json`](./data/risk.json)）
+### 风险与跑路预警节选（共 `36` 条，完整见 [`data/risk.json`](./data/risk.json)）
 
 | 目标 | 状态 | 综合分 | 说明 |
 | :--- | :---: | :---: | :--- |
-| CitrusLab | 🔴 risk | **38.55** | 自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。 |
+| V2RayAggregator 开源样本 | 🔴 risk | **53.95** | 自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。 |
+| XFLTD 养鸡场 | 🔴 risk | **38.55** | 自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。 |
+| Web3VPN | 🔴 risk | **38.55** | 自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。 |
+| 可可云 | 🔴 risk | **38.55** | 自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。 |
+| CitrusLab | 🔴 risk | **36.75** | 自动化探测连续 2 次异常（可用率 15.0%），已触发风险观察。 |
 | SKYLUMO | 🔴 risk | **30.80** | 公开目录记录已下架/停止收录（2026-11-18），仅供参考避坑。 |
 | Sogo云 | 🔴 risk | **30.80** | 公开目录与实测数据汇总：参考月付 ¥25.0，节点 45 个，实测速率 822.6 Mbps，延迟 37 ms，公开参考评分 4.1/5。 |
 | OneStep | 🔴 risk | **30.80** | 公开目录记录已下架/停止收录（2026-05-06），仅供参考避坑。 |
@@ -73,10 +77,6 @@
 | ACA | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2025）。 |
 | 十元一年 | 🔴 risk | **30.80** | 社区公开风险清单记录：客服态度及其恶劣（2025）。 |
 | DuangCloud | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2024）。 |
-| leensa | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路预警（2024）。 |
-| 六尺巷 | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2024）。 |
-| BHcloud/蜂巢 | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路预警（2024）。 |
-| 流量光 | 🔴 risk | **30.80** | 社区公开风险清单记录：跑路（2024）。 |
 <!-- AUTO_DASHBOARD_END -->
 
 ---
