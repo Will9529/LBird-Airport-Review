@@ -170,6 +170,7 @@ def parse_markdown_table(text: str) -> list[dict[str, Any]]:
                             "slug": make_slug(clean_name),
                             "name": clean_name[:80],
                             "website": sanitize_website_url(raw_url),
+                            "rawSourceUrl": raw_url,
                             "priceMonthly": price_val,
                             "nodes": nodes_val,
                             "routes": parse_routes_from_text(route_str),
@@ -348,22 +349,39 @@ def parse_everett_jsonc(
 
         r_info = ratings_map.get(name) or {}
         stars = r_info.get("stars") if isinstance(r_info.get("stars"), (int, float)) else None
+        r_status = str(r_info.get("status") or "").strip()
+        r_reason = str(r_info.get("reason") or "").strip()
+        r_conf = str(r_info.get("confidence") or "").strip()
+        for bad_dom in ("vpsknow.com", "jichangyyds.com", "gate-rank.com"):
+            r_reason = r_reason.replace(bad_dom, "")
+        r_reason = r_reason.strip(" ，。；;")
+
+        raw_url = str(item.get("url") or "")
+        summary_text = r_reason if r_reason else f"公开目录收录条目（参考月付 ¥{price:.1f}，线路 {'/'.join(routes)}）。"
 
         rec: dict[str, Any] = {
             "slug": slug,
             "name": name,
-            "website": sanitize_website_url(str(item.get("url") or "")),
+            "website": sanitize_website_url(raw_url),
+            "rawSourceUrl": raw_url,
             "priceMonthly": price,
             "nodes": nodes,
             "trial": trial,
             "routes": routes,
             "tags": tags,
-            "summary": f"公开目录收录条目（参考月付 ¥{price:.1f}，线路 {'/'.join(routes)}）。",
+            "summary": summary_text,
         }
         if streaming:
             rec["streaming"] = streaming
         if stars is not None:
             rec["externalRating"] = float(stars)
+        if stars is not None or r_status or r_reason:
+            rec["ratingMeta"] = {
+                "stars": float(stars) if stars is not None else None,
+                "status": r_status,
+                "confidence": r_conf,
+                "reason": r_reason,
+            }
         entries.append(rec)
 
         coupon = str(item.get("coupon") or "").strip()
@@ -426,19 +444,53 @@ def _merge_entry(target: dict[str, Any], incoming: dict[str, Any]) -> None:
     """Merge richer metadata from secondary directory sources into existing entry."""
     if incoming.get("nodes", 0) > target.get("nodes", 0):
         target["nodes"] = incoming["nodes"]
-    for key in ("benchSpeedMbps", "benchLatencyMs", "benchUptime", "externalRating"):
+    for key in ("benchSpeedMbps", "benchLatencyMs", "benchUptime", "externalRating", "ratingMeta", "publicBench"):
         if key not in target and key in incoming:
             target[key] = incoming[key]
-    if not target.get("plans") and incoming.get("plans"):
+    if not target.get("rawSourceUrl") and incoming.get("rawSourceUrl"):
+        target["rawSourceUrl"] = incoming["rawSourceUrl"]
+    if len(incoming.get("plans") or []) > len(target.get("plans") or []):
         target["plans"] = incoming["plans"]
-    if not target.get("streaming") and incoming.get("streaming"):
-        target["streaming"] = incoming["streaming"]
+    if incoming.get("streaming"):
+        target["streaming"] = list(dict.fromkeys((target.get("streaming") or []) + incoming["streaming"]))
     if not target.get("importMethods") and incoming.get("importMethods"):
         target["importMethods"] = incoming["importMethods"]
-    if target.get("routes") == ["BGP"] and incoming.get("routes"):
-        target["routes"] = incoming["routes"]
+    if incoming.get("routes"):
+        merged_routes = list(dict.fromkeys((target.get("routes") or []) + incoming["routes"]))
+        if len(merged_routes) > 1 and "BGP" in merged_routes and target.get("routes") == ["BGP"]:
+            pass
+        target["routes"] = merged_routes
     if "实测" in str(incoming.get("summary", "")) and "实测" not in str(target.get("summary", "")):
         target["summary"] = incoming["summary"]
+
+
+def parse_qweqwe_csv(
+    raw_text: str,
+    source_name: str = "jichang-speedtest (CC BY 4.0)",
+    license_name: str = "CC BY 4.0",
+    tested_at: str = "2026-08",
+) -> dict[str, dict[str, Any]]:
+    import csv
+    import io
+
+    out: dict[str, dict[str, Any]] = {}
+    reader = csv.DictReader(io.StringIO(raw_text or ""))
+    for row in reader:
+        brand = str(row.get("brand") or "").strip()
+        if not brand:
+            continue
+        norm = re.sub(r"[\s_\-]+", "", brand.lower())
+        out[norm] = {
+            "source": source_name,
+            "license": license_name,
+            "testedAt": str(row.get("tested_at_cst") or tested_at).strip(),
+            "tool": str(row.get("tool") or "").strip(),
+            "nodesDeclared": int(row["nodes_declared"]) if str(row.get("nodes_declared") or "").isdigit() else 0,
+            "nodesObserved": int(row["nodes_in_table"]) if str(row.get("nodes_in_table") or "").isdigit() else 0,
+            "protocolObserved": str(row.get("protocol_observed") or "").strip(),
+            "note": str(row.get("data_note") or "").strip(),
+        }
+    return out
 
 
 async def load_catalog(
@@ -524,5 +576,25 @@ async def load_catalog(
                         _add_or_merge(it)
             except Exception:
                 continue
+
+        for bfeed in sources_cfg.get("benchmark_feeds") or []:
+            if not isinstance(bfeed, dict) or not bfeed.get("url"):
+                continue
+            resp = await http_client.get(str(bfeed["url"]), check_robots=False)
+            if not resp.ok or not resp.text:
+                continue
+            if str(bfeed.get("format") or "").lower() == "qweqwe_csv":
+                bench_map = parse_qweqwe_csv(
+                    resp.text,
+                    source_name=str(bfeed.get("source_name") or "jichang-speedtest (CC BY 4.0)"),
+                    license_name=str(bfeed.get("license") or "CC BY 4.0"),
+                    tested_at=str(bfeed.get("tested_at") or "2026-08"),
+                )
+                for norm_k, bench_val in bench_map.items():
+                    target = by_name.get(norm_k)
+                    if target is not None:
+                        target["publicBench"] = bench_val
+                        if bench_val.get("nodesObserved", 0) > target.get("nodes", 0):
+                            target["nodes"] = bench_val["nodesObserved"]
 
     return entries, extracted_deals

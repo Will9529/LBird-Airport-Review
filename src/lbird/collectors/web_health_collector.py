@@ -91,8 +91,31 @@ async def probe_website(url: str, http_client: PoliteHttpClient) -> WebHealthRes
     res.http_status = resp.status_code
     res.ttfb_ms = resp.ttfb_ms
     res.blocked = resp.blocked
+    res.waf_protected = resp.waf_protected
+    res.final_url = resp.final_url or url
     res.ok = resp.ok
     res.error = resp.error
     if resp.text:
         _extract_html_hints(resp.text, res)
+
+    # Lightweight V2Board / Xboard guest config probe (never fails main health check)
+    if res.ok or res.waf_protected:
+        try:
+            origin = f"{parsed.scheme}://{parsed.netloc}"
+            cfg_resp = await asyncio.wait_for(
+                http_client.get(f"{origin}/api/v1/guest/comm/config", check_robots=False, max_retries=0),
+                timeout=4.5,
+            )
+            if cfg_resp.ok and cfg_resp.text and cfg_resp.text.lstrip().startswith("{"):
+                import json
+
+                cfg_json = json.loads(cfg_resp.text)
+                if isinstance(cfg_json, dict) and isinstance(cfg_json.get("data"), dict):
+                    res.panel_type = "v2board"
+                    data_obj = cfg_json["data"]
+                    if data_obj.get("is_trial_enable") or data_obj.get("try_out_plan_id"):
+                        res.detected_trial = True
+        except Exception:
+            pass
+
     return res

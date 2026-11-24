@@ -1,29 +1,39 @@
 [
   {
-    "airportSlug": "ap-72ee0825",
-    "code": "优惠码: 1FLYYUN（9折）",
+    "airportSlug": "ap-36a9d023",
+    "code": "优惠码: wuyou",
     "discount": "目录收录优惠码",
-    "plans": "¥25/月起（年付¥100/年）",
+    "plans": "¥79/年40GB；¥19/月100GB起",
     "dateRange": "长期/以官网为准",
     "stackable": false,
     "refundable": false,
     "active": true
   },
   {
-    "airportSlug": "ap-320de560",
-    "code": "优惠码: vpsknow（8折）",
+    "airportSlug": "ap-b16d7c96",
+    "code": "优惠码: rabbit（新用户9折）",
     "discount": "目录收录优惠码",
-    "plans": "¥96/年起（折后）",
+    "plans": "¥19.90/月150GB；¥79.90/年45GB/月",
     "dateRange": "长期/以官网为准",
     "stackable": false,
     "refundable": false,
     "active": true
   },
   {
-    "airportSlug": "ap-667105f9",
-    "code": "优惠码: xk808（截图标8折，结账确认）",
+    "airportSlug": "ap-23d38921",
+    "code": "优惠码: YUZHOU553（新人8折）",
     "discount": "目录收录优惠码",
-    "plans": "¥15/月50GB；¥98/年45GB/月",
+    "plans": "¥12.5/月起（年付¥96/年）",
+    "dateRange": "长期/以官网为准",
+    "stackable": false,
+    "refundable": false,
+    "active": true
+  },
+  {
+    "airportSlug": "ap-75c3e19a",
+    "code": "优惠码: 20OFF（新人8折）",
+    "discount": "目录收录优惠码",
+    "plans": "¥18/月150GB；¥99/年59GB/月",
     "dateRange": "长期/以官网为准",
     "stackable": false,
     "refundable": false,
@@ -41,7 +51,7 @@
   },
   {
     "airportSlug": "u1s1",
-    "code": "优惠码: U1S1（85折）",
+    "code": "优惠码: U1S1（85折，¥96年包不适用）",
     "discount": "目录收录优惠码",
     "plans": "¥18.8/月起",
     "dateRange": "长期/以官网为准",
@@ -60,10 +70,10 @@
     "active": true
   },
   {
-    "airportSlug": "ap-ccfd5bab",
-    "code": "优惠码: nmw888（9折）",
+    "airportSlug": "ytoo",
+    "code": "优惠码: TBAKG878（85折）",
     "discount": "目录收录优惠码",
-    "plans": "¥25/月 150GB起（年付¥96/60GB）",
+    "plans": "¥98/年起",
     "dateRange": "长期/以官网为准",
     "stackable": false,
     "refundable": false,
@@ -84,16 +94,6 @@
     "code": "优惠码: yzyzyz（7折，结账页复核）",
     "discount": "目录收录优惠码",
     "plans": "¥18.80/月 150GB起",
-    "dateRange": "长期/以官网为准",
-    "stackable": false,
-    "refundable": false,
-    "active": true
-  },
-  {
-    "airportSlug": "ap-1406c035",
-    "code": "优惠码: kexinyun330",
-    "discount": "目录收录优惠码",
-    "plans": "¥96/年 60GB/月起",
     "dateRange": "长期/以官网为准",
     "stackable": false,
     "refundable": false,

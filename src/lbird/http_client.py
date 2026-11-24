@@ -76,6 +76,7 @@ class HttpResponseData:
     final_url: str = ""
     ttfb_ms: float | None = None
     blocked: bool = False
+    waf_protected: bool = False
     error: str = ""
 
 
@@ -165,6 +166,12 @@ class PoliteHttpClient:
                 body = resp.text or ""
                 lowered = body[:4096].lower()
                 blocked = any(marker in lowered for marker in BLOCK_MARKERS)
+                hdrs = {k.lower(): v for k, v in resp.headers.items()}
+                is_cf_waf = bool(
+                    hdrs.get("cf-mitigated")
+                    or (hdrs.get("cf-ray") and (resp.status_code in (403, 503) or blocked))
+                    or ("cloudflare" in hdrs.get("server", "").lower() and resp.status_code in (403, 503) and blocked)
+                )
                 if resp.status_code in (401, 403, 404, 429):
                     return HttpResponseData(
                         ok=False,
@@ -173,6 +180,7 @@ class PoliteHttpClient:
                         final_url=str(resp.url),
                         ttfb_ms=elapsed_ms,
                         blocked=blocked or resp.status_code in (403, 429),
+                        waf_protected=is_cf_waf,
                         error=f"http_{resp.status_code}",
                     )
                 if resp.status_code >= 500 and attempt < max_retries:
@@ -186,6 +194,7 @@ class PoliteHttpClient:
                     final_url=str(resp.url),
                     ttfb_ms=elapsed_ms,
                     blocked=blocked,
+                    waf_protected=is_cf_waf,
                     error="" if ok else ("challenge_blocked" if blocked else f"http_{resp.status_code}"),
                 )
             except Exception as exc:

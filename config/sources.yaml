@@ -14,13 +14,17 @@ probe:
 
 # 新闻资讯 RSS / Atom 源（用于自动更新 News 列表）
 news_feeds:
-  - url: "https://github.com/MetaCubeX/mihomo/releases.atom"
+  - name: "Mihomo"
+    url: "https://github.com/MetaCubeX/mihomo/releases.atom"
     category: "内核动态"
-  - url: "https://github.com/SagerNet/sing-box/releases.atom"
+  - name: "sing-box"
+    url: "https://github.com/SagerNet/sing-box/releases.atom"
     category: "内核动态"
-  - url: "https://github.com/clash-verge-rev/clash-verge-rev/releases.atom"
+  - name: "Clash Verge Rev"
+    url: "https://github.com/clash-verge-rev/clash-verge-rev/releases.atom"
     category: "客户端更新"
-  - url: "https://github.com/2dust/v2rayN/releases.atom"
+  - name: "v2rayN"
+    url: "https://github.com/2dust/v2rayN/releases.atom"
     category: "客户端更新"
 
 # 公开开源机场目录订阅源（每日自动拉取并去重合并）
@@ -39,6 +43,14 @@ directory_feeds:
 risk_feeds:
   - url: "https://raw.githubusercontent.com/jichangx/airport-status/main/README.md"
     format: "jichangx_markdown"
+
+# 公开第三方实测快照（CC BY 4.0，仅作参考标注，不伪造时序）
+benchmark_feeds:
+  - url: "https://raw.githubusercontent.com/qweqwe98698-tech/jichang-speedtest/main/data/2026-08/brands.csv"
+    format: "qweqwe_csv"
+    tested_at: "2026-08"
+    license: "CC BY 4.0"
+    source_name: "jichang-speedtest (CC BY 4.0)"
 
 # GitHub 自动发现新收录目录
 github_discovery:

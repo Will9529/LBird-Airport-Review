@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 from lbird.models import ReportRecord, SubProbeResult, TelegramResult, WebHealthResult
@@ -129,8 +129,10 @@ def evaluate_target(
         summary = risk_reason or str(entry.get("summary") or "公开目录收录观测中。")
         probe_mode = "directory_bench" if has_bench else "directory_index"
     else:
-        # Determine probe reachability for consecutive failure streak
-        probe_ok = web.ok or (sub.probed and (sub.uptime_pct or 0) >= 30.0)
+        # Determine probe reachability for consecutive failure streak (CF WAF counts as alive)
+        website_str = str(entry.get("website") or "#")
+        waf_alive = bool(web.dns_ok and web.waf_protected and (web.tls_ok or not website_str.startswith("https://")))
+        probe_ok = web.ok or waf_alive or (sub.probed and (sub.uptime_pct or 0) >= 30.0)
         prev_failures = int(prev_state.get("consecutive_failures") or 0)
         consecutive_failures = 0 if probe_ok else prev_failures + 1
 
@@ -138,10 +140,10 @@ def evaluate_target(
         if sub.probed and sub.uptime_pct is not None:
             uptime_pct = sub.uptime_pct
         else:
-            uptime_pct = 98.0 if web.ok else (70.0 if web.blocked else 15.0)
+            uptime_pct = 99.0 if web.ok else (96.0 if waf_alive else (70.0 if web.blocked else 15.0))
 
         latency_ms = sub.latency_ms if (sub.probed and sub.latency_ms is not None) else (web.ttfb_ms or 280.0)
-        loss_pct = sub.loss_pct if (sub.probed and sub.loss_pct is not None) else (0.5 if web.ok else 35.0)
+        loss_pct = sub.loss_pct if (sub.probed and sub.loss_pct is not None) else (0.5 if (web.ok or waf_alive) else 35.0)
 
         if sub.speed_mbps is not None:
             speed_mbps = sub.speed_mbps
@@ -150,7 +152,7 @@ def evaluate_target(
             speed_mbps = round(max(12.0, min(260.0, 280.0 - latency_ms * 0.45)) * (uptime_pct / 100.0), 1)
 
         # S: Stability (30%)
-        s_raw = (uptime_pct * 0.72) + (28.0 if web.ok else (16.0 if web.blocked else 4.0))
+        s_raw = (uptime_pct * 0.72) + (28.0 if web.ok else (22.0 if waf_alive else (16.0 if web.blocked else 4.0)))
         if sub.probed and sub.node_count >= 10 and (sub.uptime_pct or 0) >= 60:
             s_raw = max(s_raw, uptime_pct * 0.92)
         score_s = int(round(clamp(s_raw)))
@@ -190,11 +192,9 @@ def evaluate_target(
             r_raw -= 15.0
         if web.tls_days_left is not None and web.tls_days_left < 7:
             r_raw -= 10.0
-        if not web.ok and not web.blocked:
+        if not web.ok and not web.blocked and not waf_alive:
             r_raw -= 18.0
         r_raw -= consecutive_failures * 18.0
-        if tg.last_post_days_ago is not None and tg.last_post_days_ago > 60:
-            r_raw -= 12.0
         if risk_reason:
             r_raw -= 45.0
         if observed_days >= 30 and consecutive_failures == 0:
@@ -227,6 +227,28 @@ def evaluate_target(
                 or f"自动化探测正常：解析 {nodes_count} 个节点，抽样握手可用率 {uptime_pct:.1f}%，中位延迟 {latency_ms:.0f}ms。"
             )
 
+    cst = now.astimezone(timezone(timedelta(hours=8)))
+    slot_name = "peak" if cst.hour >= 18 else "normal"
+    slot_key = f"{cst.strftime('%Y-%m-%d')}#{slot_name}"
+
+    if is_risk_entry:
+        data_tier = "risk_listed"
+        health_status = "down"
+    elif sub.probed:
+        data_tier = "sub_probed"
+        health_status = "ok" if (sub.uptime_pct or 0) >= 50 else "down"
+    elif is_directory_only:
+        data_tier = "directory_only"
+        health_status = "skipped"
+    else:
+        data_tier = "web_monitored"
+        if web.ok:
+            health_status = "ok"
+        elif web.dns_ok and web.waf_protected:
+            health_status = "waf_protected"
+        else:
+            health_status = "down"
+
     daily_map: dict[str, dict[str, float]] = dict(prev_state.get("daily") or {})
     daily_map[today] = {
         "score": total_score,
@@ -238,6 +260,20 @@ def evaluate_target(
     sorted_days = sorted(daily_map.keys())[-30:]
     trimmed_daily = {d: daily_map[d] for d in sorted_days}
 
+    slots_map: dict[str, dict[str, Any]] = dict(prev_state.get("slots") or {})
+    slots_map[slot_key] = {
+        "key": slot_key,
+        "slot": slot_name,
+        "uptime": round(uptime_pct, 2),
+        "ttfbMs": round(web.ttfb_ms, 2) if web.ttfb_ms is not None else None,
+        "latency": round(latency_ms, 2),
+        "score": total_score,
+        "health": health_status,
+    }
+    sorted_slots = sorted(slots_map.keys())[-60:]
+    trimmed_slots = {k: slots_map[k] for k in sorted_slots}
+    slot_history = [trimmed_slots[k] for k in sorted_slots]
+
     history = {
         "score": _pad_series([trimmed_daily[d]["score"] for d in sorted_days]),
         "uptime": _pad_series([trimmed_daily[d]["uptime"] for d in sorted_days]),
@@ -246,14 +282,24 @@ def evaluate_target(
         "loss": _pad_series([trimmed_daily[d]["loss"] for d in sorted_days]),
     }
 
-    airport_record = {
+    clean_streaming = [s for s in (entry.get("streaming") or []) if s and "未测" not in str(s)]
+    official_url = str(entry.get("officialUrl") or "").strip()
+    if not official_url:
+        w = str(entry.get("website") or "#").strip()
+        if w.startswith(("http://", "https://")) and "github.com" not in w.lower():
+            official_url = w
+
+    airport_record: dict[str, Any] = {
         "slug": entry["slug"],
         "name": entry["name"],
         "color": entry.get("color") or "#0d9488",
         "status": status,
+        "dataTier": data_tier,
+        "officialUrl": official_url,
         "nodes": nodes_count,
         "priceMonthly": float(entry.get("priceMonthly") if entry.get("priceMonthly") is not None else 15.0),
         "observedDays": observed_days,
+        "historyPoints": len(slot_history),
         "score": total_score,
         "scores": scores,
         "trial": bool(entry.get("trial") or web.detected_trial),
@@ -263,22 +309,37 @@ def evaluate_target(
         "regions": regions,
         "routes": routes,
         "clients": clients,
-        "streaming": list(entry.get("streaming") or ["未测(数据中心IP)"]),
+        "streaming": clean_streaming,
         "payments": payments,
         "importMethods": list(entry.get("importMethods") or ["一键订阅"]),
         "plans": list(entry.get("plans") or []),
         "telegram": entry.get("telegram") or {},
         "history": history,
+        "slotHistory": slot_history,
         "summary": summary,
         "website": entry.get("website") or "#",
         "probeMeta": {
             "mode": probe_mode,
+            "dataTier": data_tier,
             "checkedAt": now.isoformat(),
+            "slot": slot_name,
+            "healthStatus": health_status,
             "httpStatus": web.http_status,
+            "ttfbMs": web.ttfb_ms,
+            "dnsOk": web.dns_ok,
+            "tlsOk": web.tls_ok,
             "tlsDaysLeft": web.tls_days_left,
+            "panelType": web.panel_type,
+            "consecutiveFailures": consecutive_failures,
+            "externalRisk": risk_reason if is_risk_entry else "",
+            "probeRisk": f"连续 {consecutive_failures} 次探测异常" if consecutive_failures >= 2 else "",
             "protocols": sub.protocols,
         },
     }
+    if isinstance(entry.get("ratingMeta"), dict):
+        airport_record["ratingMeta"] = entry["ratingMeta"]
+    if isinstance(entry.get("publicBench"), dict):
+        airport_record["publicBench"] = entry["publicBench"]
 
     next_state = {
         "first_seen": first_seen,
@@ -286,6 +347,7 @@ def evaluate_target(
         "consecutive_failures": consecutive_failures,
         "total_probes": int(prev_state.get("total_probes") or 0) + max(1, sub.sample_count),
         "daily": trimmed_daily,
+        "slots": trimmed_slots,
     }
     return airport_record, next_state
 

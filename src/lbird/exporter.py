@@ -65,6 +65,10 @@ def export_all(
         "updatedAt": cst.strftime("%Y-%m-%d %H:%M UTC+8"),
     }
 
+    for ap in airports:
+        if isinstance(ap, dict):
+            ap.pop("rawSourceUrl", None)
+
     risk_list = [a for a in airports if a.get("status") in ("risk", "watch")]
 
     snapshot = {
@@ -78,6 +82,7 @@ def export_all(
         "news": news,
         "reports": reports,
     }
+    snapshot_v2 = {**snapshot, "schemaVersion": "2.0"}
 
     _write_json(data_dir / "airports.json", airports)
     _write_json(data_dir / "deals.json", deals)
@@ -86,6 +91,7 @@ def export_all(
     _write_json(data_dir / "reports.json", reports)
     _write_json(data_dir / "stats.json", stats)
     _write_json(data_dir / "snapshot.json", snapshot)
+    _write_json(data_dir / "snapshot-v2.json", snapshot_v2)
     _write_json(data_dir / "state.json", state)
     return snapshot
 
@@ -168,6 +174,17 @@ def validate_data_dir(data_dir: Path) -> list[str]:
                 errors.append("bad_schema_version")
             for ap in snap.get("airports", []):
                 sc = ap.get("score")
+                if not isinstance(sc, (int, float)) or not (0 <= sc <= 100):
+                    errors.append(f"invalid_score:{ap.get('slug')}")
+                if "rawSourceUrl" in ap:
+                    errors.append(f"raw_source_url_leaked:{ap.get('slug')}")
+                if "未测(数据中心IP)" in (ap.get("streaming") or []):
+                    errors.append(f"dirty_streaming_label:{ap.get('slug')}")
+                if ap.get("dataTier") not in {"sub_probed", "web_monitored", "directory_only", "risk_listed"}:
+                    errors.append(f"invalid_data_tier:{ap.get('slug')}")
+                for req_k in ("slug", "name", "status", "score", "scores", "history", "plans", "routes", "regions", "clients", "streaming", "summary", "website"):
+                    if req_k not in ap:
+                        errors.append(f"missing_legacy_key:{ap.get('slug')}:{req_k}")
                 if not isinstance(sc, (int, float)) or sc < 0 or sc > 100:
                     errors.append(f"score_out_of_range:{ap.get('slug')}")
         except Exception as exc:
