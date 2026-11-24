@@ -8,6 +8,16 @@
 
 ---
 
+## 在线交互式看板与专题入口 (Web Dashboard)
+
+- **在线实时榜单**：[https://lbrid.win/](https://lbrid.win/) — S-P-N-C-R 五维评分、实时测速曲线与稳定机场推荐
+- **全量机场排行**：[https://lbrid.win/rankings](https://lbrid.win/rankings) — 按专线、地区、月付价格与客户端多维筛选
+- **客户端官方下载**：[https://lbrid.win/clash](https://lbrid.win/clash) — Clash Verge Rev / Mihomo Party / FlClash / v2rayN / Shadowrocket
+- **高性价比便宜机场**：[https://lbrid.win/topics/cheap](https://lbrid.win/topics/cheap) · **IEPL/IPLC 专线**：[https://lbrid.win/topics/iepl](https://lbrid.win/topics/iepl) · **ChatGPT / AI 解锁**：[https://lbrid.win/topics/chatgpt](https://lbrid.win/topics/chatgpt)
+- **跑路风险监测**：[https://lbrid.win/risk](https://lbrid.win/risk)
+
+---
+
 ## 实时自动化探测看板 (Live Snapshot)
 
 <!-- AUTO_DASHBOARD_START -->
