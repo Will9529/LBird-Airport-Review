@@ -1,105 +1,5 @@
 [
   {
-    "slug": "giegie-cloud",
-    "name": "GieGie Cloud",
-    "color": "#0d9488",
-    "status": "watch",
-    "dataTier": "web_monitored",
-    "officialUrl": "https://zutizi.com/giegie",
-    "nodes": 0,
-    "priceMonthly": 15.0,
-    "observedDays": 1,
-    "historyPoints": 1,
-    "score": 49.0,
-    "scores": {
-      "S": 66,
-      "P": 36,
-      "N": 0,
-      "C": 88,
-      "R": 70
-    },
-    "trial": false,
-    "refund": false,
-    "founded": "2026-11",
-    "tags": [
-      "目录收录",
-      "公开索引"
-    ],
-    "regions": [
-      "香港",
-      "日本",
-      "新加坡"
-    ],
-    "routes": [
-      "BGP"
-    ],
-    "clients": [
-      "Clash Verge",
-      "v2rayN"
-    ],
-    "streaming": [],
-    "payments": [
-      "公开研究"
-    ],
-    "importMethods": [
-      "一键订阅"
-    ],
-    "plans": [],
-    "telegram": {},
-    "history": {
-      "score": [
-        49.0,
-        49.0
-      ],
-      "uptime": [
-        70.0,
-        70.0
-      ],
-      "speed": [
-        8.4,
-        8.4
-      ],
-      "latency": [
-        2638.06,
-        2638.06
-      ],
-      "loss": [
-        35.0,
-        35.0
-      ]
-    },
-    "slotHistory": [
-      {
-        "key": "2026-11-25#normal",
-        "slot": "normal",
-        "uptime": 70.0,
-        "ttfbMs": 2638.06,
-        "latency": 2638.06,
-        "score": 49.0,
-        "health": "down"
-      }
-    ],
-    "summary": "近期连通性存在波动（探测可用率 70.0%、中位延迟 2638ms），持续观测中。",
-    "website": "https://zutizi.com/giegie",
-    "probeMeta": {
-      "mode": "web_health",
-      "dataTier": "web_monitored",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
-      "slot": "normal",
-      "healthStatus": "down",
-      "httpStatus": 403,
-      "ttfbMs": 2638.06,
-      "dnsOk": true,
-      "tlsOk": true,
-      "tlsDaysLeft": 84,
-      "panelType": "",
-      "consecutiveFailures": 1,
-      "externalRisk": "",
-      "probeRisk": "",
-      "protocols": []
-    }
-  },
-  {
     "slug": "kuromis",
     "name": "Kuromis",
     "color": "#0d9488",
@@ -108,19 +8,19 @@
     "officialUrl": "https://www.kuromis.com/",
     "nodes": 0,
     "priceMonthly": 34.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
-    "score": 46.0,
+    "score": 66.1,
     "scores": {
       "S": 66,
-      "P": 36,
-      "N": 0,
+      "P": 74,
+      "N": 62,
       "C": 68,
-      "R": 70
+      "R": 52
     },
     "trial": false,
     "refund": false,
-    "founded": "2026-11",
+    "founded": "",
     "tags": [
       "贵族机场",
       "IEPL专线",
@@ -151,22 +51,27 @@
     "history": {
       "score": [
         72.6,
-        46.0
+        46.0,
+        66.1
       ],
       "uptime": [
         92.0,
+        70.0,
         70.0
       ],
       "speed": [
         120.0,
-        8.4
+        8.4,
+        182.0
       ],
       "latency": [
         85.0,
-        1386.27
+        1386.27,
+        8.67
       ],
       "loss": [
         1.2,
+        35.0,
         35.0
       ]
     },
@@ -175,29 +80,29 @@
         "key": "2026-11-25#normal",
         "slot": "normal",
         "uptime": 70.0,
-        "ttfbMs": 1386.27,
-        "latency": 1386.27,
-        "score": 46.0,
+        "ttfbMs": 8.67,
+        "latency": 8.67,
+        "score": 66.1,
         "health": "down"
       }
     ],
-    "summary": "近期连通性存在波动（探测可用率 70.0%、中位延迟 1386ms），持续观测中。",
+    "summary": "近期连通性存在波动（探测可用率 70.0%、中位延迟 9ms），持续观测中。",
     "website": "https://www.kuromis.com/",
     "probeMeta": {
       "mode": "web_health",
       "dataTier": "web_monitored",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": 429,
-      "ttfbMs": 1386.27,
+      "ttfbMs": 8.67,
       "dnsOk": true,
       "tlsOk": true,
-      "tlsDaysLeft": 68,
+      "tlsDaysLeft": 67,
       "panelType": "",
-      "consecutiveFailures": 1,
+      "consecutiveFailures": 2,
       "externalRisk": "",
-      "probeRisk": "",
+      "probeRisk": "连续 2 次探测异常",
       "protocols": []
     },
     "ratingMeta": {
@@ -208,103 +113,253 @@
     }
   },
   {
-    "slug": "citruslab",
-    "name": "CitrusLab",
-    "color": "#0d9488",
+    "slug": "v2ray-aggregator-oss",
+    "name": "V2RayAggregator 开源样本",
+    "color": "#0f766e",
     "status": "risk",
-    "dataTier": "web_monitored",
-    "officialUrl": "https://zutizi.com/cotota",
-    "nodes": 0,
-    "priceMonthly": 15.0,
-    "observedDays": 1,
+    "dataTier": "sub_probed",
+    "officialUrl": "",
+    "nodes": 4108,
+    "priceMonthly": 0.0,
+    "observedDays": 3,
     "historyPoints": 1,
-    "score": 38.55,
+    "score": 58.75,
     "scores": {
-      "S": 15,
-      "P": 37,
-      "N": 32,
-      "C": 88,
-      "R": 52
+      "S": 50,
+      "P": 53,
+      "N": 35,
+      "C": 98,
+      "R": 88
     },
-    "trial": false,
+    "trial": true,
     "refund": false,
-    "founded": "2026-11",
+    "founded": "2022-08",
     "tags": [
-      "目录收录",
-      "公开索引"
+      "开源样本",
+      "公开研究",
+      "URI 聚合"
     ],
     "regions": [
-      "香港",
+      "美国",
+      "英国",
+      "德国",
+      "新加坡",
       "日本",
-      "新加坡"
+      "香港",
+      "韩国",
+      "台湾"
     ],
     "routes": [
+      "中转",
       "BGP"
     ],
     "clients": [
-      "Clash Verge",
-      "v2rayN"
+      "v2rayN",
+      "Shadowrocket",
+      "Sing-box",
+      "Karing"
     ],
     "streaming": [],
     "payments": [
-      "公开研究"
+      "开源免费"
     ],
     "importMethods": [
-      "一键订阅"
+      "URI 列表",
+      "Base64 订阅"
     ],
-    "plans": [],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
     "telegram": {},
     "history": {
       "score": [
-        38.55,
-        38.55
+        49.25,
+        94.7,
+        58.75
       ],
       "uptime": [
-        15.0,
-        15.0
+        18.75,
+        100.0,
+        31.25
       ],
       "speed": [
-        23.1,
-        23.1
+        36.5,
+        260.0,
+        74.9
       ],
       "latency": [
-        280.0,
-        280.0
+        189.88,
+        2.08,
+        89.85
       ],
       "loss": [
-        35.0,
-        35.0
+        81.25,
+        0.0,
+        68.75
       ]
     },
     "slotHistory": [
       {
         "key": "2026-11-25#normal",
         "slot": "normal",
-        "uptime": 15.0,
-        "ttfbMs": null,
-        "latency": 280.0,
-        "score": 38.55,
+        "uptime": 31.25,
+        "ttfbMs": 370.08,
+        "latency": 89.85,
+        "score": 58.75,
         "health": "down"
       }
     ],
-    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
-    "website": "https://zutizi.com/cotota",
+    "summary": "自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。",
+    "website": "https://github.com/mahdibland/V2RayAggregator",
     "probeMeta": {
-      "mode": "web_health",
-      "dataTier": "web_monitored",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "mode": "tcp_passive",
+      "dataTier": "sub_probed",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
-      "httpStatus": null,
-      "ttfbMs": null,
+      "httpStatus": 200,
+      "ttfbMs": 370.08,
       "dnsOk": true,
       "tlsOk": true,
-      "tlsDaysLeft": 84,
+      "tlsDaysLeft": 63,
       "panelType": "",
-      "consecutiveFailures": 1,
+      "consecutiveFailures": 0,
       "externalRisk": "",
       "probeRisk": "",
-      "protocols": []
+      "protocols": [
+        "ss",
+        "trojan",
+        "vmess"
+      ]
+    }
+  },
+  {
+    "slug": "barry-v2ray-oss",
+    "name": "Barry-V2ray 开源样本",
+    "color": "#0369a1",
+    "status": "risk",
+    "dataTier": "sub_probed",
+    "officialUrl": "",
+    "nodes": 187,
+    "priceMonthly": 0.0,
+    "observedDays": 3,
+    "historyPoints": 1,
+    "score": 56.85,
+    "scores": {
+      "S": 50,
+      "P": 51,
+      "N": 28,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2023-05",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "定时更新"
+    ],
+    "regions": [
+      "德国",
+      "美国",
+      "英国",
+      "新加坡",
+      "韩国"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "v2rayN",
+      "Shadowrocket",
+      "Mihomo"
+    ],
+    "streaming": [],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "URI 列表",
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        51.65,
+        91.15,
+        56.85
+      ],
+      "uptime": [
+        18.75,
+        93.75,
+        31.25
+      ],
+      "speed": [
+        43.0,
+        243.8,
+        69.6
+      ],
+      "latency": [
+        112.37,
+        1.94,
+        127.5
+      ],
+      "loss": [
+        81.25,
+        6.25,
+        68.75
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 31.25,
+        "ttfbMs": 333.86,
+        "latency": 127.5,
+        "score": 56.85,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。",
+    "website": "https://github.com/barry-far/V2ray-Config",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "dataTier": "sub_probed",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": 200,
+      "ttfbMs": 333.86,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 63,
+      "panelType": "",
+      "consecutiveFailures": 0,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": [
+        "hysteria2",
+        "ss",
+        "vless",
+        "vmess"
+      ]
     }
   },
   {
@@ -316,7 +371,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 9.9,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -397,7 +452,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -406,9 +461,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "公开目录记录已下架/停止收录（2026-11-18）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -421,7 +476,7 @@
     "officialUrl": "",
     "nodes": 45,
     "priceMonthly": 15.9,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -503,7 +558,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -512,9 +567,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "公开目录记录已下架/停止收录（2026-07-12）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -527,7 +582,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 5.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -608,7 +663,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -617,9 +672,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "公开目录记录已下架/停止收录（2026-05-06）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -632,7 +687,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -713,7 +768,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -722,9 +777,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路（2025）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -737,7 +792,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -818,7 +873,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -827,9 +882,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路（2025）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -842,7 +897,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -923,7 +978,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -932,9 +987,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路（2025）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -947,7 +1002,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1028,7 +1083,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1037,9 +1092,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：机场转让/用户套餐时长减半（2025）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1052,7 +1107,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1133,7 +1188,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1142,9 +1197,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路（2025）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1157,7 +1212,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1238,7 +1293,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1247,9 +1302,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：客服态度及其恶劣（2025）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1262,7 +1317,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1343,7 +1398,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1352,9 +1407,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1367,7 +1422,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1448,7 +1503,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1457,9 +1512,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1472,7 +1527,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1553,7 +1608,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1562,9 +1617,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1577,7 +1632,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1658,7 +1713,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1667,9 +1722,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1682,7 +1737,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1763,7 +1818,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1772,9 +1827,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1787,7 +1842,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1868,7 +1923,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1877,9 +1932,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1892,7 +1947,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -1973,7 +2028,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1982,9 +2037,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -1997,7 +2052,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -2078,7 +2133,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2087,9 +2142,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -2102,7 +2157,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -2183,7 +2238,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2192,9 +2247,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -2207,7 +2262,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -2288,7 +2343,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2297,9 +2352,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -2312,7 +2367,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -2393,7 +2448,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2402,9 +2457,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -2417,7 +2472,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -2498,7 +2553,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2507,9 +2562,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -2522,7 +2577,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -2603,7 +2658,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2612,9 +2667,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -2627,7 +2682,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -2708,7 +2763,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2717,9 +2772,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -2732,7 +2787,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -2813,7 +2868,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2822,9 +2877,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -2837,7 +2892,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -2918,7 +2973,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2927,9 +2982,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -2942,7 +2997,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -3023,7 +3078,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3032,9 +3087,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -3047,7 +3102,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -3128,7 +3183,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3137,9 +3192,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：预警（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -3152,7 +3207,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -3233,7 +3288,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3242,9 +3297,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -3257,7 +3312,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -3338,7 +3393,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3347,9 +3402,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -3362,7 +3417,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -3443,7 +3498,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3452,9 +3507,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   },
@@ -3467,7 +3522,7 @@
     "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 2,
+    "observedDays": 3,
     "historyPoints": 1,
     "score": 30.8,
     "scores": {
@@ -3548,7 +3603,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3557,9 +3612,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 9 次探测异常",
+      "probeRisk": "连续 10 次探测异常",
       "protocols": []
     }
   }
