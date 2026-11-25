@@ -3,20 +3,20 @@
     "slug": "kuromis",
     "name": "Kuromis",
     "color": "#0d9488",
-    "status": "watch",
+    "status": "risk",
     "dataTier": "web_monitored",
     "officialUrl": "https://www.kuromis.com/",
     "nodes": 0,
     "priceMonthly": 34.0,
     "observedDays": 3,
-    "historyPoints": 1,
-    "score": 66.1,
+    "historyPoints": 2,
+    "score": 63.8,
     "scores": {
       "S": 66,
-      "P": 74,
+      "P": 72,
       "N": 62,
       "C": 68,
-      "R": 52
+      "R": 34
     },
     "trial": false,
     "refund": false,
@@ -52,7 +52,7 @@
       "score": [
         72.6,
         46.0,
-        66.1
+        63.8
       ],
       "uptime": [
         92.0,
@@ -67,7 +67,7 @@
       "latency": [
         85.0,
         1386.27,
-        8.67
+        33.89
       ],
       "loss": [
         1.2,
@@ -84,25 +84,34 @@
         "latency": 8.67,
         "score": 66.1,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 70.0,
+        "ttfbMs": 33.89,
+        "latency": 33.89,
+        "score": 63.8,
+        "health": "down"
       }
     ],
-    "summary": "近期连通性存在波动（探测可用率 70.0%、中位延迟 9ms），持续观测中。",
+    "summary": "自动化探测连续 3 次异常（可用率 70.0%），已触发风险观察。",
     "website": "https://www.kuromis.com/",
     "probeMeta": {
       "mode": "web_health",
       "dataTier": "web_monitored",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": 429,
-      "ttfbMs": 8.67,
+      "ttfbMs": 33.89,
       "dnsOk": true,
       "tlsOk": true,
       "tlsDaysLeft": 67,
       "panelType": "",
-      "consecutiveFailures": 2,
+      "consecutiveFailures": 3,
       "externalRisk": "",
-      "probeRisk": "连续 2 次探测异常",
+      "probeRisk": "连续 3 次探测异常",
       "protocols": []
     },
     "ratingMeta": {
@@ -113,21 +122,153 @@
     }
   },
   {
+    "slug": "barry-v2ray-oss",
+    "name": "Barry-V2ray 开源样本",
+    "color": "#0369a1",
+    "status": "risk",
+    "dataTier": "sub_probed",
+    "officialUrl": "",
+    "nodes": 181,
+    "priceMonthly": 0.0,
+    "observedDays": 3,
+    "historyPoints": 2,
+    "score": 59.85,
+    "scores": {
+      "S": 55,
+      "P": 53,
+      "N": 33,
+      "C": 98,
+      "R": 88
+    },
+    "trial": true,
+    "refund": false,
+    "founded": "2023-05",
+    "tags": [
+      "开源样本",
+      "公开研究",
+      "定时更新"
+    ],
+    "regions": [
+      "德国",
+      "美国",
+      "英国",
+      "新加坡",
+      "韩国"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "v2rayN",
+      "Shadowrocket",
+      "Mihomo"
+    ],
+    "streaming": [],
+    "payments": [
+      "开源免费"
+    ],
+    "importMethods": [
+      "URI 列表",
+      "Base64 订阅"
+    ],
+    "plans": [
+      {
+        "name": "公开开源测试集",
+        "traffic": "不限（社区共享）",
+        "price": 0,
+        "cycle": "公开研究",
+        "devices": "测试用途"
+      }
+    ],
+    "telegram": {},
+    "history": {
+      "score": [
+        51.65,
+        91.15,
+        59.85
+      ],
+      "uptime": [
+        18.75,
+        93.75,
+        37.5
+      ],
+      "speed": [
+        43.0,
+        243.8,
+        83.7
+      ],
+      "latency": [
+        112.37,
+        1.94,
+        126.15
+      ],
+      "loss": [
+        81.25,
+        6.25,
+        62.5
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 31.25,
+        "ttfbMs": 333.86,
+        "latency": 127.5,
+        "score": 56.85,
+        "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 37.5,
+        "ttfbMs": 367.4,
+        "latency": 126.15,
+        "score": 59.85,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 0 次异常（可用率 37.5%），已触发风险观察。",
+    "website": "https://github.com/barry-far/V2ray-Config",
+    "probeMeta": {
+      "mode": "tcp_passive",
+      "dataTier": "sub_probed",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": 200,
+      "ttfbMs": 367.4,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 63,
+      "panelType": "",
+      "consecutiveFailures": 0,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": [
+        "hysteria2",
+        "ss",
+        "vless",
+        "vmess"
+      ]
+    }
+  },
+  {
     "slug": "v2ray-aggregator-oss",
     "name": "V2RayAggregator 开源样本",
     "color": "#0f766e",
     "status": "risk",
     "dataTier": "sub_probed",
     "officialUrl": "",
-    "nodes": 4108,
+    "nodes": 4029,
     "priceMonthly": 0.0,
     "observedDays": 3,
-    "historyPoints": 1,
-    "score": 58.75,
+    "historyPoints": 2,
+    "score": 54.8,
     "scores": {
-      "S": 50,
-      "P": 53,
-      "N": 35,
+      "S": 42,
+      "P": 50,
+      "N": 31,
       "C": 98,
       "R": 88
     },
@@ -181,27 +322,27 @@
       "score": [
         49.25,
         94.7,
-        58.75
+        54.8
       ],
       "uptime": [
         18.75,
         100.0,
-        31.25
+        18.75
       ],
       "speed": [
         36.5,
         260.0,
-        74.9
+        48.8
       ],
       "latency": [
         189.88,
         2.08,
-        89.85
+        42.26
       ],
       "loss": [
         81.25,
         0.0,
-        68.75
+        81.25
       ]
     },
     "slotHistory": [
@@ -213,18 +354,27 @@
         "latency": 89.85,
         "score": 58.75,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 18.75,
+        "ttfbMs": 380.96,
+        "latency": 42.26,
+        "score": 54.8,
+        "health": "down"
       }
     ],
-    "summary": "自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。",
+    "summary": "自动化探测连续 0 次异常（可用率 18.8%），已触发风险观察。",
     "website": "https://github.com/mahdibland/V2RayAggregator",
     "probeMeta": {
       "mode": "tcp_passive",
       "dataTier": "sub_probed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": 200,
-      "ttfbMs": 370.08,
+      "ttfbMs": 380.96,
       "dnsOk": true,
       "tlsOk": true,
       "tlsDaysLeft": 63,
@@ -240,126 +390,2323 @@
     }
   },
   {
-    "slug": "barry-v2ray-oss",
-    "name": "Barry-V2ray 开源样本",
-    "color": "#0369a1",
+    "slug": "andy-cloud",
+    "name": "ANDY CLOUD",
+    "color": "#0d9488",
     "status": "risk",
-    "dataTier": "sub_probed",
-    "officialUrl": "",
-    "nodes": 187,
-    "priceMonthly": 0.0,
+    "dataTier": "web_monitored",
+    "officialUrl": "https://69.63.217.12/",
+    "nodes": 0,
+    "priceMonthly": 5.0,
     "observedDays": 3,
-    "historyPoints": 1,
-    "score": 56.85,
+    "historyPoints": 2,
+    "score": 38.55,
     "scores": {
-      "S": 50,
-      "P": 51,
-      "N": 28,
+      "S": 15,
+      "P": 37,
+      "N": 32,
       "C": 98,
-      "R": 88
+      "R": 37
     },
-    "trial": true,
+    "trial": false,
     "refund": false,
-    "founded": "2023-05",
+    "founded": "",
     "tags": [
-      "开源样本",
-      "公开研究",
-      "定时更新"
+      "总榜收录",
+      "通用订阅",
+      "低价备用",
+      "目录收录"
     ],
     "regions": [
-      "德国",
-      "美国",
-      "英国",
-      "新加坡",
-      "韩国"
+      "香港",
+      "日本",
+      "新加坡"
     ],
     "routes": [
+      "中转",
       "BGP"
     ],
     "clients": [
-      "v2rayN",
-      "Shadowrocket",
-      "Mihomo"
+      "Clash Verge",
+      "v2rayN"
     ],
-    "streaming": [],
+    "streaming": [
+      "Netflix",
+      "YouTube"
+    ],
     "payments": [
-      "开源免费"
+      "公开研究"
     ],
     "importMethods": [
-      "URI 列表",
-      "Base64 订阅"
+      "一键订阅"
     ],
-    "plans": [
-      {
-        "name": "公开开源测试集",
-        "traffic": "不限（社区共享）",
-        "price": 0,
-        "cycle": "公开研究",
-        "devices": "测试用途"
-      }
-    ],
+    "plans": [],
     "telegram": {},
     "history": {
       "score": [
-        51.65,
-        91.15,
-        56.85
+        84.55,
+        62.7,
+        38.55
       ],
       "uptime": [
-        18.75,
-        93.75,
-        31.25
+        92.0,
+        99.0,
+        15.0
       ],
       "speed": [
-        43.0,
-        243.8,
-        69.6
+        120.0,
+        11.9,
+        23.1
       ],
       "latency": [
-        112.37,
-        1.94,
-        127.5
+        85.0,
+        789.6,
+        280.0
       ],
       "loss": [
-        81.25,
-        6.25,
-        68.75
+        1.2,
+        0.5,
+        35.0
       ]
     },
     "slotHistory": [
       {
         "key": "2026-11-25#normal",
         "slot": "normal",
-        "uptime": 31.25,
-        "ttfbMs": 333.86,
-        "latency": 127.5,
-        "score": 56.85,
+        "uptime": 99.0,
+        "ttfbMs": 557.68,
+        "latency": 557.68,
+        "score": 67.7,
+        "health": "ok"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
         "health": "down"
       }
     ],
-    "summary": "自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。",
-    "website": "https://github.com/barry-far/V2ray-Config",
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://69.63.217.12/",
     "probeMeta": {
-      "mode": "tcp_passive",
-      "dataTier": "sub_probed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
-      "httpStatus": 200,
-      "ttfbMs": 333.86,
+      "httpStatus": null,
+      "ttfbMs": null,
       "dnsOk": true,
-      "tlsOk": true,
-      "tlsDaysLeft": 63,
+      "tlsOk": false,
+      "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 0,
+      "consecutiveFailures": 1,
       "externalRisk": "",
       "probeRisk": "",
-      "protocols": [
-        "hysteria2",
-        "ss",
-        "vless",
-        "vmess"
+      "protocols": []
+    },
+    "ratingMeta": {
+      "stars": 4.0,
+      "status": "短期候选",
+      "confidence": "中",
+      "reason": "有近期节点样本，低价不抵消持续稳定性证据缺口"
+    }
+  },
+  {
+    "slug": "ap-bdf9e8fa",
+    "name": "自由猫",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/10?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 2,
+    "historyPoints": 2,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        62.2,
+        38.55
+      ],
+      "uptime": [
+        99.0,
+        15.0
+      ],
+      "speed": [
+        11.9,
+        23.1
+      ],
+      "latency": [
+        4503.13,
+        280.0
+      ],
+      "loss": [
+        0.5,
+        35.0
       ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 99.0,
+        "ttfbMs": 4503.13,
+        "latency": 4503.13,
+        "score": 62.2,
+        "health": "ok"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/10?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-70993047",
+    "name": "仙路湾",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/34?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/34?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-f15293c3",
+    "name": "夜煞云",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/65?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 2,
+    "historyPoints": 2,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        59.55,
+        38.55
+      ],
+      "uptime": [
+        96.0,
+        15.0
+      ],
+      "speed": [
+        11.5,
+        23.1
+      ],
+      "latency": [
+        2031.15,
+        280.0
+      ],
+      "loss": [
+        0.5,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 96.0,
+        "ttfbMs": 2031.15,
+        "latency": 2031.15,
+        "score": 59.55,
+        "health": "waf_protected"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/65?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "kuli",
+    "name": "KuLi云",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/66?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/66?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "sakuracat",
+    "name": "SakuraCat",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/67?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 2,
+    "historyPoints": 2,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        62.2,
+        38.55
+      ],
+      "uptime": [
+        99.0,
+        15.0
+      ],
+      "speed": [
+        11.9,
+        23.1
+      ],
+      "latency": [
+        2172.57,
+        280.0
+      ],
+      "loss": [
+        0.5,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 99.0,
+        "ttfbMs": 2172.57,
+        "latency": 2172.57,
+        "score": 62.2,
+        "health": "ok"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/67?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-19fa2b79",
+    "name": "瑶瑶领先",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/18?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 2,
+    "historyPoints": 2,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        62.2,
+        38.55
+      ],
+      "uptime": [
+        99.0,
+        15.0
+      ],
+      "speed": [
+        11.9,
+        23.1
+      ],
+      "latency": [
+        2563.95,
+        280.0
+      ],
+      "loss": [
+        0.5,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 99.0,
+        "ttfbMs": 2563.95,
+        "latency": 2563.95,
+        "score": 62.2,
+        "health": "ok"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/18?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "now",
+    "name": "Now加速",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/31?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/31?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "prprcloud",
+    "name": "prprCloud",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/68?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 2,
+    "historyPoints": 2,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        59.55,
+        38.55
+      ],
+      "uptime": [
+        96.0,
+        15.0
+      ],
+      "speed": [
+        11.5,
+        23.1
+      ],
+      "latency": [
+        2875.45,
+        280.0
+      ],
+      "loss": [
+        0.5,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 96.0,
+        "ttfbMs": 2875.45,
+        "latency": 2875.45,
+        "score": 59.55,
+        "health": "waf_protected"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/68?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-63dbf24d",
+    "name": "扬帆云",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/59?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/59?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ss-id",
+    "name": "SS-ID",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/19?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 2,
+    "historyPoints": 2,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        62.2,
+        38.55
+      ],
+      "uptime": [
+        99.0,
+        15.0
+      ],
+      "speed": [
+        11.9,
+        23.1
+      ],
+      "latency": [
+        2388.78,
+        280.0
+      ],
+      "loss": [
+        0.5,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 99.0,
+        "ttfbMs": 2388.78,
+        "latency": 2388.78,
+        "score": 62.2,
+        "health": "ok"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/19?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-876941f0",
+    "name": "酷酷云",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/17?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/17?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-ccd0fe54",
+    "name": "闪狐云",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/15?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/15?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-7092ca6f",
+    "name": "百变小樱",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/53?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/53?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-624bcda6",
+    "name": "红杏云",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/20?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/20?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "cyberguard",
+    "name": "CyberGuard",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/12?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/12?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-52015544",
+    "name": "大象网络",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/33?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/33?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-c7f9ecb6",
+    "name": "悠兔",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/13?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/13?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-26c3ae9c",
+    "name": "一枝红杏",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/16?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 2,
+    "historyPoints": 2,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        62.2,
+        38.55
+      ],
+      "uptime": [
+        99.0,
+        15.0
+      ],
+      "speed": [
+        11.9,
+        23.1
+      ],
+      "latency": [
+        3629.18,
+        280.0
+      ],
+      "loss": [
+        0.5,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 99.0,
+        "ttfbMs": 3629.18,
+        "latency": 3629.18,
+        "score": 62.2,
+        "health": "ok"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/16?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "boostnet",
+    "name": "BoostNet",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/21?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        38.55,
+        38.55
+      ],
+      "uptime": [
+        15.0,
+        15.0
+      ],
+      "speed": [
+        23.1,
+        23.1
+      ],
+      "latency": [
+        280.0,
+        280.0
+      ],
+      "loss": [
+        35.0,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/21?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "tag",
+    "name": "TAG",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://haiwanlink.com/54?site=13hao",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 2,
+    "historyPoints": 2,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        59.55,
+        38.55
+      ],
+      "uptime": [
+        96.0,
+        15.0
+      ],
+      "speed": [
+        11.5,
+        23.1
+      ],
+      "latency": [
+        2314.43,
+        280.0
+      ],
+      "loss": [
+        0.5,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 96.0,
+        "ttfbMs": 2314.43,
+        "latency": 2314.43,
+        "score": 59.55,
+        "health": "waf_protected"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://haiwanlink.com/54?site=13hao",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 77,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    }
+  },
+  {
+    "slug": "ap-1beab829",
+    "name": "寰宇云",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://hyy.52kok.cn/",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 3,
+    "historyPoints": 2,
+    "score": 37.05,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 37
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "",
+    "tags": [
+      "运营变更",
+      "总榜收录",
+      "短周期测试",
+      "目录收录"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "BGP"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        74.7,
+        72.9,
+        37.05
+      ],
+      "uptime": [
+        92.0,
+        99.0,
+        15.0
+      ],
+      "speed": [
+        120.0,
+        84.1,
+        23.1
+      ],
+      "latency": [
+        85.0,
+        433.46,
+        280.0
+      ],
+      "loss": [
+        1.2,
+        0.5,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 99.0,
+        "ttfbMs": 458.97,
+        "latency": 458.97,
+        "score": 71.8,
+        "health": "ok"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 37.05,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://hyy.52kok.cn/",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": false,
+      "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    },
+    "ratingMeta": {
+      "stars": 2.0,
+      "status": "运营待核",
+      "confidence": "中",
+      "reason": "更换运营方后旧口碑不能直接沿用"
     }
   },
   {
@@ -372,7 +2719,7 @@
     "nodes": 8,
     "priceMonthly": 9.9,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -445,6 +2792,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "公开目录记录已下架/停止收录（2026-11-18），仅供参考避坑。",
@@ -452,7 +2808,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -461,9 +2817,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "公开目录记录已下架/停止收录（2026-11-18）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -477,7 +2833,7 @@
     "nodes": 45,
     "priceMonthly": 15.9,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -551,6 +2907,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "公开目录与实测数据汇总：参考月付 ¥25.0，节点 45 个，实测速率 822.6 Mbps，延迟 37 ms，公开参考评分 4.1/5。",
@@ -558,7 +2923,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -567,9 +2932,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "公开目录记录已下架/停止收录（2026-07-12）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -583,7 +2948,7 @@
     "nodes": 8,
     "priceMonthly": 5.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -656,6 +3021,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "公开目录记录已下架/停止收录（2026-05-06），仅供参考避坑。",
@@ -663,7 +3037,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -672,9 +3046,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "公开目录记录已下架/停止收录（2026-05-06）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -688,7 +3062,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -761,6 +3135,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路（2025）。",
@@ -768,7 +3151,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -777,9 +3160,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路（2025）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -793,7 +3176,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -866,6 +3249,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路（2025）。",
@@ -873,7 +3265,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -882,9 +3274,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路（2025）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -898,7 +3290,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -971,6 +3363,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路（2025）。",
@@ -978,7 +3379,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -987,9 +3388,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路（2025）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1003,7 +3404,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1070,6 +3471,15 @@
     "slotHistory": [
       {
         "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
         "slot": "normal",
         "uptime": 0.0,
         "ttfbMs": null,
@@ -1083,7 +3493,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1092,9 +3502,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：机场转让/用户套餐时长减半（2025）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1108,7 +3518,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1175,6 +3585,15 @@
     "slotHistory": [
       {
         "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
         "slot": "normal",
         "uptime": 0.0,
         "ttfbMs": null,
@@ -1188,7 +3607,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1197,9 +3616,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路（2025）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1213,7 +3632,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1286,6 +3705,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：客服态度及其恶劣（2025）。",
@@ -1293,7 +3721,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1302,9 +3730,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：客服态度及其恶劣（2025）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1318,7 +3746,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1391,6 +3819,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路（2024）。",
@@ -1398,7 +3835,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1407,9 +3844,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1423,7 +3860,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1496,6 +3933,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
@@ -1503,7 +3949,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1512,9 +3958,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1528,7 +3974,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1601,6 +4047,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路（2024）。",
@@ -1608,7 +4063,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1617,9 +4072,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1633,7 +4088,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1706,6 +4161,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
@@ -1713,7 +4177,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1722,9 +4186,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1738,7 +4202,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1811,6 +4275,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路（2024）。",
@@ -1818,7 +4291,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1827,9 +4300,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1843,7 +4316,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1916,6 +4389,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路（2024）。",
@@ -1923,7 +4405,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -1932,9 +4414,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -1948,7 +4430,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2021,6 +4503,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
@@ -2028,7 +4519,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2037,9 +4528,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2053,7 +4544,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2126,6 +4617,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
@@ -2133,7 +4633,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2142,9 +4642,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2158,7 +4658,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2231,6 +4731,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
@@ -2238,7 +4747,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2247,9 +4756,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2263,7 +4772,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2330,6 +4839,15 @@
     "slotHistory": [
       {
         "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
         "slot": "normal",
         "uptime": 0.0,
         "ttfbMs": null,
@@ -2343,7 +4861,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2352,9 +4870,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2368,7 +4886,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2441,6 +4959,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
@@ -2448,7 +4975,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2457,9 +4984,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2473,7 +5000,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2546,6 +5073,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
@@ -2553,7 +5089,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2562,9 +5098,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2578,7 +5114,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2651,6 +5187,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
@@ -2658,7 +5203,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2667,9 +5212,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2683,7 +5228,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2756,6 +5301,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
@@ -2763,7 +5317,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2772,9 +5326,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2788,7 +5342,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2861,6 +5415,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
@@ -2868,7 +5431,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2877,9 +5440,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2893,7 +5456,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2966,6 +5529,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
@@ -2973,7 +5545,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -2982,9 +5554,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -2998,7 +5570,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -3071,6 +5643,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
@@ -3078,7 +5659,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3087,9 +5668,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -3103,7 +5684,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -3170,6 +5751,15 @@
     "slotHistory": [
       {
         "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
         "slot": "normal",
         "uptime": 0.0,
         "ttfbMs": null,
@@ -3183,7 +5773,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3192,9 +5782,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：预警（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -3208,7 +5798,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -3281,6 +5871,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
@@ -3288,7 +5887,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3297,9 +5896,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -3313,7 +5912,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -3386,6 +5985,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
@@ -3393,7 +6001,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3402,9 +6010,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -3418,7 +6026,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -3485,6 +6093,15 @@
     "slotHistory": [
       {
         "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
         "slot": "normal",
         "uptime": 0.0,
         "ttfbMs": null,
@@ -3498,7 +6115,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3507,9 +6124,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   },
@@ -3523,7 +6140,7 @@
     "nodes": 8,
     "priceMonthly": 10.0,
     "observedDays": 3,
-    "historyPoints": 1,
+    "historyPoints": 2,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -3596,6 +6213,15 @@
         "latency": 420.0,
         "score": 30.8,
         "health": "down"
+      },
+      {
+        "key": "2026-11-26#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
       }
     ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
@@ -3603,7 +6229,7 @@
     "probeMeta": {
       "mode": "risk_feed",
       "dataTier": "risk_listed",
-      "checkedAt": "2026-11-25T06:58:43.918720+00:00",
+      "checkedAt": "2026-11-25T22:01:58.005730+00:00",
       "slot": "normal",
       "healthStatus": "down",
       "httpStatus": null,
@@ -3612,9 +6238,9 @@
       "tlsOk": false,
       "tlsDaysLeft": null,
       "panelType": "",
-      "consecutiveFailures": 10,
+      "consecutiveFailures": 11,
       "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
-      "probeRisk": "连续 10 次探测异常",
+      "probeRisk": "连续 11 次探测异常",
       "protocols": []
     }
   }
