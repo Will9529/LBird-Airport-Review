@@ -48,8 +48,17 @@ def test_export_and_secret_leak_validator(tmp_path: Path):
             "slug": "safe-oss",
             "name": "Safe OSS",
             "status": "normal",
+            "dataTier": "sub_probed",
             "score": 88.5,
+            "scores": {"S": 90, "P": 85, "N": 88, "C": 92, "R": 88},
             "nodes": 12,
+            "plans": [],
+            "routes": ["BGP"],
+            "regions": ["香港"],
+            "clients": ["Clash Verge"],
+            "streaming": [],
+            "summary": "test",
+            "website": "https://github.com/test/repo",
             "history": {"score": [88.5, 88.5], "uptime": [99, 99], "speed": [120, 120], "latency": [45, 45], "loss": [0, 0]},
         }
     ]

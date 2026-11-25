@@ -12,6 +12,7 @@ from typing import Any
 from lbird.collectors.catalog_collector import load_catalog, load_yaml_file, make_slug
 from lbird.collectors.github_discovery_collector import discover_github_directories
 from lbird.collectors.news_collector import collect_news
+from lbird.collectors.official_resolver import resolve_missing_official_urls
 from lbird.collectors.risk_feed_collector import collect_risk_feeds
 from lbird.collectors.sub_probe_collector import load_secret_subscriptions, probe_subscription
 from lbird.collectors.telegram_collector import fetch_telegram_channel
@@ -77,6 +78,14 @@ async def run_pipeline(config_dir: Path, data_dir: Path, readme_path: Path | Non
             extra_copy["slug"] = slug
             catalog.append(extra_copy)
 
+        await resolve_missing_official_urls(
+            catalog,
+            cache_path=data_dir / "official_cache.json",
+            offline=offline,
+            concurrency=6,
+            ttl_days=14,
+        )
+
         sem = asyncio.Semaphore(int(http_cfg.get("max_concurrency", 12)))
 
         async def _process_one(entry: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any], list[dict[str, Any]]]:
@@ -97,11 +106,7 @@ async def run_pipeline(config_dir: Path, data_dir: Path, readme_path: Path | Non
                         if skip_web
                         else probe_website(website, client)
                     )
-                    tg_task = (
-                        fetch_telegram_channel(tg_channel, slug, client)
-                        if tg_channel
-                        else asyncio.sleep(0, result=TelegramResult())
-                    )
+                    tg_task = asyncio.sleep(0, result=TelegramResult())
                     sub_task = (
                         probe_subscription(
                             slug=slug,

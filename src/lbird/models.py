@@ -16,6 +16,9 @@ class WebHealthResult:
     http_status: int | None = None
     ttfb_ms: float | None = None
     blocked: bool = False
+    waf_protected: bool = False
+    panel_type: str = ""
+    final_url: str = ""
     dns_ok: bool = False
     tls_ok: bool = False
     tls_days_left: int | None = None
@@ -80,6 +83,7 @@ class NewsRecord:
     summary: str
     date: str
     url: str = ""
+    content: str = ""
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

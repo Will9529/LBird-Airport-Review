@@ -14,18 +14,22 @@
           "loss": 25.0
         },
         "2026-11-24": {
-          "score": 75.0,
-          "uptime": 81.25,
-          "speed": 142.1,
-          "latency": 233.64,
-          "loss": 18.75
-        },
-        "2026-11-25": {
-          "score": 64.5,
-          "uptime": 81.25,
-          "speed": 52.0,
-          "latency": 479.99,
-          "loss": 18.75
+          "score": 93.25,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 13.48,
+          "loss": 0.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 100.0,
+          "ttfbMs": 1768.93,
+          "latency": 13.48,
+          "score": 93.25,
+          "health": "ok"
         }
       }
     },
@@ -43,18 +47,22 @@
           "loss": 18.75
         },
         "2026-11-24": {
-          "score": 79.5,
-          "uptime": 81.25,
-          "speed": 170.9,
-          "latency": 154.86,
-          "loss": 18.75
-        },
-        "2026-11-25": {
-          "score": 82.5,
+          "score": 87.55,
           "uptime": 87.5,
-          "speed": 183.5,
-          "latency": 156.23,
+          "speed": 225.0,
+          "latency": 50.87,
           "loss": 12.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 87.5,
+          "ttfbMs": 2693.11,
+          "latency": 50.87,
+          "score": 87.55,
+          "health": "ok"
         }
       }
     },
@@ -72,18 +80,22 @@
           "loss": 81.25
         },
         "2026-11-24": {
-          "score": 59.6,
-          "uptime": 31.25,
-          "speed": 78.6,
-          "latency": 63.25,
-          "loss": 68.75
-        },
-        "2026-11-25": {
-          "score": 58.75,
-          "uptime": 31.25,
-          "speed": 75.2,
-          "latency": 87.61,
-          "loss": 68.75
+          "score": 94.7,
+          "uptime": 100.0,
+          "speed": 260.0,
+          "latency": 2.08,
+          "loss": 0.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 100.0,
+          "ttfbMs": 2195.92,
+          "latency": 2.08,
+          "score": 94.7,
+          "health": "ok"
         }
       }
     },
@@ -101,18 +113,22 @@
           "loss": 81.25
         },
         "2026-11-24": {
-          "score": 58.55,
-          "uptime": 37.5,
-          "speed": 78.4,
-          "latency": 157.72,
-          "loss": 62.5
-        },
-        "2026-11-25": {
-          "score": 58.15,
-          "uptime": 31.25,
-          "speed": 74.1,
-          "latency": 95.61,
-          "loss": 68.75
+          "score": 91.15,
+          "uptime": 93.75,
+          "speed": 243.8,
+          "latency": 1.94,
+          "loss": 6.25
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 93.75,
+          "ttfbMs": 2568.42,
+          "latency": 1.94,
+          "score": 91.15,
+          "health": "ok"
         }
       }
     },
@@ -120,7 +136,7 @@
       "first_seen": "2026-11-23",
       "observed_days": 3,
       "consecutive_failures": 0,
-      "total_probes": 75,
+      "total_probes": 70,
       "daily": {
         "2026-11-23": {
           "score": 85.5,
@@ -130,10 +146,10 @@
           "loss": 0.0
         },
         "2026-11-24": {
-          "score": 85.95,
+          "score": 93.1,
           "uptime": 100.0,
-          "speed": 197.5,
-          "latency": 183.34,
+          "speed": 260.0,
+          "latency": 4.25,
           "loss": 0.0
         },
         "2026-11-25": {
@@ -142,6 +158,17 @@
           "speed": 227.4,
           "latency": 116.8,
           "loss": 0.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 100.0,
+          "ttfbMs": 1778.96,
+          "latency": 4.25,
+          "score": 93.1,
+          "health": "ok"
         }
       }
     },
@@ -159,25 +186,29 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 73.5,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 73.5,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 58.35,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 1633.54,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 1633.54,
+          "latency": 1633.54,
+          "score": 58.35,
+          "health": "waf_protected"
         }
       }
     },
     "kuromis": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
-      "consecutive_failures": 0,
+      "observed_days": 2,
+      "consecutive_failures": 1,
       "total_probes": 7,
       "daily": {
         "2026-11-23": {
@@ -188,18 +219,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 72.6,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 72.6,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 46.0,
+          "uptime": 70.0,
+          "speed": 8.4,
+          "latency": 1386.27,
+          "loss": 35.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 70.0,
+          "ttfbMs": 1386.27,
+          "latency": 1386.27,
+          "score": 46.0,
+          "health": "down"
         }
       }
     },
@@ -217,18 +252,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 76.6,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 76.6,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 53.1,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 998.12,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 998.12,
+          "latency": 998.12,
+          "score": 53.1,
+          "health": "waf_protected"
         }
       }
     },
@@ -246,18 +285,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 73.35,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 73.35,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 62.95,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 640.05,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 640.05,
+          "latency": 640.05,
+          "score": 62.95,
+          "health": "ok"
         }
       }
     },
@@ -275,18 +318,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 69.15,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 69.15,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 64.45,
+          "uptime": 99.0,
+          "speed": 65.0,
+          "latency": 476.26,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 476.26,
+          "latency": 476.26,
+          "score": 64.45,
+          "health": "ok"
         }
       }
     },
@@ -304,18 +351,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 76.95,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 75.0,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 69.0,
+          "uptime": 99.0,
+          "speed": 52.9,
+          "latency": 503.52,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 503.52,
+          "latency": 503.52,
+          "score": 69.0,
+          "health": "ok"
         }
       }
     },
@@ -333,18 +384,22 @@
           "loss": 3.33
         },
         "2026-11-24": {
-          "score": 91.35,
-          "uptime": 96.67,
-          "speed": 586.0,
-          "latency": 50.0,
-          "loss": 3.33
-        },
-        "2026-11-25": {
-          "score": 89.1,
-          "uptime": 96.67,
-          "speed": 586.0,
-          "latency": 50.0,
-          "loss": 3.33
+          "score": 67.95,
+          "uptime": 99.0,
+          "speed": 43.4,
+          "latency": 524.8,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 524.8,
+          "latency": 524.8,
+          "score": 67.95,
+          "health": "ok"
         }
       }
     },
@@ -362,18 +417,22 @@
           "loss": 1.18
         },
         "2026-11-24": {
-          "score": 93.0,
-          "uptime": 98.82,
-          "speed": 1165.1,
-          "latency": 41.0,
-          "loss": 1.18
-        },
-        "2026-11-25": {
-          "score": 90.0,
-          "uptime": 98.82,
-          "speed": 1165.1,
-          "latency": 41.0,
-          "loss": 1.18
+          "score": 66.75,
+          "uptime": 99.0,
+          "speed": 40.3,
+          "latency": 531.7,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 531.7,
+          "latency": 531.7,
+          "score": 66.75,
+          "health": "ok"
         }
       }
     },
@@ -391,18 +450,22 @@
           "loss": 0.0
         },
         "2026-11-24": {
-          "score": 92.05,
-          "uptime": 100.0,
-          "speed": 656.5,
-          "latency": 41.5,
-          "loss": 0.0
-        },
-        "2026-11-25": {
-          "score": 92.05,
-          "uptime": 100.0,
-          "speed": 656.5,
-          "latency": 41.5,
-          "loss": 0.0
+          "score": 78.15,
+          "uptime": 99.0,
+          "speed": 141.7,
+          "latency": 304.2,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 304.2,
+          "latency": 304.2,
+          "score": 78.15,
+          "health": "ok"
         }
       }
     },
@@ -420,18 +483,22 @@
           "loss": 0.0
         },
         "2026-11-24": {
-          "score": 93.7,
-          "uptime": 100.0,
-          "speed": 728.2,
-          "latency": 37.5,
-          "loss": 0.0
-        },
-        "2026-11-25": {
-          "score": 93.7,
-          "uptime": 100.0,
-          "speed": 728.2,
-          "latency": 37.5,
-          "loss": 0.0
+          "score": 73.0,
+          "uptime": 99.0,
+          "speed": 75.4,
+          "latency": 452.96,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 452.96,
+          "latency": 452.96,
+          "score": 73.0,
+          "health": "ok"
         }
       }
     },
@@ -449,18 +516,22 @@
           "loss": 0.0
         },
         "2026-11-24": {
-          "score": 92.8,
-          "uptime": 100.0,
-          "speed": 754.0,
-          "latency": 42.5,
-          "loss": 0.0
-        },
-        "2026-11-25": {
-          "score": 91.75,
-          "uptime": 100.0,
-          "speed": 754.0,
-          "latency": 42.5,
-          "loss": 0.0
+          "score": 72.7,
+          "uptime": 99.0,
+          "speed": 78.9,
+          "latency": 445.16,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 445.16,
+          "latency": 445.16,
+          "score": 72.7,
+          "health": "ok"
         }
       }
     },
@@ -478,18 +549,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 77.1,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 75.15,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 69.35,
+          "uptime": 99.0,
+          "speed": 56.1,
+          "latency": 496.33,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 496.33,
+          "latency": 496.33,
+          "score": 69.35,
+          "health": "ok"
         }
       }
     },
@@ -507,18 +582,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 77.1,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 75.6,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 71.55,
+          "uptime": 99.0,
+          "speed": 72.1,
+          "latency": 460.45,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 460.45,
+          "latency": 460.45,
+          "score": 71.55,
+          "health": "ok"
         }
       }
     },
@@ -536,18 +615,22 @@
           "loss": 0.0
         },
         "2026-11-24": {
-          "score": 93.2,
-          "uptime": 100.0,
-          "speed": 746.6,
-          "latency": 36.0,
-          "loss": 0.0
-        },
-        "2026-11-25": {
-          "score": 93.2,
-          "uptime": 100.0,
-          "speed": 746.6,
-          "latency": 36.0,
-          "loss": 0.0
+          "score": 73.65,
+          "uptime": 99.0,
+          "speed": 80.6,
+          "latency": 441.33,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 441.33,
+          "latency": 441.33,
+          "score": 73.65,
+          "health": "ok"
         }
       }
     },
@@ -565,18 +648,22 @@
           "loss": 0.0
         },
         "2026-11-24": {
-          "score": 91.4,
-          "uptime": 100.0,
-          "speed": 631.5,
-          "latency": 11.0,
-          "loss": 0.0
-        },
-        "2026-11-25": {
-          "score": 91.4,
-          "uptime": 100.0,
-          "speed": 631.5,
-          "latency": 11.0,
-          "loss": 0.0
+          "score": 70.1,
+          "uptime": 99.0,
+          "speed": 63.2,
+          "latency": 480.42,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 480.42,
+          "latency": 480.42,
+          "score": 70.1,
+          "health": "ok"
         }
       }
     },
@@ -594,18 +681,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 77.1,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 77.1,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 63.7,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 780.86,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 780.86,
+          "latency": 780.86,
+          "score": 63.7,
+          "health": "ok"
         }
       }
     },
@@ -623,18 +714,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 76.2,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 76.2,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 62.8,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 882.43,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 882.43,
+          "latency": 882.43,
+          "score": 62.8,
+          "health": "ok"
         }
       }
     },
@@ -652,18 +747,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 69.15,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 69.15,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 68.4,
+          "uptime": 96.0,
+          "speed": 126.1,
+          "latency": 330.23,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 330.23,
+          "latency": 330.23,
+          "score": 68.4,
+          "health": "waf_protected"
         }
       }
     },
@@ -681,18 +780,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 74.7,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 74.7,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 72.9,
+          "uptime": 99.0,
+          "speed": 84.1,
+          "latency": 433.46,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 433.46,
+          "latency": 433.46,
+          "score": 72.9,
+          "health": "ok"
         }
       }
     },
@@ -710,18 +813,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 76.65,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 76.65,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 60.6,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 1202.38,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 1202.38,
+          "latency": 1202.38,
+          "score": 60.6,
+          "health": "waf_protected"
         }
       }
     },
@@ -739,18 +846,22 @@
           "loss": 1.14
         },
         "2026-11-24": {
-          "score": 88.65,
-          "uptime": 98.86,
-          "speed": 438.1,
-          "latency": 51.0,
-          "loss": 1.14
-        },
-        "2026-11-25": {
-          "score": 85.65,
-          "uptime": 98.86,
-          "speed": 438.1,
-          "latency": 51.0,
-          "loss": 1.14
+          "score": 60.7,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 1138.45,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 1138.45,
+          "latency": 1138.45,
+          "score": 60.7,
+          "health": "ok"
         }
       }
     },
@@ -768,18 +879,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 79.95,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 79.95,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 70.95,
+          "uptime": 99.0,
+          "speed": 51.2,
+          "latency": 507.23,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 507.23,
+          "latency": 507.23,
+          "score": 70.95,
+          "health": "ok"
         }
       }
     },
@@ -810,6 +925,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 75.3,
+          "health": "skipped"
+        }
       }
     },
     "ap-443c627c": {
@@ -826,18 +952,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 76.2,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 76.2,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 86.7,
+          "uptime": 99.0,
+          "speed": 206.0,
+          "latency": 159.79,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 159.79,
+          "latency": 159.79,
+          "score": 86.7,
+          "health": "ok"
         }
       }
     },
@@ -855,18 +985,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 76.2,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 76.2,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 69.65,
+          "uptime": 99.0,
+          "speed": 48.8,
+          "latency": 512.77,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 512.77,
+          "latency": 512.77,
+          "score": 69.65,
+          "health": "ok"
         }
       }
     },
@@ -897,6 +1031,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 77.55,
+          "health": "skipped"
+        }
       }
     },
     "ap-e2842569": {
@@ -913,18 +1058,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 73.5,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 73.5,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 83.8,
+          "uptime": 99.0,
+          "speed": 201.9,
+          "latency": 168.96,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 168.96,
+          "latency": 168.96,
+          "score": 83.8,
+          "health": "ok"
         }
       }
     },
@@ -942,18 +1091,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 84.55,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 84.55,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 62.7,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 789.6,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 789.6,
+          "latency": 789.6,
+          "score": 62.7,
+          "health": "ok"
         }
       }
     },
@@ -971,18 +1124,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 79.0,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 79.0,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 85.1,
+          "uptime": 99.0,
+          "speed": 217.2,
+          "latency": 134.73,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 134.73,
+          "latency": 134.73,
+          "score": 85.1,
+          "health": "ok"
         }
       }
     },
@@ -1000,18 +1157,22 @@
           "loss": 2.27
         },
         "2026-11-24": {
-          "score": 89.9,
-          "uptime": 97.73,
-          "speed": 483.8,
-          "latency": 37.0,
-          "loss": 2.27
-        },
-        "2026-11-25": {
-          "score": 89.9,
-          "uptime": 97.73,
-          "speed": 483.8,
-          "latency": 37.0,
-          "loss": 2.27
+          "score": 69.9,
+          "uptime": 99.0,
+          "speed": 45.0,
+          "latency": 521.22,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 521.22,
+          "latency": 521.22,
+          "score": 69.9,
+          "health": "ok"
         }
       }
     },
@@ -1029,18 +1190,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 71.85,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 71.85,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 55.8,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 2202.71,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 2202.71,
+          "latency": 2202.71,
+          "score": 55.8,
+          "health": "waf_protected"
         }
       }
     },
@@ -1058,18 +1223,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 74.1,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 74.1,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 61.6,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 1534.81,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 1534.81,
+          "latency": 1534.81,
+          "score": 61.6,
+          "health": "ok"
         }
       }
     },
@@ -1087,18 +1256,22 @@
           "loss": 0.0
         },
         "2026-11-24": {
-          "score": 92.7,
-          "uptime": 100.0,
-          "speed": 972.4,
-          "latency": 38.0,
-          "loss": 0.0
-        },
-        "2026-11-25": {
-          "score": 92.7,
-          "uptime": 100.0,
-          "speed": 972.4,
-          "latency": 38.0,
-          "loss": 0.0
+          "score": 69.7,
+          "uptime": 99.0,
+          "speed": 42.4,
+          "latency": 527.13,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 527.13,
+          "latency": 527.13,
+          "score": 69.7,
+          "health": "ok"
         }
       }
     },
@@ -1116,18 +1289,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 75.9,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 75.9,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 63.3,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 730.65,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 730.65,
+          "latency": 730.65,
+          "score": 63.3,
+          "health": "ok"
         }
       }
     },
@@ -1145,18 +1322,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 70.05,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 70.05,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 57.55,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3212.07,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3212.07,
+          "latency": 3212.07,
+          "score": 57.55,
+          "health": "ok"
         }
       }
     },
@@ -1174,18 +1355,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 72.3,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 72.3,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 66.75,
+          "uptime": 99.0,
+          "speed": 47.2,
+          "latency": 516.21,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 516.21,
+          "latency": 516.21,
+          "score": 66.75,
+          "health": "ok"
         }
       }
     },
@@ -1203,18 +1388,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 70.05,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 70.05,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 64.05,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 657.55,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 657.55,
+          "latency": 657.55,
+          "score": 64.05,
+          "health": "ok"
         }
       }
     },
@@ -1232,18 +1421,22 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 74.7,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 74.7,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 1526.05,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 1526.05,
+          "latency": 1526.05,
+          "score": 62.2,
+          "health": "ok"
         }
       }
     },
@@ -1261,24 +1454,28 @@
           "loss": 1.2
         },
         "2026-11-24": {
-          "score": 77.85,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
-        },
-        "2026-11-25": {
-          "score": 77.85,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+          "score": 63.05,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 695.01,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 695.01,
+          "latency": 695.01,
+          "score": 63.05,
+          "health": "ok"
         }
       }
     },
     "skylumo": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -1302,12 +1499,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "sogo": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -1332,11 +1540,22 @@
           "latency": 420.0,
           "loss": 100.0
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
+        }
       }
     },
     "onestep": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -1360,6 +1579,17 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
@@ -1390,6 +1620,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 81.8,
+          "health": "skipped"
+        }
       }
     },
     "edgenova": {
@@ -1418,6 +1659,17 @@
           "speed": 913.3,
           "latency": 39.0,
           "loss": 0.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 100.0,
+          "ttfbMs": null,
+          "latency": 39.0,
+          "score": 92.5,
+          "health": "skipped"
         }
       }
     },
@@ -1448,6 +1700,17 @@
           "latency": 37.0,
           "loss": 0.0
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 100.0,
+          "ttfbMs": null,
+          "latency": 37.0,
+          "score": 92.7,
+          "health": "skipped"
+        }
       }
     },
     "ap-ed7ce7f5": {
@@ -1477,6 +1740,17 @@
           "latency": 36.5,
           "loss": 0.0
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 100.0,
+          "ttfbMs": null,
+          "latency": 36.5,
+          "score": 92.4,
+          "health": "skipped"
+        }
       }
     },
     "ap-db031d64": {
@@ -1505,6 +1779,17 @@
           "speed": 1002.8,
           "latency": 40.5,
           "loss": 0.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 100.0,
+          "ttfbMs": null,
+          "latency": 40.5,
+          "score": 92.05,
+          "health": "skipped"
         }
       }
     },
@@ -1550,6 +1835,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 78.45,
+          "health": "skipped"
+        }
       }
     },
     "ap-0adc0e35": {
@@ -1578,6 +1874,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 74.25,
+          "health": "skipped"
         }
       }
     },
@@ -1608,6 +1915,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 74.1,
+          "health": "skipped"
+        }
       }
     },
     "flyv": {
@@ -1636,6 +1954,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 74.1,
+          "health": "skipped"
         }
       }
     },
@@ -1666,6 +1995,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 74.1,
+          "health": "skipped"
+        }
       }
     },
     "ap-18c4c2ab": {
@@ -1694,6 +2034,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 73.2,
+          "health": "skipped"
         }
       }
     },
@@ -1724,6 +2075,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 73.2,
+          "health": "skipped"
+        }
       }
     },
     "ap-36cceebb": {
@@ -1752,6 +2114,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 80.55,
+          "health": "skipped"
         }
       }
     },
@@ -1782,6 +2155,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 74.85,
+          "health": "skipped"
+        }
       }
     },
     "ap-a089140d": {
@@ -1811,6 +2195,17 @@
           "latency": 41.0,
           "loss": 3.03
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.97,
+          "ttfbMs": null,
+          "latency": 41.0,
+          "score": 90.55,
+          "health": "skipped"
+        }
       }
     },
     "ap-c9ad2d12": {
@@ -1839,6 +2234,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 74.85,
+          "health": "skipped"
         }
       }
     },
@@ -1884,6 +2290,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 77.1,
+          "health": "skipped"
+        }
       }
     },
     "ap-9eb71d00": {
@@ -1912,6 +2329,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 76.05,
+          "health": "skipped"
         }
       }
     },
@@ -1942,6 +2370,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 76.65,
+          "health": "skipped"
+        }
       }
     },
     "ap-124f5b3b": {
@@ -1970,6 +2409,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 77.1,
+          "health": "skipped"
         }
       }
     },
@@ -2000,6 +2450,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 77.1,
+          "health": "skipped"
+        }
       }
     },
     "ap-75eb0e5c": {
@@ -2029,6 +2490,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 77.1,
+          "health": "skipped"
+        }
       }
     },
     "ap-1ba2bc30": {
@@ -2057,6 +2529,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 77.1,
+          "health": "skipped"
         }
       }
     },
@@ -2102,6 +2585,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 75.6,
+          "health": "skipped"
+        }
       }
     },
     "ktm": {
@@ -2130,6 +2624,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 75.6,
+          "health": "skipped"
         }
       }
     },
@@ -2160,11 +2665,22 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 78.4,
+          "health": "skipped"
+        }
       }
     },
     "ap-6bf271a1": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2188,12 +2704,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "fccloud": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2217,12 +2744,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "spcloud": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2246,12 +2784,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "efcloud": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2275,12 +2824,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "aca": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2304,12 +2864,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "ap-f18ec922": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2333,12 +2904,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "duangcloud": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2362,12 +2944,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "leensa": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2391,12 +2984,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "ap-8c5d34f7": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2420,12 +3024,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "bhcloud": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2449,12 +3064,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "ap-e8f4ed4a": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2478,12 +3104,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "v2club": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2507,12 +3144,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "ap-2be9e6eb": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2536,12 +3184,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "xlm-cloud": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2565,12 +3224,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "fastlink": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2594,12 +3264,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "ap-390986f5": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2623,12 +3304,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "boomcloud": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2652,12 +3344,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "clm": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2681,12 +3384,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "creamdata": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2710,12 +3424,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "tly": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2739,12 +3464,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "skicat-catree": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2768,12 +3504,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "ap-1ff58acc": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2797,12 +3544,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "ap-1a012af7": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2826,12 +3584,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "naiunet": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2855,12 +3624,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "chiselwall": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2884,12 +3664,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "sockboom": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2913,12 +3704,23 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
     "ap-9e0019b6": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2943,11 +3745,22 @@
           "latency": 420.0,
           "loss": 100.0
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
+        }
       }
     },
     "tpap": {
       "first_seen": "2026-11-23",
-      "observed_days": 3,
+      "observed_days": 2,
       "consecutive_failures": 9,
       "total_probes": 7,
       "daily": {
@@ -2971,6 +3784,17 @@
           "speed": 5.0,
           "latency": 420.0,
           "loss": 100.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 0.0,
+          "ttfbMs": null,
+          "latency": 420.0,
+          "score": 30.8,
+          "health": "down"
         }
       }
     },
@@ -3001,6 +3825,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 74.4,
+          "health": "skipped"
+        }
       }
     },
     "ap-3b819696": {
@@ -3029,6 +3864,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 74.1,
+          "health": "skipped"
         }
       }
     },
@@ -3074,6 +3920,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 76.65,
+          "health": "skipped"
+        }
       }
     },
     "flybit-flybit": {
@@ -3102,6 +3959,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 75.6,
+          "health": "skipped"
         }
       }
     },
@@ -3132,6 +4000,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 76.5,
+          "health": "skipped"
+        }
       }
     },
     "jike-cloud": {
@@ -3161,6 +4040,17 @@
           "latency": 85.0,
           "loss": 1.2
         }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 71.7,
+          "health": "skipped"
+        }
       }
     },
     "jisu-cloud": {
@@ -3189,6 +4079,17 @@
           "speed": 120.0,
           "latency": 85.0,
           "loss": 1.2
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 92.0,
+          "ttfbMs": null,
+          "latency": 85.0,
+          "score": 75.45,
+          "health": "skipped"
         }
       }
     },
@@ -3244,48 +4145,2057 @@
         }
       }
     },
-    "ap-dd28b221": {
-      "first_seen": "2026-11-25",
+    "ap-499e8e3b": {
+      "first_seen": "2026-11-24",
       "observed_days": 1,
       "consecutive_failures": 0,
       "total_probes": 1,
       "daily": {
-        "2026-11-25": {
-          "score": 75.6,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+        "2026-11-24": {
+          "score": 72.45,
+          "uptime": 99.0,
+          "speed": 79.9,
+          "latency": 442.9,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 442.9,
+          "latency": 442.9,
+          "score": 72.45,
+          "health": "ok"
         }
       }
     },
-    "ap-cfd55ebf": {
-      "first_seen": "2026-11-25",
+    "ap-3364023d": {
+      "first_seen": "2026-11-24",
       "observed_days": 1,
       "consecutive_failures": 0,
       "total_probes": 1,
       "daily": {
-        "2026-11-25": {
-          "score": 75.6,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 2250.15,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 2250.15,
+          "latency": 2250.15,
+          "score": 59.55,
+          "health": "waf_protected"
         }
       }
     },
-    "ap-3d5105d1": {
-      "first_seen": "2026-11-25",
+    "ap-a754f187": {
+      "first_seen": "2026-11-24",
       "observed_days": 1,
       "consecutive_failures": 0,
       "total_probes": 1,
       "daily": {
-        "2026-11-25": {
-          "score": 75.6,
-          "uptime": 92.0,
-          "speed": 120.0,
-          "latency": 85.0,
-          "loss": 1.2
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2862.7,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2862.7,
+          "latency": 2862.7,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-b8698a45": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 1500.44,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 1500.44,
+          "latency": 1500.44,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-bdf9e8fa": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 4503.13,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 4503.13,
+          "latency": 4503.13,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-54de4717": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 68.7,
+          "uptime": 96.0,
+          "speed": 69.1,
+          "latency": 462.32,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 462.32,
+          "latency": 462.32,
+          "score": 68.7,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "m78": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 72.45,
+          "uptime": 99.0,
+          "speed": 82.1,
+          "latency": 437.84,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 437.84,
+          "latency": 437.84,
+          "score": 72.45,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-f231d4c2": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2805.96,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2805.96,
+          "latency": 2805.96,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "flybit": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 918.85,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 918.85,
+          "latency": 918.85,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-634210e7": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 1181.4,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 1181.4,
+          "latency": 1181.4,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ofonet": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 66.6,
+          "uptime": 99.0,
+          "speed": 18.0,
+          "latency": 581.82,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 581.82,
+          "latency": 581.82,
+          "score": 66.6,
+          "health": "ok"
+        }
+      }
+    },
+    "inets": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 1840.63,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 1840.63,
+          "latency": 1840.63,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-e198f011": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 76.2,
+          "uptime": 99.0,
+          "speed": 117.8,
+          "latency": 357.91,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 357.91,
+          "latency": 357.91,
+          "score": 76.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-39aa6f55": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 1056.44,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 1056.44,
+          "latency": 1056.44,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "happy": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 68.05,
+          "uptime": 99.0,
+          "speed": 39.0,
+          "latency": 534.75,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 534.75,
+          "latency": 534.75,
+          "score": 68.05,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-56e51d8c": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2944.95,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2944.95,
+          "latency": 2944.95,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "iplc-vip": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3903.6,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3903.6,
+          "latency": 3903.6,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-c9cef83f": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2795.13,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2795.13,
+          "latency": 2795.13,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "mesl-cloud": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3395.38,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3395.38,
+          "latency": 3395.38,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-5b9f41e9": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 1590.01,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 1590.01,
+          "latency": 1590.01,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "cc": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3717.86,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3717.86,
+          "latency": 3717.86,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ss-id": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2388.78,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2388.78,
+          "latency": 2388.78,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "xlinkworld": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.8,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 6370.55,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 6370.55,
+          "latency": 6370.55,
+          "score": 62.8,
+          "health": "ok"
+        }
+      }
+    },
+    "xipcloud": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 5572.19,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 5572.19,
+          "latency": 5572.19,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "byg": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 4111.74,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 4111.74,
+          "latency": 4111.74,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "immtele": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 4321.83,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 4321.83,
+          "latency": 4321.83,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "gatern": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3817.9,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3817.9,
+          "latency": 3817.9,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-d0b3a7d7": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3166.54,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3166.54,
+          "latency": 3166.54,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ctc": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3992.48,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3992.48,
+          "latency": 3992.48,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "tag": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 2314.43,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 2314.43,
+          "latency": 2314.43,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-234c6744": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 1883.35,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 1883.35,
+          "latency": 1883.35,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "tomatocloud": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 1316.07,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 1316.07,
+          "latency": 1316.07,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "boostqz": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3414.36,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3414.36,
+          "latency": 3414.36,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "dawangidc": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 5800.28,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 5800.28,
+          "latency": 5800.28,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-3acbd2b2": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3035.97,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3035.97,
+          "latency": 3035.97,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-26c3ae9c": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3629.18,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3629.18,
+          "latency": 3629.18,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-2d91993a": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 2393.09,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 2393.09,
+          "latency": 2393.09,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-d240400e": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 5155.58,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 5155.58,
+          "latency": 5155.58,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-46c9e359": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 4012.22,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 4012.22,
+          "latency": 4012.22,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-fa50f9c4": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2616.67,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2616.67,
+          "latency": 2616.67,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "kitty-network": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3224.87,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3224.87,
+          "latency": 3224.87,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "jms": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2779.35,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2779.35,
+          "latency": 2779.35,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-9bf9d43e": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3652.69,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3652.69,
+          "latency": 3652.69,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "westdata": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 2162.99,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 2162.99,
+          "latency": 2162.99,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-23697b34": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3511.2,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3511.2,
+          "latency": 3511.2,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "v2": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.65,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2488.95,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2488.95,
+          "latency": 2488.95,
+          "score": 62.65,
+          "health": "ok"
+        }
+      }
+    },
+    "agentneo": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3279.44,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3279.44,
+          "latency": 3279.44,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "sakuracat": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2172.57,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2172.57,
+          "latency": 2172.57,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "miaona": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2300.02,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2300.02,
+          "latency": 2300.02,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "foo-friends": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 4443.07,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 4443.07,
+          "latency": 4443.07,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "prprcloud": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 2875.45,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 2875.45,
+          "latency": 2875.45,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-19fa2b79": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2563.95,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2563.95,
+          "latency": 2563.95,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-6b933648": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2701.89,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2701.89,
+          "latency": 2701.89,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "infini-port": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 2487.13,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 2487.13,
+          "latency": 2487.13,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-5b1a9bc4": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 7678.92,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 7678.92,
+          "latency": 7678.92,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "xfltd": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 63.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 723.23,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 723.23,
+          "latency": 723.23,
+          "score": 63.2,
+          "health": "ok"
+        }
+      }
+    },
+    "big-airport": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2038.27,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2038.27,
+          "latency": 2038.27,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-27a7f42b": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2462.66,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2462.66,
+          "latency": 2462.66,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "giegie-cloud": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 1,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 49.0,
+          "uptime": 70.0,
+          "speed": 8.4,
+          "latency": 2638.06,
+          "loss": 35.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 70.0,
+          "ttfbMs": 2638.06,
+          "latency": 2638.06,
+          "score": 49.0,
+          "health": "down"
+        }
+      }
+    },
+    "web3vpn": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2538.22,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2538.22,
+          "latency": 2538.22,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "easyinternet": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2782.27,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2782.27,
+          "latency": 2782.27,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-f209e124": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 70.7,
+          "uptime": 99.0,
+          "speed": 62.4,
+          "latency": 482.17,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 482.17,
+          "latency": 482.17,
+          "score": 70.7,
+          "health": "ok"
+        }
+      }
+    },
+    "cocoduck": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2092.31,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2092.31,
+          "latency": 2092.31,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "x-air": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3099.67,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3099.67,
+          "latency": 3099.67,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-dc210d7c": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 4412.69,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 4412.69,
+          "latency": 4412.69,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-f15293c3": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 2031.15,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 2031.15,
+          "latency": 2031.15,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "taishan": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2980.1,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2980.1,
+          "latency": 2980.1,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-69492e62": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2460.8,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2460.8,
+          "latency": 2460.8,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "socloud": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2632.51,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2632.51,
+          "latency": 2632.51,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-f04324b4": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3158.0,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3158.0,
+          "latency": 3158.0,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ncloud": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 59.55,
+          "uptime": 96.0,
+          "speed": 11.5,
+          "latency": 2224.22,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 96.0,
+          "ttfbMs": 2224.22,
+          "latency": 2224.22,
+          "score": 59.55,
+          "health": "waf_protected"
+        }
+      }
+    },
+    "ap-2b538f4f": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 4931.66,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 4931.66,
+          "latency": 4931.66,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-3ebc55f7": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3515.68,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3515.68,
+          "latency": 3515.68,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ikuuu": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2769.07,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2769.07,
+          "latency": 2769.07,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "bfg": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3067.17,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3067.17,
+          "latency": 3067.17,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "wuxx": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2361.01,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2361.01,
+          "latency": 2361.01,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-01826d1b": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 2909.39,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 2909.39,
+          "latency": 2909.39,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "ap-8e0a29c3": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 0,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 62.2,
+          "uptime": 99.0,
+          "speed": 11.9,
+          "latency": 3808.51,
+          "loss": 0.5
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 99.0,
+          "ttfbMs": 3808.51,
+          "latency": 3808.51,
+          "score": 62.2,
+          "health": "ok"
+        }
+      }
+    },
+    "citruslab": {
+      "first_seen": "2026-11-24",
+      "observed_days": 1,
+      "consecutive_failures": 1,
+      "total_probes": 1,
+      "daily": {
+        "2026-11-24": {
+          "score": 38.55,
+          "uptime": 15.0,
+          "speed": 23.1,
+          "latency": 280.0,
+          "loss": 35.0
+        }
+      },
+      "slots": {
+        "2026-11-25#normal": {
+          "key": "2026-11-25#normal",
+          "slot": "normal",
+          "uptime": 15.0,
+          "ttfbMs": null,
+          "latency": 280.0,
+          "score": 38.55,
+          "health": "down"
         }
       }
     }

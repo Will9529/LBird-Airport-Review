@@ -1,35 +1,30 @@
 [
   {
-    "id": "n-df79b95ba5",
-    "category": "内核动态",
-    "title": "Prerelease-Alpha",
-    "summary": "Release created at Wed Nov 25 09:32:36 CST 2026 Synchronize Alpha branch code updates, keeping only the latest version 我应该下载哪个文件? / Which f…",
-    "date": "2026/11/25",
-    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha"
-  },
-  {
-    "id": "n-e685231f8f",
+    "id": "n-9384f6fe75",
     "category": "客户端更新",
-    "title": "8.0.1",
+    "title": "v2rayN 8.0.1",
     "summary": "本次更新 新增 WebUI 功能，添加无头 WebAPI 支持 - #10300 v2rayN WebAPI / WebUI 配置指南 https://github.com/2dust/v2rayN/discussions/10438 支持原生 Aot，release中下载带有…",
     "date": "2026/11/22",
-    "url": "https://github.com/2dust/v2rayN/releases/tag/8.0.1"
+    "url": "https://github.com/2dust/v2rayN/releases/tag/8.0.1",
+    "content": "本次更新\n新增 WebUI 功能，添加无头 WebAPI 支持 -\n#10300\nv2rayN WebAPI / WebUI 配置指南\nhttps://github.com/2dust/v2rayN/discussions/10438\n支持原生 Aot，release中下载带有 aot -\n#10295\n升级 ReactiveUI  ，desktop 版本升级 ProDataGrid ，支持列的动态调整\n添加 MASQUE warp 支持 -\n#10498\n订阅中新增配配置域名预解析功能，可以按设置解析域名为 IP -\n#10220\n添加 Xray XDRIVE transport-\n#10546\n扩展 CustomOutbound 以支持多个出站 -\n#10578\n将 v2rayN WPF 项目重命名为 v2rayN.Windows\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/8.0.1"
   },
   {
-    "id": "n-d598a1280c",
+    "id": "n-4cf6df32f8",
     "category": "客户端更新",
-    "title": "8.0.0",
+    "title": "v2rayN 8.0.0",
     "summary": "本次更新 新增 WebUI 功能，添加无头 WebAPI 支持 - #10300 v2rayN WebAPI / WebUI 配置指南 https://github.com/2dust/v2rayN/discussions/10438 支持原生 Aot，release中下载带有…",
     "date": "2026/11/21",
-    "url": "https://github.com/2dust/v2rayN/releases/tag/8.0.0"
+    "url": "https://github.com/2dust/v2rayN/releases/tag/8.0.0",
+    "content": "本次更新\n新增 WebUI 功能，添加无头 WebAPI 支持 -\n#10300\nv2rayN WebAPI / WebUI 配置指南\nhttps://github.com/2dust/v2rayN/discussions/10438\n支持原生 Aot，release中下载带有 aot -\n#10295\n升级 ReactiveUI  ，desktop 版本升级 ProDataGrid ，支持列的动态调整\n添加 MASQUE warp 支持 -\n#10498\n订阅中新增配配置域名预解析功能，可以按设置解析域名为 IP -\n#10220\n添加 Xray XDRIVE transport-\n#10546\n扩展 CustomOutbound 以支持多个出站 -\n#10578\n将 v2rayN WPF 项目重命名为 v2rayN.Windows\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/8.0.0"
   },
   {
-    "id": "n-1e18aa4158",
+    "id": "n-360e1c3ac4",
     "category": "内核动态",
-    "title": "v1.19.34",
+    "title": "Mihomo v1.19.34",
     "summary": "What's Changed 2d1a22e feat: support multiple users for shadowsocks listener ( #3383 ) by @romanov Caesar f1f640b feat: add Snell version 6…",
     "date": "2026/11/11",
-    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.34"
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.34",
+    "content": "What's Changed\n2d1a22e\nfeat: support multiple users for shadowsocks listener (\n#3383\n) by\n@romanov\nCaesar\nf1f640b\nfeat: add Snell version 6 support (outbound + inbound) (\n#3410\n) by\n@yong\nff179c4\nfeat: add ss-password generation functionality to the command line tool (\n#3372\n) by\n@Zephyruso\nBUG & Fix\n478af2a\nfix: auto route rules for tun by\n@wwqgtxx\n5b79f3c\nfix: tfo-go not working on go1.26.9+ and go1.27.2+ by\n@wwqgtxx\n6780eee\nfix: prevent SOCKS domain length arithmetic overflow (\n#3359\n) by\n@SaladDay\n69c1631\nfix: keep bytes that arrive with the HTTP proxy's CONNECT response (\n#3382\n) by\n@gtio\n9002a4f\nfix: easytier drain unused host packets to prevent data-plane stalls (\n#3400\n) by\n@Chikage0o0\nb6a1518\nfix: i386 struct define of PROCESS_MEMORY_COUNTERS by\n@wwqgtxx\nc3bdf77\nfix: skip empty age secret key in DecryptBytes (\n#3450\n) by\n@sloan\nGray\nca8d7c4\nfix: ssh clients do not close when underlying connection writing errors by\n@wwqgtxx\nde439c8\nfix: drain cached data before reading upstream by\n@wwqgtxx\ne9b9a1a\nfix: convert httpupgrade share links to ws with v2ray-http-upgrade (\n#3415\n) by\n@aleksey\nFedorov\nMaintenance\n0455d0d\nchore: bump embedded easytier-go core to keep guest memory of…\n\n官方发布页：https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.34"
   },
   {
     "id": "n-2ae3e54f13",
@@ -37,7 +32,8 @@
     "title": "Clash Verge Rev v2.5.10",
     "summary": "v2.5.10 🐞 修复问题 修复全局模式缺少 GLOBAL 策略组，无法单独选择全局出口 修复服务模式下，SSH 节点的 private-key 使用私钥文件时内核无法启动 修复服务模式下，内核更新的 GEO 数据库不会同步回应用目录，导致使用新分类的规则无法通过校验 修复订…",
     "date": "2026/11/03",
-    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.10"
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.10",
+    "content": "v2.5.10\n🐞 修复问题\n修复全局模式缺少\nGLOBAL\n策略组，无法单独选择全局出口\n修复服务模式下，SSH 节点的\nprivate-key\n使用私钥文件时内核无法启动\n修复服务模式下，内核更新的 GEO 数据库不会同步回应用目录，导致使用新分类的规则无法通过校验\n修复订阅的 DNS 配置变化后，「DNS 覆写」实际已关闭但开关仍显示开启且没有提示\n🖥️ Windows\nWindows：修复安装程序重新安装或覆盖时未提示退出运行中应用，导致卸载报错或覆盖失败\n✨ 新增功能\n🚀 优化改进\n下载地址\nWindows (不再支持Win7)\n正常版本(推荐)\n64位(常用)\n|\nARM64(不常用)\n内置Webview2版(体积较大，仅在企业版系统或无法安装webview2时使用)\n64位\n|\nARM64\nmacOS\nApple M芯片\n|\nIntel芯片\nLinux\nDEB包(Debian系) 使用 apt ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nRPM包(Redhat系) 使用 dnf ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nFAQ\n常见问题\n稳定机场VPN推荐\n狗狗加速\nCreated at Tue Nov  3 18:04:20 CST 2026.\n\n官方发布页：https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.10"
   },
   {
     "id": "n-774696bb15",
@@ -45,63 +41,44 @@
     "title": "Clash Verge Rev v2.5.9",
     "summary": "v2.5.9 Mihomo(Meta) 内核升级至 v1.19.33 🐞 修复问题 修复规则扩展包含空列表项时，「编辑规则」界面报错的问题 修复 重启应用后定时自动备份不执行的问题 修复托盘测速与代理页行为不一致的问题，移除托盘「测试延迟」入口 修复通过 URL 导入订阅时，即…",
     "date": "2026/11/02",
-    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.9"
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.9",
+    "content": "v2.5.9\nMihomo(Meta) 内核升级至 v1.19.33\n🐞 修复问题\n修复规则扩展包含空列表项时，「编辑规则」界面报错的问题\n修复 重启应用后定时自动备份不执行的问题\n修复托盘测速与代理页行为不一致的问题，移除托盘「测试延迟」入口\n修复通过 URL 导入订阅时，即使导入的订阅并非当前使用的订阅，也会重新加载当前配置\n修复 首页 网站测速失败后卡片一直显示测试中\n修复 代理 页展开分组后不显示最新测速结果，需切换节点才刷新\n修复 代理 在全局模式下无法展开节点组\n修复 自定义 CSS 无法修改编辑器字体和字号的问题\n修复 WebDAV 设置清空后无法保存\n🍎 macOS\nmacOS：修复 Bigsur 上首页测速和流量图无法显示的问题\n🐧 Linux\nLinux：修复 deb/rpm 安装包错误包含多余的\nfrontend-contract\n可执行文件，导致下游重新打包失败的问题\n✨ 新增功能\n新增虚拟网卡设置的「DNS 模式」选项，支持配置 mihomo 系统 DNS 行为\n新增「IP 信息」自动刷新开关，关闭后仍可手动刷新\n新增 Muse AI 解锁检测，针对 Muse AI 特有的 Cloudflare 人机验证增加「Risky」状态标记\n🚀 优化改进\n优化「链式代理」：开启前需确认网速影响提示，空面板新增「关闭」按钮\n🖥️ Windows\nWindows 系统代理默认绕过\n*.local\n域名，访问局域网设备的\n.local\n主机名时不再经过代理\n下载地址\nWindows (不再支持Win7)\n正常版本(推荐)\n64位(常用)\n|\nARM64(不常用)\n内置Webview2版(体积较大，仅在企业版系统或无法安装webview2时使用)\n64位\n|\nARM64\nmacOS\nApple M芯片\n|\nIntel芯片\nLinux\nDEB包(Debian系) 使用 apt ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nRPM包(Redhat系) 使用 dnf ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nFAQ\n常见问题\n稳定机场VPN推荐\n狗狗加速\nCreated at Mon Nov  2 18:09:15 CST 2026.\n\n官方发布页：https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.9"
   },
   {
-    "id": "n-e6694dc486",
+    "id": "n-eb4c5f86f0",
     "category": "内核动态",
-    "title": "1.15.0-alpha.13",
+    "title": "sing-box 1.14.4",
     "summary": "📝 Release Notes Fixes and improvements",
     "date": "2026/10/24",
-    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.13"
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.4",
+    "content": "📝 Release Notes\nFixes and improvements\n\n官方发布页：https://github.com/SagerNet/sing-box/releases/tag/v1.14.4"
   },
   {
-    "id": "n-5d5fbb4510",
+    "id": "n-0ae2099bf3",
     "category": "内核动态",
-    "title": "1.14.4",
-    "summary": "📝 Release Notes Fixes and improvements",
-    "date": "2026/10/24",
-    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.4"
-  },
-  {
-    "id": "n-e2d53b3e75",
-    "category": "内核动态",
-    "title": "v1.19.33",
+    "title": "Mihomo v1.19.33",
     "summary": "What's Changed 2df147b feat: support dns-mode for tun ( #3288 ) by @chenx Dust BUG & Fix 349af19 fix: the embedded shadowsocks listener can…",
     "date": "2026/10/21",
-    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.33"
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.33",
+    "content": "What's Changed\n2df147b\nfeat: support\ndns-mode\nfor tun (\n#3288\n) by\n@chenx\nDust\nBUG & Fix\n349af19\nfix: the embedded shadowsocks listener can't be closed (\n#3314\n) by\n@token\n8010193\nfix: bound doh dials so ones the query gave up on cannot pile up (\n#3274\n) by\n@Cassian433\n94b13ae\nfix: dialer-proxy cycle check takes quadratic time and memory (\n#3315\n) by\n@token\nc4e8186\nfix:\nCVE-2026-97031\nfor crypto/tls by\n@wwqgtxx\ndf1b07a\nfix: a sub-millisecond URL test is reported as a failure (\n#3316\n) by\n@token\ne4dd968\nfix: keep fake-ip allocation state when cloning the pool on reload (\n#3283\n) by\n@younes\nBeriane\n1354e52\nfix: unpassed loadbalance test by\n@wwqgtxx\nMaintenance\n3f27ef3\nchore: refactored and fixed issues for sudoku while also improving performance (\n#3333\n) by\n@saba-futai\n9f053c4\nchore: lazy init wireguard device and stack by\n@wwqgtxx\nbc76c13\nchore: update mieru version (\n#3304\n) by\n@enfein\nFull Changelog\n:\nv1.19.32...v1.19.33\n\n官方发布页：https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.33"
   },
   {
-    "id": "n-1fc8c68734",
+    "id": "n-004ff85a7b",
     "category": "客户端更新",
-    "title": "7.25.6",
+    "title": "v2rayN 7.25.6",
     "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
     "date": "2026/10/14",
-    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.6"
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.6",
+    "content": "关于 跳过证书验证 allowInsecure 参数被移除的说明\n本次更新\n支持 sing-box v1.14，更新的用户注意内核版本\n#9736\n锁定最大 sing-box 版本 v1.14\n#10091\n添加通过代理更新检查更新的选项 -\n#10090\n在核心设置界面中添加 Mux 设置 -\n#10055\n日志和临时文件自动清理时间默认为 7 天\n调整 Clash API -\n#10088\nxray core 配置文件格式改为最新版本\n#10132\n为订阅更新添加自定义 HTTP 标头 -\n#10118\n添加阿塞拜疆语 (az) UI 本地化 -\n#10141\n添加 MASQUE 支持 -\n#10233\nhttps://github.com/XTLS/Xray-core/releases/tag/v26.10.10\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/7.25.6"
   },
   {
-    "id": "n-4cdfb08572",
+    "id": "n-fe878c0a16",
     "category": "内核动态",
-    "title": "1.15.0-alpha.12",
-    "summary": "📝 Release Notes Fixes and improvements",
-    "date": "2026/10/11",
-    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.12"
-  },
-  {
-    "id": "n-c638b3a8d5",
-    "category": "内核动态",
-    "title": "1.15.0-alpha.11",
+    "title": "sing-box 1.14.3",
     "summary": "📝 Release Notes Fixes and improvements",
     "date": "2026/10/09",
-    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.11"
-  },
-  {
-    "id": "n-1ad1286f59",
-    "category": "内核动态",
-    "title": "1.14.3",
-    "summary": "📝 Release Notes Fixes and improvements",
-    "date": "2026/10/09",
-    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.3"
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.3",
+    "content": "📝 Release Notes\nFixes and improvements\n\n官方发布页：https://github.com/SagerNet/sing-box/releases/tag/v1.14.3"
   },
   {
     "id": "n-07dc169225",
@@ -109,23 +86,17 @@
     "title": "Clash Verge Rev v2.5.8",
     "summary": "v2.5.8 🐞 修复问题 修复系统托盘代理组行不显示延迟、超时项与未测过项无法区分的问题 修复不同订阅源的同名节点测速和延迟显示指向错误节点的问题 修复端口设置混淆保存值与运行值、输入无效时缺少提示的问题 修复已有内核进程阻止启动时缺少多语言说明和处理建议的问题 修复从开始菜…",
     "date": "2026/10/09",
-    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.8"
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.8",
+    "content": "v2.5.8\n🐞 修复问题\n修复系统托盘代理组行不显示延迟、超时项与未测过项无法区分的问题\n修复不同订阅源的同名节点测速和延迟显示指向错误节点的问题\n修复端口设置混淆保存值与运行值、输入无效时缺少提示的问题\n修复已有内核进程阻止启动时缺少多语言说明和处理建议的问题\n修复从开始菜单再次打开应用后，窗口反复弹出并提示启动失败的问题\n修复多个代理集合包含同名节点时，代理组中的节点变灰并显示 ambiguous、无法选择的问题\n修复手动更新时重复下载后台已下载的安装包、启动时选「稍后」后每次启动都重新下载的问题\n修复下载更新时镜像缓慢或卡住不会切换下载地址、点击「取消」无法中止下载的问题\n修复关闭「自动检查更新」后，启动时仍弹出已下载更新的安装提示的问题\n修复从 Dock 退出、注销或关机时，应用可能长时间卡住无法退出的问题\n修复宽窗口下「订阅」页每行显示过多卡片，导致配置名称被截断的问题\n🖥️ Windows\n修复 Windows 升级后因文件权限异常无法启动、需要手动清理配置的问题\n修复 Windows 服务启动类型被改为手动后，软件启动卡住约两分钟的问题，并提供一键修复\n修复 Windows 长时间运行后，托盘菜单点击无响应的问题\n🍎 macOS\n修复 macOS 关闭 TUN 或退出后，系统 DNS 仍停留在\n114.114.114.114\n导致无法解析域名的问题\n🖥️/🍎 Windows/macOS\n修复 Windows/macOS 打开系统托盘菜单时，节点延迟与自动选择状态未刷新的问题\n✨ 新增功能\n新增系统托盘代理组中的「测试延迟」菜单项\n🚀 优化改进\n优化端口设置窗口的实现，精简重复代码\n优化侧边栏流量图表的 CPU 占用\n🖥️ Windows\n优化 Windows 服务安全检查未通过时的提示：启动、安装或修复服务时说明原因与内核占用，并提供处理方法\n下载地址\nWindows (不再支持Win7)\n正常版本(推荐)\n64位(常用)\n|\nARM64(不常用)\n内置Webview2版(体积较大，仅在企业版系统或无法安装webview2时使用)\n64位\n|\nARM64\nmacOS\nApple M芯片\n|\nIntel芯片\nLinux\nDEB包(Debian系) 使用 apt ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nRPM包(Redhat系) 使用 dnf ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nFAQ\n常见问题\n稳定机场VPN推荐\n狗狗加速\nCreated at Fri Oct  9 10:43:44 CST 2026.\n\n官方发布页：https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.8"
   },
   {
-    "id": "n-470e7cd570",
+    "id": "n-2a69be48f9",
     "category": "客户端更新",
-    "title": "7.25.5",
+    "title": "v2rayN 7.25.5",
     "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
     "date": "2026/10/05",
-    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.5"
-  },
-  {
-    "id": "n-cf414899b7",
-    "category": "内核动态",
-    "title": "1.15.0-alpha.10",
-    "summary": "📝 Release Notes Fixes and improvements",
-    "date": "2026/10/03",
-    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.10"
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.5",
+    "content": "关于 跳过证书验证 allowInsecure 参数被移除的说明\n本次更新\n支持 sing-box v1.14，更新的用户注意内核版本\n#9736\n锁定最大 sing-box 版本 v1.14\n#10091\n添加通过代理更新检查更新的选项 -\n#10090\n在核心设置界面中添加 Mux 设置 -\n#10055\n日志和临时文件自动清理时间默认为 7 天\n调整 Clash API -\n#10088\nxray core 配置文件格式改为最新版本\n#10132\n为订阅更新添加自定义 HTTP 标头 -\n#10118\n添加阿塞拜疆语 (az) UI 本地化 -\n#10141\nhttps://github.com/XTLS/Xray-core/releases/tag/v26.9.30\n添加 MASQUE 支持 -\n#10233\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/7.25.5"
   },
   {
     "id": "n-1be10ddcfc",
@@ -133,15 +104,17 @@
     "title": "Clash Verge Rev v2.5.7",
     "summary": "v2.5.7 🐞 修复问题 修复读屏软件将普通模式下的侧边栏导航项播报为不可用的可拖拽控件的问题 修复订阅包含自定义 DNS 时，确认开启的 DNS 覆写在重启应用后被自动关闭的问题 🖥️ Windows 修复 Windows 系统盘根目录的删除权限被误判，导致服务模式和 TU…",
     "date": "2026/10/02",
-    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.7"
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.7",
+    "content": "v2.5.7\n🐞 修复问题\n修复读屏软件将普通模式下的侧边栏导航项播报为不可用的可拖拽控件的问题\n修复订阅包含自定义 DNS 时，确认开启的 DNS 覆写在重启应用后被自动关闭的问题\n🖥️ Windows\n修复 Windows 系统盘根目录的删除权限被误判，导致服务模式和 TUN 无法使用的问题\n修复 Windows 部分系统安装服务失败，提示「program not found」的问题\n🍎 macOS\nmacOS 修复启动或重启应用时偶发内核启动失败，并误提示「需要更新系统服务」的问题\nmacOS 修复 VPN 接管网络或开机网络未就绪时的问题：服务模式内核无法启动、TUN 不可用、系统代理状态读取报错\nmacOS 修复用\nipconfig set\n手动配置网卡后无法设置系统代理的问题\n🍎/🐧 macOS/Linux\n修复 macOS/Linux 服务模式停止或重启内核时直接强制结束的问题：内核来不及正常退出、最后的日志丢失\n🚀 优化改进\n优化服务模式的问题排查：服务自身的运行日志会保存到文件，便于追查内核被停止的原因\n🖥️ Windows\n优化 Windows 服务安全检查未通过时的启动提示：不再只显示「服务无法启动内核」，直接说明原因并提供修复文档链接\n下载地址\nWindows (不再支持Win7)\n正常版本(推荐)\n64位(常用)\n|\nARM64(不常用)\n内置Webview2版(体积较大，仅在企业版系统或无法安装webview2时使用)\n64位\n|\nARM64\nmacOS\nApple M芯片\n|\nIntel芯片\nLinux\nDEB包(Debian系) 使用 apt ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nRPM包(Redhat系) 使用 dnf ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nFAQ\n常见问题\n稳定机场VPN推荐\n狗狗加速\nCreated at Sat Oct  3 00:25:42 CST 2026.\n\n官方发布页：https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.7"
   },
   {
-    "id": "n-666ff988f0",
+    "id": "n-46ad828d17",
     "category": "客户端更新",
-    "title": "7.25.4",
+    "title": "v2rayN 7.25.4",
     "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
     "date": "2026/10/02",
-    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.4"
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.4",
+    "content": "关于 跳过证书验证 allowInsecure 参数被移除的说明\n本次更新\n支持 sing-box v1.14，更新的用户注意内核版本\n#9736\n锁定最大 sing-box 版本 v1.14\n#10091\n添加通过代理更新检查更新的选项 -\n#10090\n在核心设置界面中添加 Mux 设置 -\n#10055\n日志和临时文件自动清理时间默认为 7 天\n调整 Clash API -\n#10088\nxray core 配置文件格式改为最新版本\n#10132\n为订阅更新添加自定义 HTTP 标头 -\n#10118\n添加阿塞拜疆语 (az) UI 本地化 -\n#10141\nhttps://github.com/XTLS/Xray-core/releases/tag/v26.9.30\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/7.25.4"
   },
   {
     "id": "n-58a07da5e6",
@@ -149,7 +122,8 @@
     "title": "Clash Verge Rev v2.5.6",
     "summary": "v2.5.6 🐞 修复问题 修复「代理集合」「规则集合」订阅响应较慢时更新误报失败、且不显示真实失败原因的问题 🖥️ Windows 修复 Windows 部分未安装服务的用户以普通权限运行时，内核无法启动的问题 修复 Windows 系统隔离权限被误判，导致服务模式和 TUN…",
     "date": "2026/10/01",
-    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.6"
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.6",
+    "content": "v2.5.6\n🐞 修复问题\n修复「代理集合」「规则集合」订阅响应较慢时更新误报失败、且不显示真实失败原因的问题\n🖥️ Windows\n修复 Windows 部分未安装服务的用户以普通权限运行时，内核无法启动的问题\n修复 Windows 系统隔离权限被误判，导致服务模式和 TUN 无法使用的问题\n修复 Windows 旧版服务状态残留导致无法重装的问题，自动备份可识别的残留并恢复安装\n修复 Windows 服务已停止时，启动要等约两分钟才显示窗口的问题\n优化 Windows 服务安全检查失败提示：用易懂的文字说明原因，并提供修复文档链接\n🍎 macOS\nmacOS 修复编辑规则时「规则内容」输入的首字母被自动转为大写的问题\nmacOS 修复残留的服务进程导致内核无法启动、「继续使用 Sidecar」失败且无法修复的问题\nmacOS 修复部分账户安装或修复服务时提示无法解析用户组而失败的问题\nmacOS 优化用户目录在外置磁盘时服务拒绝启动内核的提示：说明原因并给出修复命令\nmacOS 修复服务模式内核意外停止后，系统代理仍指向失效端口导致无法上网的问题\n🚀 优化改进\n优化内核启动失败和服务模式内核意外停止的提示：显示具体原因，并在窗口恢复后提示尚未解决的错误\n下载地址\nWindows (不再支持Win7)\n正常版本(推荐)\n64位(常用)\n|\nARM64(不常用)\n内置Webview2版(体积较大，仅在企业版系统或无法安装webview2时使用)\n64位\n|\nARM64\nmacOS\nApple M芯片\n|\nIntel芯片\nLinux\nDEB包(Debian系) 使用 apt ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nRPM包(Redhat系) 使用 dnf ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nFAQ\n常见问题\n稳定机场VPN推荐\n狗狗加速\nCreated at Sat Sep 26 12:11:55 CST 2026.\n\n官方发布页：https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.6"
   },
   {
     "id": "n-60c7003823",
@@ -157,86 +131,115 @@
     "title": "Clash Verge Rev v2.5.5",
     "summary": "v2.5.5 🐞 修复问题 修复不同来源的订阅或规则集共用缓存路径时，服务模式无法启动内核的问题 优化文件错误日志，显示具体文件路径和失败原因 修复 DNS 覆写：空内容报错、初始值覆盖已有设置、已填写字段残留原配置、空字段在高级编辑器中缺失 修复 DNS 覆写中已填写的字段被…",
     "date": "2026/10/01",
-    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.5"
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.5",
+    "content": "v2.5.5\n🐞 修复问题\n修复不同来源的订阅或规则集共用缓存路径时，服务模式无法启动内核的问题\n优化文件错误日志，显示具体文件路径和失败原因\n修复 DNS 覆写：空内容报错、初始值覆盖已有设置、已填写字段残留原配置、空字段在高级编辑器中缺失\n修复 DNS 覆写中已填写的字段被 Merge 或 Script 覆盖的问题，空字段继续使用扩展配置\n修复 Merge 覆写 DNS 策略、过滤条件和 hosts 时，旧条目仍被保留的问题\n修复首次以管理员身份启动后，系统服务因数据目录所有权不符而拒绝启动内核的问题\n修复重新安装服务后内核缺失、无法继续使用 Sidecar 的问题\n修复内核未运行时，首页仍显示服务模式的问题\n修复服务重装重复请求管理员授权、卸载后误报失败的问题\n🖥️ Windows\n修复 Windows 服务因路径或目录权限问题无法启动时，缺少重新安装服务的提示\n修复 Windows 服务回退检查失败后状态未更新、无法重新尝试 Sidecar 的问题\n🐧 Linux\nLinux 修复安装或修复服务后仍无法启动内核、开启 TUN 模式的问题\n🚀 优化改进\n优化扩展覆写配置和脚本编辑窗口，提示作用范围、执行顺序及应用设置优先级，并高亮当前步骤\n优化 DNS 覆写开关：按订阅独立记忆，自动关闭仅影响当前订阅，并提示作用范围\n优化系统服务兼容性检查：升级后服务版本或协议不兼容时，提示重新安装\n优化预构建资源，补充 ASN 数据库文件\n扩展配置或脚本写入由应用设置接管的字段时，弹出提示并在扩展日志中记录该值已被丢弃\n下载地址\nWindows (不再支持Win7)\n正常版本(推荐)\n64位(常用)\n|\nARM64(不常用)\n内置Webview2版(体积较大，仅在企业版系统或无法安装webview2时使用)\n64位\n|\nARM64\nmacOS\nApple M芯片\n|\nIntel芯片\nLinux\nDEB包(Debian系) 使用 apt ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nRPM包(Redhat系) 使用 dnf ./路径 安装\n64位\n|\nARM64\n|\nARMv7\nFAQ\n常见问题\n稳定机场VPN推荐\n狗狗加速\nCreated at Tue Sep 22 21:38:47 CST 2026.\n\n官方发布页：https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.5"
   },
   {
-    "id": "n-a923ee2696",
+    "id": "n-576c466dc5",
     "category": "客户端更新",
-    "title": "Clash Verge Rev v2.5.4-rc.2",
-    "summary": "v2.5.4 🐞 修复问题 修复首页代理组和节点下拉菜单：再次点击无法收起或误选、小窗口显示不全、切换模式后意外展开 修复系统代理切换失败后，开关状态显示错误的问题 修复代理守卫失败后反复重试且没有提示的问题 修复未开启系统代理时，启动仍提示代理错误的问题 修复恢复备份后未按备…",
+    "title": "Clash Verge Rev v2.5.2",
+    "summary": "v2.5.2 🐞 修复问题 修复 macOS 托盘速率显示样式异常 修复订阅 TLS 1.0/1.1 等过旧协议时显示更明确错误原因 修复 gzip 压缩订阅响应被当作无效 YAML 导致导入失败的问题 修复订阅 URL 使用空密码 Basic Auth 时未发送认证信息的问题…",
     "date": "2026/10/01",
-    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.4-rc.2"
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.2",
+    "content": "v2.5.2\n🐞 修复问题\n修复 macOS 托盘速率显示样式异常\n修复订阅 TLS 1.0/1.1 等过旧协议时显示更明确错误原因\n修复 gzip 压缩订阅响应被当作无效 YAML 导致导入失败的问题\n修复订阅 URL 使用空密码 Basic Auth 时未发送认证信息的问题\n修复 Linux 托盘可能与其他 Tauri 程序冲突导致的图标异常\n修复前端连接页面导致的内存泄漏\n修复 macOS 12（Monterey）首页 IP 卡片兼容性问题\n修复首页代理卡片可能错误显示通信异常的问题\n修复 Fake-IP 模式开启 IPv6 后未生成 fake-ip-range6 的问题\n修复 DNS 覆写的高级模式无法正常编辑\n修复部分非标准 WebDAV 服务器在备份目录已存在时的问题\n修复 Linux 应用内更新问题\n修复 JS 脚本验证因 console 方法调用导致的执行失败问题\n修复 macOS 内存压力下 WebView 渲染进程被系统终止引发的白屏与主进程内存泄漏\n修复全局热键开关设置可能被意外覆盖的问题\n修复编辑节点时 Base64 解码未能正确处理非 ASCII 字符的问题\n修复订阅规则编辑器自定义规则偶发显示为空的问题\n修复开启“允许局域网连接”后，其他局域网设备仍可能无法连接代理的问题\n修复“允许局域网连接”页面可能无法显示网络接口的问题\n修复导入包含无效 v2ray-plugin 参数的 ss:// 链接时可能崩溃的问题\n修复 macOS 托盘图标可能闪烁的问题\n修复 macOS 应用启动及从菜单栏重新打开时，窗口可能无法正确激活的问题\n修复 macOS App Translocation 状态下服务安装或启动异常的问题\n修复异常窗口尺寸被保存后，应用窗口可能无法正常显示的问题\n修复首页上传和下载总流量统计不准确的问题\n修复首页当前代理状态偶尔不同步的问题\n修复 URLTest 代理组未出现在部分代理组选择列表中的问题\n修复切换代理模式失败时未正确显示错误的问题\n修复重新加载 Clash 配置后规则页面数据未及时刷新的问题\n修复全局快捷键隐藏主窗口行为异常的问题\n修复外部控制器 CORS 编辑时输入框可能丢失焦点的问题\n修复日志刷新时页面可能被强制滚动到底部的问题\n修复全局扩展脚本中的通配符配置可能生成无效 YAML 的问题\n修复代理组筛选后定位及滚动位置恢复异常的问题\n修复编辑订阅配置时清空 HTTP 请求超时会报错的问题\n修复纯 IP 连接的主机地址显示错误，并保留目标 IP 为空时的地址回退\n修复 Windows 管理员模式下启动 TUN 时因等待不可用 Service 导致延迟 30 秒的问题\n修复内核启动慢导致首页上下跳动的问题\n修复 VLESS xhttp 链接解析及 IPv6 地址格式问题\n修复通过普通导入或深链导入订阅后，自…\n\n官方发布页：https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.2"
   },
   {
-    "id": "n-ae1f4d145c",
+    "id": "n-a6f4017626",
     "category": "内核动态",
-    "title": "v1.19.32",
+    "title": "Mihomo v1.19.32",
     "summary": "What's Changed 3025efa feat: add load-balance hash-key to pin a session on the inbound user ( #3133 ) by @简直蠢丶 BUG & Fix 409ee57 fix: popul…",
     "date": "2026/09/30",
-    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32"
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32",
+    "content": "What's Changed\n3025efa\nfeat: add load-balance hash-key to pin a session on the inbound user (\n#3133\n) by @简直蠢丶\nBUG & Fix\n409ee57\nfix: populate HWCap from auxv on linux by\n@artbred\n41b8a05\nfix: account for TCP options in effective MSS by\n@wwqgtxx\n5019cc0\nfix: potential race condition in c.idleSession.Len() in idleCleanupExpTime() for anytls (\n#3225\n) by\n@chenx\nDust\n60f70ce\nfix: align unconnected UDP and raw IP ICMP errors with Linux for mipstack by\n@wwqgtxx\n88dcbf7\nfix: default listener tun to mips stack (\n#3264\n) by\n@jiawen\nGeng\n8d57a8c\nfix: exclude opcode from P_DATA_V1 AEAD additional data for OpenVPN (\n#3237\n) by\n@FlyingSB\n8fa048d\nfix: half-close in sing-mux by\n@proxi\nac65297\nfix: nil pconn deref when ctx is canceled during h2 ClientConn setup by\n@BestRui\nafe94da\nfix: set udp InUser metadata for mieru inbound (\n#3236\n) by\n@ryoma\nDev\nfbb6742\nfix: restart EasyTier outbound after silent overlay failure (\n#3215\n) by\n@MiaM1ku\nMaintenance\n1341769\nchore: support RX checksum offload for mipstack by\n@wwqgtxx\n3c947c7\nchore: convert support xhttp\nextra.headers\n(\n#3230\n) by\n@peter\nSolomon\n63bd52e\nchore: change default IP stack mode to mips and support\ncongestion-controller\noption for tun b…\n\n官方发布页：https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32"
   },
   {
-    "id": "n-ad6e3ef1a3",
+    "id": "n-a49e9e9a8d",
     "category": "客户端更新",
-    "title": "7.25.3",
+    "title": "v2rayN 7.25.3",
     "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
     "date": "2026/09/30",
-    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.3"
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.3",
+    "content": "关于 跳过证书验证 allowInsecure 参数被移除的说明\n本次更新\n支持 sing-box v1.14，更新的用户注意内核版本\n#9736\n锁定最大 sing-box 版本 v1.14\n#10091\n添加通过代理更新检查更新的选项 -\n#10090\n在核心设置界面中添加 Mux 设置 -\n#10055\n日志和临时文件自动清理时间默认为 7 天\n调整 Clash API -\n#10088\nxray core 配置文件格式改为最新版本\n#10132\n为订阅更新添加自定义 HTTP 标头 -\n#10118\n添加阿塞拜疆语 (az) UI 本地化 -\n#10141\nhttps://github.com/XTLS/Xray-core/releases/tag/v26.9.9\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/7.25.3"
   },
   {
-    "id": "n-e9b033dd2f",
+    "id": "n-5925070404",
     "category": "内核动态",
-    "title": "1.15.0-alpha.9",
-    "summary": "📝 Release Notes Update NaiveProxy to 154.0.8037.49-2 Fixes and improvements",
-    "date": "2026/09/26",
-    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.9"
-  },
-  {
-    "id": "n-c444a3d748",
-    "category": "内核动态",
-    "title": "1.15.0-alpha.8",
-    "summary": "📝 Release Notes Add dns_server_address and dns_search_domain rule items 1 Fixes and improvements 1 : Match the server addresses and search…",
+    "title": "sing-box 1.14.2",
+    "summary": "📝 Release Notes Fixes and improvements",
     "date": "2026/09/24",
-    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.8"
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.2",
+    "content": "📝 Release Notes\nFixes and improvements\n\n官方发布页：https://github.com/SagerNet/sing-box/releases/tag/v1.14.2"
   },
   {
-    "id": "n-1e8a15fd77",
+    "id": "n-eadd196296",
     "category": "客户端更新",
-    "title": "v2.5.4",
+    "title": "Clash Verge Rev v2.5.4",
     "summary": "Release 2.5.4",
     "date": "2026/09/20",
-    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.4"
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.4",
+    "content": "Release 2.5.4\n\n官方发布页：https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.4"
   },
   {
-    "id": "n-81469e5c71",
+    "id": "n-4e1372cbee",
     "category": "客户端更新",
-    "title": "7.25.2",
+    "title": "v2rayN 7.25.2",
     "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
     "date": "2026/09/20",
-    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.2"
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.2",
+    "content": "关于 跳过证书验证 allowInsecure 参数被移除的说明\n本次更新\n支持 sing-box v1.14，更新的用户注意内核版本\n#9736\n锁定最大 sing-box 版本 v1.14\n#10091\n添加通过代理更新检查更新的选项 -\n#10090\n在核心设置界面中添加 Mux 设置 -\n#10055\n日志和临时文件自动清理时间默认为 7 天\n调整 Clash API -\n#10088\nxray core 配置文件格式改为最新版本\n#10132\n为订阅更新添加自定义 HTTP 标头 -\n#10118\n添加阿塞拜疆语 (az) UI 本地化 -\n#10141\nhttps://github.com/XTLS/Xray-core/releases/tag/v26.9.9\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/7.25.2"
   },
   {
-    "id": "n-a1a9d062d5",
+    "id": "n-87774d58c2",
     "category": "内核动态",
-    "title": "v1.19.31",
+    "title": "Mihomo v1.19.31",
     "summary": "What's Changed dca26db feat: add EasyTier outbound ( #3194 ) by @MiaM1ku ab405ba feat: support stack: mips in tun configuration by @wwqgtxx…",
     "date": "2026/09/14",
-    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.31"
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.31",
+    "content": "What's Changed\ndca26db\nfeat: add EasyTier outbound (\n#3194\n) by\n@MiaM1ku\nab405ba\nfeat: support\nstack: mips\nin tun configuration by\n@wwqgtxx\n390870c\nfeat: support\nidentity-secret\nfor ZeroTier by\n@wwqgtxx\nBUG & Fix\n0159cf4\nfix: restore hysteria v1 udp handling (\n#3178\n) by\n@chenx\nDust\n0436650\nfix: close connection after error handling in doq by\n@wwqgtxx\n06b2c5b\nfix: close connection after error handling in mkcp outbound by\n@wwqgtxx\n127b139\nfix: split-DNS UDP queries fail silently in tsnet mode when upstream is a tailnet peer by\n@wwqgtxx\n187c634\nfix: close connection after error handling in snell outbound by\n@wwqgtxx\n1cdca1a\nfix: handle decryption handshake errors in server by\n@wwqgtxx\n20bcda2\nfix: avoid VLESS decryption cleanup panic (\n#3195\n) by @浅小沫\n5183232\nfix: RandomPaddingAddition and DisableCookies for AmneziaWG v3 by\n@wwqgtxx\n5f95109\nfix: DomainSet wildcard matching with overlapping rules by\n@wwqgtxx\n634b319\nfix: hysteria2 UDP sessions not closed on connection close by\n@wwqgtxx\n68ec4fa\nfix: ipv6 url parse in xhttp (\n#3160\n) by @CyberVacation\n6d179a1\nfix: openvpn derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 (\n#3189\n) by\n@token\n77b9393\nfix: preserve do…\n\n官方发布页：https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.31"
   },
   {
-    "id": "n-ab11e99d2d",
+    "id": "n-a52bbdfc56",
     "category": "客户端更新",
-    "title": "7.25.1",
+    "title": "v2rayN 7.25.1",
     "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
     "date": "2026/09/11",
-    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.1"
+    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.1",
+    "content": "关于 跳过证书验证 allowInsecure 参数被移除的说明\n本次更新\n支持 sing-box v1.14，更新的用户注意内核版本\n#9736\n锁定最大 sing-box 版本 v1.14\n#10091\n添加通过代理更新检查更新的选项 -\n#10090\n在核心设置界面中添加 Mux 设置 -\n#10055\n日志和临时文件自动清理时间默认为 7 天\n调整 Clash API -\n#10088\nxray core 配置文件格式改为最新版本\n#10132\n为订阅更新添加自定义 HTTP 标头 -\n#10118\n添加阿塞拜疆语 (az) UI 本地化 -\n#10141\nhttps://github.com/XTLS/Xray-core/releases/tag/v26.9.9\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/7.25.1"
   },
   {
-    "id": "n-f54031264c",
+    "id": "n-29a89d200c",
     "category": "内核动态",
-    "title": "v1.19.30",
+    "title": "Mihomo v1.19.30",
     "summary": "What's Changed e889b68 feat: support H2C and QUICv2 sniffing ( #3036 ) by @kosta 05b5334 feat: add handshake-timeout for hysteria2 by @wwqg…",
     "date": "2026/08/16",
-    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.30"
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.30",
+    "content": "What's Changed\ne889b68\nfeat: support H2C and QUICv2 sniffing (\n#3036\n) by\n@kosta\n05b5334\nfeat: add\nhandshake-timeout\nfor hysteria2 by\n@wwqgtxx\n1265cb9\nfeat: add\nip-stack\noption for masque outbound by\n@wwqgtxx\n4ad27d8\nfeat: add\nip-stack\noption for ZeroTier by\n@wwqgtxx\n8453e58\nfeat: support AmneziaWG v3.0 by\n@wwqgtxx\n8b76447\nfeat: add\nip-stack\noption for wireguard outbound by\n@wwqgtxx\n8c56780\nfeat: support AmneziaWG v3.1 by\n@wwqgtxx\nb082515\nfeat: add Zerotier outbound support by\n@wwqgtxx\nb27c659\nfeat: add\nclient-metadata\nconfiguration to anytls and DON'T sent by default by\n@wwqgtxx\nbb80689\nfeat: support bbr3 for mipstack by\n@wwqgtxx\nd46944f\nfeat: add\nip-stack\noption for openvpn outbound by\n@wwqgtxx\ne40b596\nfeat: add\nrate-limit\nfor restls listener by\n@wwqgtxx\nBUG & Fix\n25ccc4d\nfix: handle zerotier network lifecycle events correctly by\n@wwqgtxx\n2e8a04c\nfix: tailscale failed to recover after the network was restored by\n@wwqgtxx\n3315457\nfix:\nCVE-2026-56862\nfor crypto/tls by\n@wwqgtxx\n3a779dd\nfix: typo in\nuplinkHTTPMethod\n(\n#3029\n) by\n@kosta\n4fcf9ae\nfix: track QUIC crypto stream coverage without repeated range sorting by\n@wwqgtxx\n5e3cb10\nfix: avoid reserved TLS suffixes in JLS FakeRandom…\n\n官方发布页：https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.30"
+  },
+  {
+    "id": "n-d154214fbc",
+    "category": "内核动态",
+    "title": "Mihomo v1.19.29",
+    "summary": "What's Changed bd749c6 feat: sync anytls v0.0.13 ( #2990 ) by @anytls e26714a feat: support TLS rekey fix, data-ciphers negotiation, tls-cr…",
+    "date": "2026/07/18",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.29",
+    "content": "What's Changed\nbd749c6\nfeat: sync anytls v0.0.13 (\n#2990\n) by\n@anytls\ne26714a\nfeat: support TLS rekey fix, data-ciphers negotiation, tls-crypt-v2 for OpenVPN (\n#2989\n) by\n@Lanlan13-14\n0e7c3c7\nfeat: support restls for anytls outbound and listener by\n@wwqgtxx\n2b2bdf6\nfeat: support jls for shadowsocks outbound and listener by\n@wwqgtxx\n5677fd3\nfeat: add\nname-cert-verify\nto support separate certificate verification name by\n@wwqgtxx\n611a448\nfeat: support jls for vmess/vless/trojan outbound and listener by\n@wwqgtxx\n6d96163\nfeat: support\noverride-expr\nfor proxy provider override by\n@wwqgtxx\n769ea6f\nfeat: support restls for vmess/vless/trojan outbound and listener by\n@wwqgtxx\n76d8088\nfeat: add support for TLSAuth for Openvpn (\n#2969\n) by\n@lyaaz\n8fe7f74\nfeat: support jls for anytls outbound and listener by\n@wwqgtxx\n9ab7543\nfeat: support restls/jls for snell outbound and listener by\n@wwqgtxx\naea5ce4\nfeat: support shadowquic outbound and listener by\n@wwqgtxx\nbc0e5aa\nfeat: support shadowtls for anytls outbound and listener by\n@wwqgtxx\nbfa9ea1\nfeat: support brutal for shadowquic (mihomo private extension) by\n@wwqgtxx\nc015694\nfeat: support shadowtls for vmess/vless/trojan outbound and listener b…\n\n官方发布页：https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.29"
+  },
+  {
+    "id": "n-61cd5cf926",
+    "category": "内核动态",
+    "title": "Mihomo v1.19.28",
+    "summary": "What's Changed ea19cda feat: add rematch outbound type and REMATCH-NAME rule type ( #2862 ) by @peter Solomon d20e850 feat: support custom…",
+    "date": "2026/07/08",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.28",
+    "content": "What's Changed\nea19cda\nfeat: add\nrematch\noutbound type and\nREMATCH-NAME\nrule type (\n#2862\n) by\n@peter\nSolomon\nd20e850\nfeat: support custom peer-info for openvpn outbound (\n#2926\n) by\n@Easy-Ez\n1686d56\nfeat: convert support\nsession-table\nand\nsession-length\nfor\nxhttp-opts\nfields (\n#2889\n) by\n@legiz-ru\n01111ff\nfeat: add\nhandshake-timeout\nfor masque by\n@wwqgtxx\n1c4f7c4\nfeat: support shadow-tls for snell by\n@wwqgtxx\n1f80d91\nfeat: support\nsession-table\nand\nsession-length\nfor xhttp client by\n@wwqgtxx\n2f510e8\nfeat: support tlsmirror for vmess by\n@wwqgtxx\n7870f8f\nfeat: add\nhandshake-timeout\nfor OpenVPN by\n@wwqgtxx\n8c40e36\nfeat: support\nfallback-lazy-query\nfor dns section by\n@wwqgtxx\n8e2aba4\nfeat: support\nnetwork: h3-l4proxy\nfor masque outbound by\n@wwqgtxx\na198581\nfeat: support mkcp for vmess by\n@wwqgtxx\na1c09ad\nfeat: support restls for shadowsocks listener by\n@wwqgtxx\nad730ae\nfeat: support\nlisten-routing-mark\nfor dns section by\n@wwqgtxx\nbe9164e\nfeat: add\ndefault-selected\nfor select group by\n@wwqgtxx\nd67572b\nfeat: support\nrouting-mark\nfor listeners except tun/redir/tproxy and top-level\nexternal-controller-routing-mark\nby\n@wwqgtxx\ne10a1a7\nfeat: support mekya for vmess by\n@wwqgtxx\n85c1798\nbrea…\n\n官方发布页：https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.28"
+  },
+  {
+    "id": "n-3ae770243a",
+    "category": "内核动态",
+    "title": "Mihomo v1.19.27",
+    "summary": "What's Changed 90b1066 feat: add ping keepalive support for OpenVPN ( #2859 ) by @puppywang fd2112e feat: add built-in proxy PASS-RULE ( #2…",
+    "date": "2026/06/06",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.27",
+    "content": "What's Changed\n90b1066\nfeat: add ping keepalive support for OpenVPN (\n#2859\n) by\n@puppywang\nfd2112e\nfeat: add built-in proxy PASS-RULE (\n#2873\n) by\n@echsfxy\n1e62d55\nfeat: add\nempty-fallback\nto group options allows for customization instead of hardcoding\nCOMPATIBLE\nby\n@wwqgtxx\n317bfc2\nfeat: add\nallow-insecure\nconfig to anytls/trojan/vless listeners for nginx/caddy front users by\n@wwqgtxx\n358fa5e\nfeat: add\nage-secret-key\nfor proxy-provider and\n-age-secret-key\nfor cmdline to support age armor format config decryption by\n@wwqgtxx\nbd72c65\nfeat: remove\nglobal-client-fingerprint\n, please set\nclient-fingerprint\ndirectly on the proxy instead by\n@wwqgtxx\ne928ef5\nfeat: add\npath-in-bundle\nto rule-providers to support extract from BundleMRS.7z when the local file does not exist by\n@wwqgtxx\nBUG & Fix\n1184850\nfix: quic sniffer out-of-bounds read causes process crash via single UDP packet by\n@guanni\nQu\n1abd126\nfix: validation error handling for age-secret-key by\n@wwqgtxx\n5184081\nfix: socks4 readUntilNull unbounded memory allocation by\n@guanni\nQu\n5bdb1cc\nfix: trojan protocol WaitReadFrom panic via oversized UDP relay length field by\n@guanni\nQu\n9761bcd\nfix: exchangeQUIC not fully respecting context…\n\n官方发布页：https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.27"
   }
 ]

@@ -1,208 +1,310 @@
 [
   {
-    "slug": "v2ray-aggregator-oss",
-    "name": "V2RayAggregator 开源样本",
-    "color": "#0f766e",
-    "status": "risk",
-    "nodes": 4108,
-    "priceMonthly": 0.0,
-    "observedDays": 3,
-    "score": 58.75,
+    "slug": "giegie-cloud",
+    "name": "GieGie Cloud",
+    "color": "#0d9488",
+    "status": "watch",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://zutizi.com/giegie",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 49.0,
     "scores": {
-      "S": 50,
-      "P": 53,
-      "N": 35,
-      "C": 98,
-      "R": 88
+      "S": 66,
+      "P": 36,
+      "N": 0,
+      "C": 88,
+      "R": 70
     },
-    "trial": true,
+    "trial": false,
     "refund": false,
-    "founded": "2022-08",
+    "founded": "2026-11",
     "tags": [
-      "开源样本",
-      "公开研究",
-      "URI 聚合"
+      "目录收录",
+      "公开索引"
     ],
     "regions": [
-      "美国",
-      "英国",
-      "德国",
-      "新加坡",
-      "日本",
       "香港",
-      "韩国",
-      "台湾"
+      "日本",
+      "新加坡"
     ],
     "routes": [
-      "中转",
       "BGP"
     ],
     "clients": [
-      "v2rayN",
-      "Shadowrocket",
-      "Sing-box",
-      "Karing"
+      "Clash Verge",
+      "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
-      "开源免费"
+      "公开研究"
     ],
     "importMethods": [
-      "URI 列表",
-      "Base64 订阅"
+      "一键订阅"
     ],
-    "plans": [
-      {
-        "name": "公开开源测试集",
-        "traffic": "不限（社区共享）",
-        "price": 0,
-        "cycle": "公开研究",
-        "devices": "测试用途"
-      }
-    ],
+    "plans": [],
     "telegram": {},
     "history": {
       "score": [
-        49.25,
-        59.6,
-        58.75
+        49.0,
+        49.0
       ],
       "uptime": [
-        18.75,
-        31.25,
-        31.25
+        70.0,
+        70.0
       ],
       "speed": [
-        36.5,
-        78.6,
-        75.2
+        8.4,
+        8.4
       ],
       "latency": [
-        189.88,
-        63.25,
-        87.61
+        2638.06,
+        2638.06
       ],
       "loss": [
-        81.25,
-        68.75,
-        68.75
+        35.0,
+        35.0
       ]
     },
-    "summary": "自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。",
-    "website": "https://github.com/mahdibland/V2RayAggregator",
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 70.0,
+        "ttfbMs": 2638.06,
+        "latency": 2638.06,
+        "score": 49.0,
+        "health": "down"
+      }
+    ],
+    "summary": "近期连通性存在波动（探测可用率 70.0%、中位延迟 2638ms），持续观测中。",
+    "website": "https://zutizi.com/giegie",
     "probeMeta": {
-      "mode": "tcp_passive",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
-      "httpStatus": 200,
-      "tlsDaysLeft": 63,
-      "protocols": [
-        "ss",
-        "trojan",
-        "vmess"
-      ]
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": 403,
+      "ttfbMs": 2638.06,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 84,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
     }
   },
   {
-    "slug": "barry-v2ray-oss",
-    "name": "Barry-V2ray 开源样本",
-    "color": "#0369a1",
-    "status": "risk",
-    "nodes": 187,
-    "priceMonthly": 0.0,
-    "observedDays": 3,
-    "score": 58.15,
+    "slug": "kuromis",
+    "name": "Kuromis",
+    "color": "#0d9488",
+    "status": "watch",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://www.kuromis.com/",
+    "nodes": 0,
+    "priceMonthly": 34.0,
+    "observedDays": 2,
+    "historyPoints": 1,
+    "score": 46.0,
     "scores": {
-      "S": 50,
-      "P": 53,
-      "N": 32,
-      "C": 98,
-      "R": 88
+      "S": 66,
+      "P": 36,
+      "N": 0,
+      "C": 68,
+      "R": 70
     },
-    "trial": true,
+    "trial": false,
     "refund": false,
-    "founded": "2023-05",
+    "founded": "2026-11",
     "tags": [
-      "开源样本",
-      "公开研究",
-      "定时更新"
+      "贵族机场",
+      "IEPL专线",
+      "高峰期稳定",
+      "目录收录"
     ],
     "regions": [
-      "德国",
-      "美国",
-      "英国",
-      "新加坡",
-      "韩国"
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "routes": [
+      "IEPL"
+    ],
+    "clients": [
+      "Clash Verge",
+      "v2rayN"
+    ],
+    "streaming": [],
+    "payments": [
+      "公开研究"
+    ],
+    "importMethods": [
+      "一键订阅"
+    ],
+    "plans": [],
+    "telegram": {},
+    "history": {
+      "score": [
+        72.6,
+        46.0
+      ],
+      "uptime": [
+        92.0,
+        70.0
+      ],
+      "speed": [
+        120.0,
+        8.4
+      ],
+      "latency": [
+        85.0,
+        1386.27
+      ],
+      "loss": [
+        1.2,
+        35.0
+      ]
+    },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 70.0,
+        "ttfbMs": 1386.27,
+        "latency": 1386.27,
+        "score": 46.0,
+        "health": "down"
+      }
+    ],
+    "summary": "近期连通性存在波动（探测可用率 70.0%、中位延迟 1386ms），持续观测中。",
+    "website": "https://www.kuromis.com/",
+    "probeMeta": {
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": 429,
+      "ttfbMs": 1386.27,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 68,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
+    },
+    "ratingMeta": {
+      "stars": null,
+      "status": "待评",
+      "confidence": "低",
+      "reason": "高价及无AFF分类均不构成服务性能证据"
+    }
+  },
+  {
+    "slug": "citruslab",
+    "name": "CitrusLab",
+    "color": "#0d9488",
+    "status": "risk",
+    "dataTier": "web_monitored",
+    "officialUrl": "https://zutizi.com/cotota",
+    "nodes": 0,
+    "priceMonthly": 15.0,
+    "observedDays": 1,
+    "historyPoints": 1,
+    "score": 38.55,
+    "scores": {
+      "S": 15,
+      "P": 37,
+      "N": 32,
+      "C": 88,
+      "R": 52
+    },
+    "trial": false,
+    "refund": false,
+    "founded": "2026-11",
+    "tags": [
+      "目录收录",
+      "公开索引"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡"
     ],
     "routes": [
       "BGP"
     ],
     "clients": [
-      "v2rayN",
-      "Shadowrocket",
-      "Mihomo"
+      "Clash Verge",
+      "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
-      "开源免费"
+      "公开研究"
     ],
     "importMethods": [
-      "URI 列表",
-      "Base64 订阅"
+      "一键订阅"
     ],
-    "plans": [
-      {
-        "name": "公开开源测试集",
-        "traffic": "不限（社区共享）",
-        "price": 0,
-        "cycle": "公开研究",
-        "devices": "测试用途"
-      }
-    ],
+    "plans": [],
     "telegram": {},
     "history": {
       "score": [
-        51.65,
-        58.55,
-        58.15
+        38.55,
+        38.55
       ],
       "uptime": [
-        18.75,
-        37.5,
-        31.25
+        15.0,
+        15.0
       ],
       "speed": [
-        43.0,
-        78.4,
-        74.1
+        23.1,
+        23.1
       ],
       "latency": [
-        112.37,
-        157.72,
-        95.61
+        280.0,
+        280.0
       ],
       "loss": [
-        81.25,
-        62.5,
-        68.75
+        35.0,
+        35.0
       ]
     },
-    "summary": "自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。",
-    "website": "https://github.com/barry-far/V2ray-Config",
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 15.0,
+        "ttfbMs": null,
+        "latency": 280.0,
+        "score": 38.55,
+        "health": "down"
+      }
+    ],
+    "summary": "自动化探测连续 1 次异常（可用率 15.0%），已触发风险观察。",
+    "website": "https://zutizi.com/cotota",
     "probeMeta": {
-      "mode": "tcp_passive",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
-      "httpStatus": 200,
-      "tlsDaysLeft": 63,
-      "protocols": [
-        "hysteria2",
-        "ss",
-        "vless",
-        "vmess"
-      ]
+      "mode": "web_health",
+      "dataTier": "web_monitored",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
+      "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": true,
+      "tlsOk": true,
+      "tlsDaysLeft": 84,
+      "panelType": "",
+      "consecutiveFailures": 1,
+      "externalRisk": "",
+      "probeRisk": "",
+      "protocols": []
     }
   },
   {
@@ -210,9 +312,12 @@
     "name": "SKYLUMO",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 9.9,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -240,9 +345,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -278,13 +381,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "公开目录记录已下架/停止收录（2026-11-18），仅供参考避坑。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "公开目录记录已下架/停止收录（2026-11-18）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -293,9 +417,12 @@
     "name": "Sogo云",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 45,
     "priceMonthly": 15.9,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -317,15 +444,14 @@
       "新加坡"
     ],
     "routes": [
-      "IEPL"
+      "IEPL",
+      "BGP"
     ],
     "clients": [
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -361,13 +487,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "公开目录与实测数据汇总：参考月付 ¥25.0，节点 45 个，实测速率 822.6 Mbps，延迟 37 ms，公开参考评分 4.1/5。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "公开目录记录已下架/停止收录（2026-07-12）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -376,9 +523,12 @@
     "name": "OneStep",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 5.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -406,9 +556,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -444,13 +592,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "公开目录记录已下架/停止收录（2026-05-06），仅供参考避坑。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "公开目录记录已下架/停止收录（2026-05-06）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -459,9 +628,12 @@
     "name": "快帆云",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -489,9 +661,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -527,13 +697,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路（2025）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路（2025）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -542,9 +733,12 @@
     "name": "FCCloud",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -572,9 +766,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -610,13 +802,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路（2025）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路（2025）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -625,9 +838,12 @@
     "name": "spcloud",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -655,9 +871,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -693,13 +907,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路（2025）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路（2025）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -708,9 +943,12 @@
     "name": "efcloud",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -738,9 +976,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -776,13 +1012,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：机场转让/用户套餐时长减半（2025）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：机场转让/用户套餐时长减半（2025）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -791,9 +1048,12 @@
     "name": "ACA",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -821,9 +1081,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -859,13 +1117,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路（2025）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路（2025）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -874,9 +1153,12 @@
     "name": "十元一年",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -904,9 +1186,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -942,13 +1222,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：客服态度及其恶劣（2025）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：客服态度及其恶劣（2025）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -957,9 +1258,12 @@
     "name": "DuangCloud",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -987,9 +1291,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1025,13 +1327,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1040,9 +1363,12 @@
     "name": "leensa",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1070,9 +1396,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1108,13 +1432,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1123,9 +1468,12 @@
     "name": "六尺巷",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1153,9 +1501,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1191,13 +1537,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1206,9 +1573,12 @@
     "name": "BHcloud/蜂巢",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1236,9 +1606,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1274,13 +1642,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1289,9 +1678,12 @@
     "name": "流量光",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1319,9 +1711,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1357,13 +1747,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1372,9 +1783,12 @@
     "name": "v2Club/蓝岸",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1402,9 +1816,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1440,13 +1852,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1455,9 +1888,12 @@
     "name": "新云机场",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1485,9 +1921,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1523,13 +1957,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1538,9 +1993,12 @@
     "name": "XLM Cloud",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1568,9 +2026,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1606,13 +2062,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1621,9 +2098,12 @@
     "name": "Fastlink",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1651,9 +2131,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1689,13 +2167,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1704,9 +2203,12 @@
     "name": "萌喵",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1734,9 +2236,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1772,13 +2272,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1787,9 +2308,12 @@
     "name": "BoomCloud",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1817,9 +2341,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1855,13 +2377,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1870,9 +2413,12 @@
     "name": "冲浪猫/CLM",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1900,9 +2446,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -1938,13 +2482,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -1953,9 +2518,12 @@
     "name": "CreamData",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -1983,9 +2551,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2021,13 +2587,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -2036,9 +2623,12 @@
     "name": "TLY机场",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2066,9 +2656,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2104,13 +2692,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -2119,9 +2728,12 @@
     "name": "Skicat/Catree",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2149,9 +2761,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2187,13 +2797,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -2202,9 +2833,12 @@
     "name": "自由鲸",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2232,9 +2866,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2270,13 +2902,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -2285,9 +2938,12 @@
     "name": "影界网络",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2315,9 +2971,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2353,13 +3007,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -2368,9 +3043,12 @@
     "name": "naiunet",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2398,9 +3076,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2436,13 +3112,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：预警（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：预警（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -2451,9 +3148,12 @@
     "name": "chiselwall",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2481,9 +3181,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2519,13 +3217,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -2534,9 +3253,12 @@
     "name": "sockboom",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2564,9 +3286,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2602,13 +3322,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -2617,9 +3358,12 @@
     "name": "牛牛很牛",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2647,9 +3391,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2685,13 +3427,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：跑路预警（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：跑路预警（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   },
@@ -2700,9 +3463,12 @@
     "name": "tpap",
     "color": "#0d9488",
     "status": "risk",
+    "dataTier": "risk_listed",
+    "officialUrl": "",
     "nodes": 8,
     "priceMonthly": 10.0,
-    "observedDays": 3,
+    "observedDays": 2,
+    "historyPoints": 1,
     "score": 30.8,
     "scores": {
       "S": 28,
@@ -2730,9 +3496,7 @@
       "Clash Verge",
       "v2rayN"
     ],
-    "streaming": [
-      "未测(数据中心IP)"
-    ],
+    "streaming": [],
     "payments": [
       "未知"
     ],
@@ -2768,13 +3532,34 @@
         100.0
       ]
     },
+    "slotHistory": [
+      {
+        "key": "2026-11-25#normal",
+        "slot": "normal",
+        "uptime": 0.0,
+        "ttfbMs": null,
+        "latency": 420.0,
+        "score": 30.8,
+        "health": "down"
+      }
+    ],
     "summary": "社区公开风险清单记录：已跑路（2024）。",
     "website": "#",
     "probeMeta": {
       "mode": "risk_feed",
-      "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+      "dataTier": "risk_listed",
+      "checkedAt": "2026-11-24T17:44:10.081442+00:00",
+      "slot": "normal",
+      "healthStatus": "down",
       "httpStatus": null,
+      "ttfbMs": null,
+      "dnsOk": false,
+      "tlsOk": false,
       "tlsDaysLeft": null,
+      "panelType": "",
+      "consecutiveFailures": 9,
+      "externalRisk": "社区公开风险清单记录：已跑路（2024）。",
+      "probeRisk": "连续 9 次探测异常",
       "protocols": []
     }
   }
