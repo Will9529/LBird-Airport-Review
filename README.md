@@ -21,7 +21,7 @@
 ## 实时自动化探测看板 (Live Snapshot)
 
 <!-- AUTO_DASHBOARD_START -->
-> 最近一次自动探测时间：`2026-11-24 15:16 UTC+8`（共收录 `110` 个观测目标：🟢 正常 `77` · 🟡 观察 `0` · 🔴 风险 `33`；纯技术学习用途，不构成任何建议）
+> 最近一次自动探测时间：`2026-11-25 13:49 UTC+8`（共收录 `112` 个观测目标：🟢 正常 `79` · 🟡 观察 `0` · 🔴 风险 `33`；纯技术学习用途，不构成任何建议）
 
 ### 观测榜单节选（Top 30，完整全量见 [`data/airports.json`](./data/airports.json)）
 
@@ -29,41 +29,41 @@
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | 快狸 | 🟢 normal | **93.70** | 38 | 37.5 | 100.0% | `directory_bench` |
 | 二猫云 | 🟢 normal | **93.20** | 40 | 36.0 | 100.0% | `directory_bench` |
-| 一翻云 | 🟢 normal | **93.00** | 85 | 41.0 | 98.82% | `directory_bench` |
-| 宇宙云 | 🟢 normal | **92.80** | 60 | 42.5 | 100.0% | `directory_bench` |
 | 可信云 | 🟢 normal | **92.70** | 50 | 38.0 | 100.0% | `directory_bench` |
 | 速界 | 🟢 normal | **92.70** | 52 | 37.0 | 100.0% | `directory_bench` |
 | edgenova | 🟢 normal | **92.50** | 42 | 39.0 | 100.0% | `directory_bench` |
 | 光速云 | 🟢 normal | **92.40** | 48 | 36.5 | 100.0% | `directory_bench` |
 | 光年梯 | 🟢 normal | **92.05** | 62 | 41.5 | 100.0% | `directory_bench` |
 | 极连云 | 🟢 normal | **92.05** | 55 | 40.5 | 100.0% | `directory_bench` |
+| 宇宙云 | 🟢 normal | **91.75** | 60 | 42.5 | 100.0% | `directory_bench` |
 | U1S1 | 🟢 normal | **91.40** | 58 | 11.0 | 100.0% | `directory_bench` |
-| 唯兔云 | 🟢 normal | **91.35** | 30 | 50.0 | 96.67% | `directory_bench` |
 | 全球云 | 🟢 normal | **90.55** | 33 | 41.0 | 96.97% | `directory_bench` |
+| 一翻云 | 🟢 normal | **90.00** | 85 | 41.0 | 98.82% | `directory_bench` |
 | 飞猫云 | 🟢 normal | **89.90** | 88 | 37.0 | 97.73% | `directory_bench` |
-| 星岛梦 | 🟢 normal | **88.65** | 88 | 51.0 | 98.86% | `directory_bench` |
-| [Pawdroid 开源样本](https://github.com/Pawdroid/Free-servers) | 🟢 normal | **85.95** | 6 | 183.34 | 100.0% | `tcp_passive` |
+| 唯兔云 | 🟢 normal | **89.10** | 30 | 50.0 | 96.67% | `directory_bench` |
+| [Pawdroid 开源样本](https://github.com/Pawdroid/Free-servers) | 🟢 normal | **88.60** | 11 | 116.8 | 100.0% | `tcp_passive` |
+| 星岛梦 | 🟢 normal | **85.65** | 88 | 51.0 | 98.86% | `directory_bench` |
 | ANDY CLOUD | 🟢 normal | **84.55** | 0 | 85.0 | 92.0% | `directory_index` |
+| [NoMoreWalls 开源样本](https://github.com/peasoft/NoMoreWalls) | 🟢 normal | **82.50** | 98 | 156.23 | 87.5% | `tcp_passive` |
 | 动力港 | 🟢 normal | **81.80** | 70 | 85.0 | 92.0% | `directory_index` |
 | 跨界云 | 🟢 normal | **80.55** | 0 | 85.0 | 92.0% | `directory_index` |
 | 灵猫网络 | 🟢 normal | **79.95** | 0 | 85.0 | 92.0% | `directory_index` |
-| [NoMoreWalls 开源样本](https://github.com/peasoft/NoMoreWalls) | 🟢 normal | **79.50** | 106 | 154.86 | 81.25% | `tcp_passive` |
 | 环球梯 | 🟢 normal | **79.00** | 60 | 85.0 | 92.0% | `directory_index` |
 | 闪跃 | 🟢 normal | **78.45** | 0 | 85.0 | 92.0% | `directory_index` |
 | v2free机场 | 🟢 normal | **78.40** | 100 | 85.0 | 92.0% | `directory_index` |
-| [微风](https://yifenjichang.net/go/breeze/) | 🟢 normal | **78.30** | 0 | 324.73 | 98.0% | `web_health` |
 | 拼好连 | 🟢 normal | **77.85** | 0 | 85.0 | 92.0% | `directory_index` |
 | 闪电鼠 | 🟢 normal | **77.55** | 0 | 85.0 | 92.0% | `directory_index` |
-| 瞬云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
-| 边缘节点 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
 | Happy Vless | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
+| 财路云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
+| 宝云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
+| 锦云 | 🟢 normal | **77.10** | 0 | 85.0 | 92.0% | `directory_index` |
 
 ### 风险与跑路预警节选（共 `33` 条，完整见 [`data/risk.json`](./data/risk.json)）
 
 | 目标 | 状态 | 综合分 | 说明 |
 | :--- | :---: | :---: | :--- |
-| V2RayAggregator 开源样本 | 🔴 risk | **59.60** | 自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。 |
-| Barry-V2ray 开源样本 | 🔴 risk | **58.55** | 自动化探测连续 0 次异常（可用率 37.5%），已触发风险观察。 |
+| V2RayAggregator 开源样本 | 🔴 risk | **58.75** | 自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。 |
+| Barry-V2ray 开源样本 | 🔴 risk | **58.15** | 自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。 |
 | SKYLUMO | 🔴 risk | **30.80** | 公开目录记录已下架/停止收录（2026-11-18），仅供参考避坑。 |
 | Sogo云 | 🔴 risk | **30.80** | 公开目录与实测数据汇总：参考月付 ¥25.0，节点 45 个，实测速率 822.6 Mbps，延迟 37 ms，公开参考评分 4.1/5。 |
 | OneStep | 🔴 risk | **30.80** | 公开目录记录已下架/停止收录（2026-05-06），仅供参考避坑。 |

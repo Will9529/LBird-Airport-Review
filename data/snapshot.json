@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T07:16:28.309562+00:00",
+  "generatedAt": "2026-11-25T05:49:31.420850+00:00",
   "source": "Will9529/LBird-Airport-Review",
   "disclaimer": "纯技术学习研究，不构成任何推荐、消费或使用建议。",
   "stats": {
-    "monitored": 110,
-    "speedTests": 1191,
-    "updatedAt": "2026-11-24 15:16 UTC+8"
+    "monitored": 112,
+    "speedTests": 1373,
+    "updatedAt": "2026-11-25 13:49 UTC+8"
   },
   "airports": [
     {
@@ -16,7 +16,7 @@
       "status": "normal",
       "nodes": 38,
       "priceMonthly": 8.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 93.7,
       "scores": {
         "S": 94,
@@ -71,21 +71,26 @@
       "history": {
         "score": [
           93.7,
+          93.7,
           93.7
         ],
         "uptime": [
+          100.0,
           100.0,
           100.0
         ],
         "speed": [
           728.2,
+          728.2,
           728.2
         ],
         "latency": [
           37.5,
+          37.5,
           37.5
         ],
         "loss": [
+          0.0,
           0.0,
           0.0
         ]
@@ -94,7 +99,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -107,7 +112,7 @@
       "status": "normal",
       "nodes": 40,
       "priceMonthly": 7.42,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 93.2,
       "scores": {
         "S": 94,
@@ -156,21 +161,26 @@
       "history": {
         "score": [
           93.2,
+          93.2,
           93.2
         ],
         "uptime": [
+          100.0,
           100.0,
           100.0
         ],
         "speed": [
           746.6,
+          746.6,
           746.6
         ],
         "latency": [
           36.0,
+          36.0,
           36.0
         ],
         "loss": [
+          0.0,
           0.0,
           0.0
         ]
@@ -179,7 +189,796 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-1406c035",
+      "name": "可信云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 50,
+      "priceMonthly": 8.0,
+      "observedDays": 3,
+      "score": 92.7,
+      "scores": {
+        "S": 94,
+        "P": 96,
+        "N": 93,
+        "C": 96,
+        "R": 75
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "不限设备",
+        "AI解锁",
+        "专线小包",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "Netflix",
+        "YouTube"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "官方客户端"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          92.7,
+          92.7,
+          92.7
+        ],
+        "uptime": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "speed": [
+          972.4,
+          972.4,
+          972.4
+        ],
+        "latency": [
+          38.0,
+          38.0,
+          38.0
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥15.0，节点 50 个，实测速率 972.4 Mbps，延迟 38 ms，公开参考评分 4.4/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-b90a295c",
+      "name": "速界",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 52,
+      "priceMonthly": 15.0,
+      "observedDays": 3,
+      "score": 92.7,
+      "scores": {
+        "S": 94,
+        "P": 96,
+        "N": 94,
+        "C": 88,
+        "R": 85
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "官方客户端"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          92.7,
+          92.7,
+          92.7
+        ],
+        "uptime": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "speed": [
+          764.8,
+          764.8,
+          764.8
+        ],
+        "latency": [
+          37.0,
+          37.0,
+          37.0
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥15.0，节点 52 个，实测速率 764.8 Mbps，延迟 37 ms，公开参考评分 4.3/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "edgenova",
+      "name": "edgenova",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 42,
+      "priceMonthly": 15.0,
+      "observedDays": 3,
+      "score": 92.5,
+      "scores": {
+        "S": 94,
+        "P": 96,
+        "N": 93,
+        "C": 88,
+        "R": 85
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "官方客户端"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          92.5,
+          92.5,
+          92.5
+        ],
+        "uptime": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "speed": [
+          913.3,
+          913.3,
+          913.3
+        ],
+        "latency": [
+          39.0,
+          39.0,
+          39.0
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥15.0，节点 42 个，实测速率 913.3 Mbps，延迟 39 ms，公开参考评分 4.3/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-ed7ce7f5",
+      "name": "光速云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 48,
+      "priceMonthly": 17.0,
+      "observedDays": 3,
+      "score": 92.4,
+      "scores": {
+        "S": 94,
+        "P": 96,
+        "N": 94,
+        "C": 86,
+        "R": 85
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅",
+        "Clash 托管"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          92.4,
+          92.4,
+          92.4
+        ],
+        "uptime": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "speed": [
+          984.8,
+          984.8,
+          984.8
+        ],
+        "latency": [
+          36.5,
+          36.5,
+          36.5
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥17.0，节点 48 个，实测速率 984.8 Mbps，延迟 36 ms，公开参考评分 4.2/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-3766603f",
+      "name": "光年梯",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 62,
+      "priceMonthly": 18.0,
+      "observedDays": 3,
+      "score": 92.05,
+      "scores": {
+        "S": 94,
+        "P": 96,
+        "N": 93,
+        "C": 85,
+        "R": 85
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "SS协议",
+        "稳定",
+        "新加坡背景",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "ChatGPT"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "官方客户端"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          92.05,
+          92.05,
+          92.05
+        ],
+        "uptime": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "speed": [
+          656.5,
+          656.5,
+          656.5
+        ],
+        "latency": [
+          41.5,
+          41.5,
+          41.5
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥18.0，节点 62 个，实测速率 656.5 Mbps，延迟 42 ms，公开参考评分 4.3/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-db031d64",
+      "name": "极连云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 55,
+      "priceMonthly": 18.0,
+      "observedDays": 3,
+      "score": 92.05,
+      "scores": {
+        "S": 94,
+        "P": 96,
+        "N": 93,
+        "C": 85,
+        "R": 85
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "官方客户端"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          92.05,
+          92.05,
+          92.05
+        ],
+        "uptime": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "speed": [
+          1002.8,
+          1002.8,
+          1002.8
+        ],
+        "latency": [
+          40.5,
+          40.5,
+          40.5
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥18.0，节点 55 个，实测速率 1002.8 Mbps，延迟 40 ms，公开参考评分 4.2/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-23d38921",
+      "name": "宇宙云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 60,
+      "priceMonthly": 12.5,
+      "observedDays": 3,
+      "score": 91.75,
+      "scores": {
+        "S": 94,
+        "P": 96,
+        "N": 92,
+        "C": 91,
+        "R": 75
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "新晋推荐",
+        "流媒体解锁",
+        "专线稳定",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "官方客户端"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          92.8,
+          92.8,
+          91.75
+        ],
+        "uptime": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "speed": [
+          754.0,
+          754.0,
+          754.0
+        ],
+        "latency": [
+          42.5,
+          42.5,
+          42.5
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥25.0，节点 60 个，实测速率 754.0 Mbps，延迟 42 ms，公开参考评分 4.2/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "u1s1",
+      "name": "U1S1",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 58,
+      "priceMonthly": 18.8,
+      "observedDays": 3,
+      "score": 91.4,
+      "scores": {
+        "S": 94,
+        "P": 94,
+        "N": 94,
+        "C": 84,
+        "R": 83
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "不限设备",
+        "千兆带宽",
+        "流媒体全解锁",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "中转"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "Netflix",
+        "ChatGPT",
+        "Disney+",
+        "TikTok"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "官方客户端"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          91.4,
+          91.4,
+          91.4
+        ],
+        "uptime": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "speed": [
+          631.5,
+          631.5,
+          631.5
+        ],
+        "latency": [
+          11.0,
+          11.0,
+          11.0
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥20.0，节点 49 个，实测速率 631.5 Mbps，延迟 11 ms，公开参考评分 3.7/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-a089140d",
+      "name": "全球云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 33,
+      "priceMonthly": 20.0,
+      "observedDays": 3,
+      "score": 90.55,
+      "scores": {
+        "S": 91,
+        "P": 96,
+        "N": 93,
+        "C": 83,
+        "R": 82
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅",
+        "Clash 托管"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          90.55,
+          90.55,
+          90.55
+        ],
+        "uptime": [
+          96.97,
+          96.97,
+          96.97
+        ],
+        "speed": [
+          693.8,
+          693.8,
+          693.8
+        ],
+        "latency": [
+          41.0,
+          41.0,
+          41.0
+        ],
+        "loss": [
+          3.03,
+          3.03,
+          3.03
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥20.0，节点 33 个，实测速率 693.8 Mbps，延迟 41 ms，公开参考评分 3.5/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -191,14 +990,14 @@
       "color": "#0d9488",
       "status": "normal",
       "nodes": 85,
-      "priceMonthly": 2.08,
-      "observedDays": 2,
-      "score": 93.0,
+      "priceMonthly": 25.0,
+      "observedDays": 3,
+      "score": 90.0,
       "scores": {
         "S": 93,
         "P": 96,
         "N": 93,
-        "C": 98,
+        "C": 78,
         "R": 78
       },
       "trial": false,
@@ -261,21 +1060,26 @@
       "history": {
         "score": [
           93.0,
-          93.0
+          93.0,
+          90.0
         ],
         "uptime": [
+          98.82,
           98.82,
           98.82
         ],
         "speed": [
           1165.1,
+          1165.1,
           1165.1
         ],
         "latency": [
           41.0,
+          41.0,
           41.0
         ],
         "loss": [
+          1.18,
           1.18,
           1.18
         ]
@@ -284,834 +1088,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-23d38921",
-      "name": "宇宙云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 60,
-      "priceMonthly": 1.04,
-      "observedDays": 2,
-      "score": 92.8,
-      "scores": {
-        "S": 94,
-        "P": 96,
-        "N": 92,
-        "C": 98,
-        "R": 75
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "新晋推荐",
-        "流媒体解锁",
-        "专线稳定",
-        "目录收录"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "IEPL"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "官方客户端"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          92.8,
-          92.8
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          754.0,
-          754.0
-        ],
-        "latency": [
-          42.5,
-          42.5
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥25.0，节点 60 个，实测速率 754.0 Mbps，延迟 42 ms，公开参考评分 4.2/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-1406c035",
-      "name": "可信云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 50,
-      "priceMonthly": 8.0,
-      "observedDays": 2,
-      "score": 92.7,
-      "scores": {
-        "S": 94,
-        "P": 96,
-        "N": 93,
-        "C": 96,
-        "R": 75
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "不限设备",
-        "AI解锁",
-        "专线小包",
-        "目录收录"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "IEPL",
-        "IPLC"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "Netflix",
-        "YouTube"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "官方客户端"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          92.7,
-          92.7
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          972.4,
-          972.4
-        ],
-        "latency": [
-          38.0,
-          38.0
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥15.0，节点 50 个，实测速率 972.4 Mbps，延迟 38 ms，公开参考评分 4.4/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-b90a295c",
-      "name": "速界",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 52,
-      "priceMonthly": 15.0,
-      "observedDays": 2,
-      "score": 92.7,
-      "scores": {
-        "S": 94,
-        "P": 96,
-        "N": 94,
-        "C": 88,
-        "R": 85
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "官方客户端"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          92.7,
-          92.7
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          764.8,
-          764.8
-        ],
-        "latency": [
-          37.0,
-          37.0
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥15.0，节点 52 个，实测速率 764.8 Mbps，延迟 37 ms，公开参考评分 4.3/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "edgenova",
-      "name": "edgenova",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 42,
-      "priceMonthly": 15.0,
-      "observedDays": 2,
-      "score": 92.5,
-      "scores": {
-        "S": 94,
-        "P": 96,
-        "N": 93,
-        "C": 88,
-        "R": 85
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "官方客户端"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          92.5,
-          92.5
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          913.3,
-          913.3
-        ],
-        "latency": [
-          39.0,
-          39.0
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥15.0，节点 42 个，实测速率 913.3 Mbps，延迟 39 ms，公开参考评分 4.3/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-ed7ce7f5",
-      "name": "光速云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 48,
-      "priceMonthly": 17.0,
-      "observedDays": 2,
-      "score": 92.4,
-      "scores": {
-        "S": 94,
-        "P": 96,
-        "N": 94,
-        "C": 86,
-        "R": 85
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "一键订阅",
-        "Clash 托管"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          92.4,
-          92.4
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          984.8,
-          984.8
-        ],
-        "latency": [
-          36.5,
-          36.5
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥17.0，节点 48 个，实测速率 984.8 Mbps，延迟 36 ms，公开参考评分 4.2/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-3766603f",
-      "name": "光年梯",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 62,
-      "priceMonthly": 18.0,
-      "observedDays": 2,
-      "score": 92.05,
-      "scores": {
-        "S": 94,
-        "P": 96,
-        "N": 93,
-        "C": 85,
-        "R": 85
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "SS协议",
-        "稳定",
-        "新加坡背景",
-        "目录收录"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "IEPL"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "ChatGPT"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "官方客户端"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          92.05,
-          92.05
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          656.5,
-          656.5
-        ],
-        "latency": [
-          41.5,
-          41.5
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥18.0，节点 62 个，实测速率 656.5 Mbps，延迟 42 ms，公开参考评分 4.3/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-db031d64",
-      "name": "极连云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 55,
-      "priceMonthly": 18.0,
-      "observedDays": 2,
-      "score": 92.05,
-      "scores": {
-        "S": 94,
-        "P": 96,
-        "N": 93,
-        "C": 85,
-        "R": 85
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "官方客户端"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          92.05,
-          92.05
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          1002.8,
-          1002.8
-        ],
-        "latency": [
-          40.5,
-          40.5
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥18.0，节点 55 个，实测速率 1002.8 Mbps，延迟 40 ms，公开参考评分 4.2/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "u1s1",
-      "name": "U1S1",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 58,
-      "priceMonthly": 18.8,
-      "observedDays": 2,
-      "score": 91.4,
-      "scores": {
-        "S": 94,
-        "P": 94,
-        "N": 94,
-        "C": 84,
-        "R": 83
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "不限设备",
-        "千兆带宽",
-        "流媒体全解锁",
-        "目录收录"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "中转"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "Netflix",
-        "ChatGPT",
-        "Disney+",
-        "TikTok"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "官方客户端"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          91.4,
-          91.4
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          631.5,
-          631.5
-        ],
-        "latency": [
-          11.0,
-          11.0
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥20.0，节点 49 个，实测速率 631.5 Mbps，延迟 11 ms，公开参考评分 3.7/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-b16d7c96",
-      "name": "唯兔云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 30,
-      "priceMonthly": 1.66,
-      "observedDays": 2,
-      "score": 91.35,
-      "scores": {
-        "S": 91,
-        "P": 91,
-        "N": 91,
-        "C": 98,
-        "R": 84
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "客户端",
-        "多地区节点",
-        "不限时可选",
-        "目录收录"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "IPLC"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "官方客户端"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          91.35,
-          91.35
-        ],
-        "uptime": [
-          96.67,
-          96.67
-        ],
-        "speed": [
-          586.0,
-          586.0
-        ],
-        "latency": [
-          50.0,
-          50.0
-        ],
-        "loss": [
-          3.33,
-          3.33
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥19.9，节点 30 个，实测速率 586.0 Mbps，延迟 50 ms，公开参考评分 4.0/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-a089140d",
-      "name": "全球云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 33,
-      "priceMonthly": 20.0,
-      "observedDays": 2,
-      "score": 90.55,
-      "scores": {
-        "S": 91,
-        "P": 96,
-        "N": 93,
-        "C": 83,
-        "R": 82
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "一键订阅",
-        "Clash 托管"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          90.55,
-          90.55
-        ],
-        "uptime": [
-          96.97,
-          96.97
-        ],
-        "speed": [
-          693.8,
-          693.8
-        ],
-        "latency": [
-          41.0,
-          41.0
-        ],
-        "loss": [
-          3.03,
-          3.03
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥20.0，节点 33 个，实测速率 693.8 Mbps，延迟 41 ms，公开参考评分 3.5/5。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1124,7 +1101,7 @@
       "status": "normal",
       "nodes": 88,
       "priceMonthly": 8.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 89.9,
       "scores": {
         "S": 92,
@@ -1174,21 +1151,26 @@
       "history": {
         "score": [
           89.9,
+          89.9,
           89.9
         ],
         "uptime": [
+          97.73,
           97.73,
           97.73
         ],
         "speed": [
           483.8,
+          483.8,
           483.8
         ],
         "latency": [
           37.0,
+          37.0,
           37.0
         ],
         "loss": [
+          2.27,
           2.27,
           2.27
         ]
@@ -1197,10 +1179,196 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
+      }
+    },
+    {
+      "slug": "ap-b16d7c96",
+      "name": "唯兔云",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 30,
+      "priceMonthly": 19.9,
+      "observedDays": 3,
+      "score": 89.1,
+      "scores": {
+        "S": 91,
+        "P": 91,
+        "N": 91,
+        "C": 83,
+        "R": 84
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "客户端",
+        "多地区节点",
+        "不限时可选",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "官方客户端"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          91.35,
+          91.35,
+          89.1
+        ],
+        "uptime": [
+          96.67,
+          96.67,
+          96.67
+        ],
+        "speed": [
+          586.0,
+          586.0,
+          586.0
+        ],
+        "latency": [
+          50.0,
+          50.0,
+          50.0
+        ],
+        "loss": [
+          3.33,
+          3.33,
+          3.33
+        ]
+      },
+      "summary": "公开目录与实测数据汇总：参考月付 ¥19.9，节点 30 个，实测速率 586.0 Mbps，延迟 50 ms，公开参考评分 4.0/5。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_bench",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "pawdroid-free-oss",
+      "name": "Pawdroid 开源样本",
+      "color": "#14b8a6",
+      "status": "normal",
+      "nodes": 11,
+      "priceMonthly": 0.0,
+      "observedDays": 3,
+      "score": 88.6,
+      "scores": {
+        "S": 100,
+        "P": 78,
+        "N": 78,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2023-01",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "轻量集"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "v2rayN",
+        "Clash Verge",
+        "Shadowrocket",
+        "Mihomo",
+        "Karing",
+        "Stash",
+        "Sing-box"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "Base64 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          85.5,
+          85.95,
+          88.6
+        ],
+        "uptime": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "speed": [
+          192.6,
+          197.5,
+          227.4
+        ],
+        "latency": [
+          194.3,
+          183.34,
+          116.8
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "summary": "轻量级 Base64 公开订阅样本，用于快速端到端连通性验证。",
+      "website": "https://github.com/Pawdroid/Free-servers",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 63,
+        "protocols": [
+          "ss",
+          "vless"
+        ]
       }
     },
     {
@@ -1209,14 +1377,14 @@
       "color": "#0d9488",
       "status": "normal",
       "nodes": 88,
-      "priceMonthly": 2.08,
-      "observedDays": 2,
-      "score": 88.65,
+      "priceMonthly": 25.0,
+      "observedDays": 3,
+      "score": 85.65,
       "scores": {
         "S": 93,
         "P": 81,
         "N": 90,
-        "C": 98,
+        "C": 78,
         "R": 78
       },
       "trial": false,
@@ -1262,21 +1430,26 @@
       "history": {
         "score": [
           88.65,
-          88.65
+          88.65,
+          85.65
         ],
         "uptime": [
+          98.86,
           98.86,
           98.86
         ],
         "speed": [
           438.1,
+          438.1,
           438.1
         ],
         "latency": [
           51.0,
+          51.0,
           51.0
         ],
         "loss": [
+          1.14,
           1.14,
           1.14
         ]
@@ -1285,106 +1458,10 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_bench",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
-      }
-    },
-    {
-      "slug": "pawdroid-free-oss",
-      "name": "Pawdroid 开源样本",
-      "color": "#14b8a6",
-      "status": "normal",
-      "nodes": 6,
-      "priceMonthly": 0.0,
-      "observedDays": 2,
-      "score": 85.95,
-      "scores": {
-        "S": 100,
-        "P": 73,
-        "N": 71,
-        "C": 98,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2023-01",
-      "tags": [
-        "开源样本",
-        "公开研究",
-        "轻量集"
-      ],
-      "regions": [
-        "英国",
-        "香港"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "v2rayN",
-        "Clash Verge",
-        "Shadowrocket",
-        "Mihomo",
-        "Karing",
-        "Stash",
-        "Sing-box"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "开源免费"
-      ],
-      "importMethods": [
-        "Base64 订阅"
-      ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
-      "telegram": {},
-      "history": {
-        "score": [
-          85.5,
-          85.95
-        ],
-        "uptime": [
-          100.0,
-          100.0
-        ],
-        "speed": [
-          192.6,
-          197.5
-        ],
-        "latency": [
-          194.3,
-          183.34
-        ],
-        "loss": [
-          0.0,
-          0.0
-        ]
-      },
-      "summary": "轻量级 Base64 公开订阅样本，用于快速端到端连通性验证。",
-      "website": "https://github.com/Pawdroid/Free-servers",
-      "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 64,
-        "protocols": [
-          "hysteria2",
-          "ss",
-          "trojan",
-          "vless"
-        ]
       }
     },
     {
@@ -1394,7 +1471,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 5.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 84.55,
       "scores": {
         "S": 88,
@@ -1442,21 +1519,26 @@
       "history": {
         "score": [
           84.55,
+          84.55,
           84.55
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -1465,10 +1547,114 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
+      }
+    },
+    {
+      "slug": "nomorewalls-oss",
+      "name": "NoMoreWalls 开源样本",
+      "color": "#0891b2",
+      "status": "normal",
+      "nodes": 98,
+      "priceMonthly": 0.0,
+      "observedDays": 3,
+      "score": 82.5,
+      "scores": {
+        "S": 91,
+        "P": 70,
+        "N": 71,
+        "C": 98,
+        "R": 88
+      },
+      "trial": true,
+      "refund": false,
+      "founded": "2022-03",
+      "tags": [
+        "开源样本",
+        "公开研究",
+        "多协议"
+      ],
+      "regions": [
+        "德国",
+        "英国",
+        "香港",
+        "日本",
+        "新加坡",
+        "美国",
+        "台湾"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN",
+        "Sing-box",
+        "Shadowrocket"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "开源免费"
+      ],
+      "importMethods": [
+        "YAML 订阅",
+        "Base64 订阅"
+      ],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.85,
+          79.5,
+          82.5
+        ],
+        "uptime": [
+          81.25,
+          81.25,
+          87.5
+        ],
+        "speed": [
+          166.8,
+          170.9,
+          183.5
+        ],
+        "latency": [
+          166.03,
+          154.86,
+          156.23
+        ],
+        "loss": [
+          18.75,
+          18.75,
+          12.5
+        ]
+      },
+      "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
+      "website": "https://github.com/peasoft/NoMoreWalls",
+      "probeMeta": {
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": 200,
+        "tlsDaysLeft": 63,
+        "protocols": [
+          "ss",
+          "trojan",
+          "vmess"
+        ]
       }
     },
     {
@@ -1478,7 +1664,7 @@
       "status": "normal",
       "nodes": 70,
       "priceMonthly": 8.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 81.8,
       "scores": {
         "S": 80,
@@ -1545,21 +1731,26 @@
       "history": {
         "score": [
           81.8,
+          81.8,
           81.8
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -1568,7 +1759,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1581,7 +1772,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 20.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 80.55,
       "scores": {
         "S": 85,
@@ -1648,21 +1839,26 @@
       "history": {
         "score": [
           80.55,
+          80.55,
           80.55
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -1671,7 +1867,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1684,7 +1880,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 7.08,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 79.95,
       "scores": {
         "S": 80,
@@ -1731,21 +1927,26 @@
       "history": {
         "score": [
           79.95,
+          79.95,
           79.95
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -1754,108 +1955,10 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
-      }
-    },
-    {
-      "slug": "nomorewalls-oss",
-      "name": "NoMoreWalls 开源样本",
-      "color": "#0891b2",
-      "status": "normal",
-      "nodes": 106,
-      "priceMonthly": 0.0,
-      "observedDays": 2,
-      "score": 79.5,
-      "scores": {
-        "S": 86,
-        "P": 68,
-        "N": 66,
-        "C": 98,
-        "R": 88
-      },
-      "trial": true,
-      "refund": false,
-      "founded": "2022-03",
-      "tags": [
-        "开源样本",
-        "公开研究",
-        "多协议"
-      ],
-      "regions": [
-        "德国",
-        "英国",
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN",
-        "Sing-box",
-        "Shadowrocket"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "开源免费"
-      ],
-      "importMethods": [
-        "YAML 订阅",
-        "Base64 订阅"
-      ],
-      "plans": [
-        {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
-        }
-      ],
-      "telegram": {},
-      "history": {
-        "score": [
-          78.85,
-          79.5
-        ],
-        "uptime": [
-          81.25,
-          81.25
-        ],
-        "speed": [
-          166.8,
-          170.9
-        ],
-        "latency": [
-          166.03,
-          154.86
-        ],
-        "loss": [
-          18.75,
-          18.75
-        ]
-      },
-      "summary": "社区维护的开源节点集合样本，用于验证多协议去重与地区识别能力。",
-      "website": "https://github.com/peasoft/NoMoreWalls",
-      "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 64,
-        "protocols": [
-          "ss",
-          "trojan",
-          "vmess"
-        ]
       }
     },
     {
@@ -1865,7 +1968,7 @@
       "status": "normal",
       "nodes": 60,
       "priceMonthly": 23.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 79.0,
       "scores": {
         "S": 80,
@@ -1912,21 +2015,26 @@
       "history": {
         "score": [
           79.0,
+          79.0,
           79.0
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -1935,7 +2043,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -1948,7 +2056,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 24.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 78.45,
       "scores": {
         "S": 82,
@@ -2016,21 +2124,26 @@
       "history": {
         "score": [
           78.45,
+          78.45,
           78.45
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -2039,7 +2152,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2052,7 +2165,7 @@
       "status": "normal",
       "nodes": 100,
       "priceMonthly": 15.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 78.4,
       "scores": {
         "S": 74,
@@ -2097,21 +2210,26 @@
       "history": {
         "score": [
           78.4,
+          78.4,
           78.4
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -2120,87 +2238,9 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-a9f17921",
-      "name": "微风",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 11.0,
-      "observedDays": 1,
-      "score": 78.3,
-      "scores": {
-        "S": 99,
-        "P": 60,
-        "N": 55,
-        "C": 92,
-        "R": 88
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "目录收录",
-        "公开索引"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡"
-      ],
-      "routes": [
-        "IEPL"
-      ],
-      "clients": [
-        "Clash Verge",
-        "v2rayN"
-      ],
-      "streaming": [
-        "未测(数据中心IP)"
-      ],
-      "payments": [
-        "公开研究"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          78.3,
-          78.3
-        ],
-        "uptime": [
-          98.0,
-          98.0
-        ],
-        "speed": [
-          131.2,
-          131.2
-        ],
-        "latency": [
-          324.73,
-          324.73
-        ],
-        "loss": [
-          0.5,
-          0.5
-        ]
-      },
-      "summary": "来自公开开源目录索引（参考线路：IEPL）。",
-      "website": "https://yifenjichang.net/go/breeze/",
-      "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 52,
         "protocols": []
       }
     },
@@ -2211,7 +2251,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 19.9,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 77.85,
       "scores": {
         "S": 80,
@@ -2281,21 +2321,26 @@
       "history": {
         "score": [
           77.85,
+          77.85,
           77.85
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -2304,7 +2349,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2317,7 +2362,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 22.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 77.55,
       "scores": {
         "S": 80,
@@ -2366,21 +2411,26 @@
       "history": {
         "score": [
           77.55,
+          77.55,
           77.55
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -2389,176 +2439,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-75c3e19a",
-      "name": "瞬云",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 1.5,
-      "observedDays": 2,
-      "score": 77.1,
-      "scores": {
-        "S": 74,
-        "P": 72,
-        "N": 74,
-        "C": 98,
-        "R": 74
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "先月付验证",
-        "通用订阅",
-        "晚间实测",
-        "目录收录"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "BGP"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "Netflix",
-        "ChatGPT",
-        "YouTube"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          77.1,
-          77.1
-        ],
-        "uptime": [
-          92.0,
-          92.0
-        ],
-        "speed": [
-          120.0,
-          120.0
-        ],
-        "latency": [
-          85.0,
-          85.0
-        ],
-        "loss": [
-          1.2,
-          1.2
-        ]
-      },
-      "summary": "公开目录收录条目（参考月付 ¥1.5，线路 BGP）。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-667105f9",
-      "name": "边缘节点",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 1.25,
-      "observedDays": 2,
-      "score": 77.1,
-      "scores": {
-        "S": 74,
-        "P": 72,
-        "N": 74,
-        "C": 98,
-        "R": 74
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "短周期先试",
-        "专用客户端",
-        "美国实测",
-        "目录收录"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "IPLC"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "Netflix",
-        "YouTube"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "一键订阅"
-      ],
-      "plans": [],
-      "telegram": {},
-      "history": {
-        "score": [
-          77.1,
-          77.1
-        ],
-        "uptime": [
-          92.0,
-          92.0
-        ],
-        "speed": [
-          120.0,
-          120.0
-        ],
-        "latency": [
-          85.0,
-          85.0
-        ],
-        "loss": [
-          1.2,
-          1.2
-        ]
-      },
-      "summary": "公开目录收录条目（参考月付 ¥1.2，线路 IPLC）。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2571,7 +2452,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 9.9,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2618,21 +2499,26 @@
       "history": {
         "score": [
           77.1,
+          77.1,
           77.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -2641,7 +2527,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2654,7 +2540,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 6.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2699,21 +2585,26 @@
       "history": {
         "score": [
           77.1,
+          77.1,
           77.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -2722,7 +2613,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2735,7 +2626,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 4.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2780,21 +2671,26 @@
       "history": {
         "score": [
           77.1,
+          77.1,
           77.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -2803,7 +2699,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2816,7 +2712,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 6.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2861,21 +2757,26 @@
       "history": {
         "score": [
           77.1,
+          77.1,
           77.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -2884,7 +2785,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2897,7 +2798,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 5.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -2942,21 +2843,26 @@
       "history": {
         "score": [
           77.1,
+          77.1,
           77.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -2965,7 +2871,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -2978,7 +2884,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 3.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 77.1,
       "scores": {
         "S": 74,
@@ -3023,21 +2929,26 @@
       "history": {
         "score": [
           77.1,
+          77.1,
           77.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3046,99 +2957,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": null,
-        "tlsDaysLeft": null,
-        "protocols": []
-      }
-    },
-    {
-      "slug": "ap-36a9d023",
-      "name": "无忧链接",
-      "color": "#0d9488",
-      "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 6.58,
-      "observedDays": 2,
-      "score": 76.95,
-      "scores": {
-        "S": 74,
-        "P": 72,
-        "N": 74,
-        "C": 97,
-        "R": 74
-      },
-      "trial": false,
-      "refund": false,
-      "founded": "2026-11",
-      "tags": [
-        "总榜收录",
-        "订阅/专用客户端",
-        "短周期先试",
-        "目录收录"
-      ],
-      "regions": [
-        "香港",
-        "日本",
-        "新加坡",
-        "美国"
-      ],
-      "routes": [
-        "IPLC"
-      ],
-      "clients": [
-        "Clash Verge",
-        "Mihomo",
-        "v2rayN"
-      ],
-      "streaming": [
-        "Netflix",
-        "ChatGPT"
-      ],
-      "payments": [
-        "支付宝",
-        "USDT"
-      ],
-      "importMethods": [
-        "官方客户端"
-      ],
-      "plans": [
-        {
-          "name": "忘忧链接",
-          "traffic": "1.0TB / 月",
-          "price": 117.0,
-          "cycle": "月付",
-          "devices": "详见官网"
-        }
-      ],
-      "telegram": {},
-      "history": {
-        "score": [
-          76.95,
-          76.95
-        ],
-        "uptime": [
-          92.0,
-          92.0
-        ],
-        "speed": [
-          120.0,
-          120.0
-        ],
-        "latency": [
-          85.0,
-          85.0
-        ],
-        "loss": [
-          1.2,
-          1.2
-        ]
-      },
-      "summary": "公开目录与实测数据汇总：参考月付 ¥19.0。",
-      "website": "#",
-      "probeMeta": {
-        "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3151,7 +2970,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 8.17,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 76.65,
       "scores": {
         "S": 74,
@@ -3198,21 +3017,26 @@
       "history": {
         "score": [
           76.65,
+          76.65,
           76.65
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3221,7 +3045,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3234,7 +3058,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 9.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 76.65,
       "scores": {
         "S": 74,
@@ -3279,21 +3103,26 @@
       "history": {
         "score": [
           76.65,
+          76.65,
           76.65
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3302,7 +3131,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3315,7 +3144,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 9.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 76.65,
       "scores": {
         "S": 74,
@@ -3360,21 +3189,26 @@
       "history": {
         "score": [
           76.65,
+          76.65,
           76.65
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3383,7 +3217,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3396,7 +3230,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 79.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 76.6,
       "scores": {
         "S": 88,
@@ -3443,21 +3277,26 @@
       "history": {
         "score": [
           76.6,
+          76.6,
           76.6
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3466,7 +3305,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3479,7 +3318,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 76.5,
       "scores": {
         "S": 74,
@@ -3524,21 +3363,26 @@
       "history": {
         "score": [
           76.5,
+          76.5,
           76.5
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3547,7 +3391,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3560,7 +3404,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 11.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 76.2,
       "scores": {
         "S": 74,
@@ -3608,21 +3452,26 @@
       "history": {
         "score": [
           76.2,
+          76.2,
           76.2
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3631,7 +3480,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3644,7 +3493,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 5.6,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 76.2,
       "scores": {
         "S": 73,
@@ -3692,21 +3541,26 @@
       "history": {
         "score": [
           76.2,
+          76.2,
           76.2
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3715,7 +3569,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3728,7 +3582,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 6.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 76.2,
       "scores": {
         "S": 73,
@@ -3777,21 +3631,26 @@
       "history": {
         "score": [
           76.2,
+          76.2,
           76.2
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3800,7 +3659,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3813,7 +3672,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 12.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 76.05,
       "scores": {
         "S": 74,
@@ -3858,21 +3717,26 @@
       "history": {
         "score": [
           76.05,
+          76.05,
           76.05
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3881,7 +3745,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3894,7 +3758,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 13.36,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 75.9,
       "scores": {
         "S": 74,
@@ -3941,21 +3805,26 @@
       "history": {
         "score": [
           75.9,
+          75.9,
           75.9
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -3964,7 +3833,96 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-667105f9",
+      "name": "边缘节点",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 15.0,
+      "observedDays": 3,
+      "score": 75.6,
+      "scores": {
+        "S": 74,
+        "P": 72,
+        "N": 74,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "短周期先试",
+        "专用客户端",
+        "美国实测",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "Netflix",
+        "YouTube"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.1,
+          77.1,
+          75.6
+        ],
+        "uptime": [
+          92.0,
+          92.0,
+          92.0
+        ],
+        "speed": [
+          120.0,
+          120.0,
+          120.0
+        ],
+        "latency": [
+          85.0,
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥15.0，线路 IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -3977,7 +3935,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 75.6,
       "scores": {
         "S": 74,
@@ -4022,21 +3980,26 @@
       "history": {
         "score": [
           75.6,
+          75.6,
           75.6
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -4045,20 +4008,20 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
       }
     },
     {
-      "slug": "ap-fb5fc812",
-      "name": "魔戒机场",
+      "slug": "ap-dd28b221",
+      "name": "暮光",
       "color": "#0d9488",
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 2,
+      "observedDays": 1,
       "score": 75.6,
       "scores": {
         "S": 74,
@@ -4126,7 +4089,337 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-a9f17921",
+      "name": "微风",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 15.0,
+      "observedDays": 2,
+      "score": 75.6,
+      "scores": {
+        "S": 74,
+        "P": 72,
+        "N": 74,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          78.3,
+          75.6
+        ],
+        "uptime": [
+          98.0,
+          92.0
+        ],
+        "speed": [
+          131.2,
+          120.0
+        ],
+        "latency": [
+          324.73,
+          85.0
+        ],
+        "loss": [
+          0.5,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-cfd55ebf",
+      "name": "飞V",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 75.6,
+      "scores": {
+        "S": 74,
+        "P": 72,
+        "N": 74,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IEPL",
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          75.6,
+          75.6
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          120.0,
+          120.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：IEPL/IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-3d5105d1",
+      "name": "无忧",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 15.0,
+      "observedDays": 1,
+      "score": 75.6,
+      "scores": {
+        "S": 74,
+        "P": 72,
+        "N": 74,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          75.6,
+          75.6
+        ],
+        "uptime": [
+          92.0,
+          92.0
+        ],
+        "speed": [
+          120.0,
+          120.0
+        ],
+        "latency": [
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：IPLC）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-fb5fc812",
+      "name": "魔戒机场",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 15.0,
+      "observedDays": 3,
+      "score": 75.6,
+      "scores": {
+        "S": 74,
+        "P": 72,
+        "N": 74,
+        "C": 88,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "目录收录",
+        "公开索引"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "BGP"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "未测(数据中心IP)"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          75.6,
+          75.6,
+          75.6
+        ],
+        "uptime": [
+          92.0,
+          92.0,
+          92.0
+        ],
+        "speed": [
+          120.0,
+          120.0,
+          120.0
+        ],
+        "latency": [
+          85.0,
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "来自公开开源目录索引（参考线路：BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4139,7 +4432,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 75.6,
       "scores": {
         "S": 74,
@@ -4184,21 +4477,26 @@
       "history": {
         "score": [
           75.6,
+          75.6,
           75.6
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -4207,7 +4505,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4220,7 +4518,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.99,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 75.45,
       "scores": {
         "S": 74,
@@ -4265,21 +4563,26 @@
       "history": {
         "score": [
           75.45,
+          75.45,
           75.45
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -4288,7 +4591,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4301,7 +4604,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 11.42,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 75.3,
       "scores": {
         "S": 73,
@@ -4371,21 +4674,26 @@
       "history": {
         "score": [
           75.3,
+          75.3,
           75.3
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -4394,40 +4702,42 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
       }
     },
     {
-      "slug": "au1rxx-free-vpn",
-      "name": "Au1rxx 开源聚合样本",
+      "slug": "ap-75c3e19a",
+      "name": "瞬云",
       "color": "#0d9488",
       "status": "normal",
-      "nodes": 560,
-      "priceMonthly": 0.0,
-      "observedDays": 2,
-      "score": 75.0,
+      "nodes": 0,
+      "priceMonthly": 18.0,
+      "observedDays": 3,
+      "score": 75.15,
       "scores": {
-        "S": 86,
-        "P": 62,
-        "N": 51,
-        "C": 98,
-        "R": 88
+        "S": 74,
+        "P": 72,
+        "N": 74,
+        "C": 85,
+        "R": 74
       },
-      "trial": true,
+      "trial": false,
       "refund": false,
-      "founded": "2024-06",
+      "founded": "2026-11",
       "tags": [
-        "开源样本",
-        "公开研究",
-        "Clash YAML"
+        "先月付验证",
+        "通用订阅",
+        "晚间实测",
+        "目录收录"
       ],
       "regions": [
         "香港",
         "日本",
-        "新加坡"
+        "新加坡",
+        "美国"
       ],
       "routes": [
         "BGP"
@@ -4435,68 +4745,154 @@
       "clients": [
         "Clash Verge",
         "Mihomo",
-        "Stash",
-        "Karing",
-        "v2rayN",
-        "Shadowrocket",
-        "Sing-box"
+        "v2rayN"
       ],
       "streaming": [
-        "未测(数据中心IP)"
+        "Netflix",
+        "ChatGPT",
+        "YouTube"
       ],
       "payments": [
-        "开源免费"
+        "支付宝",
+        "USDT"
       ],
       "importMethods": [
-        "Clash 托管",
-        "YAML 订阅"
+        "一键订阅"
+      ],
+      "plans": [],
+      "telegram": {},
+      "history": {
+        "score": [
+          77.1,
+          77.1,
+          75.15
+        ],
+        "uptime": [
+          92.0,
+          92.0,
+          92.0
+        ],
+        "speed": [
+          120.0,
+          120.0,
+          120.0
+        ],
+        "latency": [
+          85.0,
+          85.0,
+          85.0
+        ],
+        "loss": [
+          1.2,
+          1.2,
+          1.2
+        ]
+      },
+      "summary": "公开目录收录条目（参考月付 ¥18.0，线路 BGP）。",
+      "website": "#",
+      "probeMeta": {
+        "mode": "directory_index",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
+      }
+    },
+    {
+      "slug": "ap-36a9d023",
+      "name": "无忧链接",
+      "color": "#0d9488",
+      "status": "normal",
+      "nodes": 0,
+      "priceMonthly": 19.0,
+      "observedDays": 3,
+      "score": 75.0,
+      "scores": {
+        "S": 74,
+        "P": 72,
+        "N": 74,
+        "C": 84,
+        "R": 74
+      },
+      "trial": false,
+      "refund": false,
+      "founded": "2026-11",
+      "tags": [
+        "总榜收录",
+        "订阅/专用客户端",
+        "短周期先试",
+        "目录收录"
+      ],
+      "regions": [
+        "香港",
+        "日本",
+        "新加坡",
+        "美国"
+      ],
+      "routes": [
+        "IPLC"
+      ],
+      "clients": [
+        "Clash Verge",
+        "Mihomo",
+        "v2rayN"
+      ],
+      "streaming": [
+        "Netflix",
+        "ChatGPT"
+      ],
+      "payments": [
+        "支付宝",
+        "USDT"
+      ],
+      "importMethods": [
+        "官方客户端"
       ],
       "plans": [
         {
-          "name": "公开开源测试集",
-          "traffic": "不限（社区共享）",
-          "price": 0,
-          "cycle": "公开研究",
-          "devices": "测试用途"
+          "name": "忘忧链接",
+          "traffic": "1.0TB / 月",
+          "price": 117.0,
+          "cycle": "月付",
+          "devices": "详见官网"
         }
       ],
       "telegram": {},
       "history": {
         "score": [
-          74.25,
+          76.95,
+          76.95,
           75.0
         ],
         "uptime": [
-          75.0,
-          81.25
+          92.0,
+          92.0,
+          92.0
         ],
         "speed": [
-          145.9,
-          142.1
+          120.0,
+          120.0,
+          120.0
         ],
         "latency": [
-          190.01,
-          233.64
+          85.0,
+          85.0,
+          85.0
         ],
         "loss": [
-          25.0,
-          18.75
+          1.2,
+          1.2,
+          1.2
         ]
       },
-      "summary": "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。",
-      "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
+      "summary": "公开目录与实测数据汇总：参考月付 ¥19.0。",
+      "website": "#",
       "probeMeta": {
-        "mode": "tcp_passive",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
-        "httpStatus": 200,
-        "tlsDaysLeft": 64,
-        "protocols": [
-          "hysteria2",
-          "ss",
-          "trojan",
-          "vless",
-          "vmess"
-        ]
+        "mode": "directory_index",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
+        "httpStatus": null,
+        "tlsDaysLeft": null,
+        "protocols": []
       }
     },
     {
@@ -4506,7 +4902,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 20.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.85,
       "scores": {
         "S": 74,
@@ -4566,21 +4962,26 @@
       "history": {
         "score": [
           74.85,
+          74.85,
           74.85
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -4589,7 +4990,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4602,7 +5003,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 20.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.85,
       "scores": {
         "S": 74,
@@ -4662,21 +5063,26 @@
       "history": {
         "score": [
           74.85,
+          74.85,
           74.85
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -4685,7 +5091,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4698,7 +5104,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.7,
       "scores": {
         "S": 73,
@@ -4745,21 +5151,26 @@
       "history": {
         "score": [
           74.7,
+          74.7,
           74.7
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -4768,7 +5179,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4781,7 +5192,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 15.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.7,
       "scores": {
         "S": 73,
@@ -4828,21 +5239,26 @@
       "history": {
         "score": [
           74.7,
+          74.7,
           74.7
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -4851,7 +5267,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4864,7 +5280,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 23.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.4,
       "scores": {
         "S": 74,
@@ -4909,21 +5325,26 @@
       "history": {
         "score": [
           74.4,
+          74.4,
           74.4
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -4932,7 +5353,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -4945,7 +5366,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 24.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.25,
       "scores": {
         "S": 74,
@@ -5012,21 +5433,26 @@
       "history": {
         "score": [
           74.25,
+          74.25,
           74.25
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5035,7 +5461,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5048,7 +5474,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 18.8,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.1,
       "scores": {
         "S": 73,
@@ -5095,21 +5521,26 @@
       "history": {
         "score": [
           74.1,
+          74.1,
           74.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5118,7 +5549,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5131,7 +5562,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 25.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.1,
       "scores": {
         "S": 74,
@@ -5198,21 +5629,26 @@
       "history": {
         "score": [
           74.1,
+          74.1,
           74.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5221,7 +5657,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5234,7 +5670,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 25.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.1,
       "scores": {
         "S": 74,
@@ -5301,21 +5737,26 @@
       "history": {
         "score": [
           74.1,
+          74.1,
           74.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5324,7 +5765,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5337,7 +5778,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 25.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.1,
       "scores": {
         "S": 74,
@@ -5397,21 +5838,26 @@
       "history": {
         "score": [
           74.1,
+          74.1,
           74.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5420,7 +5866,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5433,7 +5879,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 25.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 74.1,
       "scores": {
         "S": 74,
@@ -5478,21 +5924,26 @@
       "history": {
         "score": [
           74.1,
+          74.1,
           74.1
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5501,7 +5952,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5514,7 +5965,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 22.75,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 73.5,
       "scores": {
         "S": 73,
@@ -5561,21 +6012,26 @@
       "history": {
         "score": [
           73.5,
+          73.5,
           73.5
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5584,7 +6040,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5597,7 +6053,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 23.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 73.5,
       "scores": {
         "S": 73,
@@ -5646,21 +6102,26 @@
       "history": {
         "score": [
           73.5,
+          73.5,
           73.5
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5669,7 +6130,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5682,7 +6143,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 29.88,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 73.35,
       "scores": {
         "S": 74,
@@ -5730,21 +6191,26 @@
       "history": {
         "score": [
           73.35,
+          73.35,
           73.35
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5753,7 +6219,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5766,7 +6232,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 30.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 73.2,
       "scores": {
         "S": 74,
@@ -5819,21 +6285,26 @@
       "history": {
         "score": [
           73.2,
+          73.2,
           73.2
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5842,7 +6313,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5855,7 +6326,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 30.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 73.2,
       "scores": {
         "S": 74,
@@ -5900,21 +6371,26 @@
       "history": {
         "score": [
           73.2,
+          73.2,
           73.2
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -5923,7 +6399,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -5936,7 +6412,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 34.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 72.6,
       "scores": {
         "S": 74,
@@ -5983,21 +6459,26 @@
       "history": {
         "score": [
           72.6,
+          72.6,
           72.6
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -6006,7 +6487,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6019,7 +6500,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 30.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 72.3,
       "scores": {
         "S": 73,
@@ -6067,21 +6548,26 @@
       "history": {
         "score": [
           72.3,
+          72.3,
           72.3
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -6090,7 +6576,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6103,7 +6589,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 39.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 71.85,
       "scores": {
         "S": 74,
@@ -6151,21 +6637,26 @@
       "history": {
         "score": [
           71.85,
+          71.85,
           71.85
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -6174,7 +6665,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6187,7 +6678,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 39.99,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 71.7,
       "scores": {
         "S": 74,
@@ -6232,21 +6723,26 @@
       "history": {
         "score": [
           71.7,
+          71.7,
           71.7
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -6255,7 +6751,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6268,7 +6764,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 45.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 70.05,
       "scores": {
         "S": 73,
@@ -6316,21 +6812,26 @@
       "history": {
         "score": [
           70.05,
+          70.05,
           70.05
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -6339,7 +6840,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6352,7 +6853,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 20.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 70.05,
       "scores": {
         "S": 66,
@@ -6400,21 +6901,26 @@
       "history": {
         "score": [
           70.05,
+          70.05,
           70.05
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -6423,7 +6929,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6436,7 +6942,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 69.99,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 69.15,
       "scores": {
         "S": 74,
@@ -6485,21 +6991,26 @@
       "history": {
         "score": [
           69.15,
+          69.15,
           69.15
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -6508,7 +7019,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6521,7 +7032,7 @@
       "status": "normal",
       "nodes": 0,
       "priceMonthly": 74.55,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 69.15,
       "scores": {
         "S": 74,
@@ -6568,21 +7079,26 @@
       "history": {
         "score": [
           69.15,
+          69.15,
           69.15
         ],
         "uptime": [
+          92.0,
           92.0,
           92.0
         ],
         "speed": [
           120.0,
+          120.0,
           120.0
         ],
         "latency": [
           85.0,
+          85.0,
           85.0
         ],
         "loss": [
+          1.2,
           1.2,
           1.2
         ]
@@ -6591,34 +7107,35 @@
       "website": "#",
       "probeMeta": {
         "mode": "directory_index",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
       }
     },
     {
-      "slug": "ap-1b0a15cc",
-      "name": "灵猫",
+      "slug": "au1rxx-free-vpn",
+      "name": "Au1rxx 开源聚合样本",
       "color": "#0d9488",
       "status": "normal",
-      "nodes": 0,
-      "priceMonthly": 7.1,
-      "observedDays": 1,
-      "score": 65.35,
+      "nodes": 560,
+      "priceMonthly": 0.0,
+      "observedDays": 3,
+      "score": 64.5,
       "scores": {
-        "S": 99,
-        "P": 42,
-        "N": 9,
-        "C": 97,
+        "S": 86,
+        "P": 44,
+        "N": 21,
+        "C": 98,
         "R": 88
       },
-      "trial": false,
+      "trial": true,
       "refund": false,
-      "founded": "2026-11",
+      "founded": "2024-06",
       "tags": [
-        "目录收录",
-        "公开索引"
+        "开源样本",
+        "公开研究",
+        "Clash YAML"
       ],
       "regions": [
         "香港",
@@ -6626,53 +7143,78 @@
         "新加坡"
       ],
       "routes": [
-        "中转"
+        "BGP"
       ],
       "clients": [
         "Clash Verge",
-        "v2rayN"
+        "Mihomo",
+        "Stash",
+        "Karing",
+        "v2rayN",
+        "Shadowrocket",
+        "Sing-box"
       ],
       "streaming": [
         "未测(数据中心IP)"
       ],
       "payments": [
-        "公开研究"
+        "开源免费"
       ],
       "importMethods": [
-        "一键订阅"
+        "Clash 托管",
+        "YAML 订阅"
       ],
-      "plans": [],
+      "plans": [
+        {
+          "name": "公开开源测试集",
+          "traffic": "不限（社区共享）",
+          "price": 0,
+          "cycle": "公开研究",
+          "devices": "测试用途"
+        }
+      ],
       "telegram": {},
       "history": {
         "score": [
-          65.35,
-          65.35
+          74.25,
+          75.0,
+          64.5
         ],
         "uptime": [
-          98.0,
-          98.0
+          75.0,
+          81.25,
+          81.25
         ],
         "speed": [
-          11.8,
-          11.8
+          145.9,
+          142.1,
+          52.0
         ],
         "latency": [
-          689.99,
-          689.99
+          190.01,
+          233.64,
+          479.99
         ],
         "loss": [
-          0.5,
-          0.5
+          25.0,
+          18.75,
+          18.75
         ]
       },
-      "summary": "来自公开开源目录索引（参考线路：中转）。",
-      "website": "https://yifenjichang.net/go/civet/",
+      "summary": "开源自动化节点聚合与 Clash YAML 解析样本（仅用于协议解析与探针实验）。",
+      "website": "https://github.com/Au1rxx/free-vpn-subscriptions",
       "probeMeta": {
-        "mode": "web_health",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "mode": "tcp_passive",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 52,
-        "protocols": []
+        "tlsDaysLeft": 63,
+        "protocols": [
+          "hysteria2",
+          "ss",
+          "trojan",
+          "vless",
+          "vmess"
+        ]
       }
     },
     {
@@ -6680,14 +7222,14 @@
       "name": "V2RayAggregator 开源样本",
       "color": "#0f766e",
       "status": "risk",
-      "nodes": 4113,
+      "nodes": 4108,
       "priceMonthly": 0.0,
-      "observedDays": 2,
-      "score": 59.6,
+      "observedDays": 3,
+      "score": 58.75,
       "scores": {
         "S": 50,
-        "P": 54,
-        "N": 38,
+        "P": 53,
+        "N": 35,
         "C": 98,
         "R": 88
       },
@@ -6702,9 +7244,9 @@
       "regions": [
         "美国",
         "英国",
-        "日本",
         "德国",
         "新加坡",
+        "日本",
         "香港",
         "韩国",
         "台湾"
@@ -6742,22 +7284,27 @@
       "history": {
         "score": [
           49.25,
-          59.6
+          59.6,
+          58.75
         ],
         "uptime": [
           18.75,
+          31.25,
           31.25
         ],
         "speed": [
           36.5,
-          78.6
+          78.6,
+          75.2
         ],
         "latency": [
           189.88,
-          63.25
+          63.25,
+          87.61
         ],
         "loss": [
           81.25,
+          68.75,
           68.75
         ]
       },
@@ -6765,9 +7312,9 @@
       "website": "https://github.com/mahdibland/V2RayAggregator",
       "probeMeta": {
         "mode": "tcp_passive",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 64,
+        "tlsDaysLeft": 63,
         "protocols": [
           "ss",
           "trojan",
@@ -6780,14 +7327,14 @@
       "name": "Barry-V2ray 开源样本",
       "color": "#0369a1",
       "status": "risk",
-      "nodes": 192,
+      "nodes": 187,
       "priceMonthly": 0.0,
-      "observedDays": 2,
-      "score": 58.55,
+      "observedDays": 3,
+      "score": 58.15,
       "scores": {
-        "S": 55,
-        "P": 51,
-        "N": 29,
+        "S": 50,
+        "P": 53,
+        "N": 32,
         "C": 98,
         "R": 88
       },
@@ -6802,9 +7349,9 @@
       "regions": [
         "德国",
         "美国",
-        "日本",
+        "英国",
         "新加坡",
-        "英国"
+        "韩国"
       ],
       "routes": [
         "BGP"
@@ -6837,32 +7384,37 @@
       "history": {
         "score": [
           51.65,
-          58.55
+          58.55,
+          58.15
         ],
         "uptime": [
           18.75,
-          37.5
+          37.5,
+          31.25
         ],
         "speed": [
           43.0,
-          78.4
+          78.4,
+          74.1
         ],
         "latency": [
           112.37,
-          157.72
+          157.72,
+          95.61
         ],
         "loss": [
           81.25,
-          62.5
+          62.5,
+          68.75
         ]
       },
-      "summary": "自动化探测连续 0 次异常（可用率 37.5%），已触发风险观察。",
+      "summary": "自动化探测连续 0 次异常（可用率 31.2%），已触发风险观察。",
       "website": "https://github.com/barry-far/V2ray-Config",
       "probeMeta": {
         "mode": "tcp_passive",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": 200,
-        "tlsDaysLeft": 64,
+        "tlsDaysLeft": 63,
         "protocols": [
           "hysteria2",
           "ss",
@@ -6878,7 +7430,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 9.9,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -6920,21 +7472,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -6943,7 +7500,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -6956,7 +7513,7 @@
       "status": "risk",
       "nodes": 45,
       "priceMonthly": 15.9,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -6998,21 +7555,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7021,7 +7583,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7034,7 +7596,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 5.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7076,21 +7638,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7099,7 +7666,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7112,7 +7679,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7154,21 +7721,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7177,7 +7749,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7190,7 +7762,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7232,21 +7804,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7255,7 +7832,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7268,7 +7845,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7310,21 +7887,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7333,7 +7915,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7346,7 +7928,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7388,21 +7970,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7411,7 +7998,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7424,7 +8011,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7466,21 +8053,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7489,7 +8081,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7502,7 +8094,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7544,21 +8136,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7567,7 +8164,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7580,7 +8177,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7622,21 +8219,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7645,7 +8247,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7658,7 +8260,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7700,21 +8302,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7723,7 +8330,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7736,7 +8343,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7778,21 +8385,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7801,7 +8413,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7814,7 +8426,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7856,21 +8468,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7879,7 +8496,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7892,7 +8509,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -7934,21 +8551,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -7957,7 +8579,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -7970,7 +8592,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8012,21 +8634,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8035,7 +8662,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8048,7 +8675,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8090,21 +8717,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8113,7 +8745,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8126,7 +8758,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8168,21 +8800,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8191,7 +8828,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8204,7 +8841,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8246,21 +8883,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8269,7 +8911,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8282,7 +8924,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8324,21 +8966,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8347,7 +8994,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8360,7 +9007,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8402,21 +9049,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8425,7 +9077,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8438,7 +9090,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8480,21 +9132,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8503,7 +9160,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8516,7 +9173,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8558,21 +9215,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8581,7 +9243,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8594,7 +9256,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8636,21 +9298,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8659,7 +9326,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8672,7 +9339,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8714,21 +9381,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8737,7 +9409,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8750,7 +9422,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8792,21 +9464,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8815,7 +9492,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8828,7 +9505,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8870,21 +9547,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8893,7 +9575,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8906,7 +9588,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -8948,21 +9630,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -8971,7 +9658,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -8984,7 +9671,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -9026,21 +9713,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -9049,7 +9741,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -9062,7 +9754,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -9104,21 +9796,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -9127,7 +9824,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -9140,7 +9837,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -9182,21 +9879,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -9205,7 +9907,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -9218,7 +9920,7 @@
       "status": "risk",
       "nodes": 8,
       "priceMonthly": 10.0,
-      "observedDays": 2,
+      "observedDays": 3,
       "score": 30.8,
       "scores": {
         "S": 28,
@@ -9260,21 +9962,26 @@
       "history": {
         "score": [
           30.8,
+          30.8,
           30.8
         ],
         "uptime": [
+          0.0,
           0.0,
           0.0
         ],
         "speed": [
           5.0,
+          5.0,
           5.0
         ],
         "latency": [
           420.0,
+          420.0,
           420.0
         ],
         "loss": [
+          100.0,
           100.0,
           100.0
         ]
@@ -9283,7 +9990,7 @@
       "website": "#",
       "probeMeta": {
         "mode": "risk_feed",
-        "checkedAt": "2026-11-24T07:16:28.309562+00:00",
+        "checkedAt": "2026-11-25T05:49:31.420850+00:00",
         "httpStatus": null,
         "tlsDaysLeft": null,
         "protocols": []
@@ -9292,30 +9999,40 @@
   ],
   "deals": [
     {
-      "airportSlug": "ap-72ee0825",
-      "code": "优惠码: 1FLYYUN（9折）",
+      "airportSlug": "ap-36a9d023",
+      "code": "优惠码: wuyou",
       "discount": "目录收录优惠码",
-      "plans": "¥25/月起（年付¥100/年）",
+      "plans": "¥79/年40GB；¥19/月100GB起",
       "dateRange": "长期/以官网为准",
       "stackable": false,
       "refundable": false,
       "active": true
     },
     {
-      "airportSlug": "ap-320de560",
-      "code": "优惠码: vpsknow（8折）",
+      "airportSlug": "ap-b16d7c96",
+      "code": "优惠码: rabbit（新用户9折）",
       "discount": "目录收录优惠码",
-      "plans": "¥96/年起（折后）",
+      "plans": "¥19.90/月150GB；¥79.90/年45GB/月",
       "dateRange": "长期/以官网为准",
       "stackable": false,
       "refundable": false,
       "active": true
     },
     {
-      "airportSlug": "ap-667105f9",
-      "code": "优惠码: xk808（截图标8折，结账确认）",
+      "airportSlug": "ap-23d38921",
+      "code": "优惠码: YUZHOU553（新人8折）",
       "discount": "目录收录优惠码",
-      "plans": "¥15/月50GB；¥98/年45GB/月",
+      "plans": "¥12.5/月起（年付¥96/年）",
+      "dateRange": "长期/以官网为准",
+      "stackable": false,
+      "refundable": false,
+      "active": true
+    },
+    {
+      "airportSlug": "ap-75c3e19a",
+      "code": "优惠码: 20OFF（新人8折）",
+      "discount": "目录收录优惠码",
+      "plans": "¥18/月150GB；¥99/年59GB/月",
       "dateRange": "长期/以官网为准",
       "stackable": false,
       "refundable": false,
@@ -9333,7 +10050,7 @@
     },
     {
       "airportSlug": "u1s1",
-      "code": "优惠码: U1S1（85折）",
+      "code": "优惠码: U1S1（85折，¥96年包不适用）",
       "discount": "目录收录优惠码",
       "plans": "¥18.8/月起",
       "dateRange": "长期/以官网为准",
@@ -9352,10 +10069,10 @@
       "active": true
     },
     {
-      "airportSlug": "ap-ccfd5bab",
-      "code": "优惠码: nmw888（9折）",
+      "airportSlug": "ytoo",
+      "code": "优惠码: TBAKG878（85折）",
       "discount": "目录收录优惠码",
-      "plans": "¥25/月 150GB起（年付¥96/60GB）",
+      "plans": "¥98/年起",
       "dateRange": "长期/以官网为准",
       "stackable": false,
       "refundable": false,
@@ -9376,16 +10093,6 @@
       "code": "优惠码: yzyzyz（7折，结账页复核）",
       "discount": "目录收录优惠码",
       "plans": "¥18.80/月 150GB起",
-      "dateRange": "长期/以官网为准",
-      "stackable": false,
-      "refundable": false,
-      "active": true
-    },
-    {
-      "airportSlug": "ap-1406c035",
-      "code": "优惠码: kexinyun330",
-      "discount": "目录收录优惠码",
-      "plans": "¥96/年 60GB/月起",
       "dateRange": "长期/以官网为准",
       "stackable": false,
       "refundable": false,
@@ -9617,8 +10324,8 @@
       "id": "n-df79b95ba5",
       "category": "内核动态",
       "title": "Prerelease-Alpha",
-      "summary": "Release created at Tue Nov 24 11:25:53 CST 2026 Synchronize Alpha branch code updates, keeping only the latest version 我应该下载哪个文件? / Which f…",
-      "date": "2026/11/24",
+      "summary": "Release created at Wed Nov 25 09:32:36 CST 2026 Synchronize Alpha branch code updates, keeping only the latest version 我应该下载哪个文件? / Which f…",
+      "date": "2026/11/25",
       "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha"
     },
     {
@@ -9859,8 +10566,8 @@
       "month": "2026.11",
       "year": "2026",
       "title": "2026 年 11 月自动化探测与稳定性月报",
-      "sample": 110,
-      "top": "快狸、二猫云、一翻云",
+      "sample": 112,
+      "top": "快狸、二猫云、可信云",
       "tags": [
         "自动化探测",
         "S-P-N-C-R",
