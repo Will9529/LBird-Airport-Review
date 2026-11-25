@@ -304,7 +304,7 @@ def evaluate_target(
         "scores": scores,
         "trial": bool(entry.get("trial") or web.detected_trial),
         "refund": bool(entry.get("refund") or web.detected_refund),
-        "founded": str(entry.get("founded") or web.founded_rdap or now.strftime("%Y-%m")),
+        "founded": str(entry.get("founded") or web.founded_rdap or ""),
         "tags": list(entry.get("tags") or []),
         "regions": regions,
         "routes": routes,
