@@ -1,5 +1,23 @@
 [
   {
+    "id": "n-949638f3a8",
+    "category": "内核动态",
+    "title": "sing-box 1.14.5",
+    "summary": "📝 Release Notes Update NaiveProxy to 154.0.8037.49-2 Fix Linux desktop client package conflicting with the CLI package 1 Fixes and improvem…",
+    "date": "2026/11/27",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.5",
+    "content": "📝 Release Notes\nUpdate NaiveProxy to 154.0.8037.49-2\nFix Linux desktop client package conflicting with the CLI package\n1\nFixes and improvements\n1\n:\nThe Linux\ndesktop client\n(\nSFL\n) package has been renamed from\nsing-box\nto\nsfl\nand no longer installs\n/usr/bin/sing-box\n. Existing SFL users must remove the old\nsing-box\npackage once before installing the new package (daemon data in\n/var/lib/sing-box-daemon\nis preserved).\n\n官方发布页：https://github.com/SagerNet/sing-box/releases/tag/v1.14.5"
+  },
+  {
+    "id": "n-63441e58af",
+    "category": "客户端更新",
+    "title": "v2rayN 8.0.2",
+    "summary": "本次更新 新增 WebUI 功能，添加无头 WebAPI 支持 - #10300 v2rayN WebAPI / WebUI 配置指南 https://github.com/2dust/v2rayN/discussions/10438 支持原生 Aot，release中下载带有…",
+    "date": "2026/11/27",
+    "url": "https://github.com/2dust/v2rayN/releases/tag/8.0.2",
+    "content": "本次更新\n新增 WebUI 功能，添加无头 WebAPI 支持 -\n#10300\nv2rayN WebAPI / WebUI 配置指南\nhttps://github.com/2dust/v2rayN/discussions/10438\n支持原生 Aot，release中下载带有 aot -\n#10295\n升级 ReactiveUI  ，desktop 版本升级 ProDataGrid ，支持列的动态调整\n添加 MASQUE warp 支持 -\n#10498\n订阅中新增配配置域名预解析功能，可以按设置解析域名为 IP -\n#10220\n添加 Xray XDRIVE transport-\n#10546\n扩展 CustomOutbound 以支持多个出站 -\n#10578\n将 v2rayN WPF 项目重命名为 v2rayN.Windows\n优化自动更新，通过 GitInfoRefs  -\n#10668\nWebAPI : 补齐预解析、MASQUE/WARP 与 XDRIVE 配置项\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/8.0.2"
+  },
+  {
     "id": "n-9384f6fe75",
     "category": "客户端更新",
     "title": "v2rayN 8.0.1",
@@ -162,15 +180,6 @@
     "content": "关于 跳过证书验证 allowInsecure 参数被移除的说明\n本次更新\n支持 sing-box v1.14，更新的用户注意内核版本\n#9736\n锁定最大 sing-box 版本 v1.14\n#10091\n添加通过代理更新检查更新的选项 -\n#10090\n在核心设置界面中添加 Mux 设置 -\n#10055\n日志和临时文件自动清理时间默认为 7 天\n调整 Clash API -\n#10088\nxray core 配置文件格式改为最新版本\n#10132\n为订阅更新添加自定义 HTTP 标头 -\n#10118\n添加阿塞拜疆语 (az) UI 本地化 -\n#10141\nhttps://github.com/XTLS/Xray-core/releases/tag/v26.9.9\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/7.25.3"
   },
   {
-    "id": "n-5925070404",
-    "category": "内核动态",
-    "title": "sing-box 1.14.2",
-    "summary": "📝 Release Notes Fixes and improvements",
-    "date": "2026/09/24",
-    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.2",
-    "content": "📝 Release Notes\nFixes and improvements\n\n官方发布页：https://github.com/SagerNet/sing-box/releases/tag/v1.14.2"
-  },
-  {
     "id": "n-eadd196296",
     "category": "客户端更新",
     "title": "Clash Verge Rev v2.5.4",
@@ -196,15 +205,6 @@
     "date": "2026/09/14",
     "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.31",
     "content": "What's Changed\ndca26db\nfeat: add EasyTier outbound (\n#3194\n) by\n@MiaM1ku\nab405ba\nfeat: support\nstack: mips\nin tun configuration by\n@wwqgtxx\n390870c\nfeat: support\nidentity-secret\nfor ZeroTier by\n@wwqgtxx\nBUG & Fix\n0159cf4\nfix: restore hysteria v1 udp handling (\n#3178\n) by\n@chenx\nDust\n0436650\nfix: close connection after error handling in doq by\n@wwqgtxx\n06b2c5b\nfix: close connection after error handling in mkcp outbound by\n@wwqgtxx\n127b139\nfix: split-DNS UDP queries fail silently in tsnet mode when upstream is a tailnet peer by\n@wwqgtxx\n187c634\nfix: close connection after error handling in snell outbound by\n@wwqgtxx\n1cdca1a\nfix: handle decryption handshake errors in server by\n@wwqgtxx\n20bcda2\nfix: avoid VLESS decryption cleanup panic (\n#3195\n) by @浅小沫\n5183232\nfix: RandomPaddingAddition and DisableCookies for AmneziaWG v3 by\n@wwqgtxx\n5f95109\nfix: DomainSet wildcard matching with overlapping rules by\n@wwqgtxx\n634b319\nfix: hysteria2 UDP sessions not closed on connection close by\n@wwqgtxx\n68ec4fa\nfix: ipv6 url parse in xhttp (\n#3160\n) by @CyberVacation\n6d179a1\nfix: openvpn derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 (\n#3189\n) by\n@token\n77b9393\nfix: preserve do…\n\n官方发布页：https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.31"
-  },
-  {
-    "id": "n-a52bbdfc56",
-    "category": "客户端更新",
-    "title": "v2rayN 7.25.1",
-    "summary": "关于 跳过证书验证 allowInsecure 参数被移除的说明 本次更新 支持 sing-box v1.14，更新的用户注意内核版本 #9736 锁定最大 sing-box 版本 v1.14 #10091 添加通过代理更新检查更新的选项 - #10090 在核心设置界面中添加…",
-    "date": "2026/09/11",
-    "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.1",
-    "content": "关于 跳过证书验证 allowInsecure 参数被移除的说明\n本次更新\n支持 sing-box v1.14，更新的用户注意内核版本\n#9736\n锁定最大 sing-box 版本 v1.14\n#10091\n添加通过代理更新检查更新的选项 -\n#10090\n在核心设置界面中添加 Mux 设置 -\n#10055\n日志和临时文件自动清理时间默认为 7 天\n调整 Clash API -\n#10088\nxray core 配置文件格式改为最新版本\n#10132\n为订阅更新添加自定义 HTTP 标头 -\n#10118\n添加阿塞拜疆语 (az) UI 本地化 -\n#10141\nhttps://github.com/XTLS/Xray-core/releases/tag/v26.9.9\n发布文件介绍，不知道下载哪个文件的请看\n\n官方发布页：https://github.com/2dust/v2rayN/releases/tag/7.25.1"
   },
   {
     "id": "n-29a89d200c",
