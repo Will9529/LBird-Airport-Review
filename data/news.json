@@ -1,5 +1,14 @@
 [
   {
+    "id": "n-e645ad7473",
+    "category": "内核动态",
+    "title": "sing-box 1.14.6",
+    "summary": "📝 Release Notes Fixes and improvements",
+    "date": "2026/11/28",
+    "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.6",
+    "content": "📝 Release Notes\nFixes and improvements\n\n官方发布页：https://github.com/SagerNet/sing-box/releases/tag/v1.14.6"
+  },
+  {
     "id": "n-949638f3a8",
     "category": "内核动态",
     "title": "sing-box 1.14.5",
